@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     attachFile({ target: { files } }) {
-      let file = files[0];
+      const file = files[0];
       this.uploads.push(file.name);
       this.formData.append(file.name, file);
     },
@@ -48,7 +48,7 @@ export default {
     },
     handleDrop({ dataTransfer }) {
       e.preventDefault();
-      let isImage = dataTransfer.getData("URL");
+      const isImage = dataTransfer.getData("URL");
       if (isImage !== "") {
         this.uploads.push(isImage);
       }

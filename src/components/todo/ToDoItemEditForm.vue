@@ -1,9 +1,10 @@
 <template>
   <form class="stack-small" @submit.prevent="onSubmit">
     <div>
-      <label class="edit-label">Edit Name for &quot;{{ label }}&quot;</label>
+      <label class="edit-label">Edit for &quot;{{ label }}&quot;</label>
       <input
         :id="id"
+        ref="labelInput"
         type="text"
         autocomplete="off"
         v-model.lazy.trim="newLabel"
@@ -24,6 +25,10 @@
 <script>
 export default {
   name: "EditTodoForm",
+  mounted(){
+       const labelInputRef = this.$refs.labelInput;
+   labelInputRef.focus();
+  },
   props: {
     label: {
       type: String,
@@ -43,6 +48,8 @@ export default {
     onSubmit() {
       if (this.newLabel && this.newLabel !== this.label) {
         this.$emit("item-edited", this.newLabel);
+      } else {
+        this.onCancel();
       }
     },
     onCancel() {

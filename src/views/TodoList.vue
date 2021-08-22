@@ -2,14 +2,21 @@
   <div class="custom-checkbox">
     <h1>To-Do List</h1>
     <create-todo @todo-added="addToDo"></create-todo>
-    <h2 id="list-summary">{{ listSummary }}</h2>
-    <ul type="none" aria-labelledby="list-summary" class="stack-large">
+    <h2 id="list-summary" ref="listSummary" tabindex="-1">{{ listSummary }}</h2>
+    <ul
+      type="none"
+      id="todo-list-items"
+      aria-labelledby="list-summary"
+      class="stack-large"
+    >
       <li v-for="item in ToDoItems" :key="item.id">
         <to-do-item
           :label="item.label"
           :done="item.done"
           :id="item.id"
           @checkbox-changed="updateDoneStatus(item.id)"
+          @item-deleted="deleteToDo(item.id)"
+          @item-edited="editToDo(item.id, $event)"
         ></to-do-item>
       </li>
     </ul>
@@ -26,6 +33,15 @@ export default {
     CreateTodo,
   },
   methods: {
+    deleteToDo(toDoId) {
+      const itemIndex = this.ToDoItems.findIndex(item => item.id === toDoId);
+      this.ToDoItems.splice(itemIndex, 1);
+          this.$refs.listSummary.focus();
+    },
+    editToDo(toDoId, newLabel) {
+      const toDoToEdit = this.ToDoItems.find(item => item.id === toDoId);
+      toDoToEdit.label = newLabel;
+    },
     updateDoneStatus(toDoId) {
       const toDoToUpdate = this.ToDoItems.find(item => item.id === toDoId);
       toDoToUpdate.done = !toDoToUpdate.done;
@@ -36,7 +52,6 @@ export default {
         label: toDoLabel,
         done: false,
       });
-      console.log("To-do added", toDoLabel);
     },
   },
   computed: {

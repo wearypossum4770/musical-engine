@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <!-- https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_conditional_rendering -->
+<!-- https://cli.vuejs.org/guide/deployment.html#firebase -->
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/register">Sign Up!</router-link> |
@@ -24,16 +24,13 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
 #nav {
   padding: 30px;
 }
-
 #nav a {
   font-weight: bold;
   color: #2c3e50;
 }
-
 #nav a.router-link-exact-active {
   color: #42b983;
 }

@@ -8,10 +8,17 @@
         :checked="isDone"
         @change="$emit('checkbox-changed')"
       />
-      <label :for="id" class="checkbox-label">{{ label }}</label>
+      <label :for="id" class="checkbox-label"
+        ><span itemprop="itemListElement">{{ label }}</span></label
+      >
     </div>
     <div class="btn-group">
-      <button type="button" class="btn" @click="toggleToItemEditForm">
+      <button
+        type="button"
+        ref="editButton"
+        class="btn"
+        @click="toggleToItemEditForm"
+      >
         Edit <span class="visually-hidden">{{ label }}</span>
       </button>
       <button type="button" class="btn btn__danger" @click="deleteToDo">
@@ -27,7 +34,6 @@
     @edit-cancelled="editCancelled"
   ></to-do-item-edit-form>
 </template>
-
 <script>
 import ToDoItemEditForm from "./ToDoItemEditForm";
 export default {
@@ -35,7 +41,6 @@ export default {
   components: { ToDoItemEditForm },
   data() {
     return {
-      isDone: this.done,
       isEditing: false,
     };
   },
@@ -44,16 +49,26 @@ export default {
     done: { default: false, type: Boolean },
     id: { required: true, type: String },
   },
+  computed: {
+    isDone() {
+      return this.done;
+    },
+  },
   methods: {
     itemEdited(newLabel) {
       this.$emit("item-edited", newLabel);
       this.isEditing = false;
+      this.focusOnEditButton();
     },
     editCancelled() {
       this.isEditing = false;
+      this.focusOnEditButton();
     },
     deleteToDo() {
       this.$emit("item-deleted");
+    },
+    focusOnEditButton() {
+      this.$nextTick(() => this.$refs.editButton.focus());
     },
     toggleToItemEditForm() {
       this.isEditing = true;
@@ -61,5 +76,4 @@ export default {
   },
 };
 </script>
-
 <style scoped></style>
