@@ -23,32 +23,46 @@
   </div>
 </template>
 <script>
-import uniqueId from "lodash.uniqueid";
+// import uniqueId from "lodash.uniqueid";
 import CreateTodo from "../components/todo/CreateTodo";
 import ToDoItem from "../components/todo/ToDoItem.vue";
 export default {
-  name: "Todo",
+  name: "TodoList",
   components: {
     ToDoItem,
     CreateTodo,
   },
   methods: {
+    filterTodo(toDoId) {
+      return this.ToDoItems.find(item => item.id === toDoId);
+    },
     deleteToDo(toDoId) {
       const itemIndex = this.ToDoItems.findIndex(item => item.id === toDoId);
       this.ToDoItems.splice(itemIndex, 1);
-          this.$refs.listSummary.focus();
+      this.$refs.listSummary.focus();
     },
     editToDo(toDoId, newLabel) {
-      const toDoToEdit = this.ToDoItems.find(item => item.id === toDoId);
+      const toDoToEdit = this.filterTodo(toDoId);
       toDoToEdit.label = newLabel;
     },
+    getNextID() {
+      let _id = 1;
+      let ids = this.ToDoItems.map(todo =>
+        parseInt(todo.id?.match(/\d+/).shift()),
+      );
+      if (ids.length > 0) {
+        let last = ids.pop();
+        _id = last += 1;
+      }
+      return _id;
+    },
     updateDoneStatus(toDoId) {
-      const toDoToUpdate = this.ToDoItems.find(item => item.id === toDoId);
+      const toDoToUpdate = this.filterTodo(toDoId);
       toDoToUpdate.done = !toDoToUpdate.done;
     },
     addToDo(toDoLabel) {
       this.ToDoItems.push({
-        id: uniqueId("todo-"),
+        id: `todo-${this.getNextID()}`,
         label: toDoLabel,
         done: false,
       });
@@ -62,19 +76,9 @@ export default {
   },
   data() {
     return {
-      ToDoItems: [
-        { id: uniqueId("todo-"), label: "Learn Vue", done: false },
-        {
-          id: uniqueId("todo-"),
-          label: "Create a Vue project with the CLI",
-          done: true,
-        },
-        { id: uniqueId("todo-"), label: "Have fun", done: true },
-        { id: uniqueId("todo-"), label: "Create a to-do list", done: false },
-      ],
+      ToDoItems: [],
     };
   },
 };
 </script>
-
 <style scoped></style>

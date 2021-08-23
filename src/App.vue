@@ -1,12 +1,13 @@
 <template>
   <div id="app">
     <div id="nav">
-<!-- https://cli.vuejs.org/guide/deployment.html#firebase -->
+      <!-- https://cli.vuejs.org/guide/deployment.html#firebase -->
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/register">Sign Up!</router-link> |
       <router-link to="/login">Login</router-link> |
-      <router-link to="/todo">Todo</router-link>
+      <router-link to="/todo">Todo</router-link> |
+      <router-link to="/voter">Voter Registration</router-link>
     </div>
     <router-view />
   </div>

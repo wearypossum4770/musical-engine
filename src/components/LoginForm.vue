@@ -5,12 +5,12 @@
         <img src="@/assets/default.webp" alt="Avatar" class="avatar" />
       </div>
       <div class="container">
-        <label for="userna e"><b>Username</b></label>
+        <label for="username"><b>Username</b></label>
         <input
           type="text"
           v-on:change="handleUsername"
           placeholder="Enter Username"
-          name="userna e"
+          name="username"
           required
         />
         <label for="psw"><b>Password</b></label>
@@ -22,10 +22,7 @@
           required
         />
         <button type="submit">Login</button>
-        <label>
-          <input type="checkbox" checked="checked" name="remember" /> Remember
-          me
-        </label>
+        <label> <input type="checkbox" name="remember" /> Remember me </label>
       </div>
       <div class="container" style="background-color: #f1f1f1">
         <button type="button" class="cancelbtn">Cancel</button>
@@ -36,18 +33,19 @@
 </template>
 <script>
 export default {
+  name: "LoginForm",
   methods: {
     handlePassword({ target: { value } }) {
       this.username += value;
     },
     handleUsername({ target: { value } }) {
-      this.pwd += value;
+      this.password += value;
     },
   },
   data() {
     return {
       username: "",
-      pwd: "",
+      password: "",
     };
   },
 };

@@ -25,9 +25,9 @@
 <script>
 export default {
   name: "EditTodoForm",
-  mounted(){
-       const labelInputRef = this.$refs.labelInput;
-   labelInputRef.focus();
+  mounted() {
+    const labelInputRef = this.$refs.labelInput;
+    labelInputRef.focus();
   },
   props: {
     label: {

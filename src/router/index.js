@@ -3,11 +3,23 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import TodoList from "../views/TodoList.vue";
 import SignUpForm from "../components/SignUpForm.vue";
+import VoterReg from "../components/VoterReg.vue";
+import LoginForm from "../components/LoginForm.vue";
 import User from "../views/User.vue";
 import Profile from "../views/Profile.vue";
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path: "/login",
+    component: LoginForm,
+    name: "LoginForm",
+  },
+  {
+    path: "/voter",
+    component: VoterReg,
+    name: "VoterRegistration",
+  },
   {
     path: "/user/:id",
     component: User,
