@@ -7,10 +7,7 @@
       <router-link to="/register">Sign Up!</router-link> |
       <router-link to="/login">Login</router-link> |
       <router-link to="/todo">Todo</router-link> |
-      <router-link to="/voter">Voter Registration</router-link> |
-
-<router-link to="/postal">POSTAL</router-link> |
-<router-link to="/google">Recaptcha stuff</router-link>
+    <router-link to="/blog">Blog</router-link> |
 
     </div>
     <router-view />
