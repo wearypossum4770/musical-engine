@@ -7,9 +7,21 @@ import VoterReg from "../components/VoterReg.vue";
 import LoginForm from "../components/LoginForm.vue";
 import User from "../views/User.vue";
 import Profile from "../views/Profile.vue";
+import Postal from '../components/Postal.vue'
+import Google from '../components/Google.vue'
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path: "/google",
+    component: Google,
+    name:"GOOGLE"
+  },
+  {
+    path: "/postal",
+    component: Postal,
+    name:"Postal"
+  },
   {
     path: "/login",
     component: LoginForm,

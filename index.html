@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input name="something" />
+      <button type="submit">submit</button>
+    </form>
+    <script>
+      let reCAPTCHA_site_key = "6Le5ZIMbAAAAAJsypaFV_k5ThzHd1Qj4cSEMDjs-";
+      function onClick(e) {
+        e.preventDefault();
+        grecaptcha.ready(function () {
+          grecaptcha
+            .execute(reCAPTCHA_site_key, { action: "submit" })
+            .then(function (token) {
+              // Add your logic to submit to your backend server here.
+            });
+        });
+      }
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Le5ZIMbAAAAAJsypaFV_k5ThzHd1Qj4cSEMDjs-"></script>
+  </body>
+</html>
