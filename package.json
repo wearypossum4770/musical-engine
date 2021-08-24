@@ -16,6 +16,7 @@
     "bufferutil": "^4.0.3",
     "core-js": "^3.6.5",
     "cors": "2.8.5",
+    "eiows": "^3.6.1",
     "finale-rest": "1.1.1",
     "lodash.uniqueid": "^4.0.1",
     "register-service-worker": "^1.7.1",

@@ -8,6 +8,8 @@
       <router-link to="/register">Sign Up!</router-link> |
       <router-link to="/login">Login</router-link> |
       <router-link to="/todo">Todo</router-link> |
+    <router-link to="/blog">Blog</router-link> |
+
     </div>
     <router-view />
   </div>

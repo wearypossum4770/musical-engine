@@ -1,4 +1,4 @@
-import Vue from "vue";
+  import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import TodoList from "../views/TodoList.vue";
@@ -6,9 +6,15 @@ import SignUpForm from "../components/SignUpForm.vue";
 import LoginForm from "../components/LoginForm.vue";
 import User from "../views/User.vue";
 import Profile from "../views/Profile.vue";
+import Blog from '../views/Blog.vue'
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path:"/blog",
+    component:Blog,
+    name:"Blog"
+  },
   {
     path: "/login",
     component: LoginForm,
