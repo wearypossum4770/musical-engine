@@ -77,9 +77,8 @@
             <div class="flex flex-no-wrap">
               <div class="mr-6 c-input-radio-button">
                 <input
-                v-on:keyup.enter="handleKeyDown"                
-
-                tabindex="0"
+                  v-on:keyup.enter="handleKeyDown"
+                  tabindex="0"
                   id="mover-type-individual"
                   type="radio"
                   name="mover-type"
@@ -127,9 +126,8 @@
               </div>
               <div class="mr-6 c-input-radio-button">
                 <input
-                v-on:keyup.enter="handleKeyDown"                
-
-                tabindex="0"
+                  v-on:keyup.enter="handleKeyDown"
+                  tabindex="0"
                   id="mover-type-family"
                   type="radio"
                   name="mover-type"
@@ -213,9 +211,8 @@
               </div>
               <div class="c-input-radio-button">
                 <input
-                v-on:keyup.enter="handleKeyDown"                
-
-                tabindex="0"
+                  v-on:keyup.enter="handleKeyDown"
+                  tabindex="0"
                   id="mover-type-business"
                   type="radio"
                   name="mover-type"
@@ -299,8 +296,7 @@
               <label for="first-name" class="c-input-text__label c-input-label"
                 >First Name</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="first-name"
                 placeholder="First Name"
                 name="first-name"
@@ -319,8 +315,7 @@
                 class="c-input-text__label c-input-label"
                 >Middle Name or Initial</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="middle-initial"
                 placeholder="Middle Name or Initial"
                 name="middle-initial"
@@ -337,8 +332,7 @@
               <label for="last-name" class="c-input-text__label c-input-label"
                 >Last Name</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="last-name"
                 tabindex="0"
                 placeholder="Last Name"
@@ -361,9 +355,9 @@
               <label for="suffix" class="c-input-dropdown__label">Suffix</label>
               <div class="relative flex flex-col">
                 <select
-                tabindex="0"
-v-on:keyup.enter="handleKeyDown"                
-                                  id="suffix"
+                  tabindex="0"
+                  v-on:keyup.enter="handleKeyDown"
+                  id="suffix"
                   name="suffix"
                   class="c-input-dropdown__field"
                 >
@@ -405,8 +399,7 @@ v-on:keyup.enter="handleKeyDown"
               <label for="email" class="c-input-text__label c-input-label"
                 >Email Address</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="email"
                 placeholder="Hello@mail.com"
                 name="email"
@@ -425,8 +418,7 @@ v-on:keyup.enter="handleKeyDown"
                 class="c-input-text__label c-input-label"
                 >Confirm Email Address</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="email-confirm"
                 placeholder="Hello@mail.com"
                 name="email-confirm"
@@ -453,8 +445,7 @@ v-on:keyup.enter="handleKeyDown"
                   <label for="phone" class="c-input-text__label c-input-label"
                     >Phone Number</label
                   ><input
-                  v-on:keyup.enter="handleKeyDown"                
-
+                    v-on:keyup.enter="handleKeyDown"
                     id="phone"
                     placeholder="(000) 000-0000"
                     name="phone"
@@ -515,9 +506,8 @@ v-on:keyup.enter="handleKeyDown"
             <div class="flex flex-no-wrap">
               <div class="mr-6 c-input-radio-button">
                 <input
-                v-on:keyup.enter="handleKeyDown"                
-
-                tabindex="0"
+                  v-on:keyup.enter="handleKeyDown"
+                  tabindex="0"
                   id="forward-type-permanent"
                   type="radio"
                   name="forward-type"
@@ -571,9 +561,8 @@ v-on:keyup.enter="handleKeyDown"
               </div>
               <div class="mr-6 c-input-radio-button">
                 <input
-                v-on:keyup.enter="handleKeyDown"                
-
-                tabindex="0"
+                  v-on:keyup.enter="handleKeyDown"
+                  tabindex="0"
                   id="forward-type-temporary"
                   type="radio"
                   name="forward-type"
@@ -647,8 +636,7 @@ v-on:keyup.enter="handleKeyDown"
               <label for="forward-start-date" class="c-input-datepicker__label"
                 >Mail Forwarding Date</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="forward-start-date"
                 name="forward-start-date"
                 maxlength="10"
@@ -697,8 +685,7 @@ v-on:keyup.enter="handleKeyDown"
                 class="c-input-text__label c-input-label"
                 >ZIP Code™</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="old-zip-code"
                 name="45f310bf-d978-4c87-975f-02163d4c8868"
                 placeholder="00000"
@@ -728,8 +715,7 @@ v-on:keyup.enter="handleKeyDown"
               <label for="old-city" class="c-input-text__label c-input-label"
                 >City</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="old-city"
                 placeholder="City"
                 name="aea6c593-0c0e-4f88-9502-de8c45c84990"
@@ -846,8 +832,7 @@ v-on:keyup.enter="handleKeyDown"
                 class="c-input-text__label c-input-label"
                 >Street Address</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="old-street-address"
                 placeholder="12345 Main Street"
                 name="8d761e25-3fa8-4dff-85d4-daea6b8d0d0e"
@@ -887,8 +872,7 @@ v-on:keyup.enter="handleKeyDown"
                 class="c-input-text__label c-input-label"
                 >ZIP Code™</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="new-zip-code"
                 name="878a123c-0694-4ff9-aea4-d11273669646"
                 placeholder="00000"
@@ -918,8 +902,7 @@ v-on:keyup.enter="handleKeyDown"
               <label for="new-city" class="c-input-text__label c-input-label"
                 >City</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="new-city"
                 placeholder="City"
                 name="0b0872a0-5593-463d-8f1f-21ff099d840c"
@@ -1036,8 +1019,7 @@ v-on:keyup.enter="handleKeyDown"
                 class="c-input-text__label c-input-label"
                 >Street Address</label
               ><input
-              v-on:keyup.enter="handleKeyDown"                
-
+                v-on:keyup.enter="handleKeyDown"
                 id="new-street-address"
                 placeholder="12345 Main Street"
                 name="820ba030-75ba-4a09-a5c2-ae872f445d53"
@@ -1169,11 +1151,11 @@ v-on:keyup.enter="handleKeyDown"
 
 <script>
 export default {
-    methods:{
-        handleKeyDown(e){
-console.log(e)
-        }
-    }
+  methods: {
+    handleKeyDown(e) {
+      console.log(e);
+    },
+  },
 };
 </script>
 

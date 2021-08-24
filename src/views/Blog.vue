@@ -1,16 +1,14 @@
 <template>
-    <div>
-<post></post>
-    </div>
+  <div>
+    <post></post>
+  </div>
 </template>
 
 <script>
-import Post from '../components/blog/Post.vue'
-    export default {
-        component:{Post},
-    }
+import Post from "../components/blog/Post.vue";
+export default {
+  component: { Post },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
