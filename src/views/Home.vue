@@ -1,18 +1,63 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div class="w3-row">
+      <div class="w3-col m4 l3">
+        <div v-for="user in users" :key="user.id">
+          {{ user.name }}
+          <button class="w3-btn w3-blue" @click="registerUser(user)">
+            Register
+          </button>
+        </div>
+      </div>
+      <div class="w3-col m8 l9">
+        <h3>Registrations</h3>
+        <h5>Total: {{ total }}</h5>
+        <div v-for="registration in registrations" :key="registration.id">
+          <div>{{ registration.name }}</div>
+          <span class="w3-btn w3-red" @click="unregister(registration)"
+            >UnRegister</span
+          >
+          <div class="date">{{ registration.date }}</div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
   name: "Home",
-  components: {
-    HelloWorld,
+  methods: {
+    unregister(registration) {
+      const user = this.$store.state.users.find(
+        user => user.id == registration.id,
+      );
+      user.registered = false;
+      this.$store.state.registrations.splice(
+        this.$store.state.registrations.indexOf(registration),
+        1,
+      );
+    },
+    registerUser(user) {
+      const date = new Date();
+      user.registered = true;
+      return this.$store.state.registrations.push({
+        id: user.id,
+        name: user.name,
+        date: `${date.getMonth()}/${date.getDay()}`,
+      });
+    },
+  },
+  computed: {
+    registrations() {
+      return this.$store.state.registrations;
+    },
+    total() {
+      return this.$store.state.registrations.length;
+    },
+    users() {
+      return this.$store.state.users.filter(user => !user.registered);
+    },
   },
 };
 </script>

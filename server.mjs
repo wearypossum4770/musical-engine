@@ -2,9 +2,10 @@ import express from "express";
 import cors from "cors";
 import Sequelize from "sequelize";
 import finale from "finale-rest";
-var app = express();
-
+const PORT = 3001;
+const json_url_config = { limit: "1mb", extended: true };
 let { STRING, TEXT, ENUM } = Sequelize;
+var app = express();
 const database = new Sequelize({
   dialect: "sqlite",
   storage: "./test.sqlite",
@@ -23,8 +24,6 @@ const User = database.define("users", {
   lastName: STRING,
 });
 
-const PORT = 3001;
-const json_url_config = { limit: "1mb", extended: true };
 // subdomains mail , userpages, adminpages, portal
 app.use(express.urlencoded(json_url_config));
 app.use(express.json(json_url_config));

@@ -2,12 +2,12 @@
   <div id="app">
     <div id="nav">
       <!-- https://cli.vuejs.org/guide/deployment.html#firebase -->
+      <button v-on:click="getExample" hidden>Click ME</button>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/register">Sign Up!</router-link> |
       <router-link to="/login">Login</router-link> |
       <router-link to="/todo">Todo</router-link> |
-      <router-link to="/voter">Voter Registration</router-link>
     </div>
     <router-view />
   </div>
@@ -15,6 +15,14 @@
 <script>
 export default {
   name: "App",
+  methods: {
+    getExample() {
+      let posts = "https://jsonplaceholder.typicode.com/posts";
+      this.axios.get(posts).then(response => {
+        console.log(response.data);
+      });
+    },
+  },
 };
 </script>
 <style>
