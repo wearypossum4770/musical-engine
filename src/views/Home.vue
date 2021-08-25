@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="w3-col m8 l9">
-        <h3>Registrations</h3>
+        <h3>Registered</h3>
         <h5>Total: {{ total }}</h5>
         <div v-for="registration in registrations" :key="registration.id">
           <div>{{ registration.name }}</div>
@@ -23,25 +23,21 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   name: "Home",
   methods: {
     unregister(registration) {
-      const user = this.$store.state.users.find(
-        user => user.id == registration.id,
-      );
+      let { users, registrations } = this.$store.state;
+      const user = users.find(user => user.id == registration.id);
       user.registered = false;
-      this.$store.state.registrations.splice(
-        this.$store.state.registrations.indexOf(registration),
-        1,
-      );
+      registrations.splice(registrations.indexOf(registration), 1);
     },
     registerUser(user) {
+      let { registrations } = this.$store.state;
       const date = new Date();
       user.registered = true;
-      return this.$store.state.registrations.push({
+      return registrations.push({
         id: user.id,
         name: user.name,
         date: `${date.getMonth()}/${date.getDay()}`,
