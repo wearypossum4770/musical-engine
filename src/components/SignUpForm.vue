@@ -64,13 +64,14 @@ export default {
         },
         method: "POST",
         body: JSON.stringify({
-          username: "john.d.doe",
-          get email() {
-            return `${this.username}@example.com`;
-          },
-          firstName: "John",
-          middleName: "Daniel",
-          lastName: "Doe",
+          id: "1",
+          firstName: "Genryūsai",
+          middleName: "Shigekuni",
+          lastName: "Yamamoto",
+          random: "something",
+          password: "RzMdsJLufx2FvVi",
+          email: "genryusai.shigekuni.yamamoto@soul.society.com",
+          username: "genryusai.shigekuni.yamamoto",
         }),
       },
     };
@@ -81,9 +82,10 @@ export default {
         this.registerUser();
       }
     },
+    // consider using axios instance for the vuex to pass url instead of entire url.
     async registerUser() {
       try {
-        const resp = await fetch("http://localhost:3001/users/", this.options);
+        const resp = await fetch("http://localhost:3001/login/", this.options);
         if (resp.ok) {
           const response = await resp.json();
           console.log(response);

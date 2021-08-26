@@ -1,7 +1,11 @@
 import Sequelize from "sequelize";
+import jwt from "jsonwebtoken";
+import bcrypt from "bcrypt";
 import { pbkdf2Sync, randomBytes } from "crypto";
 // https://thinkster.io/tutorials/node-json-api/creating-the-user-model
 let { STRING, DATEONLY } = Sequelize;
+const saltRounds = 10;
+
 const UserSchema = {
   username: {
     unique: true,
@@ -10,6 +14,10 @@ const UserSchema = {
     required: [true, "can't be blank"],
     match: [/^[a-zA-Z0-9]+$/, "is invalid"],
     index: true,
+    get() {
+      const rawValue = this.getDataValue(username);
+      return rawValue ? rawValue.toUpperCase() : null;
+    },
   },
   email: {
     unique: true,
@@ -26,27 +34,6 @@ const UserSchema = {
   bio: STRING,
   image: STRING,
   hash: STRING,
-  salt: {
-    type: STRING,
-    get() {
-      randomBytes(16).toString("hex");
-    },
-  },
-  password: {
-    type: STRING,
-    set validPassword(password) {
-      let hash = pbkdf2Sync(password, this.salt, 10000, 512, "sha512").toString(
-        "hex",
-      );
-      return this.hash === hash;
-    },
-    set(password) {
-      this.setDataValue(
-        "password",
-        pbkdf2Sync(password, this.salt, 10000, 512, "sha512").toString("hex"),
-      );
-    },
-  },
 };
 
 export default UserSchema;

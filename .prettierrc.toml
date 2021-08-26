@@ -1,4 +1,4 @@
 # .prettierrc.toml
 trailingComma = "all"
-jsxBracketSameLine=true
-arrowParens="avoid"
+jsxBracketSameLine = true
+arrowParens = "avoid"

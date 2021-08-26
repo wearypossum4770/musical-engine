@@ -11,6 +11,30 @@ Vue.use(VueRouter);
 
 const routes = [
   {
+    path: "/login",
+    name: "login",
+    component: Login,
+    meta: {
+      guest: true,
+    },
+  },
+  {
+    path: "/register",
+    name: "register",
+    component: Register,
+    meta: {
+      guest: true,
+    },
+  },
+  {
+    path: "/dashboard",
+    name: "userboard",
+    component: UserBoard,
+    meta: {
+      requiresAuth: true,
+    },
+  },
+  {
     path: "/blog",
     component: Blog,
     name: "Blog",

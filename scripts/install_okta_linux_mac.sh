@@ -20,9 +20,9 @@ VERSION="0.8.0"
 LINUX_DIST="https://github.com/okta/okta-cli/releases/download/okta-cli-tools-${VERSION}/okta-cli-linux-${VERSION}-x86_64.zip"
 DARWIN_DIST="https://github.com/okta/okta-cli/releases/download/okta-cli-tools-${VERSION}/okta-cli-macos-${VERSION}-x86_64.zip"
 
-function echoerr { echo "$@" 1>&2; }
+function echoerr() { echo "$@" 1>&2; }
 
-function download {
+function download() {
 
   if [ "$(uname)" == "Darwin" ]; then
     OS=darwin
@@ -54,19 +54,19 @@ function download {
   echo $INSTALL_DIR/okta
 }
 
-function install {
+function install() {
 
   DOWNLOAD_LOCATION=$1
 
   { # try
-    mkdir -p $HOME/bin &&
-    mv -f $DOWNLOAD_LOCATION $HOME/bin
+    mkdir -p $HOME/bin \
+      && mv -f $DOWNLOAD_LOCATION $HOME/bin
 
   } || { # catch
-     echoerr
-     echoerr "Failed install the okta cli, run the following command manually:"
-     echoerr "  mv -f $DOWNLOAD_LOCATION $HOME/bin"
-     exit 1
+    echoerr
+    echoerr "Failed install the okta cli, run the following command manually:"
+    echoerr "  mv -f $DOWNLOAD_LOCATION $HOME/bin"
+    exit 1
   }
 
   # check if okta is on the path
@@ -84,7 +84,7 @@ function install {
   fi
 }
 
-function updateBashPath {
+function updateBashPath() {
   { # try
     grep -q 'export PATH=$HOME/bin:$PATH' ~/.bashrc || echo -e '\nexport PATH=$HOME/bin:$PATH' >> ~/.bashrc
   } || { # catch
@@ -94,7 +94,7 @@ function updateBashPath {
   }
 }
 
-function updateZshPath {
+function updateZshPath() {
   { # try
     grep -q 'export PATH=$HOME/bin:$PATH' ~/.zshrc || echo -e '\nexport PATH=$HOME/bin:$PATH' >> ~/.zshrc
   } || { # catch
