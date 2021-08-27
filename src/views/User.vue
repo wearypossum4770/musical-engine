@@ -4,7 +4,7 @@
 
 <script>
 // User Dashboard
-export default {};
+export default { name: "User" };
 </script>
 
 <style scoped></style>

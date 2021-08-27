@@ -7,6 +7,7 @@
 <script>
 import Post from "../components/blog/Post.vue";
 export default {
+  name: "Blog",
   component: { Post },
 };
 </script>

@@ -4,7 +4,7 @@ import Sequelize from "sequelize";
 import PostSchema from "./model/posts.mjs";
 import UserSchema from "./model/users.mjs";
 import WebTokenSchema from "./model/webtokens.mjs";
-const PORT = 3001;
+const PORT = 3002;
 const json_url_config = { limit: "1mb", extended: true };
 const database = new Sequelize({
   dialect: "sqlite",
@@ -19,6 +19,8 @@ const User = database.define("users", UserSchema);
 // https://www.liquidweb.com/kb/using-ssh-keys/
 // subdomains mail , userpages, adminpages, portal
 var app = express();
+// app.use('/vue_socket_test')
+app.get("/", (req, res) => res.send("<h1>Hello world</h1>"));
 app.use(express.urlencoded(json_url_config));
 app.use(express.json(json_url_config));
 app.use(cors());

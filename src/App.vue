@@ -7,8 +7,11 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/register">Sign Up!</router-link> |
       <router-link to="/login">Login</router-link> |
-      <router-link to="/todo">Todo</router-link> |
+      <router-link to="/todo">Todo List</router-link> |
       <router-link to="/blog">Blog</router-link> |
+      <router-link to="/dashboard">Dashboard</router-link>|
+      <router-link to="/chat">Chat</router-link> |
+      <router-link to="/checkout">Checkout</router-link>
     </div>
     <router-view />
   </div>

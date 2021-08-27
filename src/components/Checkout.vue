@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-75">
         <div class="container">
-          <form action="/action_page.php">
+          <form @submit.prevent="handleSubmit">
             <div class="row">
               <div class="col-50">
                 <h3>Billing Address</h3>
@@ -109,7 +109,7 @@
               <input type="checkbox" checked="checked" name="sameadr" />
               Shipping address same as billing
             </label>
-            <input type="submit" value="Continue to checkout" class="btn" />
+            <button @click="buildPaymentRequest" class="w3-btn w3-green">Continue to checkout </button>
           </form>
         </div>
       </div>
@@ -136,7 +136,51 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  name:"Checkout",
+  methods:{
+    handleSubmit(e){
+console.log(e)
+    },
+    buildPaymentRequest(){
+      if ('PaymentRequest' in window){
+      let paymentRequest = new PaymentRequest(this.supportedInstruments, this.details, this.options);
+      paymentRequest.show().then(instrumentResponse=>console.log(instrumentResponse)).catch(err=>console.log(err))
+
+      }
+      return;
+    }
+  },
+  data(){
+    return {
+      details:{
+          total: {label: 'Donation', amount: {currency: 'USD', value: '65.00'}},
+  displayItems: [
+    {
+      label: 'Original donation amount',
+      amount: {currency: 'USD', value: '65.00'}
+    }
+  ],
+  shippingOptions: [
+    {
+      id: 'standard',
+      label: 'Standard shipping',
+      amount: {currency: 'USD', value: '0.00'},
+      selected: true
+    }
+  ],
+      },
+      options :{requestShipping: true},
+supportedInstruments:[{
+ supportedMethods: 'basic-card',
+ data: {
+   supportedNetworks: ['visa', 'mastercard', 'amex', 'jcb',
+                       'diners', 'discover', 'mir', 'unionpay']
+ }
+}]
+    }
+  }
+};
 </script>
 <style scoped>
 .row {
