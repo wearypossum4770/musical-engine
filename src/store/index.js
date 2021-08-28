@@ -18,21 +18,6 @@ export default new Vuex.Store({
         appConfig.geoLocationState = err.message;
       }
     },
-    async readFromClipboard() {
-      try {
-        const text = await navigator.clipboard.readText();
-        console.log(text);
-      } catch (error) {
-        console.error(error);
-      }
-    },
-    async writeToClipboard(text) {
-      try {
-        await navigator.clipboard.writeText(text);
-      } catch (error) {
-        console.error(error);
-      }
-    },
   },
   state: {
     latitude: "",

@@ -63,19 +63,17 @@
       <input id="input" autocomplete="off" /><button>Send</button>
     </form>
     <script>
-      let socket = new WebSocket('ws://localhost:7625')
+      let socket = new WebSocket("ws://localhost:7625");
       socket.onopen = () => {
-  socket.send("Hello!");
-};
-      
-      const onUsernameSelection = (username)=> {
+        socket.send("Hello!");
+      };
+
+      const onUsernameSelection = username => {
         this.usernameAlreadySelected = true;
-        socket.auth ={username}
-      }  
-      let settings = {
-        
-      }
-      let messages = document.getElementById('messages');
+        socket.auth = { username };
+      };
+      let settings = {};
+      let messages = document.getElementById("messages");
       let form = document.getElementById("form");
       let input = document.getElementById("input");
       form.addEventListener("submit", function (e) {
@@ -85,16 +83,16 @@
           input.value = "";
         }
       });
-      socket.on('stream', function(data){
-      console.log(data.title)
-    });
-// https://michaelmangial1.medium.com/getting-started-with-vue-js-socket-io-8d385ffb9782
-    socket.on('chat message', function(msg) {
-    var item = document.createElement('li');
-    item.textContent = msg;
-    messages.appendChild(item);
-    window.scrollTo(0, document.body.scrollHeight);
-  });
- </script>
+      socket.on("stream", function (data) {
+        console.log(data.title);
+      });
+      // https://michaelmangial1.medium.com/getting-started-with-vue-js-socket-io-8d385ffb9782
+      socket.on("chat message", function (msg) {
+        var item = document.createElement("li");
+        item.textContent = msg;
+        messages.appendChild(item);
+        window.scrollTo(0, document.body.scrollHeight);
+      });
+    </script>
   </body>
 </html>

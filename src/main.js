@@ -11,7 +11,6 @@ import i18n from "./i18n";
 import store from "./store";
 // import '@/assets/js/websocket'
 Vue.config.productionTip = false;
-
 new Vue({
   router,
   i18n,

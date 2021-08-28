@@ -8,20 +8,20 @@ import UserBoard from "../components/UserBoard.vue";
 import User from "../views/User.vue";
 import Profile from "../views/Profile.vue";
 import Blog from "../views/Blog.vue";
-import Chat from '../views/Chat.vue'
-import Checkout from '../components/Checkout.vue'
+import Chat from "../views/Chat.vue";
+import Checkout from "../components/Checkout.vue";
 Vue.use(VueRouter);
 
 const routes = [
- {
-   path:"/checkout",
-   name:"Checkout",
-   component:Checkout
- },
   {
-    path:"/chat",
-    name:"Chat",
-    component:Chat
+    path: "/checkout",
+    name: "Checkout",
+    component: Checkout,
+  },
+  {
+    path: "/chat",
+    name: "Chat",
+    component: Chat,
   },
   {
     path: "/dashboard",
