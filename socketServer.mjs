@@ -1,10 +1,28 @@
-import { WebSocketServer } from 'ws';
+import { WebSocketServer } from "ws";
 const PORT = 7625;
+
 const wss = new WebSocketServer({ port: PORT });
-wss.on('connection', function connection(ws) {
-  ws.on('message', function incoming(message) {
-    console.log(`received: ${message}`);
+let easterEggs = new Map([
+  ["heads", "tails"],
+  ["tails", "heads"],
+  ["ping", "pong"],
+  ["marco", "polo"],
+  ["hello", "world"],
+  ["testing", "1,2,3"],
+  ["1", "Is the loneliest number"],
+  ["to be", "or not to be that is the question"],
+  ["Avada Kedavra", "Not nice...That's and unforgiveable curse"],
+  ["imperio", "Not nice...That's and unforgiveable curse"],
+  ["crucio", "Not nice...That's and unforgiveable curse"],
+]);
+wss.on("connection", (ws, request, client) => {
+  ws.on("message", msg => {
+    let egg = easterEggs.get(msg.toString().toLowerCase().trim());
+    if (egg) {
+      ws.send(egg);
+    }
+    console.log(`Received message ${msg} from user ${client}`);
   });
 
-  ws.send('something');
-})
+  ws.send("something");
+});
