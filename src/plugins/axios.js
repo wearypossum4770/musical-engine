@@ -15,9 +15,7 @@ const config = {
   // timeout: 60 * 1000, // Timeout
   // withCredentials: true, // Check cross-site Access-Control
 };
-
 const _axios = axios.create(config);
-
 _axios.interceptors.request.use(
   config => {
     // Do something before request is sent
@@ -28,7 +26,6 @@ _axios.interceptors.request.use(
     return Promise.reject(error);
   },
 );
-
 // Add a response interceptor
 _axios.interceptors.response.use(
   response => {
@@ -40,11 +37,9 @@ _axios.interceptors.response.use(
     return Promise.reject(error);
   },
 );
-
-Plugin.install = (Vue, options) => {
+Plugin.install = Vue => {
   Vue.axios = _axios;
   window.axios = _axios;
-  console.log(options);
   Object.defineProperties(Vue.prototype, {
     axios: {
       get() {
@@ -58,7 +53,5 @@ Plugin.install = (Vue, options) => {
     },
   });
 };
-
 Vue.use(Plugin);
-
 export default Plugin;

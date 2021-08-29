@@ -1,47 +1,18 @@
 import Vue from "vue";
 import Vuex from "vuex";
-
 Vue.use(Vuex);
-// navigator.permissions.query({ name: 'geolocation' })
+// https://github.com/nathanboktae/robust-websocket
+// https://github.com/uNetworking/uWebSockets.js/blob/master/examples/WebSockets.js
+// https://github.com/websockets/ws#simple-server
 export default new Vuex.Store({
-  getters: {
-    unregisterUsers(state) {
-      return state.users.filter(user => !user.registered);
-    },
-    async getGeolocationPermission(state) {
-      let { appConfig } = state;
-      try {
-        let perms = await navigator.permissions.query({ name: "geolocation" });
-        appConfig.geoLocationDisabled = perms.state === "denied";
-        // .then(result=>appConfig.geoLocationEnabled=result.state === 'granted')
-      } catch (err) {
-        appConfig.geoLocationState = err.message;
-      }
-    },
-    async readFromClipboard() {
-      try {
-        const text = await navigator.clipboard.readText();
-        console.log(text);
-      } catch (error) {
-        console.error(error);
-      }
-    },
-    async writeToClipboard(text) {
-      try {
-        await navigator.clipboard.writeText(text);
-      } catch (error) {
-        console.error(error);
-      }
-    },
-  },
+  getters: {},
   state: {
-    latitude: "",
-    longitude: "",
+    latitude: null,
+    longitude: null,
     appConfig: {},
-    geoLocationEnabled: "",
-    geoLocationState: "",
-    geoLocationSupported: true,
-    // navigator.geolocation==="Geolocation",
+    weather: null,
+    api_key: "7af4edd80277ecd98c9eb7b15f9cfb84",
+    geoLocationSupported: "geolocation" in navigator,
     registrations: [],
     users: [
       { id: 1, name: "Max", registered: false },

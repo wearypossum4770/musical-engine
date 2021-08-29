@@ -1,27 +1,35 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-import TodoList from "../views/TodoList.vue";
-import SignUpForm from "../components/SignUpForm.vue";
-import LoginForm from "../components/LoginForm.vue";
-import UserBoard from "../components/UserBoard.vue";
+/**Views */
 import User from "../views/User.vue";
 import Profile from "../views/Profile.vue";
 import Blog from "../views/Blog.vue";
-import Chat from '../views/Chat.vue'
-import Checkout from '../components/Checkout.vue'
+import Chat from "../views/Chat.vue";
+import Home from "../views/Home.vue";
+import TodoList from "../views/TodoList.vue";
+import Weather from "../views/Weather.vue";
+/**Components */
+import SignUpForm from "../components/SignUpForm.vue";
+import LoginForm from "../components/LoginForm.vue";
+import UserBoard from "../components/UserBoard.vue";
+import Checkout from "../components/Checkout.vue";
 Vue.use(VueRouter);
 
 const routes = [
- {
-   path:"/checkout",
-   name:"Checkout",
-   component:Checkout
- },
   {
-    path:"/chat",
-    name:"Chat",
-    component:Chat
+    path: "/weather",
+    component: Weather,
+    name: "Weather",
+  },
+  {
+    path: "/checkout",
+    name: "Checkout",
+    component: Checkout,
+  },
+  {
+    path: "/chat",
+    name: "Chat",
+    component: Chat,
   },
   {
     path: "/dashboard",

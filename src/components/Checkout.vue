@@ -109,7 +109,9 @@
               <input type="checkbox" checked="checked" name="sameadr" />
               Shipping address same as billing
             </label>
-            <button @click="buildPaymentRequest" class="w3-btn w3-green">Continue to checkout </button>
+            <button @click="buildPaymentRequest" class="w3-btn w3-green">
+              Continue to checkout
+            </button>
           </form>
         </div>
       </div>
@@ -137,49 +139,68 @@
 </template>
 <script>
 export default {
-  name:"Checkout",
-  methods:{
-    handleSubmit(e){
-console.log(e)
+  name: "Checkout",
+  methods: {
+    handleSubmit(e) {
+      console.log(e);
     },
-    buildPaymentRequest(){
-      if ('PaymentRequest' in window){
-      let paymentRequest = new PaymentRequest(this.supportedInstruments, this.details, this.options);
-      paymentRequest.show().then(instrumentResponse=>console.log(instrumentResponse)).catch(err=>console.log(err))
-
+    buildPaymentRequest() {
+      if ("PaymentRequest" in window) {
+        let paymentRequest = new PaymentRequest(
+          this.supportedInstruments,
+          this.details,
+          this.options,
+        );
+        paymentRequest
+          .show()
+          .then(instrumentResponse => console.log(instrumentResponse))
+          .catch(err => console.log(err));
       }
       return;
-    }
+    },
   },
-  data(){
+  data() {
     return {
-      details:{
-          total: {label: 'Donation', amount: {currency: 'USD', value: '65.00'}},
-  displayItems: [
-    {
-      label: 'Original donation amount',
-      amount: {currency: 'USD', value: '65.00'}
-    }
-  ],
-  shippingOptions: [
-    {
-      id: 'standard',
-      label: 'Standard shipping',
-      amount: {currency: 'USD', value: '0.00'},
-      selected: true
-    }
-  ],
+      details: {
+        total: {
+          label: "Donation",
+          amount: { currency: "USD", value: "65.00" },
+        },
+        displayItems: [
+          {
+            label: "Original donation amount",
+            amount: { currency: "USD", value: "65.00" },
+          },
+        ],
+        shippingOptions: [
+          {
+            id: "standard",
+            label: "Standard shipping",
+            amount: { currency: "USD", value: "0.00" },
+            selected: true,
+          },
+        ],
       },
-      options :{requestShipping: true},
-supportedInstruments:[{
- supportedMethods: 'basic-card',
- data: {
-   supportedNetworks: ['visa', 'mastercard', 'amex', 'jcb',
-                       'diners', 'discover', 'mir', 'unionpay']
- }
-}]
-    }
-  }
+      options: { requestShipping: true },
+      supportedInstruments: [
+        {
+          supportedMethods: "basic-card",
+          data: {
+            supportedNetworks: [
+              "visa",
+              "mastercard",
+              "amex",
+              "jcb",
+              "diners",
+              "discover",
+              "mir",
+              "unionpay",
+            ],
+          },
+        },
+      ],
+    };
+  },
 };
 </script>
 <style scoped>

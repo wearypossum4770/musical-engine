@@ -1,3 +1,4 @@
+import Vue from 'vue'
 import {
   SOCKET_ONOPEN,
   SOCKET_ONCLOSE,
@@ -27,7 +28,6 @@ const mutations = {
   },
   // default handler called for all methods
   [SOCKET_ONMESSAGE](state, message) {
-    console.log(message);
     state.socket.message = message;
   },
   // mutations for reconnect methods
@@ -38,9 +38,11 @@ const mutations = {
     state.socket.reconnectError = true;
   },
 };
-
-export default {
-  namespaces: true,
-  state,
-  mutations,
+const actions = {
+  sendMessage(context, message) {
+    Vue.prototype.$socket.send(message);
+  },
 };
+
+const websocket = { namespaces: true, state, mutations, actions };
+export default websocket;
