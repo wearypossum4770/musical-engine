@@ -5,7 +5,21 @@ Vue.use(Vuex);
 // https://github.com/uNetworking/uWebSockets.js/blob/master/examples/WebSockets.js
 // https://github.com/websockets/ws#simple-server
 export default new Vuex.Store({
-  getters: {},
+  getters: {
+    unregisterUsers(state) {
+      return state.users.filter(user => !user.registered);
+    },
+    async getGeolocationPermission(state) {
+      let { appConfig } = state;
+      try {
+        let perms = await navigator.permissions.query({ name: "geolocation" });
+        appConfig.geoLocationDisabled = perms.state === "denied";
+        // .then(result=>appConfig.geoLocationEnabled=result.state === 'granted')
+      } catch (err) {
+        appConfig.geoLocationState = err.message;
+      }
+    },
+  },
   state: {
     latitude: null,
     longitude: null,

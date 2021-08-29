@@ -24,5 +24,5 @@ wss.on("connection", (ws, request, client) => {
     console.log(`Received message ${msg} from user ${client}`);
   });
 
-  ws.send("something");
+  ws.send("connected");
 });
