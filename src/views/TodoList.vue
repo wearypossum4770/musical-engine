@@ -9,14 +9,14 @@
       aria-labelledby="list-summary"
       class="stack-large"
     >
-      <li v-for="item in ToDoItems" :key="item.id">
+      <li v-for="item in todos" :key="item.id">
         <to-do-item
           :label="item.label"
           :done="item.done"
           :id="item.id"
           @checkbox-changed="updateDoneStatus(item.id)"
-          @item-deleted="deleteToDo(item.id)"
-          @item-edited="editToDo(item.id, $event)"
+          @item-deleted="deleteByID(item.id)"
+          @item-edited="editByID(item.id, $event)"
         ></to-do-item>
       </li>
     </ul>
@@ -33,35 +33,33 @@ export default {
     CreateTodo,
   },
   methods: {
-    filterTodo(toDoId) {
-      return this.ToDoItems.find(item => item.id === toDoId);
+    findByID(_id) {
+      return this.todos.find(item => item.id === _id);
     },
-    deleteToDo(toDoId) {
-      const itemIndex = this.ToDoItems.findIndex(item => item.id === toDoId);
-      this.ToDoItems.splice(itemIndex, 1);
+    deleteByID(_id) {
+      const id = this.findByID(_id);
+      this.todos.splice(id, 1);
       this.$refs.listSummary.focus();
     },
-    editToDo(toDoId, newLabel) {
-      const toDoToEdit = this.filterTodo(toDoId);
-      toDoToEdit.label = newLabel;
+    editByID(_id, newLabel) {
+      const todo = this.findByID(_id);
+      todo.label = newLabel;
     },
     getNextID() {
       let _id = 1;
-      let ids = this.ToDoItems.map(todo =>
-        parseInt(todo.id?.match(/\d+/).shift()),
-      );
+      let ids = this.todos.map(todo => parseInt(todo.id?.match(/\d+/).shift()));
       if (ids.length > 0) {
         let last = ids.pop();
         _id = last += 1;
       }
       return _id;
     },
-    updateDoneStatus(toDoId) {
-      const toDoToUpdate = this.filterTodo(toDoId);
+    updateDoneStatus(_id) {
+      const toDoToUpdate = this.findByID(_id);
       toDoToUpdate.done = !toDoToUpdate.done;
     },
     addToDo(toDoLabel) {
-      this.ToDoItems.push({
+      this.todos.push({
         id: `todo-${this.getNextID()}`,
         label: toDoLabel,
         done: false,
@@ -69,14 +67,25 @@ export default {
     },
   },
   computed: {
+    doneTodos() {
+      return this.todos?.filter(item => item.done);
+    },
+    todoList() {
+      if (this.hideCompletedTodos) {
+        return this.todos?.filter(item => !item.done);
+      } else {
+        return this.todos;
+      }
+    },
     listSummary() {
-      const completed = this.ToDoItems?.filter(item => item.done).length;
-      return `${completed} out of ${this.ToDoItems.length} items completed`;
+      const completed = this.doneTodos.length;
+      return `${completed} out of ${this.todos.length} items completed`;
     },
   },
   data() {
     return {
-      ToDoItems: [],
+      hideCompletedTodos: false,
+      todos: [],
     };
   },
 };

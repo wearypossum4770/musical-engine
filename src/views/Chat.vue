@@ -27,6 +27,29 @@ export default {
       messageList: ['something', 'another thing'],
     };
   },
+  computed:{
+    updateList(){
+      
+    }
+  },
+  mounted:function(){
+    this.$nextTick(function(){
+    console.log("Starting connection to WebSocket Server")
+    this.connection = new WebSocket("ws://localhost:7625")
+
+    this.connection.onmessage = function({data}) {
+      return data
+}
+
+    this.connection.onopen = function() {      console.log("Successfully connected to the echo websocket server...")
+    }  
+
+    })
+  },
+  methods: {
+    sendMessage() {
+      this.connection.send(this.message);
+      this.message = "";
   beforeDestroy: function () {
     this.connection.onclose = function () {
       this.websocketClosed = true;
@@ -59,6 +82,7 @@ export default {
       this.connection.send(this.message);
     },
   },
+  
 };
 </script>
 
