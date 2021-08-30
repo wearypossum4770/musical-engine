@@ -7,7 +7,7 @@ import todoList from "../todoList.json";
 describe("TodoList component", () => {
   let wrapper = mount(TodoList, {
     data() {
-      return { ToDoItems: todoList };
+      return { todos: todoList };
     },
   });
   let header2Text = "To-Do List";

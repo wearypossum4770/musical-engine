@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import Vue from "vue";
 import {
   SOCKET_ONOPEN,
   SOCKET_ONCLOSE,
@@ -6,6 +6,7 @@ import {
   SOCKET_ONMESSAGE,
   SOCKET_RECONNECT,
   SOCKET_RECONNECT_ERROR,
+  SOCKET_MESSAGECHANNEL,
 } from "../mutation-types";
 
 const state = {
@@ -36,6 +37,9 @@ const mutations = {
   },
   [SOCKET_RECONNECT_ERROR](state) {
     state.socket.reconnectError = true;
+  },
+  [SOCKET_MESSAGECHANNEL](state, message) {
+    state.socket.socketMessage = message;
   },
 };
 const actions = {

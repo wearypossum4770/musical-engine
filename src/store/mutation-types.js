@@ -4,7 +4,7 @@ const SOCKET_ONERROR = "❌ Socket Error!!!";
 const SOCKET_ONMESSAGE = "Websocket message received";
 const SOCKET_RECONNECT = "Websocket reconnected";
 const SOCKET_RECONNECT_ERROR = "Websocket is having issues reconnecting..";
-
+const SOCKET_MESSAGECHANNEL = "Channel";
 export {
   SOCKET_ONOPEN,
   SOCKET_ONCLOSE,
@@ -12,4 +12,5 @@ export {
   SOCKET_ONMESSAGE,
   SOCKET_RECONNECT,
   SOCKET_RECONNECT_ERROR,
+  SOCKET_MESSAGECHANNEL,
 };
