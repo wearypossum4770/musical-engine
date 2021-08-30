@@ -1,14 +1,14 @@
 <template>
   <div>
     <ul id="messages">
-<<<<<<< HEAD
-      <li v-for="msg in messageArr" :key="msg.id">{{ msg }}</li>
-=======
       <li v-for="msg in messageList" :key="msg.id">{{ msg }}</li>
->>>>>>> b559b4d7a61302a959ab806f7938946cb2796385
     </ul>
     <form id="form" @submit.prevent>
-      <input v-model="message" autocomplete="off" />
+      <input
+        v-model="message"
+        @keypress.enter="sendMessage()"
+        autocomplete="off"
+      />
       <button @click="sendMessage">Send</button>
     </form>
   </div>
@@ -20,39 +20,44 @@ export default {
   data() {
     return {
       connection: null,
-      websocketClosed:true,
-      websocketConnecting:false,
-      websocketConnected:false,
+      websocketClosed: true,
+      websocketConnected: false,
       message: "",
-      messageList: [],
+      messageReceived: "",
+      messageList: ['something', 'another thing'],
     };
   },
-      created() {
-      this.connection = new WebSocket("ws://localhost:7625");
-      if (this.connection.readyState in [0,1]){
-           this.websocketConnecting=true 
-           this.websocketConnected=true
-           this.websocketClosed = false 
+  beforeDestroy: function () {
+    this.connection.onclose = function () {
+      this.websocketClosed = true;
+    };
+  },
+  created: function () {
+    this.connection = new WebSocket("ws://localhost:7625");
+    this.connection.onopen = function () {
+      this.websocketClosed = false;
+      console.log("Successfully connected to the echo websocket server...");
+    };
+  },
+  updated: function () {
+    this.connection.onmessage = function (event) {
+      let { data } = event;
+      if (data === "connected") {
+        this.websocketConnected = false;
       }
+      this.receiveMessage(data);
+    };
+  },
+  mounted: function () {
 
-    this.connection.onmessage = function(event) {
-      if (event){
-          this.websocketConnected=true
-      }
-    }
-this.connection.onclose = function (){
-this.websocketClosed = true
-}
-    this.connection.onopen = function() {
-      console.log("Successfully connected to the echo websocket server...")
-    }
-    },
+  },
   methods: {
-    sendMessage(message) {
-      console.log(this.connection);
-      this.connection.send(message);
+    receiveMessage(_data) {
+      this.messageList.push(_data);
     },
-    handleSubmit() {},
+    sendMessage() {
+      this.connection.send(this.message);
+    },
   },
 };
 </script>

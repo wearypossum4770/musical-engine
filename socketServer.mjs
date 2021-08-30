@@ -17,10 +17,17 @@ let easterEggs = new Map([
 ]);
 wss.on("connection", (ws, request, client) => {
   ws.on("message", msg => {
+    let eventData = {
+      message: msg,
+    };
+    eventData.recieved = Date.now();
     let egg = easterEggs.get(msg.toString().toLowerCase().trim());
     if (egg) {
+      eventData.processed = Date.now();
+      eventData.message = egg;
       ws.send(egg);
     }
+    eventData.processed = Date.now();
     console.log(`Received message ${msg} from user ${client}`);
   });
 
