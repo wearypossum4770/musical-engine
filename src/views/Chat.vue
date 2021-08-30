@@ -4,7 +4,11 @@
       <li v-for="msg in messageList" :key="msg.id">{{ msg }}</li>
     </ul>
     <form id="form" @submit.prevent>
-      <input v-model="message" autocomplete="off" />
+      <input
+        v-model="message"
+        @keypress.enter="sendMessage()"
+        autocomplete="off"
+      />
       <button @click="sendMessage">Send</button>
     </form>
   </div>
@@ -15,9 +19,12 @@ export default {
   name: "Chat",
   data() {
     return {
-      connection:null,
+      connection: null,
+      websocketClosed: true,
+      websocketConnected: false,
       message: "",
-      messageList: [],
+      messageReceived: "",
+      messageList: ['something', 'another thing'],
     };
   },
   computed:{
@@ -43,6 +50,36 @@ export default {
     sendMessage() {
       this.connection.send(this.message);
       this.message = "";
+  beforeDestroy: function () {
+    this.connection.onclose = function () {
+      this.websocketClosed = true;
+    };
+  },
+  created: function () {
+    this.connection = new WebSocket("ws://localhost:7625");
+    this.connection.onopen = function () {
+      this.websocketClosed = false;
+      console.log("Successfully connected to the echo websocket server...");
+    };
+  },
+  updated: function () {
+    this.connection.onmessage = function (event) {
+      let { data } = event;
+      if (data === "connected") {
+        this.websocketConnected = false;
+      }
+      this.receiveMessage(data);
+    };
+  },
+  mounted: function () {
+
+  },
+  methods: {
+    receiveMessage(_data) {
+      this.messageList.push(_data);
+    },
+    sendMessage() {
+      this.connection.send(this.message);
     },
   },
   
