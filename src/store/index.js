@@ -5,8 +5,10 @@ Vue.use(Vuex);
 // https://github.com/uNetworking/uWebSockets.js/blob/master/examples/WebSockets.js
 // https://github.com/websockets/ws#simple-server
 export default new Vuex.Store({
+  strict: true,
   getters: {},
   state: {
+    
     count: 0,
     latitude: null,
     longitude: null,

@@ -1,6 +1,7 @@
 <template>
   <div>
     <ul id="messages">
+
       <li v-for="msg in messageList" :key="msg.id">{{ msg }}</li>
     </ul>
     <form id="form" @submit.prevent>
@@ -15,12 +16,12 @@
 </template>
 
 <script>
-import ReconnectingWebSocket from 'reconnecting-websocket';
 export default {
   name: "Chat",
   data() {
     return {
-      connection: new ReconnectingWebSocket('ws://localhost:7625'),
+      websocket:null,
+      reconnectError: false,
       websocketClosed: true,
       websocketConnected: false,
       message: '',
@@ -28,26 +29,18 @@ export default {
       messageList: ['something', 'another thing'],
     };
   },
-  mounted:function(){
-    this.connection.onmessage = function(event){
-      this.messageReceived = event.data
-    }
-
-  },
-  watch:{
-    connection:function(){
-      
-
-    }
+  created:function(){
+    this.websocket = new WebSocket('ws://localhost:7625')
   },
   computed:{
     receiveMessage(){
-return "HAYYYYY"
+      return false
     }
   },
 methods:{
     sendMessage(){
-      this.connection.send(this.message)
+      console.log(this.message)
+      //  this.$socket.sendObj({message: this.message})
     }
   }
   

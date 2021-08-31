@@ -1,4 +1,4 @@
-let users = [
+let users1 = [
   { image: "Ep343KeigoCharaPic2.png", username: "Keigo Asano" },
   { image: "Ep229MizuhoCharaPic.png", username: "Mizuho Asano" },
   { image: "Ep343TatsukiCharaPic2.png", username: "Tatsuki Arisawa" },
@@ -43,6 +43,7 @@ let users = [
   { image: "Ep354YukioCharaPic2.png", username: "Yukio Hans Vorarlberna" },
   { image: "CFYOWAuraCharaPic.png", username: "Aura Michibane" },
 ];
+
 let users = [
   {
     first_name: "loly",
@@ -3261,3 +3262,8 @@ let profiles = users.map((_, index) => ({
   internal_notes: "",
   addresses: [],
 }));
+console.log(users1)
+console.log(users)
+console.log(profiles)
+console.log(todoList)
+console.log(array)
