@@ -15,73 +15,41 @@
 </template>
 
 <script>
+import ReconnectingWebSocket from 'reconnecting-websocket';
 export default {
   name: "Chat",
   data() {
     return {
-      connection: null,
+      connection: new ReconnectingWebSocket('ws://localhost:7625'),
       websocketClosed: true,
       websocketConnected: false,
-      message: "",
-      messageReceived: "",
+      message: '',
+      messageReceived: '',
       messageList: ['something', 'another thing'],
     };
   },
-  computed:{
-    updateList(){
+  mounted:function(){
+    this.connection.onmessage = function(event){
+      this.messageReceived = event.data
+    }
+
+  },
+  watch:{
+    connection:function(){
       
+
     }
   },
-  mounted:function(){
-    this.$nextTick(function(){
-    console.log("Starting connection to WebSocket Server")
-    this.connection = new WebSocket("ws://localhost:7625")
-
-    this.connection.onmessage = function({data}) {
-      return data
-}
-
-    this.connection.onopen = function() {      console.log("Successfully connected to the echo websocket server...")
-    }  
-
-    })
+  computed:{
+    receiveMessage(){
+return "HAYYYYY"
+    }
   },
-  methods: {
-    sendMessage() {
-      this.connection.send(this.message);
-      this.message = "";
-  beforeDestroy: function () {
-    this.connection.onclose = function () {
-      this.websocketClosed = true;
-    };
-  },
-  created: function () {
-    this.connection = new WebSocket("ws://localhost:7625");
-    this.connection.onopen = function () {
-      this.websocketClosed = false;
-      console.log("Successfully connected to the echo websocket server...");
-    };
-  },
-  updated: function () {
-    this.connection.onmessage = function (event) {
-      let { data } = event;
-      if (data === "connected") {
-        this.websocketConnected = false;
-      }
-      this.receiveMessage(data);
-    };
-  },
-  mounted: function () {
-
-  },
-  methods: {
-    receiveMessage(_data) {
-      this.messageList.push(_data);
-    },
-    sendMessage() {
-      this.connection.send(this.message);
-    },
-  },
+methods:{
+    sendMessage(){
+      this.connection.send(this.message)
+    }
+  }
   
 };
 </script>

@@ -17,9 +17,8 @@ let easterEggs = new Map([
 ]);
 wss.on("connection", (ws, request, client) => {
   ws.on("message", msg => {
-    let eventData = {
-      message: msg,
-    };
+    let eventData = {}
+      eventData.message= msg
     eventData.recieved = Date.now();
     let egg = easterEggs.get(msg.toString().toLowerCase().trim());
     if (egg) {

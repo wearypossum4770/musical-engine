@@ -1,5 +1,8 @@
 module.exports = {
+  lintOnSave: process.env.NODE_ENV !== 'production',
+  crossorigin:"anonymous",
   pluginOptions: {
+    apollo:{lintGQ:true},
     pwa: {
       name: "My App",
       themeColor: "#4DBA87",
