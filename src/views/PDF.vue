@@ -1,33 +1,34 @@
 <template>
-    <div>
-  <pdf src="./path/to/static/relativity.pdf"></pdf>
-
-    </div>
+  <div>
+    <pdf src="./path/to/static/relativity.pdf"></pdf>
+  </div>
 </template>
 
 <script>
-import pdf from 'vue-pdf'
+import pdf from "vue-pdf";
 
-    export default {
-          components: {
-    pdf
-  }
-    }
+export default {
+  components: {
+    pdf,
+  },
+};
 </script>
 
 <style scoped>
 /* resize-sensor.vue */
 @keyframes resizeSensorVisibility {
-	from { top: 0; }
+  from {
+    top: 0;
+  }
 }
 
 /* pdf.vue */
 .annotationLayer {
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 .annotationLayer section {
   position: absolute;
@@ -40,8 +41,9 @@ import pdf from 'vue-pdf'
   width: 100%;
   height: 100%;
 }
-.annotationLayer .linkAnnotation > a /* -ms-a */  {
-  background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7") 0 0 repeat;
+.annotationLayer .linkAnnotation > a /* -ms-a */ {
+  background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")
+    0 0 repeat;
 }
 .annotationLayer .linkAnnotation > a:hover {
   opacity: 0.2;
@@ -122,7 +124,7 @@ import pdf from 'vue-pdf'
   position: absolute;
   z-index: 200;
   max-width: 20em;
-  background-color: #FFFF99;
+  background-color: #ffff99;
   box-shadow: 0px 2px 5px #333;
   border-radius: 2px;
   padding: 0.6em;
@@ -146,6 +148,4 @@ import pdf from 'vue-pdf'
 .annotationLayer .fileAttachmentAnnotation {
   cursor: pointer;
 }
-
 </style>
-
