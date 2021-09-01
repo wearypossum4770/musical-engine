@@ -15,7 +15,6 @@ describe("Chat component", () => {
         email: "ichigo.kurosaki@humans.com",
       },
     },
-
   });
-console.log(wrapper)
+  console.log(wrapper);
 });

@@ -3262,8 +3262,8 @@ let profiles = users.map((_, index) => ({
   internal_notes: "",
   addresses: [],
 }));
-console.log(users1)
-console.log(users)
-console.log(profiles)
-console.log(todoList)
-console.log(array)
+console.log(users1);
+console.log(users);
+console.log(profiles);
+console.log(todoList);
+console.log(array);

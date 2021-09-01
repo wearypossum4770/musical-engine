@@ -1,8 +1,8 @@
 module.exports = {
   lintOnSave: false,
-  crossorigin:"anonymous",
+  crossorigin: "anonymous",
   pluginOptions: {
-    apollo:{lintGQ:true},
+    apollo: { lintGQ: true },
     pwa: {
       name: "My App",
       themeColor: "#4DBA87",

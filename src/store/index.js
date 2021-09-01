@@ -8,7 +8,6 @@ export default new Vuex.Store({
   strict: true,
   getters: {},
   state: {
-    
     count: 0,
     latitude: null,
     longitude: null,
@@ -24,11 +23,7 @@ export default new Vuex.Store({
       { id: 4, name: "Sven", registered: false },
     ],
   },
-  mutations: {
-
-  },
-  actions: {
-
-  },
+  mutations: {},
+  actions: {},
   modules: {},
 });

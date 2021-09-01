@@ -11,7 +11,9 @@
     "browser": "npx browserslist@latest --update-db",
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/undefined/**/*.json\"",
     "pretty": "yarn prettier --write .",
-    "sock": "nodemon socketServer.mjs"
+    "sock": "nodemon socketServer.mjs",
+    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
+    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
   },
   "dependencies": {
     "@okta/jwt-verifier": "2.1.0",

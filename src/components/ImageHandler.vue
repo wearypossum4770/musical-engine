@@ -40,14 +40,18 @@ export default {
     handleSubmit(e) {
       e.preventDefault();
     },
-    handleDragStart(e) {console.log(e)},
-    handleDragEnd(e) {console.log(e)},
+    handleDragStart(e) {
+      console.log(e);
+    },
+    handleDragEnd(e) {
+      console.log(e);
+    },
     async sendToBackend() {},
     handleFile({ target }) {
       console.log(target.files);
     },
     handleDrop(e) {
-      let {dataTransfer} = e
+      let { dataTransfer } = e;
       e.preventDefault();
       const isImage = dataTransfer.getData("URL");
       if (isImage !== "") {

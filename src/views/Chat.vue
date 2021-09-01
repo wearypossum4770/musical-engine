@@ -1,49 +1,50 @@
 <template>
   <div>
-    <ul id="messages">
-
-      <li v-for="msg in messageList" :key="msg.id">{{ msg }}</li>
-    </ul>
+    <ul id="messages"></ul>
     <form id="form" @submit.prevent>
-      <input
-        v-model="message"
-        @keypress.enter="sendMessage()"
-        autocomplete="off"
-      />
+      <input @keypress.enter="sendMessage()" autocomplete="off" />
       <button @click="sendMessage">Send</button>
     </form>
   </div>
 </template>
 
 <script>
+import Vue from "vue";
+import Vuex from "vuex";
+Vue.use(Vuex);
+const store = new Vuex.Store({
+      state: {
+      websocket: null,
+      reconnectError: false,
+      websocketClosed: true,
+      websocketConnected: false,
+      message: "",
+      websocketError: null,
+      messageReceived: "",
+      messageArr: ["something", "another thing"],
+    },
+    mutations:{
+      createConnection(state){
+        state.websocket = new WebSocket("ws://localhost:7625");
+      },
+    }
+})
 export default {
   name: "Chat",
   data() {
     return {
-      websocket:null,
-      reconnectError: false,
-      websocketClosed: true,
-      websocketConnected: false,
-      message: '',
-      messageReceived: '',
-      messageList: ['something', 'another thing'],
+      store,
     };
   },
-  created:function(){
-    this.websocket = new WebSocket('ws://localhost:7625')
+  mounted: function(){
+    this.$nextTick(function(){
+      console.log(this.$store)
+      this.$store.dispatch('createConnection')
+    })
   },
-  computed:{
-    receiveMessage(){
-      return false
-    }
+  methods: {
+    sendMessage() {},
   },
-methods:{
-    sendMessage(){
-      console.log(this.message)
-      //  this.$socket.sendObj({message: this.message})
-    }
-  }
-  
 };
 </script>
 
