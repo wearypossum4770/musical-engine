@@ -8,6 +8,9 @@ import Chat from "../views/Chat.vue";
 import Home from "../views/Home.vue";
 import TodoList from "../views/TodoList.vue";
 import Weather from "../views/Weather.vue";
+import Postal from "../views/Postal.vue";
+import PostalMobile from "../views/PostalMobile.vue";
+
 /**Components */
 import SignUpForm from "../components/SignUpForm.vue";
 import LoginForm from "../components/LoginForm.vue";
@@ -16,6 +19,16 @@ import Checkout from "../components/Checkout.vue";
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path: "/postal_mobile",
+    component: PostalMobile,
+    name: "PostalMobile",
+  },
+  {
+    path: "/postal",
+    component: Postal,
+    name: "postal",
+  },
   {
     path: "/weather",
     component: Weather,

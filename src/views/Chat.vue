@@ -24,7 +24,7 @@ export default {
       websocketConnected: false,
       message: "",
       messageReceived: "",
-      messageList: ['something', 'another thing'],
+      messageList: ["something", "another thing"],
     };
   },
   beforeDestroy: function () {
@@ -48,9 +48,7 @@ export default {
       this.receiveMessage(data);
     };
   },
-  mounted: function () {
-
-  },
+  mounted: function () {},
   methods: {
     receiveMessage(_data) {
       this.messageList.push(_data);
