@@ -1,6 +1,6 @@
 import express from "express";
-import session  from "express-session";
-import sessionConfig from './www/config/sessions.mjs'
+import session from "express-session";
+import sessionConfig from "./www/config/sessions.mjs";
 import cors from "cors";
 import Sequelize from "sequelize";
 import PostSchema from "./model/posts.mjs";
@@ -27,7 +27,7 @@ app.use(express.urlencoded(json_url_config));
 app.use(express.json(json_url_config));
 app.use(cors());
 app.use(session(sessionConfig.init));
-app.use(sessionConfig.middleware())
+app.use(sessionConfig.middleware());
 app.post("/register", async (req, res) => {
   let instance = await User.build(req.body);
   let { dataValues, isNewRecord: created } = instance;
