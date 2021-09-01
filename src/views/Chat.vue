@@ -28,7 +28,7 @@ const store = new Vuex.Store({
     websocketClosed: true,
     websocketConnected: false,
     message: "",
-    debug:{},
+    debug: {},
     websocketError: null,
     messageArr: [],
   },
@@ -57,9 +57,10 @@ const store = new Vuex.Store({
       };
       state.websocket.onmessage = function ({ data }) {
         let _message = JSON.parse(data);
-        if (_message==='connected'){
-          state.debug['console'] ="Successfully connected to the echo websocket server..."
-        }else {
+        if (_message === "connected") {
+          state.debug["console"] =
+            "Successfully connected to the echo websocket server...";
+        } else {
           state.messageArr.push(_message.message);
         }
       };

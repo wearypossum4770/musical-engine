@@ -12,7 +12,9 @@
       <router-link to="/dashboard">Dashboard</router-link>|
       <router-link to="/chat">Chat</router-link> |
       <router-link to="/checkout">Checkout</router-link> |
-      <router-link to="/weather">Weather</router-link>
+      <router-link to="/weather">Weather</router-link> |
+      <router-link to="/postal">Postal</router-link> |
+      <router-link to="/postal_mobile">Postal Mobile</router-link>
     </div>
     <router-view />
   </div>
