@@ -1,3 +1,3 @@
-import bkfd2Password from 'pbkdf2-password'
+import bkfd2Password from "pbkdf2-password";
 const hasher = bkfd2Password();
-console.log(hasher)
+console.log(hasher);

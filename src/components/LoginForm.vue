@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form action="action_page.php" method="post">
+    <form @submit.prevent method="post">
       <div class="imgcontainer">
         <img src="@/assets/default.webp" alt="Avatar" class="avatar" />
       </div>
@@ -8,20 +8,26 @@
         <label for="username"><b>Username</b></label>
         <input
           type="text"
+          v-model="username"
           v-on:change="handleUsername"
           placeholder="Enter Username"
           name="username"
+          autocomplete="username"
+          value="genryusai.shigekuni.yamamoto"
           required
         />
         <label for="psw"><b>Password</b></label>
         <input
           type="password"
+          v-model="password"
+          autocomplete="current-password"
           v-on:change="handlePassword"
           placeholder="Enter Password"
           name="psw"
+          value="RzMdsJLufx2FvVi"
           required
         />
-        <button type="submit">Login</button>
+        <button type="submit" v-on:click="handleLogin">Login</button>
         <label> <input type="checkbox" name="remember" /> Remember me </label>
       </div>
       <div class="container" style="background-color: #f1f1f1">
@@ -35,6 +41,19 @@
 export default {
   name: "LoginForm",
   methods: {
+    async handleLogin() {
+      try {
+        const resp = await fetch("http://localhost:3002/login/", this.options);
+        if (resp.ok) {
+          const response = await resp.json();
+          console.log(response);
+          this.password = "";
+          this.username = "";
+        }
+      } catch (error) {
+        console.log(error);
+      }
+    },
     handlePassword({ target: { value } }) {
       this.username += value;
     },
@@ -44,8 +63,20 @@ export default {
   },
   data() {
     return {
-      username: "",
-      password: "",
+      password: "RzMdsJLufx2FvVi",
+      username: "genryusai.shigekuni.yamamoto",
+
+      options: {
+        mode: "cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        method: "POST",
+        body: JSON.stringify({
+          password: "RzMdsJLufx2FvVi",
+          username: "genryusai.shigekuni.yamamoto",
+        }),
+      },
     };
   },
 };
