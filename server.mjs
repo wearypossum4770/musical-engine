@@ -54,11 +54,9 @@ app.post("/login", async (req, res) => {
   return res.status(200).json({ isAuthenticated: auth });
   // if (err) return res.status(500).json({outgoingMessage:"Error on the server."});
 });
-app.get('/logout', function(req, res){
-  // destroy the user's session to log them out
-  // will be re-created next request
-  req.session.destroy(function(){
-    res.redirect('/');
+app.get("/logout", function (req, res) {
+  req.session.destroy(function () {
+    res.redirect("/");
   });
 });
 database.sync({ force: false }).then(() => {

@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve --port 3004",
     "build": "vue-cli-service build",
+    "dev":"concurrently \"nodemon server.mjs\"\"nodemon socketServer.mjs\" \"yarn serve\"",
     "test:unit": "vue-cli-service test:unit",
     "debug:unit": "node --inspect-brk ./node_modules/.bin/vue-cli-service test:unit --runInBand",
     "lint": "vue-cli-service lint",
@@ -69,6 +70,7 @@
     "@vue/eslint-config-standard": "^5.1.2",
     "@vue/test-utils": "^1.0.3",
     "babel-eslint": "^10.1.0",
+    "concurrently": "^6.2.1",
     "eslint": "^6.7.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.20.2",

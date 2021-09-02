@@ -32,7 +32,7 @@ wss.on("connection", (ws, request, client) => {
     if (egg) {
       eventData["processed"] = Date.now();
       eventData["message"] = egg;
-      let outgoing = toJSON(eventData);
+      // let outgoing = toJSON(eventData);
       ws.send(toJSON({ message: egg }));
     }
     eventData["processed"] = Date.now();

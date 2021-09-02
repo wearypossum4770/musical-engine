@@ -9,10 +9,9 @@
       <input
         :value="message"
         @input="updateMessage"
-        @keypress.enter="sendMessage()"
         autocomplete="off"
       />
-      <button>Send</button>
+      <button @click="sendMessage">Send</button>
     </form>
   </div>
 </template>
@@ -28,16 +27,17 @@ const store = new Vuex.Store({
     websocketClosed: true,
     websocketConnected: false,
     message: "",
-    debug: {},
+    debug: {errors:null,_console:''},
     websocketError: null,
     messageArr: [],
   },
-  getters: {},
-  actions: {},
   mutations: {
     sendMessage({ websocket, message, messageArr }) {
-      messageArr.push(message);
+        messageArr.push(message);
       websocket.send(JSON.stringify({ message: message }));
+    },
+    clearMessage(state) {
+state.message=''
     },
     updateMessage(state, message) {
       state.message = message;
@@ -49,7 +49,8 @@ const store = new Vuex.Store({
         state.websocketConnected = true;
       };
       state.websocket.onerror = function (event) {
-        state.websocketError = event;
+        state.debug['errors'] = [...state.debug['errors'],event.message]
+        state.websocketError = event.message;
       };
       state.websocket.onclose = function () {
         state.websocketClosed = true;
@@ -57,10 +58,9 @@ const store = new Vuex.Store({
       };
       state.websocket.onmessage = function ({ data }) {
         let _message = JSON.parse(data);
-        if (_message === "connected") {
-          state.debug["console"] =
-            "Successfully connected to the echo websocket server...";
-        } else {
+        if (_message.message === "connected") {
+          state.debug["_console"] = [...state.debug["_console"],"Successfully connected to the echo websocket server..."]
+                  } else {
           state.messageArr.push(_message.message);
         }
       };
