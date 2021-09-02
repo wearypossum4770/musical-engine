@@ -25,16 +25,7 @@ const isAuthenticated = () =>null
 const authenticate = (username='',password='') =>null
 const validatePassword = async(plainTextPassword, user)=>bcrypt.compare(plainTextPassword, user.hashedPassword, (err, result)=> err? err.message:result);
 const hashedPassword = () =>null
-const setPassword = async (plainTextPassword) => await bcrypt.genSalt(saltRounds, async (err, salt)=> {
-  if (err) return err.message
-  await bcrypt.hash(plainTextPassword, salt, function(err, hash) {
-  if (err) return err.message
-    console.log(salt)  
-    console.log(plainTextPassword)  
-
-    console.log(hash)  
-  });
-});
+const setPassword = async (plainTextPassword) => null
 const password_changed = (password, user,passwordValidators) => null
 // export const userSchema = {
 //   firstName: { type: STRING, defaultValue: "" },

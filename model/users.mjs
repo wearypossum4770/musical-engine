@@ -55,21 +55,22 @@ export const UserSchema = {
   },
   salt: {
     type: STRING,
-    defaultValue: bcrypt.genSaltSync(saltRounds),
   },
   useablePassword: {
     type: BOOLEAN,
-    get() {
-      return (
-        this.hash === bcrypt.hashSync(this.getDataValue("password"), this.salt)
-      );
-    },
   },
   password: {
     type: STRING,
     set(password) {
-      let hash = bcrypt.hashSync(password, this.salt);
-      this.setDataValue("password", hash);
+      bcrypt.genSalt(saltRounds, async (err, salt)=>{
+        if (err) return err
+        this.setDataValue('salt', salt)
+        bcrypt.hash(password, salt, (err, hash)=>{
+          if (err) return err
+          this.setDataValue('password', hash)
+          this.setDataValue('useablePassword',hash!==password)
+        }) 
+      })
     },
   },
 };
