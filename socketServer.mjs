@@ -17,7 +17,7 @@ let easterEggs = new Map([
   ["testing", "1,2,3"],
   ["1", "Is the loneliest number"],
   ["to be", "or not to be that is the question"],
-  ["Avada Kedavra", "Not nice...That's and unforgiveable curse"],
+  ["avada kedavra", "Not nice...That's and unforgiveable curse"],
   ["imperio", "Not nice...That's and unforgiveable curse"],
   ["crucio", "Not nice...That's and unforgiveable curse"],
 ]);
