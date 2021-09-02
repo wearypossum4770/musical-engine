@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt'
+import bcrypt from "bcrypt";
 // import { Sequelize } from "sequelize";
 // const { STRING, BOOLEAN } = DataTypes;
 export function restrict(req, res, next) {
@@ -14,19 +14,22 @@ async function checkUser(username, password) {
 
   const match = await bcrypt.compare(password, user.passwordHash);
 
-  if(match) {
-      //login
+  if (match) {
+    //login
   }
 
   //...
 }
-const saltRounds = 10
-const isAuthenticated = () =>null
-const authenticate = (username='',password='') =>null
-const validatePassword = async(plainTextPassword, user)=>bcrypt.compare(plainTextPassword, user.hashedPassword, (err, result)=> err? err.message:result);
-const hashedPassword = () =>null
-const setPassword = async (plainTextPassword) => null
-const password_changed = (password, user,passwordValidators) => null
+const saltRounds = 10;
+const isAuthenticated = () => null;
+const authenticate = (username = "", password = "") => null;
+const validatePassword = async (plainTextPassword, user) =>
+  bcrypt.compare(plainTextPassword, user.hashedPassword, (err, result) =>
+    err ? err.message : result,
+  );
+const hashedPassword = () => null;
+const setPassword = async plainTextPassword => null;
+const password_changed = (password, user, passwordValidators) => null;
 // export const userSchema = {
 //   firstName: { type: STRING, defaultValue: "" },
 //   middleName: { type: STRING, defaultValue: "" },
@@ -44,5 +47,4 @@ const password_changed = (password, user,passwordValidators) => null
 //   indexes: [{ unique: true, fields: ["email"] }],
 // };
 
-
-setPassword("something")
+setPassword("something");

@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve --port 3004",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "debug:unit":"node --inspect-brk ./node_modules/.bin/vue-cli-service test:unit --runInBand",
+    "debug:unit": "node --inspect-brk ./node_modules/.bin/vue-cli-service test:unit --runInBand",
     "lint": "vue-cli-service lint",
     "back": "nodemon server.mjs",
     "browser": "npx browserslist@latest --update-db",

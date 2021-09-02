@@ -62,15 +62,15 @@ export const UserSchema = {
   password: {
     type: STRING,
     set(password) {
-      bcrypt.genSalt(saltRounds, async (err, salt)=>{
-        if (err) return err
-        this.setDataValue('salt', salt)
-        bcrypt.hash(password, salt, (err, hash)=>{
-          if (err) return err
-          this.setDataValue('password', hash)
-          this.setDataValue('useablePassword',hash!==password)
-        }) 
-      })
+      bcrypt.genSalt(saltRounds, async (err, salt) => {
+        if (err) return err;
+        this.setDataValue("salt", salt);
+        bcrypt.hash(password, salt, (err, hash) => {
+          if (err) return err;
+          this.setDataValue("password", hash);
+          this.setDataValue("useablePassword", hash !== password);
+        });
+      });
     },
   },
 };

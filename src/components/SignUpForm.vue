@@ -86,7 +86,10 @@ export default {
     // consider using axios instance for the vuex to pass url instead of entire url.
     async registerUser() {
       try {
-        const resp = await fetch("http://localhost:3001/login/", this.options);
+        const resp = await fetch(
+          "http://localhost:3002/register/",
+          this.options,
+        );
         if (resp.ok) {
           const response = await resp.json();
           console.log(response);
