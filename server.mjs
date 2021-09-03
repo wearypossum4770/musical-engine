@@ -7,6 +7,7 @@ import userSchema, { isAuthenticated } from "./www/models/users.mjs";
 import PostSchema from "./model/posts.mjs";
 // import UserSchema from "./model/users.mjs";
 import WebTokenSchema from "./model/webtokens.mjs";
+import profileSchema from './model/profiles.mjs'
 const PORT = 3002;
 const json_url_config = { limit: "1mb", extended: true };
 const database = new Sequelize({
@@ -19,6 +20,9 @@ const database = new Sequelize({
 const Token = database.define("web_tokens", WebTokenSchema);
 const Post = database.define("posts", PostSchema);
 const User = database.define("users", userSchema);
+const Profile= database.define('profiles', profileSchema)
+User.belongsToMany(Profile, { through: 'User_Profiles' });
+Profile.belongsToMany(User, { through: 'User_Profiles' });
 // https://www.liquidweb.com/kb/using-ssh-keys/
 // subdomains mail , userpages, adminpages, portal
 var app = express();

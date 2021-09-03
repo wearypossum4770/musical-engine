@@ -1,6 +1,6 @@
 import { genSaltSync, hashSync, compareSync } from "bcrypt";
 import { Sequelize } from "sequelize";
-const { STRING, BOOLEAN, DATE, VIRTUAL } = Sequelize.DataTypes;
+const { STRING, BOOLEAN, DATE } = Sequelize.DataTypes;
 const saltRounds = 10;
 export const isAuthenticated = (plainTextPassword, hashedPassword) =>
   compareSync(plainTextPassword, hashedPassword);
