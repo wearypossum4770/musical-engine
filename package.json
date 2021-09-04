@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve --port 3004",
     "build": "vue-cli-service build",
-    "dev":"concurrently \"nodemon server.mjs\"\"nodemon socketServer.mjs\" \"yarn serve\"",
+    "dev": "concurrently \"nodemon server.mjs\"\"nodemon socketServer.mjs\" \"yarn serve\"",
     "test:unit": "vue-cli-service test:unit",
     "debug:unit": "node --inspect-brk ./node_modules/.bin/vue-cli-service test:unit --runInBand",
     "lint": "vue-cli-service lint",
@@ -34,6 +34,7 @@
     "graphql-tag": "^2.9.0",
     "jsonwebtoken": "^8.5.1",
     "lodash.uniqueid": "^4.0.1",
+    "multer": "^1.4.3",
     "reconnecting-websocket": "^4.4.0",
     "register-service-worker": "^1.7.1",
     "sequelize": "^6.6.5",

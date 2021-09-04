@@ -1,3 +1,12 @@
+import { dirname } from "path";
+import { fileURLToPath } from "url";
+import {
+  mkdir,
+  createWriteStream,
+  createReadStream,
+  stat,
+  readFileSync,
+} from "fs";
 import express from "express";
 import session from "express-session";
 import sessionConfig from "./www/config/sessions.mjs";
@@ -7,7 +16,8 @@ import userSchema, { isAuthenticated } from "./www/models/users.mjs";
 import PostSchema from "./model/posts.mjs";
 // import UserSchema from "./model/users.mjs";
 import WebTokenSchema from "./model/webtokens.mjs";
-import profileSchema from './model/profiles.mjs'
+import profileSchema from "./model/profiles.mjs";
+const __dirname = dirname(fileURLToPath(import.meta.url));
 const PORT = 3002;
 const json_url_config = { limit: "1mb", extended: true };
 const database = new Sequelize({
@@ -20,13 +30,23 @@ const database = new Sequelize({
 const Token = database.define("web_tokens", WebTokenSchema);
 const Post = database.define("posts", PostSchema);
 const User = database.define("users", userSchema);
-const Profile= database.define('profiles', profileSchema)
-User.belongsToMany(Profile, { through: 'User_Profiles' });
-Profile.belongsToMany(User, { through: 'User_Profiles' });
+const Profile = database.define("profiles", profileSchema);
+User.belongsToMany(Profile, { through: "User_Profiles" });
+Profile.belongsToMany(User, { through: "User_Profiles" });
 // https://www.liquidweb.com/kb/using-ssh-keys/
 // subdomains mail , userpages, adminpages, portal
 var app = express();
 // app.use('/vue_socket_test')
+app.post("/uploads", async (req, res) => {
+  // let { username, fileName } = req.body;
+
+  console.log(req);
+
+  // const readabale = createReadStream(fileName);
+  // const writeable = createWriteStream(
+  //   `${__dirname}/uploads/${username}/${fileName}`,
+  // );
+});
 app.get("/", (req, res) => res.send("<h1>Hello world</h1>"));
 app.use(express.urlencoded(json_url_config));
 app.use(express.json(json_url_config));

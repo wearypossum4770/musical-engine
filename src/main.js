@@ -10,6 +10,7 @@ import "./assets/reset.css";
 import "./registerServiceWorker";
 
 Vue.config.productionTip = false;
+Vue.config.performance = true;
 new Vue({
   router,
   i18n,

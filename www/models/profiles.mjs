@@ -1,7 +1,5 @@
 import { Sequelize } from "sequelize";
 const { STRING, BOOLEAN, DATE, VIRTUAL } = Sequelize.DataTypes;
-const profileSchema = {
+const profileSchema = {};
 
-}
-
-export default profileSchema
+export default profileSchema;

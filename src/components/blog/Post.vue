@@ -13,7 +13,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "",
+  data() {
+    return {
+      postList: [],
+    };
+  },
+};
 </script>
 
 <style scoped></style>

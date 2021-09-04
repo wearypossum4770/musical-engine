@@ -2,38 +2,70 @@
   <div>
     <form
       v-on:keyup="enterPressed"
-      v-on:submit="handleSubmit"
+      @submit.prevent
       style="border: 1px solid #ccc"
     >
       <div class="container">
         <h1>Sign Up</h1>
         <p>Please fill in this form to create an account.</p>
         <hr />
-        <label for="email"><b>Email</b></label>
+        <label html="firstName"><b> First Name</b></label>
         <input
           type="text"
+          autocomplete="given-name"
+          placeholder="Genryūsai"
+          v-model="firstName"
+        />
+        <label html="middleName"><b>Middle Name</b></label>
+        <input
+          type="text"
+          autocomplete="additional-name"
+          placeholder="Shigekuni"
+          v-model="middleName"
+        />
+        <label html="lastName"><b>Last Name</b></label>
+        <input
+          type="text"
+          autocomplete="family-name"
+          placeholder="Yamamoto"
+          v-model="lastName"
+        />
+        <label html="username"><b>Username</b></label>
+        <input
+          type="text"
+          autocomplete="username"
+          placeholder="genryusai.shigekuni.yamamoto"
+          v-model="username"
+        />
+        <label for="email"><b>Email</b></label>
+        <input
+          type="email"
+          v-model="email"
           autocomplete="email"
-          placeholder="Enter Email"
+          placeholder="genryusai.shigekuni.yamamoto@soul.society.com"
           name="email"
         />
         <label for="psw"><b>Password</b></label>
         <input
           type="password"
+          v-model="password"
           autocomplete="new-password"
-          placeholder="Enter Password"
+          placeholder="RzMdsJLufx2FvVi"
           name="psw"
         />
         <label for="psw-repeat"><b>Repeat Password</b></label>
         <input
+          v-model="passwordConfirm"
           type="password"
           autocomplete="new-password"
-          placeholder="Repeat Password"
+          placeholder="RzMdsJLufx2FvVi"
           name="psw-repeat"
         />
         <label>
           <input
             type="checkbox"
             checked="checked"
+            v-model="remeberMe"
             name="remember"
             style="margin-bottom: 15px"
           />
@@ -58,26 +90,42 @@ export default {
   name: "Registration",
   data() {
     return {
-      options: {
+      remeberMe: false,
+      firstName: "Genryūsai",
+      middleName: "Shigekuni",
+      lastName: "Yamamoto",
+      username: "genryusai.shigekuni.yamamoto",
+      email: "genryusai.shigekuni.yamamoto@soul.society.com",
+      password: "RzMdsJLufx2FvVi",
+      passwordConfirm: "jfkRzMdsJLufx2FvVi",
+    };
+  },
+  computed: {
+    passwordssMatch() {
+      return this.password === this.passwordConfirm;
+    },
+    setOptions() {
+      return {
         mode: "cors",
         headers: {
           "Content-Type": "application/json",
         },
         method: "POST",
-        body: JSON.stringify({
-          id: "1",
-          firstName: "Genryūsai",
-          middleName: "Shigekuni",
-          lastName: "Yamamoto",
-          random: "something",
-          password: "RzMdsJLufx2FvVi",
-          email: "genryusai.shigekuni.yamamoto@soul.society.com",
-          username: "genryusai.shigekuni.yamamoto",
-        }),
-      },
-    };
+      };
+    },
   },
   methods: {
+    gatherData() {
+      return JSON.stringify({
+        email: this.email,
+        password: this.password,
+        remeberMe: this.remeberMe,
+        firstName: this.firstName,
+        middleName: this.middleName,
+        lastName: this.lastName,
+        username: this.username,
+      });
+    },
     enterPressed({ key, keyCode }) {
       if (key === "Enter" || keyCode === 13) {
         this.registerUser();
@@ -86,20 +134,24 @@ export default {
     // consider using axios instance for the vuex to pass url instead of entire url.
     async registerUser() {
       try {
-        const resp = await fetch(
-          "http://localhost:3002/register/",
-          this.options,
-        );
-        if (resp.ok) {
-          const response = await resp.json();
-          console.log(response);
+        if (this.passwordssMatch) {
+          const resp = await (
+            await fetch("http://localhost:3002/register/", {
+              ...this.setOptions,
+              body: this.gatherData(),
+            })
+          ).json();
+          this.firstName = "";
+          this.middleName = "";
+          this.lastName = "";
+          this.username = "";
+          this.email = "";
+          this.password = "";
+          this.passwordConfirm = "";
         }
       } catch (err) {
         console.log(err);
       }
-    },
-    handleSubmit(e) {
-      e.preventDefault();
     },
   },
 };
@@ -109,9 +161,8 @@ export default {
 * {
   box-sizing: border-box;
 }
-
-/* Full-width input fields */
 input[type="text"],
+input[type="email"],
 input[type="password"] {
   width: 100%;
   padding: 15px;
@@ -120,19 +171,15 @@ input[type="password"] {
   border: none;
   background: #f1f1f1;
 }
-
 input[type="text"]:focus,
 input[type="password"]:focus {
   background-color: #ddd;
   outline: none;
 }
-
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
-
-/* Set a style for all buttons */
 button {
   background-color: #04aa6d;
   color: white;
@@ -143,37 +190,26 @@ button {
   width: 100%;
   opacity: 0.9;
 }
-
 button:hover {
   opacity: 1;
 }
-
-/* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
 }
-
-/* Float cancel and signup buttons and add an equal width */
 .cancelbtn,
 .signupbtn {
   float: left;
   width: 50%;
 }
-
-/* Add padding to container elements */
 .container {
   padding: 16px;
 }
-
-/* Clear floats */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-
-/* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
   .cancelbtn,
   .signupbtn {
