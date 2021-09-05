@@ -22,7 +22,30 @@
 <script>
 export default {
   name: "App",
+  data() {
+    return {
+      appCookies: { response: null, error: null },
+    };
+  },
+  created() {
+    this.fetchData();
+  },
+  watch: {
+    // call again the method if the route changes
+    $route: "fetchData",
+  },
+  computed: {
+    backend() {
+      return "http://localhost:3002/";
+    },
+  },
   methods: {
+    fetchData() {
+      this.axios
+        .get("http://localhost:3002/api/")
+        .then(resp => (this.appCookies.response = resp))
+        .catch(err => (this.appCookies.error = err));
+    },
     getExample() {
       let posts = "https://jsonplaceholder.typicode.com/posts";
       this.axios.get(posts).then(response => {

@@ -69,36 +69,35 @@ export default {
     async handleLogin() {
       try {
         this.gatherData();
-        // const resp = await (
-        //   await fetch("http://localhost:3002/login/", {
-        //     ...this.setOptions,
-        //     body: this.gatherData(),
-        //   })
-        // ).json();
-        this.password = "";
-        this.username = "";
+        const resp = await (
+          await fetch("http://localhost:3002/login/", {
+            ...this.setOptions,
+            body: this.gatherData(),
+          })
+        ).json();
+        if (resp.isAuthenticated) {
+          console.log(resp);
+          // this.password = "";
+          // this.username = "";
+          return;
+        }
+        throw Error;
       } catch (error) {
         console.log(error);
       }
     },
   },
   computed: {
-    optionsMap () {
-      return new Map()
+    optionsMap() {
+      return new Map();
     },
     setOptions() {
-
-      return Object.fromEntries(
-        [
-        ['mode', "cors"],
-            ['method', "POST"],
-['headers', new Headers(
-[["Content-Type","application/json"]]
-        )],
-        ]
-      )
-      
-      },
+      return Object.fromEntries([
+        ["mode", "cors"],
+        ["method", "POST"],
+        ["headers", new Headers([["Content-Type", "application/json"]])],
+      ]);
+    },
   },
   data() {
     return {

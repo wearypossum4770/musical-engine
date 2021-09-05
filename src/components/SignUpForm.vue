@@ -136,9 +136,9 @@ export default {
       try {
         if (this.passwordssMatch) {
           const resp = await (
-            await fetch("http://localhost:3002/register/", {
+            await fetch("http://localhost:3002/bulk-create/", {
               ...this.setOptions,
-              body: this.gatherData(),
+              body: JSON.stringify({ user_list: this.user_list }),
             })
           ).json();
           this.firstName = "";
