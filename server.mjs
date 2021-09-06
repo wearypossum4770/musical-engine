@@ -2,6 +2,7 @@ import { dirname } from "path";
 import { fileURLToPath } from "url";
 import { createClient } from "redis";
 import pkg from "connect-redis";
+import cookieParser from "cookie-parser";
 import express from "express";
 import session from "express-session";
 import {
@@ -20,9 +21,14 @@ const json_url_config = { limit: "1mb", extended: true };
 // https://www.liquidweb.com/kb/using-ssh-keys/
 // subdomains mail , userpages, adminpages, portal
 var app = express();
+const getCookies = request =>
+  Object.keys(request.signedCookies).length > 1
+    ? request.signedCookies
+    : request.cookies;
 app.use(express.urlencoded(json_url_config));
 app.use(express.json(json_url_config));
 app.use(cors());
+app.use(cookieParser());
 app.use(
   session({
     secret: "keyboard cat",
@@ -32,14 +38,14 @@ app.use(
   }),
 );
 // app.use('/vue_socket_test')
-app.use((req, res, next)=>{
+app.use((req, res, next) => {
   var err = req?.session?.error;
   var msg = req?.session?.success;
   delete req?.session?.error;
   delete req?.session?.success;
-  res.locals.message = '';
-  if (err) res.locals.message = '<p class="msg error">' + err + '</p>';
-  if (msg) res.locals.message = '<p class="msg success">' + msg + '</p>';
+  res.locals.message = "";
+  if (err) res.locals.message = '<p class="msg error">' + err + "</p>";
+  if (msg) res.locals.message = '<p class="msg success">' + msg + "</p>";
   next();
 });
 app.post("/uploads", async (req, res) => {
@@ -49,7 +55,12 @@ app.post("/uploads", async (req, res) => {
   // );
 });
 app.get("/api", async (req, res) => {
-  res.json({ message: "HELLO WORLD" });
+  let cookies = getCookies(req);
+  console.log(req.headers.authorization);
+  res.json({
+    cookies: cookies,
+    message: "HELLO WORLD",
+  });
 });
 app.get("/", (req, res) => {
   console.log(req.session);
@@ -70,8 +81,8 @@ app.post("/register", async (req, res) => {
   instance.save();
 });
 app.post("/login", async (req, res) => {
-  console.log(req.session);
-  console.log("\n\n\n");
+  let cookies = getCookies(req);
+
   let { username, password } = req.body;
   let instance = await User.findOne({ where: { username: username } });
   if (!instance)

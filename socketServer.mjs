@@ -1,43 +1,52 @@
 import { WebSocketServer } from "ws";
+import { eventData, easterEggs } from "./www/sockets/helpers.mjs";
+import {
+  toJSON,
+  heartbeat,
+  noop,
+  channels,
+  parseJSON,
+  getEasterEgg,
+} from "./www/sockets/methods.mjs";
 const PORT = 7625;
-function toJSON(obj = {}) {
-  return JSON.stringify(obj);
-}
-let target = [
-  ["room_name", "room_name"],
-  ["message", ""],
-];
 const wss = new WebSocketServer({ port: PORT });
-let easterEggs = new Map([
-  ["heads", "tails"],
-  ["tails", "heads"],
-  ["ping", "pong"],
-  ["marco", "polo"],
-  ["hello", "world"],
-  ["testing", "1,2,3"],
-  ["1", "Is the loneliest number"],
-  ["to be", "or not to be that is the question"],
-  ["avada kedavra", "Not nice...That's and unforgiveable curse"],
-  ["imperio", "Not nice...That's and unforgiveable curse"],
-  ["crucio", "Not nice...That's and unforgiveable curse"],
-]);
-wss.on("connection", (ws, request, client) => {
+
+// wss.on('upgrade', (req, socket, head)=>{
+
+//   console.log('request follows\n\n\n')
+//   console.log(req)
+//   console.log('socke follows \n\n\n')
+//   console.log(socket)
+//   console.log('head follows\n\n\n')
+//   console.log(head)
+// })
+
+wss.on("connection", (ws, req, client) => {
+  console.log("request information\n\n\n");
+  let routes = channels(req.url);
+
+  console.log(routes);
   ws.on("message", msg => {
-    const _msg = JSON.parse(msg);
-    let { message } = _msg;
-    let eventData = Object.create(target);
-    eventData["message"] = message;
-    eventData["recieved"] = Date.now();
-    let egg = easterEggs.get(message.toString().toLowerCase().trim());
+    console.log("messag information\n\n\n");
+    console.log(msg);
+    ws.isAlive = true;
+    ws.on("pong", heartbeat);
+    const { message } = parseJSON(msg);
+    let egg = getEasterEgg(message, easterEggs);
     if (egg) {
-      eventData["processed"] = Date.now();
-      eventData["message"] = egg;
-      // let outgoing = toJSON(eventData);
       ws.send(toJSON({ message: egg }));
     }
-    eventData["processed"] = Date.now();
     console.log(`Received message ${message} from user ${client}`);
   });
-
   ws.send(toJSON({ message: "connected" }));
+});
+const interval = setInterval(function ping() {
+  wss.clients.forEach(function each(ws) {
+    if (ws.isAlive === false) return ws.terminate();
+    ws.isAlive = false;
+    ws.ping(noop);
+  });
+}, 30000);
+wss.on("close", () => {
+  clearInterval(interval);
 });
