@@ -1,6 +1,6 @@
 <template>
     <div>
-        Math
+  <img src="image"/>
    </div>
 </template>
 
@@ -8,6 +8,10 @@
 
     export default {
         name:"Math",
+        data(){
+            return {
+         }
+        }
     }
 </script>
 
