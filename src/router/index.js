@@ -10,14 +10,21 @@ import TodoList from "../views/TodoList.vue";
 import Weather from "../views/Weather.vue";
 import Postal from "../views/Postal.vue";
 import PostalMobile from "../views/PostalMobile.vue";
+
 /**Components */
 import SignUpForm from "../components/SignUpForm.vue";
 import LoginForm from "../components/LoginForm.vue";
 import UserBoard from "../components/UserBoard.vue";
 import Checkout from "../components/Checkout.vue";
+import Math from '../components/Math.vue'
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path: "/math",
+    component: Math,
+    name: "Math",
+  },
   {
     path: "/postal",
     component: Postal,
