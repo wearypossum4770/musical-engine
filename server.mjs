@@ -21,10 +21,12 @@ const json_url_config = { limit: "1mb", extended: true };
 // https://www.liquidweb.com/kb/using-ssh-keys/
 // subdomains mail , userpages, adminpages, portal
 var app = express();
-const getCookies = request =>
-  Object.keys(request.signedCookies).length > 1
-    ? request.signedCookies
-    : request.cookies;
+const getCookies = request => {
+  let signedCookies = request?.signedCookies;
+  let cookies = request?.cookies;
+  return signedCookies ?? cookies;
+};
+
 app.use(express.urlencoded(json_url_config));
 app.use(express.json(json_url_config));
 app.use(cors());

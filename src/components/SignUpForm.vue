@@ -9,34 +9,46 @@
         <h1>Sign Up</h1>
         <p>Please fill in this form to create an account.</p>
         <hr />
-        <label html="firstName"><b> First Name</b></label>
+        <label for="firstName"><b> First Name</b></label>
         <input
           type="text"
           autocomplete="given-name"
           placeholder="Genryūsai"
           v-model="firstName"
         />
-        <label html="middleName"><b>Middle Name</b></label>
+        <div v-if="error" class="error">
+          {{ error }}
+        </div>
+        <label for="middleName"><b>Middle Name</b></label>
         <input
           type="text"
           autocomplete="additional-name"
           placeholder="Shigekuni"
           v-model="middleName"
         />
-        <label html="lastName"><b>Last Name</b></label>
+        <div v-if="error" class="error">
+          {{ error }}
+        </div>
+        <label for="lastName"><b>Last Name</b></label>
         <input
           type="text"
           autocomplete="family-name"
           placeholder="Yamamoto"
           v-model="lastName"
         />
-        <label html="username"><b>Username</b></label>
+        <div v-if="error" class="error">
+          {{ error }}
+        </div>
+        <label for="username"><b>Username</b></label>
         <input
           type="text"
           autocomplete="username"
           placeholder="genryusai.shigekuni.yamamoto"
           v-model="username"
         />
+        <div v-if="error" class="error">
+          {{ error }}
+        </div>
         <label for="email"><b>Email</b></label>
         <input
           type="email"
@@ -45,6 +57,9 @@
           placeholder="genryusai.shigekuni.yamamoto@soul.society.com"
           name="email"
         />
+        <div v-if="error" class="error">
+          {{ error }}
+        </div>
         <label for="psw"><b>Password</b></label>
         <input
           type="password"
@@ -53,6 +68,9 @@
           placeholder="RzMdsJLufx2FvVi"
           name="psw"
         />
+        <div v-if="error" class="error">
+          {{ error }}
+        </div>
         <label for="psw-repeat"><b>Repeat Password</b></label>
         <input
           v-model="passwordConfirm"
@@ -61,6 +79,9 @@
           placeholder="RzMdsJLufx2FvVi"
           name="psw-repeat"
         />
+        <div v-if="error" class="error">
+          {{ error }}
+        </div>
         <label>
           <input
             type="checkbox"
@@ -69,6 +90,9 @@
             name="remember"
             style="margin-bottom: 15px"
           />
+          <div v-if="error" class="error">
+            {{ error }}
+          </div>
           Remember me
         </label>
         <p>
