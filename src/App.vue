@@ -14,6 +14,7 @@
       <router-link to="/checkout">Checkout</router-link> |
       <router-link to="/weather">Weather</router-link> |
       <router-link to="/postal">Postal</router-link> |
+      <router-link to="/cashier">Cashier</router-link> |
       <router-link to="/postal_mobile">Postal Mobile</router-link>
     </div>
     <router-view />

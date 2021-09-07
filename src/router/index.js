@@ -10,7 +10,9 @@ import TodoList from "../views/TodoList.vue";
 import Weather from "../views/Weather.vue";
 import Postal from "../views/Postal.vue";
 import PostalMobile from "../views/PostalMobile.vue";
+
 /**Components */
+import PLUCodes from "../components/cashier/PLUCodes.vue";
 import SignUpForm from "../components/SignUpForm.vue";
 import LoginForm from "../components/LoginForm.vue";
 import UserBoard from "../components/UserBoard.vue";
@@ -18,6 +20,11 @@ import Checkout from "../components/Checkout.vue";
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path: "/cashier",
+    component: PLUCodes,
+    name: "PLUCodes",
+  },
   {
     path: "/postal",
     component: Postal,

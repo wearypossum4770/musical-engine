@@ -1,8 +1,8 @@
 import { dirname } from "path";
 import { fileURLToPath } from "url";
-import { createClient } from "redis";
-import pkg from "connect-redis";
-import cookieParser from "cookie-parser";
+// import { createClient } from "redis";
+// import pkg from "connect-redis";
+// import cookieParser from "cookie-parser";
 import express from "express";
 import session from "express-session";
 import {
@@ -28,7 +28,7 @@ const getCookies = request =>
 app.use(express.urlencoded(json_url_config));
 app.use(express.json(json_url_config));
 app.use(cors());
-app.use(cookieParser());
+// app.use(cookieParser());
 app.use(
   session({
     secret: "keyboard cat",
