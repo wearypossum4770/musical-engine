@@ -1,0 +1,1881 @@
+<converted-body epub:type="frontmatter" data-index="1"><style data-index="2">
+/* Concat below: WileyTemplate_v5.5.css */
+html,
+.hw_page converted-body,
+.hw_page div,
+.hw_page span,
+.hw_page applet,
+.hw_page object,
+.hw_page iframe,
+.hw_page h1,
+.hw_page h2,
+.hw_page h3,
+.hw_page h4,
+.hw_page h5,
+.hw_page h6,
+.hw_page p,
+.hw_page blockquote,
+.hw_page pre,
+.hw_page a,
+.hw_page abbr,
+.hw_page acronym,
+.hw_page address,
+.hw_page big,
+.hw_page cite,
+.hw_page code,
+.hw_page del,
+.hw_page dfn,
+.hw_page em,
+.hw_page img,
+.hw_page ins,
+.hw_page kbd,
+.hw_page q,
+.hw_page s,
+.hw_page samp,
+.hw_page strike,
+.hw_page strong,
+.hw_page sub,
+.hw_page sup,
+.hw_page tt,
+.hw_page var,
+.hw_page small,
+.hw_page u,
+.hw_page i,
+.hw_page center,
+.hw_page dl,
+.hw_page dt,
+.hw_page dd,
+.hw_page ol,
+.hw_page ul,
+.hw_page li,
+.hw_page fieldset,
+.hw_page form,
+.hw_page label,
+.hw_page legend,
+.hw_page table,
+.hw_page caption,
+.hw_page tbody,
+.hw_page tfoot,
+.hw_page thead,
+.hw_page tr,
+.hw_page th,
+.hw_page td,
+.hw_page article,
+.hw_page aside,
+.hw_page canvas,
+.hw_page details,
+.hw_page embed,
+.hw_page figure,
+.hw_page figcaption,
+.hw_page footer,
+.hw_page header,
+.hw_page hgroup,
+.hw_page menu,
+.hw_page nav,
+.hw_page output,
+.hw_page ruby,
+.hw_page section,
+.hw_page summary,
+.hw_page time,
+.hw_page mark,
+.hw_page audio,
+.hw_page video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.hw_page article,
+.hw_page aside,
+.hw_page details,
+.hw_page figcaption,
+.hw_page figure,
+.hw_page footer,
+.hw_page header,
+.hw_page hgroup,
+.hw_page menu,
+.hw_page nav,
+.hw_page section {
+  display: block;
+}
+
+.hw_page converted-body {
+  font-family: Georgia, Baskerville, roman, 'times new roman', times, serif;
+  background-color: transparent;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+  text-indent: 0;
+}
+
+.hw_page converted-body.ls {
+  font-family: arial, helvetica, sans-serif;
+}
+
+.hw_page ol,
+.hw_page ul {
+  list-style-type: none;
+}
+
+.hw_page blockquote {
+  quotes: none;
+}
+
+.hw_page q {
+  quotes: "“" "”" "‘" "’";
+}
+
+.hw_page q:before {
+  content: open-quote;
+}
+
+.hw_page q:after {
+  content: close-quote;
+}
+
+.hw_page table {
+  display: table;
+  border-collapse: collapse;
+}
+
+.hw_page table.table {
+  display: table;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.hw_page p {
+  background-color: inherit;
+  margin: .5em 0;
+  line-height: inherit;
+  outline: 0;
+  padding: 0;
+  text-indent: 0;
+}
+
+.hw_page .feature1 p,
+.hw_page .feature2 p,
+.hw_page .feature3 p,
+.hw_page .feature4 p {
+  background-color: inherit;
+  text-align: left;
+}
+
+.hw_page blockquote {
+  margin: .5em 1em .125em 1em;
+  page-break-inside: avoid;
+  quotes: none;
+}
+
+.hw_page converted-body ol {
+  list-style-type: decimal;
+  margin-left: inherit;
+  padding-left: 2em;
+  text-align: left;
+}
+
+.hw_page converted-body blockquote ol,
+.hw_page converted-body blockquote ul,
+.hw_page converted-body .epigraph ol,
+.hw_page converted-body .epigraph ol,
+.hw_page converted-body .extract ol,
+.hw_page converted-body .extract ul {
+  margin-left: 0;
+}
+
+.hw_page ol ol {
+  list-style-type: lower-alpha;
+}
+
+.hw_page ol ol ol {
+  list-style-type: lower-roman;
+}
+
+.hw_page .biblioEntryList {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.hw_page .bibliographyEntry,
+.hw_page .noteEntry {
+  margin-top: .75em;
+  margin-left: 1.25em;
+  text-indent: -1.25em;
+}
+
+.hw_page converted-body ul {
+  list-style-type: disc;
+  margin-left: inherit;
+  padding-left: 2em;
+  text-align: left;
+}
+
+.hw_page li {
+  margin-top: .5em;
+}
+
+.hw_page .list {
+  padding-left: inherit;
+}
+
+.hw_page .sub {
+  padding-left: inherit;
+}
+
+.hw_page converted-body .item1,
+.hw_page converted-body .item2,
+.hw_page converted-body .item3,
+.hw_page converted-body .listPara1,
+.hw_page converted-body .listPara2,
+.hw_page converted-body .listPara3,
+.hw_page converted-body .item4,
+.hw_page converted-body .listPara4,
+.hw_page converted-body .itemN,
+.hw_page converted-body .listParaN {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: inherit;
+  padding: inherit;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .decimal {
+  list-style-type: decimal;
+  margin-left: inherit;
+}
+
+.hw_page .upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+.hw_page .lower-roman {
+  list-style-type: lower-roman;
+}
+
+.hw_page .lower-latin {
+  list-style-type: lower-latin;
+}
+
+.hw_page .upper-latin {
+  list-style-type: upper-latin;
+}
+
+.hw_page .none {
+  list-style-type: none;
+}
+
+.hw_page .decimal-leading-zero {
+  list-style-type: decimal-leading-zero;
+}
+
+.hw_page .lower-greek {
+  list-style-type: lower-greek;
+}
+
+.hw_page .armenian {
+  list-style-type: armenian;
+}
+
+.hw_page .georgian {
+  list-style-type: georgian;
+}
+
+.hw_page .disc {
+  list-style-type: disc;
+}
+
+.hw_page .circle {
+  list-style-type: circle;
+}
+
+.hw_page .square {
+  list-style-type: square;
+}
+
+.hw_page .optionList {
+  margin: 1em 0;
+}
+
+.hw_page .match1 {
+  list-style-type: decimal;
+}
+
+.hw_page .choices ol,
+.hw_page .match2 {
+  list-style-type: lower-alpha;
+}
+
+.hw_page .wol::after {
+  content: "__________";
+}
+
+.hw_page .feature1,
+.hw_page .feature2,
+.hw_page .feature3,
+.hw_page .feature4 {
+  border-radius: 0px;
+  margin: 0.125rem auto;
+  padding: 8px;
+  page-break-inside: avoid;
+  text-align: center;
+  width: 95%;
+}
+
+.hw_page .feature1 {
+  background-color: #E1F4FD;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.hw_page .feature2 {
+  background-color: #EEEEEE;
+  border: 2px solid #AAAAAA;
+}
+
+.hw_page .feature3 {
+  border: 1px solid #000;
+}
+
+.hw_page .feature4 {
+  border: 1px dashed;
+}
+
+.hw_page .feature1.ls,
+.hw_page .feature2.ls,
+.hw_page .feature3.ls,
+.hw_page .feature4.ls {
+  border-radius: 0px;
+  border: none;
+  background-color: #F0F0F0;
+  margin: .5em auto;
+  padding: .4em 1.4em .2em 1.4em;
+  page-break-inside: avoid;
+  text-align: center;
+  width: 95%;
+}
+
+.hw_page section[class="feature1"] h1,
+.hw_page section[class="feature2"] h2,
+.hw_page section[class="feature3"] h3,
+.hw_page section[class="feature4"] h4 {
+  margin: 0;
+  padding: .5em 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page section[class="feature1"] h1 {
+  font-size: 1.5em;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature1 ls"] h1 {
+  color: #226C7B;
+  font-size: 1.1em;
+  margin: 0;
+  text-transform: none;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature2"] h2 {
+  font-size: 1.3em;
+}
+
+.hw_page section[class="feature2 ls"] h2 {
+  color: #B22222;
+  font-size: 1.1em;
+  margin: 0;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature3"] h3 {
+  font-size: 1.1em;
+}
+
+.hw_page section[class="feature3 ls"] h3 {
+  color: #017252;
+  font-size: 1.1em;
+}
+
+.hw_page section[class="feature4"] h4 {
+  font-size: 1em;
+}
+
+.hw_page section[class="feature4 ls"] h4 {
+  color: #776D3D;
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+.hw_page .hr {
+  display: none;
+}
+
+.hw_page .top,
+.hw_page .bottom {
+  display: none;
+}
+
+.hw_page .dottedTop {
+  display: none;
+  font-size: .9em;
+  margin-top: 2.5em;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  page-break-after: avoid;
+  text-align: center;
+  text-decoration: overline;
+}
+
+.hw_page .dottedBottom {
+  font-size: .9em;
+  margin: 0 auto;
+  page-break-before: avoid;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.hw_page pre {
+  font-family: monospace;
+  font-size: inherit;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  margin: 1em 0;
+  padding: 0;
+  text-align: left;
+  text-indent: 0;
+  white-space: pre-wrap;
+}
+
+.hw_page .codeTitle {
+  margin-left: 0;
+}
+
+.hw_page .codeHead {
+  font-size: inherit;
+}
+
+.hw_page .codeNote {
+  border-bottom: thin solid #AAAAAA;
+  border-top: thin solid #AAAAAA;
+  font-size: .9em;
+  margin: .5em 0;
+  padding: .25em 0;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.hw_page a {
+  color: blue;
+  font: inherit;
+}
+
+.hw_page .indexTerm {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.hw_page .normal {
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-family: inherit;
+}
+
+.hw_page b,
+.hw_page strong {
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page cite,
+.hw_page em,
+.hw_page i {
+  font-size: inherit;
+  font-style: italic;
+  font-weight: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page .boldItalic {
+  font-size: inherit;
+  font-weight: bold;
+  font-style: italic;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page sup {
+  font: inherit;
+  font-size: .85em;
+  vertical-align: super;
+}
+
+.hw_page sub {
+  font: inherit;
+  font-size: .85em;
+  vertical-align: sub;
+}
+
+.hw_page s {
+  font: inherit;
+  text-decoration: line-through;
+}
+
+.hw_page u {
+  font: inherit;
+  text-decoration: underline;
+}
+
+.hw_page .copyrightBookTitle,
+.hw_page .runinHead {
+  display: inline;
+  font-weight: bold;
+}
+
+.hw_page code,
+.hw_page .codeHighlight,
+.hw_page .codeLabel,
+.hw_page .codeVariable,
+.hw_page .userinputVariable {
+  font-family: monospace;
+  font-size: inherit;
+}
+
+.hw_page .codeHighlight {
+  background-color: #EEEEEE;
+  text-decoration: underline;
+}
+
+.hw_page .email {
+  font-size: inherit;
+  margin: 0;
+}
+
+.hw_page .genusSpecies,
+.hw_page .glossTerm,
+.hw_page .keyTerm,
+.hw_page .userinput,
+.hw_page .keyTerm.ls2 {
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.hw_page .keyTerm.ls1 {
+  background-color: inherit;
+  color: #007099;
+}
+
+.hw_page var {
+  font-style: italic;
+}
+
+.hw_page .codeVariable,
+.hw_page .userinputVariable {
+  font-style: normal;
+}
+
+.hw_page .left {
+  text-align: left;
+  margin: 0;
+}
+
+.hw_page .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-indent: 0;
+  text-align: center;
+}
+
+.hw_page .right {
+  text-align: right;
+  display: block;
+  margin: 0;
+}
+
+.hw_page .textbreak {
+  margin: .625em auto;
+  text-align: center;
+}
+
+.hw_page .red {
+  background-color: inherit;
+  color: #B11116;
+  font-weight: bold;
+}
+
+.hw_page .blue {
+  background-color: inherit;
+  color: #007787;
+}
+
+.hw_page .green {
+  background-color: inherit;
+  color: #196719;
+}
+
+.hw_page .yellow {
+  background-color: inherit;
+  color: #FFF000;
+}
+
+.hw_page .codeColorBlue {
+  background-color: inherit;
+  color: #0000FF;
+}
+
+.hw_page .codeColorBlue2 {
+  background-color: inherit;
+  color: #005475;
+}
+
+.hw_page .codeColorBlue3 {
+  background-color: inherit;
+  color: #065390;
+}
+
+.hw_page .codeColorBlueGreen {
+  background-color: inherit;
+  color: #2B91AF;
+}
+
+.hw_page .codeColorBrown {
+  background-color: inherit;
+  color: #573733;
+}
+
+.hw_page .codeColorDkBlue {
+  background-color: inherit;
+  color: #000080;
+}
+
+.hw_page .codeColorGreen {
+  background-color: inherit;
+  color: #008A00;
+}
+
+.hw_page .codeColorGreen2 {
+  background-color: inherit;
+  color: #127987;
+}
+
+.hw_page .codeColorGrey30 {
+  background-color: inherit;
+  color: #575757;
+}
+
+.hw_page .codeColorGrey55 {
+  background-color: inherit;
+  color: #767676;
+}
+
+.hw_page .codeColorGrey80 {
+  background-color: inherit;
+  color: #3B3B3B;
+}
+
+.hw_page .codeColorHotPink {
+  background-color: inherit;
+  color: #CC00CC;
+}
+
+.hw_page .codeColorMagenta {
+  background-color: inherit;
+  color: #844646;
+}
+
+.hw_page .codeColorOrange {
+  background-color: inherit;
+  color: #DB3A00;
+}
+
+.hw_page .codeColorPeach {
+  background-color: inherit;
+  color: #C94E36;
+}
+
+.hw_page .codeColorPurple {
+  background-color: inherit;
+  color: #9900CC;
+}
+
+.hw_page .codeColorPurple2 {
+  background-color: inherit;
+  color: #800080;
+}
+
+.hw_page .codeColorRed {
+  background-color: inherit;
+  color: #EB0000;
+}
+
+.hw_page .codeColorRed2 {
+  background-color: inherit;
+  color: #800000;
+}
+
+.hw_page .codeColorRed3 {
+  background-color: inherit;
+  color: #A31515;
+}
+
+.hw_page .codeColorTealBlue {
+  background-color: inherit;
+  color: #008080;
+}
+
+.hw_page .codeColorWhite {
+  background-color: inherit;
+  color: #FFFFFF;
+}
+
+.hw_page .lsColorOrange {
+  background-color: inherit;
+  color: #E15631;
+}
+
+.hw_page .lsColorBlue {
+  background-color: inherit;
+  color: #1C98B0;
+}
+
+.hw_page .lsColorBeige {
+  background-color: inherit;
+  color: #FFF4DE;
+}
+
+.hw_page .lsColorLtGrey {
+  background-color: inherit;
+  color: #E5E5E5;
+}
+
+.hw_page .lsColorParrot {
+  background-color: inherit;
+  color: #80A53F;
+}
+
+.hw_page .lsColorGreen {
+  background-color: inherit;
+  color: #50B14A;
+}
+
+.hw_page .lsColorGrey {
+  background-color: inherit;
+  color: #535456;
+}
+
+.hw_page .lsColorMdGrey {
+  background-color: inherit;
+  color: #78797A;
+}
+
+.hw_page .lsColorBlack {
+  background-color: inherit;
+  color: #221E1F;
+}
+
+.hw_page .lsColor95Black {
+  background-color: inherit;
+  color: #323031;
+}
+
+.hw_page .lsColor100Black {
+  background-color: inherit;
+  color: #231F20;
+}
+
+.hw_page .lsColorRed {
+  background-color: inherit;
+  color: #BE3333;
+}
+
+.hw_page .lsColorPink {
+  background-color: inherit;
+  color: #B51F71;
+}
+
+.hw_page .lsColorPlBlue {
+  background-color: inherit;
+  color: #45739B;
+}
+
+.hw_page .lsColor15PlBlue {
+  background-color: inherit;
+  color: #DCE0E9;
+}
+
+.hw_page .lsColorCream {
+  background-color: inherit;
+  color: #E0DDA3;
+}
+
+.hw_page .lsColor15Parrot {
+  background-color: inherit;
+  color: #ECF2E2;
+}
+
+.hw_page .bookTitle {
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 2.25em 0 .3125em 0;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+.hw_page .bookSubTitle {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1.5em 0 .3125em 0;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+.hw_page .associateBookEditor,
+.hw_page .bookAuthor,
+.hw_page .bookEdition,
+.hw_page .bookEditor,
+.hw_page .bookVolumeNumber,
+.hw_page .colophon,
+.hw_page .forewordAuthor {
+  margin: 1.25em 0 0 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .affiliation,
+.hw_page .authorName,
+.hw_page .titlepage .editorName,
+.hw_page .forewordAuthorName {
+  margin: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .contributorName,
+.hw_page .editorName,
+.hw_page .organizationName {
+  display: inline;
+  font-weight: bold;
+}
+
+.hw_page .publisherImprint,
+.hw_page .publisherCities {
+  font-size: .75em;
+  margin: 1.25em auto;
+  text-align: center;
+  text-indent: 0;
+}
+
+.hw_page .copyright {
+  font-size: .9em;
+  margin: .5em 0 .375em 0;
+}
+
+.hw_page section[class="copyright"] p {
+  text-indent: 0;
+}
+
+.hw_page .credits {
+  text-align: left;
+}
+
+.hw_page .creditsTitle {
+  margin-top: 1.25em;
+  text-align: left;
+}
+
+.hw_page li.contentsAbstract {
+  font-size: .9em;
+  color: black;
+  list-style-type: none;
+  text-align: left;
+  text-decoration: none;
+}
+
+.hw_page .contentsH1 {
+  list-style-type: none;
+  margin-left: 0;
+  text-align: left;
+}
+
+.hw_page .contentsH2 {
+  list-style-type: none;
+  text-align: left;
+}
+
+.hw_page .contentsH3 {
+  list-style-type: none;
+  text-align: left;
+}
+
+.hw_page .tocList ol {
+  list-style: none;
+}
+
+.hw_page .tocList li {
+  list-style: none;
+  margin-top: .3125em;
+}
+
+.hw_page .signatureLine {
+  color: #343434;
+  margin-top: 1.5em;
+  margin-bottom: .75em;
+  margin-left: 1.5em;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .chapterAuthor,
+.hw_page .chapterAuthorAffiliation,
+.hw_page .chapterCredit {
+  color: #343434;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+.hw_page section {
+  margin: 1em auto;
+}
+
+.hw_page .keyConcepts.ls {
+  display: block;
+  background-color: #F0FFFF;
+  page-break-inside: avoid;
+  padding: .5em 1em;
+}
+
+.hw_page .objectives.ls {
+  display: block;
+  background-color: #F0F0F0;
+  page-break-inside: avoid;
+  padding: 0 0 .5em 0;
+}
+
+.hw_page header {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.hw_page h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 1.25em;
+}
+
+.hw_page h1 span {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.hw_page header h1 {
+  margin-top: 0;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.hw_page h1.partNumber,
+.hw_page .partTitle {
+  font-size: 2em;
+  font-weight: inherit;
+  margin-top: 1.25em;
+}
+
+.hw_page h1.ls {
+  background-color: inherit;
+}
+
+.hw_page .title {
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+
+.hw_page h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1em 0 .5em 0;
+}
+
+.hw_page h2.ls {
+  background-color: inherit;
+}
+
+.hw_page h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: .625em 0 .5em 0;
+}
+
+.hw_page h3.ls {
+  background-color: inherit;
+  color: #B22222;
+}
+
+.hw_page h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1.0em .0em 0;
+}
+
+.hw_page h4.ls {
+  background-color: inherit;
+  color: #003B59;
+}
+
+.hw_page section.keyConcepts.ls h4 {
+  background-color: inherit;
+  color: #226C7B;
+  font-weight: bold;
+}
+
+.hw_page section.objectives.ls h4 {
+  background-color: #FFFFFF;
+  color: #B22222;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin: 1em -.5em .5em 0em;
+}
+
+.hw_page h5,
+.hw_page h6 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.hw_page h5.ls {
+  display: inline-block;
+  background-color: inherit;
+  color: #776D3D;
+}
+
+.hw_page h6.ls {
+  display: inline-block;
+  background-color: inherit;
+  color: #547890;
+}
+
+.hw_page .listHead,
+.hw_page .navListHead {
+  font-size: 1.1em;
+  margin: .625em 0 .5em 0;
+}
+
+.hw_page h1,
+.hw_page h2,
+.hw_page h3,
+.hw_page h4,
+.hw_page h5,
+.hw_page h6,
+.hw_page .listHead,
+.hw_page .navListHead {
+  font-family: sans-serif;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: left;
+}
+
+.hw_page figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hw_page figure,
+.hw_page .informalFigure {
+  margin: .625em 0;
+  page-break-inside: avoid;
+  text-align: center;
+  text-indent: 0;
+}
+
+.hw_page img {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0;
+}
+
+.hw_page figure.ls img {
+  margin: .5em auto;
+  max-width: 95%;
+}
+
+.hw_page figcaption {
+  color: #343434;
+  margin: .6875em 0 .125em 0;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: justify;
+  text-indent: 0;
+}
+
+.hw_page figure.ls figcaption {
+  color: #231F20;
+  font-weight: bold;
+  margin: .6875em .5em .5em .5em;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: justify;
+  text-indent: 0;
+}
+
+.hw_page .source {
+  color: inherit;
+  font-size: .9em;
+  margin-top: .25em;
+  margin-left: 0.1em;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page figure.ls p.source {
+  color: inherit;
+  font-size: .9em;
+  margin-top: .25em;
+  margin-left: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page figure.tableLS,
+.hw_page figure.tableLS1 {
+  display: table;
+}
+
+.hw_page figcaption.tableLS {
+  display: table-caption;
+}
+
+.hw_page figure.tableLS1 p.source {
+  color: #FFFFFF;
+  font-size: .9em;
+  margin-top: 0;
+  margin-left: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .figureLabel {
+  color: inherit;
+  font-size: inherit;
+}
+
+.hw_page .ls span.figureLabel a:link {
+  color: #226C7B;
+}
+
+.hw_page .publisherWordMark {
+  display: inline-block;
+  top: 2em;
+  bottom: 1em;
+  clear: both;
+}
+
+.hw_page .marginIcon {
+  margin-bottom: .5em;
+}
+
+.hw_page .pagebreak {
+  page-break-after: always;
+}
+
+.hw_page .floatLeft {
+  float: left;
+  bottom: 1em;
+}
+
+.hw_page .floatRight {
+  float: right;
+  bottom: 1em;
+}
+
+.hw_page table {
+  border-collapse: collapse;
+  margin: 0 auto .5em auto;
+  text-align: center;
+}
+
+.hw_page thead {
+  font-weight: bold;
+  display: table-header-group;
+}
+
+.hw_page td,
+.hw_page th {
+  font-size: inherit;
+  font-weight: inherit;
+  background-color: inherit;
+  border: 0px solid #C0C0C0;
+  display: table-cell;
+  padding: 3px;
+  text-indent: 0;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.hw_page tr {
+  display: table-row;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.hw_page .footerCell {
+  font-size: .9em;
+}
+
+.hw_page .tableLS .footerCell,
+.hw_page .tableLS1 .footerCell {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.hw_page .tableFootnote {
+  font-size: .9em;
+  margin-bottom: .1875em;
+  text-align: left;
+}
+
+.hw_page figure.tableLS table,
+.hw_page figure.tableLS1 table {
+  padding: .5em;
+  margin: 0 0 .5em 0em;
+}
+
+.hw_page figure.tableLS span.figureLabel,
+.hw_page figure.tableLS1 span.figureLabel {
+  display: block;
+  background-color: #003B59;
+  color: #FFFFFF;
+  padding: .5em;
+  margin: -.5em -.5em .5em -.5em;
+  text-transform: uppercase;
+}
+
+.hw_page figure.tableLS span.figureLabel a:link,
+.hw_page figure.tableLS1 span.figureLabel a:link {
+  color: #FFFFFF;
+}
+
+.hw_page figure.tableLS figcaption p,
+.hw_page figure.tableLS1 figcaption p {
+  background-color: #007099;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: .5em .5em .25em .5em;
+  margin: 1em 0 -.25em 0;
+}
+
+.hw_page figure.tableLS figcaption p a {
+  color: #FFFFFF;
+}
+
+.hw_page figure.tableLS1 figcaption p a {
+  color: #FFFFFF;
+}
+
+.hw_page caption p {
+  background-color: #DCE0E9;
+  color: #000000;
+  font-weight: bold;
+  padding: .5em .5em .25em .5em;
+  margin: 1em 0 -.25em 0;
+}
+
+.hw_page .tableLS thead,
+.hw_page .tableLS1 thead {
+  background-color: #F0F0F0;
+  color: #003B59;
+}
+
+.hw_page .tableLS tbody tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+.hw_page .tableLS1 tbody td {
+  background-color: #F0F0F0;
+}
+
+.hw_page .feature1 .tableLS thead,
+.hw_page .feature1 .tableLS1 thead,
+.hw_page .feature2 .tableLS thead,
+.hw_page .feature2 .tableLS1 thead,
+.hw_page .feature3 .tableLS thead,
+.hw_page .feature3 .tableLS1 thead,
+.hw_page .feature4 .tableLS thead,
+.hw_page .feature4 .tableLS1 thead {
+  background-color: #FFFFFF;
+}
+
+.hw_page .tableLS tbody tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+.hw_page .feature1 .tableLS tbody td,
+.hw_page .feature1 .tableLS1 tbody td,
+.hw_page .feature2 .tableLS tbody td,
+.hw_page .feature2 .tableLS2 tbody td,
+.hw_page .feature3 .tableLS tbody td,
+.hw_page .feature3 .tableLS3 tbody td,
+.hw_page .feature4 .tableLS tbody td,
+.hw_page .feature4 .tableLS4 tbody td {
+  background-color: #FFFFFF;
+}
+
+.hw_page .lineGroup {
+  text-align: left;
+  margin: 1em 0;
+  page-break-inside: avoid;
+}
+
+.hw_page .poetryLineGroup p {
+  margin: 0;
+}
+
+.hw_page .equation,
+.hw_page .informalEquation,
+.hw_page .equationNumbered {
+  display: block;
+  margin: 1.25em 0 0 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  text-align: center;
+}
+
+.hw_page .equationBG {
+  display: block;
+  margin: 1.25em 0 0 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  text-align: center;
+  border-radius: 0px;
+  border: none;
+  background-color: #F1F2F2;
+  padding: 1.25em;
+  width: 95%;
+}
+
+.hw_page .listWhere::before {
+  content: "Where: ";
+  padding-left: 0;
+  margin-left: -1.5em;
+}
+
+.hw_page .equationNumber {
+  float: right;
+}
+
+.hw_page .epigraph,
+.hw_page .extract {
+  display: block;
+  page-break-inside: avoid;
+  margin: .625em 0 .625em 1.25em;
+}
+
+.hw_page .dialogue {
+  display: block;
+  margin-top: .25em;
+  margin-left: 1.25em;
+}
+
+.hw_page .glossaryLetter {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: .625em;
+  text-align: left;
+}
+
+.hw_page dd {
+  margin-bottom: .3125em;
+  margin-left: 1.5em;
+}
+
+.hw_page dfn,
+.hw_page dt {
+  font-weight: bold;
+  font-style: normal;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+}
+
+.hw_page span[epub\:type~="pagebreak"] {
+  color: #B4B4B4;
+  font-size: .7em;
+  text-align: center;
+}
+
+.hw_page nav[epub\:type~="landmarks"] {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page nav[epub\:type~="page-list"] {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page nav {
+  margin: 1em auto;
+}
+
+.hw_page .guideList {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page .index-term-categories {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page .pageList {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page span.hidden {
+  visibility: hidden;
+}
+
+.hw_page .hidden1 {
+  visibility: hidden;
+}
+
+.hw_page .white1 {
+  background-color: #ffffff;
+}
+
+.hw_page .bobBookCover {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  text-indent: 0;
+  margin: 1.25em 0 .3125em 0;
+}
+
+.hw_page h1.ad {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.83em;
+  text-decoration: none;
+  text-align: center;
+  color: #1152bf;
+  text-indent: 0;
+  margin: 0 0 .625em 0;
+}
+
+.hw_page .bobCopy,
+.hw_page .bobEntry {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  text-indent: 0;
+  margin: 0;
+  page-break-inside: avoid;
+}
+
+.hw_page .bobLink {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #0000ff;
+  text-indent: 0;
+  margin: 0;
+}
+
+.hw_page .bobAd {
+  padding: 1.25em;
+}
+
+@media amzn-kf8 {
+  .hw_page converted-body {
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
+  }
+
+  .hw_page converted-body ol {
+    list-style-type: decimal;
+    padding-left: 2em;
+  }
+
+  .hw_page ol ol {
+    list-style-type: lower-alpha;
+  }
+
+  .hw_page ol ol ol {
+    list-style-type: lower-roman;
+  }
+
+  .hw_page ul {
+    list-style-type: disc;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-left: 2em;
+  }
+
+  .hw_page ul ul {
+    list-style-type: none;
+    padding-left: 1.5em;
+  }
+
+  .hw_page ul ul ul {
+    list-style-type: square;
+    padding-left: 1.5em;
+  }
+
+  .hw_page .list {
+    padding: 0;
+  }
+
+  .hw_page converted-body .listPara1 {
+    margin-left: .375em;
+    padding: inherit;
+    text-align: left;
+  }
+
+  .hw_page converted-body .listPara2,
+  .hw_page converted-body .listPara3,
+  .hw_page converted-body .listPara4,
+  .hw_page converted-body .listParaN {
+    margin-left: .25em;
+    padding: inherit;
+    text-align: left;
+  }
+
+  .hw_page .sub {
+    padding: 0 0 0 1.5em;
+  }
+}
+
+@media amzn-mobi {
+  .hw_page converted-body {
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
+  }
+
+  .hw_page div.hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page div.dottedTop hr,
+  .hw_page div.top hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page div.dottedBottom hr,
+  .hw_page div.bottom hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page img {
+    text-indent: 0;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+
+  .hw_page ol {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .hw_page ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: inherit;
+    padding-left: inherit;
+  }
+}
+
+.hw_page .noteEntry {
+  margin-left: 1.25em;
+  text-indent: -1.05em;
+}
+
+.hw_page .noteEntry1 {
+  margin-left: 1.25em;
+  text-indent: -1.25em;
+}
+
+.hw_page .bordernone {
+  border: none;
+}
+
+.hw_page .bdr1 {
+  border-bottom: 1px solid #000;
+}
+
+.hw_page .bdr2 {
+  border-bottom: 3px double black;
+}
+
+.hw_page .grey {
+  color: #71603D;
+  font-weight: bold;
+}
+
+.hw_page .rline {
+  border-right: 1px solid black;
+  padding: 0px 1.5em 0px 1.5em;
+}
+
+.hw_page .latin1 {
+  margin-left: 0.4em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin1>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .latin2 {
+  margin-left: 1.7em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin2>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .latin3 {
+  margin-left: 3.7em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin3>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .italic {
+  font-style: italic;
+}
+
+.hw_page .italic_un {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.hw_page .bold_un {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.hw_page .italic_un_bold {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.hw_page .bold {
+  font-weight: bold;
+}
+
+.hw_page span.superscript {
+  vertical-align: super;
+}
+
+.hw_page span.subscript {
+  vertical-align: sub;
+}
+
+.hw_page span.label {
+  display: block;
+  margin: 0em;
+  padding: 0em;
+  text-indent: 0em;
+  width: 0em;
+  float: left;
+}
+
+.hw_page .paralist,
+.hw_page .paralistd,
+.hw_page .paralist4,
+.hw_page .paralist1,
+.hw_page .paralist1a,
+.hw_page .paralista1,
+.hw_page .paralist1b,
+.hw_page .paralist1c,
+.hw_page .paralist2,
+.hw_page .paralist2a,
+.hw_page .paralist3,
+.hw_page .paralist5,
+.hw_page .paralist5a,
+.hw_page toc,
+.hw_page toc1,
+.hw_page .paralist6,
+.hw_page .paralist7,
+.hw_page .paralist8 {
+  font-size: 1em;
+  text-indent: 0em;
+  text-align: justify;
+  clear: both;
+}
+
+.hw_page .bdrtable td,
+.hw_page th {
+  font-size: inherit;
+  font-weight: inherit;
+  background-color: inherit;
+  border: 1px solid #C0C0C0;
+  display: table-cell;
+  padding: 1em;
+  text-indent: 0;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.hw_page .pink {
+  background-color: inherit;
+  color: #5C4268;
+}
+
+.hw_page .hidden1 {
+  visibility: hidden;
+}
+
+.hw_page .un {
+  border-bottom: 1pt solid black;
+}
+
+.hw_page .un2 {
+  border-bottom: 3px double;
+}
+
+.hw_page span.small {
+  font-size: 75%;
+}
+
+.hw_page ul.none1 li {
+  margin-left: 0em;
+  text-indent: -1.1em;
+  list-style-type: none;
+}
+
+.hw_page .tbc {
+  background-color: #FFFDE9;
+}
+
+.hw_page table.table tbody tr:last-child td {
+  padding-bottom: 8px;
+}
+
+.hw_page .gray22 {
+  color: #547890;
+}
+
+.hw_page .hidden {
+  visibility: hidden;
+}
+
+.hw_page .bgskyblue {
+  background-color: #E2F4FD;
+}
+
+.hw_page .v_bottom {
+  vertical-align: bottom;
+}
+
+.hw_page table .red {
+  background-color: inherit;
+  color: #B11116;
+  font-weight: normal!important;
+}
+
+.hw_page .red1 {
+  background-color: inherit;
+  color: #B22222;
+  font-weight: normal!important;
+}
+
+.hw_page a:link {
+  text-decoration: none;
+}
+</style>
+<section data-index="3">
+<header data-index="4">
+<h1 class="ls" data-index="5"><span epub:type="pagebreak" role="doc-pagebreak" title="vi" id="Page_vi" data-index="6"></span><a id="start" data-index="7"></a><span class="chapterTitle" data-index="8">From the Authors</span></h1>
+<hr data-index="9">
+</header>
+<section data-index="10">
+<p data-index="11">Through many editions, this text has continued to reflect the constant changes taking place in the GAAP environment. This edition continues this tradition, which has become even more significant as the financial reporting environment is exploding with major change. Here are three areas of major importance that are now incorporated extensively into this edition of the text.</p>
+<p data-index="12"><span class="red" data-index="13"><b data-index="14">CONVERGENCE OF GAAP AND IFRS</b></span> One of the most important innovations shaping our capital markets was the idea of GAAP. It might be said that it would be even better if we had one common set of accounting rules for the whole world, which would make it easier for international investors to compare the financial results of companies from different countries. Fortunately, GAAP and international accounting standards have converged to result in a number of common standards between GAAP and <b data-index="15">International Financial Reporting Standards (IFRS)</b>. And you have the chance to be on the ground floor as we develop for you the similarities and differences in the two systems that ultimately will be one.</p>
+<aside class="feature3" style=" background-color: #F0FFFF;" data-index="16">
+<section data-index="17">
+<p data-index="18">“If this text helps you appreciate the challenges, worth, and limitations of financial reporting, if it encourages you to evaluate critically and understand financial accounting concepts and practice, and if it prepares you for advanced study, professional examinations, and the successful and ethical pursuit of your career in accounting or business in a global economy, then we will have attained our objectives.”</p>
+</section>
+</aside>
+<p data-index="19"><span class="red" data-index="20"><b data-index="21">A FAIR VALUE MOVEMENT</b></span> The FASB believes that fair value information is more relevant to users than historical cost. As a result, there is more information that is being reported on this basis, and even more will occur in the future. The financial press is full of articles discussing how financial institutions must fair value their assets, which has led to massive losses during the financial crisis. In addition, additional insight into the reliability related to fair values is being addressed and disclosed to help investors make important capital allocation decisions. We devote a considerable amount of material that discusses and illustrates fair value concepts in this edition, including its relevance to three major accounting standards updates: revenue, leases, and financial instruments.</p>
+<p data-index="22"><span class="red" data-index="23"><b data-index="24">A NEW WAY OF LOOKING AT GENERALLY ACCEPTED ACCOUNTING PRINCIPLES (GAAP)</b></span> Learning GAAP used to be a daunting task, as it is comprised of many standards that vary in form, completeness, and structure. Fortunately, the profession has developed the Financial Accounting Standards Board Codification (often referred to as the Codification). This Codification provides in one place all the GAAP related to a given topic. This textbook is the first to incorporate this Codification—it will make learning GAAP easier and more interesting!</p>
+<p data-index="25"><i data-index="26">Intermediate Accounting</i> is the market‐leading text in providing the tools needed to understand what GAAP is and how it is applied in practice. With this Seventeenth Edition, we strive to continue to provide the material needed to understand this subject area. The text is comprehensive and up‐to‐date. We also include proven pedagogical tools, designed to help you learn more effectively and to answer the changing needs of this course.</p>
+<p data-index="27">We are excited about <i data-index="28">Intermediate Accounting</i>, Seventeenth Edition. We believe it meets an important objective of providing useful information to educators and students interested in learning about both GAAP and IFRS. Suggestions and comments from users of this text will be appreciated. Please feel free to e‐mail any one of us.</p>
+<table data-index="29">
+<tbody data-index="30">
+<tr data-index="31">
+<td data-index="32"><b data-index="33">Donald E. Kieso</b></td>
+<td rowspan="2" data-index="34">    </td>
+<td data-index="35"><b data-index="36">Jerry J. Weygandt</b></td>
+<td rowspan="2" data-index="37">    </td>
+<td data-index="38"><b data-index="39">Terry D. Warfield</b></td>
+</tr>
+<tr data-index="40">
+<td data-index="41">Somonauk, Illinois</td>
+<td data-index="42">Madison, Wisconsin</td>
+<td data-index="43">Madison, Wisconsin</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+</converted-body>

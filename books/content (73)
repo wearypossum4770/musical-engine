@@ -1,0 +1,2058 @@
+<converted-body epub:type="backmatter" id="a01-body-0001" data-index="1"><style data-index="2">
+/* Concat below: WileyTemplate_v5.5.css */
+html,
+.hw_page converted-body,
+.hw_page div,
+.hw_page span,
+.hw_page applet,
+.hw_page object,
+.hw_page iframe,
+.hw_page h1,
+.hw_page h2,
+.hw_page h3,
+.hw_page h4,
+.hw_page h5,
+.hw_page h6,
+.hw_page p,
+.hw_page blockquote,
+.hw_page pre,
+.hw_page a,
+.hw_page abbr,
+.hw_page acronym,
+.hw_page address,
+.hw_page big,
+.hw_page cite,
+.hw_page code,
+.hw_page del,
+.hw_page dfn,
+.hw_page em,
+.hw_page img,
+.hw_page ins,
+.hw_page kbd,
+.hw_page q,
+.hw_page s,
+.hw_page samp,
+.hw_page strike,
+.hw_page strong,
+.hw_page sub,
+.hw_page sup,
+.hw_page tt,
+.hw_page var,
+.hw_page small,
+.hw_page u,
+.hw_page i,
+.hw_page center,
+.hw_page dl,
+.hw_page dt,
+.hw_page dd,
+.hw_page ol,
+.hw_page ul,
+.hw_page li,
+.hw_page fieldset,
+.hw_page form,
+.hw_page label,
+.hw_page legend,
+.hw_page table,
+.hw_page caption,
+.hw_page tbody,
+.hw_page tfoot,
+.hw_page thead,
+.hw_page tr,
+.hw_page th,
+.hw_page td,
+.hw_page article,
+.hw_page aside,
+.hw_page canvas,
+.hw_page details,
+.hw_page embed,
+.hw_page figure,
+.hw_page figcaption,
+.hw_page footer,
+.hw_page header,
+.hw_page hgroup,
+.hw_page menu,
+.hw_page nav,
+.hw_page output,
+.hw_page ruby,
+.hw_page section,
+.hw_page summary,
+.hw_page time,
+.hw_page mark,
+.hw_page audio,
+.hw_page video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.hw_page article,
+.hw_page aside,
+.hw_page details,
+.hw_page figcaption,
+.hw_page figure,
+.hw_page footer,
+.hw_page header,
+.hw_page hgroup,
+.hw_page menu,
+.hw_page nav,
+.hw_page section {
+  display: block;
+}
+
+.hw_page converted-body {
+  font-family: Georgia, Baskerville, roman, 'times new roman', times, serif;
+  background-color: transparent;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+  text-indent: 0;
+}
+
+.hw_page converted-body.ls {
+  font-family: arial, helvetica, sans-serif;
+}
+
+.hw_page ol,
+.hw_page ul {
+  list-style-type: none;
+}
+
+.hw_page blockquote {
+  quotes: none;
+}
+
+.hw_page q {
+  quotes: "“" "”" "‘" "’";
+}
+
+.hw_page q:before {
+  content: open-quote;
+}
+
+.hw_page q:after {
+  content: close-quote;
+}
+
+.hw_page table {
+  display: table;
+  border-collapse: collapse;
+}
+
+.hw_page table.table {
+  display: table;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.hw_page p {
+  background-color: inherit;
+  margin: .5em 0;
+  line-height: inherit;
+  outline: 0;
+  padding: 0;
+  text-indent: 0;
+}
+
+.hw_page .feature1 p,
+.hw_page .feature2 p,
+.hw_page .feature3 p,
+.hw_page .feature4 p {
+  background-color: inherit;
+  text-align: left;
+}
+
+.hw_page blockquote {
+  margin: .5em 1em .125em 1em;
+  page-break-inside: avoid;
+  quotes: none;
+}
+
+.hw_page converted-body ol {
+  list-style-type: decimal;
+  margin-left: inherit;
+  padding-left: 2em;
+  text-align: left;
+}
+
+.hw_page converted-body blockquote ol,
+.hw_page converted-body blockquote ul,
+.hw_page converted-body .epigraph ol,
+.hw_page converted-body .epigraph ol,
+.hw_page converted-body .extract ol,
+.hw_page converted-body .extract ul {
+  margin-left: 0;
+}
+
+.hw_page ol ol {
+  list-style-type: lower-alpha;
+}
+
+.hw_page ol ol ol {
+  list-style-type: lower-roman;
+}
+
+.hw_page .biblioEntryList {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.hw_page .bibliographyEntry,
+.hw_page .noteEntry {
+  margin-top: .75em;
+  margin-left: 1.25em;
+  text-indent: -1.25em;
+}
+
+.hw_page converted-body ul {
+  list-style-type: disc;
+  margin-left: inherit;
+  padding-left: 2em;
+  text-align: left;
+}
+
+.hw_page li {
+  margin-top: .5em;
+}
+
+.hw_page .list {
+  padding-left: inherit;
+}
+
+.hw_page .sub {
+  padding-left: inherit;
+}
+
+.hw_page converted-body .item1,
+.hw_page converted-body .item2,
+.hw_page converted-body .item3,
+.hw_page converted-body .listPara1,
+.hw_page converted-body .listPara2,
+.hw_page converted-body .listPara3,
+.hw_page converted-body .item4,
+.hw_page converted-body .listPara4,
+.hw_page converted-body .itemN,
+.hw_page converted-body .listParaN {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: inherit;
+  padding: inherit;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .decimal {
+  list-style-type: decimal;
+  margin-left: inherit;
+}
+
+.hw_page .upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+.hw_page .lower-roman {
+  list-style-type: lower-roman;
+}
+
+.hw_page .lower-latin {
+  list-style-type: lower-latin;
+}
+
+.hw_page .upper-latin {
+  list-style-type: upper-latin;
+}
+
+.hw_page .none {
+  list-style-type: none;
+}
+
+.hw_page .decimal-leading-zero {
+  list-style-type: decimal-leading-zero;
+}
+
+.hw_page .lower-greek {
+  list-style-type: lower-greek;
+}
+
+.hw_page .armenian {
+  list-style-type: armenian;
+}
+
+.hw_page .georgian {
+  list-style-type: georgian;
+}
+
+.hw_page .disc {
+  list-style-type: disc;
+}
+
+.hw_page .circle {
+  list-style-type: circle;
+}
+
+.hw_page .square {
+  list-style-type: square;
+}
+
+.hw_page .optionList {
+  margin: 1em 0;
+}
+
+.hw_page .match1 {
+  list-style-type: decimal;
+}
+
+.hw_page .choices ol,
+.hw_page .match2 {
+  list-style-type: lower-alpha;
+}
+
+.hw_page .wol::after {
+  content: "__________";
+}
+
+.hw_page .feature1,
+.hw_page .feature2,
+.hw_page .feature3,
+.hw_page .feature4 {
+  border-radius: 0px;
+  margin: 0.125rem auto;
+  padding: 8px;
+  page-break-inside: avoid;
+  text-align: center;
+  width: 95%;
+}
+
+.hw_page .feature1 {
+  background-color: #E1F4FD;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.hw_page .feature2 {
+  background-color: #EEEEEE;
+  border: 2px solid #AAAAAA;
+}
+
+.hw_page .feature3 {
+  border: 1px solid #000;
+}
+
+.hw_page .feature4 {
+  border: 1px dashed;
+}
+
+.hw_page .feature1.ls,
+.hw_page .feature2.ls,
+.hw_page .feature3.ls,
+.hw_page .feature4.ls {
+  border-radius: 0px;
+  border: none;
+  background-color: #F0F0F0;
+  margin: .5em auto;
+  padding: .4em 1.4em .2em 1.4em;
+  page-break-inside: avoid;
+  text-align: center;
+  width: 95%;
+}
+
+.hw_page section[class="feature1"] h1,
+.hw_page section[class="feature2"] h2,
+.hw_page section[class="feature3"] h3,
+.hw_page section[class="feature4"] h4 {
+  margin: 0;
+  padding: .5em 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page section[class="feature1"] h1 {
+  font-size: 1.5em;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature1 ls"] h1 {
+  color: #226C7B;
+  font-size: 1.1em;
+  margin: 0;
+  text-transform: none;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature2"] h2 {
+  font-size: 1.3em;
+}
+
+.hw_page section[class="feature2 ls"] h2 {
+  color: #B22222;
+  font-size: 1.1em;
+  margin: 0;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature3"] h3 {
+  font-size: 1.1em;
+}
+
+.hw_page section[class="feature3 ls"] h3 {
+  color: #017252;
+  font-size: 1.1em;
+}
+
+.hw_page section[class="feature4"] h4 {
+  font-size: 1em;
+}
+
+.hw_page section[class="feature4 ls"] h4 {
+  color: #776D3D;
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+.hw_page .hr {
+  display: none;
+}
+
+.hw_page .top,
+.hw_page .bottom {
+  display: none;
+}
+
+.hw_page .dottedTop {
+  display: none;
+  font-size: .9em;
+  margin-top: 2.5em;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  page-break-after: avoid;
+  text-align: center;
+  text-decoration: overline;
+}
+
+.hw_page .dottedBottom {
+  font-size: .9em;
+  margin: 0 auto;
+  page-break-before: avoid;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.hw_page pre {
+  font-family: monospace;
+  font-size: inherit;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  margin: 1em 0;
+  padding: 0;
+  text-align: left;
+  text-indent: 0;
+  white-space: pre-wrap;
+}
+
+.hw_page .codeTitle {
+  margin-left: 0;
+}
+
+.hw_page .codeHead {
+  font-size: inherit;
+}
+
+.hw_page .codeNote {
+  border-bottom: thin solid #AAAAAA;
+  border-top: thin solid #AAAAAA;
+  font-size: .9em;
+  margin: .5em 0;
+  padding: .25em 0;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.hw_page a {
+  color: blue;
+  font: inherit;
+}
+
+.hw_page .indexTerm {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.hw_page .normal {
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-family: inherit;
+}
+
+.hw_page b,
+.hw_page strong {
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page cite,
+.hw_page em,
+.hw_page i {
+  font-size: inherit;
+  font-style: italic;
+  font-weight: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page .boldItalic {
+  font-size: inherit;
+  font-weight: bold;
+  font-style: italic;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page sup {
+  font: inherit;
+  font-size: .85em;
+  vertical-align: super;
+}
+
+.hw_page sub {
+  font: inherit;
+  font-size: .85em;
+  vertical-align: sub;
+}
+
+.hw_page s {
+  font: inherit;
+  text-decoration: line-through;
+}
+
+.hw_page u {
+  font: inherit;
+  text-decoration: underline;
+}
+
+.hw_page .copyrightBookTitle,
+.hw_page .runinHead {
+  display: inline;
+  font-weight: bold;
+}
+
+.hw_page code,
+.hw_page .codeHighlight,
+.hw_page .codeLabel,
+.hw_page .codeVariable,
+.hw_page .userinputVariable {
+  font-family: monospace;
+  font-size: inherit;
+}
+
+.hw_page .codeHighlight {
+  background-color: #EEEEEE;
+  text-decoration: underline;
+}
+
+.hw_page .email {
+  font-size: inherit;
+  margin: 0;
+}
+
+.hw_page .genusSpecies,
+.hw_page .glossTerm,
+.hw_page .keyTerm,
+.hw_page .userinput,
+.hw_page .keyTerm.ls2 {
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.hw_page .keyTerm.ls1 {
+  background-color: inherit;
+  color: #007099;
+}
+
+.hw_page var {
+  font-style: italic;
+}
+
+.hw_page .codeVariable,
+.hw_page .userinputVariable {
+  font-style: normal;
+}
+
+.hw_page .left {
+  text-align: left;
+  margin: 0;
+}
+
+.hw_page .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-indent: 0;
+  text-align: center;
+}
+
+.hw_page .right {
+  text-align: right;
+  display: block;
+  margin: 0;
+}
+
+.hw_page .textbreak {
+  margin: .625em auto;
+  text-align: center;
+}
+
+.hw_page .red {
+  background-color: inherit;
+  color: #B11116;
+  font-weight: bold;
+}
+
+.hw_page .blue {
+  background-color: inherit;
+  color: #007787;
+}
+
+.hw_page .green {
+  background-color: inherit;
+  color: #196719;
+}
+
+.hw_page .yellow {
+  background-color: inherit;
+  color: #FFF000;
+}
+
+.hw_page .codeColorBlue {
+  background-color: inherit;
+  color: #0000FF;
+}
+
+.hw_page .codeColorBlue2 {
+  background-color: inherit;
+  color: #005475;
+}
+
+.hw_page .codeColorBlue3 {
+  background-color: inherit;
+  color: #065390;
+}
+
+.hw_page .codeColorBlueGreen {
+  background-color: inherit;
+  color: #2B91AF;
+}
+
+.hw_page .codeColorBrown {
+  background-color: inherit;
+  color: #573733;
+}
+
+.hw_page .codeColorDkBlue {
+  background-color: inherit;
+  color: #000080;
+}
+
+.hw_page .codeColorGreen {
+  background-color: inherit;
+  color: #008A00;
+}
+
+.hw_page .codeColorGreen2 {
+  background-color: inherit;
+  color: #127987;
+}
+
+.hw_page .codeColorGrey30 {
+  background-color: inherit;
+  color: #575757;
+}
+
+.hw_page .codeColorGrey55 {
+  background-color: inherit;
+  color: #767676;
+}
+
+.hw_page .codeColorGrey80 {
+  background-color: inherit;
+  color: #3B3B3B;
+}
+
+.hw_page .codeColorHotPink {
+  background-color: inherit;
+  color: #CC00CC;
+}
+
+.hw_page .codeColorMagenta {
+  background-color: inherit;
+  color: #844646;
+}
+
+.hw_page .codeColorOrange {
+  background-color: inherit;
+  color: #DB3A00;
+}
+
+.hw_page .codeColorPeach {
+  background-color: inherit;
+  color: #C94E36;
+}
+
+.hw_page .codeColorPurple {
+  background-color: inherit;
+  color: #9900CC;
+}
+
+.hw_page .codeColorPurple2 {
+  background-color: inherit;
+  color: #800080;
+}
+
+.hw_page .codeColorRed {
+  background-color: inherit;
+  color: #EB0000;
+}
+
+.hw_page .codeColorRed2 {
+  background-color: inherit;
+  color: #800000;
+}
+
+.hw_page .codeColorRed3 {
+  background-color: inherit;
+  color: #A31515;
+}
+
+.hw_page .codeColorTealBlue {
+  background-color: inherit;
+  color: #008080;
+}
+
+.hw_page .codeColorWhite {
+  background-color: inherit;
+  color: #FFFFFF;
+}
+
+.hw_page .lsColorOrange {
+  background-color: inherit;
+  color: #E15631;
+}
+
+.hw_page .lsColorBlue {
+  background-color: inherit;
+  color: #1C98B0;
+}
+
+.hw_page .lsColorBeige {
+  background-color: inherit;
+  color: #FFF4DE;
+}
+
+.hw_page .lsColorLtGrey {
+  background-color: inherit;
+  color: #E5E5E5;
+}
+
+.hw_page .lsColorParrot {
+  background-color: inherit;
+  color: #80A53F;
+}
+
+.hw_page .lsColorGreen {
+  background-color: inherit;
+  color: #50B14A;
+}
+
+.hw_page .lsColorGrey {
+  background-color: inherit;
+  color: #535456;
+}
+
+.hw_page .lsColorMdGrey {
+  background-color: inherit;
+  color: #78797A;
+}
+
+.hw_page .lsColorBlack {
+  background-color: inherit;
+  color: #221E1F;
+}
+
+.hw_page .lsColor95Black {
+  background-color: inherit;
+  color: #323031;
+}
+
+.hw_page .lsColor100Black {
+  background-color: inherit;
+  color: #231F20;
+}
+
+.hw_page .lsColorRed {
+  background-color: inherit;
+  color: #BE3333;
+}
+
+.hw_page .lsColorPink {
+  background-color: inherit;
+  color: #B51F71;
+}
+
+.hw_page .lsColorPlBlue {
+  background-color: inherit;
+  color: #45739B;
+}
+
+.hw_page .lsColor15PlBlue {
+  background-color: inherit;
+  color: #DCE0E9;
+}
+
+.hw_page .lsColorCream {
+  background-color: inherit;
+  color: #E0DDA3;
+}
+
+.hw_page .lsColor15Parrot {
+  background-color: inherit;
+  color: #ECF2E2;
+}
+
+.hw_page .bookTitle {
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 2.25em 0 .3125em 0;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+.hw_page .bookSubTitle {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1.5em 0 .3125em 0;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+.hw_page .associateBookEditor,
+.hw_page .bookAuthor,
+.hw_page .bookEdition,
+.hw_page .bookEditor,
+.hw_page .bookVolumeNumber,
+.hw_page .colophon,
+.hw_page .forewordAuthor {
+  margin: 1.25em 0 0 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .affiliation,
+.hw_page .authorName,
+.hw_page .titlepage .editorName,
+.hw_page .forewordAuthorName {
+  margin: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .contributorName,
+.hw_page .editorName,
+.hw_page .organizationName {
+  display: inline;
+  font-weight: bold;
+}
+
+.hw_page .publisherImprint,
+.hw_page .publisherCities {
+  font-size: .75em;
+  margin: 1.25em auto;
+  text-align: center;
+  text-indent: 0;
+}
+
+.hw_page .copyright {
+  font-size: .9em;
+  margin: .5em 0 .375em 0;
+}
+
+.hw_page section[class="copyright"] p {
+  text-indent: 0;
+}
+
+.hw_page .credits {
+  text-align: left;
+}
+
+.hw_page .creditsTitle {
+  margin-top: 1.25em;
+  text-align: left;
+}
+
+.hw_page li.contentsAbstract {
+  font-size: .9em;
+  color: black;
+  list-style-type: none;
+  text-align: left;
+  text-decoration: none;
+}
+
+.hw_page .contentsH1 {
+  list-style-type: none;
+  margin-left: 0;
+  text-align: left;
+}
+
+.hw_page .contentsH2 {
+  list-style-type: none;
+  text-align: left;
+}
+
+.hw_page .contentsH3 {
+  list-style-type: none;
+  text-align: left;
+}
+
+.hw_page .tocList ol {
+  list-style: none;
+}
+
+.hw_page .tocList li {
+  list-style: none;
+  margin-top: .3125em;
+}
+
+.hw_page .signatureLine {
+  color: #343434;
+  margin-top: 1.5em;
+  margin-bottom: .75em;
+  margin-left: 1.5em;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .chapterAuthor,
+.hw_page .chapterAuthorAffiliation,
+.hw_page .chapterCredit {
+  color: #343434;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+.hw_page section {
+  margin: 1em auto;
+}
+
+.hw_page .keyConcepts.ls {
+  display: block;
+  background-color: #F0FFFF;
+  page-break-inside: avoid;
+  padding: .5em 1em;
+}
+
+.hw_page .objectives.ls {
+  display: block;
+  background-color: #F0F0F0;
+  page-break-inside: avoid;
+  padding: 0 0 .5em 0;
+}
+
+.hw_page header {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.hw_page h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 1.25em;
+}
+
+.hw_page h1 span {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.hw_page header h1 {
+  margin-top: 0;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.hw_page h1.partNumber,
+.hw_page .partTitle {
+  font-size: 2em;
+  font-weight: inherit;
+  margin-top: 1.25em;
+}
+
+.hw_page h1.ls {
+  background-color: inherit;
+}
+
+.hw_page .title {
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+
+.hw_page h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1em 0 .5em 0;
+}
+
+.hw_page h2.ls {
+  background-color: inherit;
+}
+
+.hw_page h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: .625em 0 .5em 0;
+}
+
+.hw_page h3.ls {
+  background-color: inherit;
+  color: #B22222;
+}
+
+.hw_page h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1.0em .0em 0;
+}
+
+.hw_page h4.ls {
+  background-color: inherit;
+  color: #003B59;
+}
+
+.hw_page section.keyConcepts.ls h4 {
+  background-color: inherit;
+  color: #226C7B;
+  font-weight: bold;
+}
+
+.hw_page section.objectives.ls h4 {
+  background-color: #FFFFFF;
+  color: #B22222;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin: 1em -.5em .5em 0em;
+}
+
+.hw_page h5,
+.hw_page h6 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.hw_page h5.ls {
+  display: inline-block;
+  background-color: inherit;
+  color: #776D3D;
+}
+
+.hw_page h6.ls {
+  display: inline-block;
+  background-color: inherit;
+  color: #547890;
+}
+
+.hw_page .listHead,
+.hw_page .navListHead {
+  font-size: 1.1em;
+  margin: .625em 0 .5em 0;
+}
+
+.hw_page h1,
+.hw_page h2,
+.hw_page h3,
+.hw_page h4,
+.hw_page h5,
+.hw_page h6,
+.hw_page .listHead,
+.hw_page .navListHead {
+  font-family: sans-serif;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: left;
+}
+
+.hw_page figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hw_page figure,
+.hw_page .informalFigure {
+  margin: .625em 0;
+  page-break-inside: avoid;
+  text-align: center;
+  text-indent: 0;
+}
+
+.hw_page img {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0;
+}
+
+.hw_page figure.ls img {
+  margin: .5em auto;
+  max-width: 95%;
+}
+
+.hw_page figcaption {
+  color: #343434;
+  margin: .6875em 0 .125em 0;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: justify;
+  text-indent: 0;
+}
+
+.hw_page figure.ls figcaption {
+  color: #231F20;
+  font-weight: bold;
+  margin: .6875em .5em .5em .5em;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: justify;
+  text-indent: 0;
+}
+
+.hw_page .source {
+  color: inherit;
+  font-size: .9em;
+  margin-top: .25em;
+  margin-left: 0.1em;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page figure.ls p.source {
+  color: inherit;
+  font-size: .9em;
+  margin-top: .25em;
+  margin-left: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page figure.tableLS,
+.hw_page figure.tableLS1 {
+  display: table;
+}
+
+.hw_page figcaption.tableLS {
+  display: table-caption;
+}
+
+.hw_page figure.tableLS1 p.source {
+  color: #FFFFFF;
+  font-size: .9em;
+  margin-top: 0;
+  margin-left: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .figureLabel {
+  color: inherit;
+  font-size: inherit;
+}
+
+.hw_page .ls span.figureLabel a:link {
+  color: #226C7B;
+}
+
+.hw_page .publisherWordMark {
+  display: inline-block;
+  top: 2em;
+  bottom: 1em;
+  clear: both;
+}
+
+.hw_page .marginIcon {
+  margin-bottom: .5em;
+}
+
+.hw_page .pagebreak {
+  page-break-after: always;
+}
+
+.hw_page .floatLeft {
+  float: left;
+  bottom: 1em;
+}
+
+.hw_page .floatRight {
+  float: right;
+  bottom: 1em;
+}
+
+.hw_page table {
+  border-collapse: collapse;
+  margin: 0 auto .5em auto;
+  text-align: center;
+}
+
+.hw_page thead {
+  font-weight: bold;
+  display: table-header-group;
+}
+
+.hw_page td,
+.hw_page th {
+  font-size: inherit;
+  font-weight: inherit;
+  background-color: inherit;
+  border: 0px solid #C0C0C0;
+  display: table-cell;
+  padding: 3px;
+  text-indent: 0;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.hw_page tr {
+  display: table-row;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.hw_page .footerCell {
+  font-size: .9em;
+}
+
+.hw_page .tableLS .footerCell,
+.hw_page .tableLS1 .footerCell {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.hw_page .tableFootnote {
+  font-size: .9em;
+  margin-bottom: .1875em;
+  text-align: left;
+}
+
+.hw_page figure.tableLS table,
+.hw_page figure.tableLS1 table {
+  padding: .5em;
+  margin: 0 0 .5em 0em;
+}
+
+.hw_page figure.tableLS span.figureLabel,
+.hw_page figure.tableLS1 span.figureLabel {
+  display: block;
+  background-color: #003B59;
+  color: #FFFFFF;
+  padding: .5em;
+  margin: -.5em -.5em .5em -.5em;
+  text-transform: uppercase;
+}
+
+.hw_page figure.tableLS span.figureLabel a:link,
+.hw_page figure.tableLS1 span.figureLabel a:link {
+  color: #FFFFFF;
+}
+
+.hw_page figure.tableLS figcaption p,
+.hw_page figure.tableLS1 figcaption p {
+  background-color: #007099;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: .5em .5em .25em .5em;
+  margin: 1em 0 -.25em 0;
+}
+
+.hw_page figure.tableLS figcaption p a {
+  color: #FFFFFF;
+}
+
+.hw_page figure.tableLS1 figcaption p a {
+  color: #FFFFFF;
+}
+
+.hw_page caption p {
+  background-color: #DCE0E9;
+  color: #000000;
+  font-weight: bold;
+  padding: .5em .5em .25em .5em;
+  margin: 1em 0 -.25em 0;
+}
+
+.hw_page .tableLS thead,
+.hw_page .tableLS1 thead {
+  background-color: #F0F0F0;
+  color: #003B59;
+}
+
+.hw_page .tableLS tbody tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+.hw_page .tableLS1 tbody td {
+  background-color: #F0F0F0;
+}
+
+.hw_page .feature1 .tableLS thead,
+.hw_page .feature1 .tableLS1 thead,
+.hw_page .feature2 .tableLS thead,
+.hw_page .feature2 .tableLS1 thead,
+.hw_page .feature3 .tableLS thead,
+.hw_page .feature3 .tableLS1 thead,
+.hw_page .feature4 .tableLS thead,
+.hw_page .feature4 .tableLS1 thead {
+  background-color: #FFFFFF;
+}
+
+.hw_page .tableLS tbody tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+.hw_page .feature1 .tableLS tbody td,
+.hw_page .feature1 .tableLS1 tbody td,
+.hw_page .feature2 .tableLS tbody td,
+.hw_page .feature2 .tableLS2 tbody td,
+.hw_page .feature3 .tableLS tbody td,
+.hw_page .feature3 .tableLS3 tbody td,
+.hw_page .feature4 .tableLS tbody td,
+.hw_page .feature4 .tableLS4 tbody td {
+  background-color: #FFFFFF;
+}
+
+.hw_page .lineGroup {
+  text-align: left;
+  margin: 1em 0;
+  page-break-inside: avoid;
+}
+
+.hw_page .poetryLineGroup p {
+  margin: 0;
+}
+
+.hw_page .equation,
+.hw_page .informalEquation,
+.hw_page .equationNumbered {
+  display: block;
+  margin: 1.25em 0 0 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  text-align: center;
+}
+
+.hw_page .equationBG {
+  display: block;
+  margin: 1.25em 0 0 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  text-align: center;
+  border-radius: 0px;
+  border: none;
+  background-color: #F1F2F2;
+  padding: 1.25em;
+  width: 95%;
+}
+
+.hw_page .listWhere::before {
+  content: "Where: ";
+  padding-left: 0;
+  margin-left: -1.5em;
+}
+
+.hw_page .equationNumber {
+  float: right;
+}
+
+.hw_page .epigraph,
+.hw_page .extract {
+  display: block;
+  page-break-inside: avoid;
+  margin: .625em 0 .625em 1.25em;
+}
+
+.hw_page .dialogue {
+  display: block;
+  margin-top: .25em;
+  margin-left: 1.25em;
+}
+
+.hw_page .glossaryLetter {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: .625em;
+  text-align: left;
+}
+
+.hw_page dd {
+  margin-bottom: .3125em;
+  margin-left: 1.5em;
+}
+
+.hw_page dfn,
+.hw_page dt {
+  font-weight: bold;
+  font-style: normal;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+}
+
+.hw_page span[epub\:type~="pagebreak"] {
+  color: #B4B4B4;
+  font-size: .7em;
+  text-align: center;
+}
+
+.hw_page nav[epub\:type~="landmarks"] {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page nav[epub\:type~="page-list"] {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page nav {
+  margin: 1em auto;
+}
+
+.hw_page .guideList {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page .index-term-categories {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page .pageList {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page span.hidden {
+  visibility: hidden;
+}
+
+.hw_page .hidden1 {
+  visibility: hidden;
+}
+
+.hw_page .white1 {
+  background-color: #ffffff;
+}
+
+.hw_page .bobBookCover {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  text-indent: 0;
+  margin: 1.25em 0 .3125em 0;
+}
+
+.hw_page h1.ad {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.83em;
+  text-decoration: none;
+  text-align: center;
+  color: #1152bf;
+  text-indent: 0;
+  margin: 0 0 .625em 0;
+}
+
+.hw_page .bobCopy,
+.hw_page .bobEntry {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  text-indent: 0;
+  margin: 0;
+  page-break-inside: avoid;
+}
+
+.hw_page .bobLink {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #0000ff;
+  text-indent: 0;
+  margin: 0;
+}
+
+.hw_page .bobAd {
+  padding: 1.25em;
+}
+
+@media amzn-kf8 {
+  .hw_page converted-body {
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
+  }
+
+  .hw_page converted-body ol {
+    list-style-type: decimal;
+    padding-left: 2em;
+  }
+
+  .hw_page ol ol {
+    list-style-type: lower-alpha;
+  }
+
+  .hw_page ol ol ol {
+    list-style-type: lower-roman;
+  }
+
+  .hw_page ul {
+    list-style-type: disc;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-left: 2em;
+  }
+
+  .hw_page ul ul {
+    list-style-type: none;
+    padding-left: 1.5em;
+  }
+
+  .hw_page ul ul ul {
+    list-style-type: square;
+    padding-left: 1.5em;
+  }
+
+  .hw_page .list {
+    padding: 0;
+  }
+
+  .hw_page converted-body .listPara1 {
+    margin-left: .375em;
+    padding: inherit;
+    text-align: left;
+  }
+
+  .hw_page converted-body .listPara2,
+  .hw_page converted-body .listPara3,
+  .hw_page converted-body .listPara4,
+  .hw_page converted-body .listParaN {
+    margin-left: .25em;
+    padding: inherit;
+    text-align: left;
+  }
+
+  .hw_page .sub {
+    padding: 0 0 0 1.5em;
+  }
+}
+
+@media amzn-mobi {
+  .hw_page converted-body {
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
+  }
+
+  .hw_page div.hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page div.dottedTop hr,
+  .hw_page div.top hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page div.dottedBottom hr,
+  .hw_page div.bottom hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page img {
+    text-indent: 0;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+
+  .hw_page ol {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .hw_page ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: inherit;
+    padding-left: inherit;
+  }
+}
+
+.hw_page .noteEntry {
+  margin-left: 1.25em;
+  text-indent: -1.05em;
+}
+
+.hw_page .noteEntry1 {
+  margin-left: 1.25em;
+  text-indent: -1.25em;
+}
+
+.hw_page .bordernone {
+  border: none;
+}
+
+.hw_page .bdr1 {
+  border-bottom: 1px solid #000;
+}
+
+.hw_page .bdr2 {
+  border-bottom: 3px double black;
+}
+
+.hw_page .grey {
+  color: #71603D;
+  font-weight: bold;
+}
+
+.hw_page .rline {
+  border-right: 1px solid black;
+  padding: 0px 1.5em 0px 1.5em;
+}
+
+.hw_page .latin1 {
+  margin-left: 0.4em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin1>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .latin2 {
+  margin-left: 1.7em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin2>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .latin3 {
+  margin-left: 3.7em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin3>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .italic {
+  font-style: italic;
+}
+
+.hw_page .italic_un {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.hw_page .bold_un {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.hw_page .italic_un_bold {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.hw_page .bold {
+  font-weight: bold;
+}
+
+.hw_page span.superscript {
+  vertical-align: super;
+}
+
+.hw_page span.subscript {
+  vertical-align: sub;
+}
+
+.hw_page span.label {
+  display: block;
+  margin: 0em;
+  padding: 0em;
+  text-indent: 0em;
+  width: 0em;
+  float: left;
+}
+
+.hw_page .paralist,
+.hw_page .paralistd,
+.hw_page .paralist4,
+.hw_page .paralist1,
+.hw_page .paralist1a,
+.hw_page .paralista1,
+.hw_page .paralist1b,
+.hw_page .paralist1c,
+.hw_page .paralist2,
+.hw_page .paralist2a,
+.hw_page .paralist3,
+.hw_page .paralist5,
+.hw_page .paralist5a,
+.hw_page toc,
+.hw_page toc1,
+.hw_page .paralist6,
+.hw_page .paralist7,
+.hw_page .paralist8 {
+  font-size: 1em;
+  text-indent: 0em;
+  text-align: justify;
+  clear: both;
+}
+
+.hw_page .bdrtable td,
+.hw_page th {
+  font-size: inherit;
+  font-weight: inherit;
+  background-color: inherit;
+  border: 1px solid #C0C0C0;
+  display: table-cell;
+  padding: 1em;
+  text-indent: 0;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.hw_page .pink {
+  background-color: inherit;
+  color: #5C4268;
+}
+
+.hw_page .hidden1 {
+  visibility: hidden;
+}
+
+.hw_page .un {
+  border-bottom: 1pt solid black;
+}
+
+.hw_page .un2 {
+  border-bottom: 3px double;
+}
+
+.hw_page span.small {
+  font-size: 75%;
+}
+
+.hw_page ul.none1 li {
+  margin-left: 0em;
+  text-indent: -1.1em;
+  list-style-type: none;
+}
+
+.hw_page .tbc {
+  background-color: #FFFDE9;
+}
+
+.hw_page table.table tbody tr:last-child td {
+  padding-bottom: 8px;
+}
+
+.hw_page .gray22 {
+  color: #547890;
+}
+
+.hw_page .hidden {
+  visibility: hidden;
+}
+
+.hw_page .bgskyblue {
+  background-color: #E2F4FD;
+}
+
+.hw_page .v_bottom {
+  vertical-align: bottom;
+}
+
+.hw_page table .red {
+  background-color: inherit;
+  color: #B11116;
+  font-weight: normal!important;
+}
+
+.hw_page .red1 {
+  background-color: inherit;
+  color: #B22222;
+  font-weight: normal!important;
+}
+
+.hw_page a:link {
+  text-decoration: none;
+}
+</style>
+<section epub:type="appendix" role="doc-appendix" data-index="3">
+<header data-index="4">
+<h1 data-index="5"><a id="start" data-index="6"></a><span epub:type="pagebreak" role="doc-pagebreak" title="A-1" id="Page_A-1" data-index="7"></span> <span class="chapterNumber" data-index="8"><span class="codeColorGreen2" data-index="9">Appendix</span> A</span> <br data-index="10"><span class="chapterTitle" data-index="11"><span class="codeColorGreen2" data-index="12">Private Company Accounting</span></span></h1>
+</header>
+<section id="a01-sec-0002" data-index="13">
+<p data-index="14">The FASB has traditionally taken the position that there should be one set of GAAP. However, due to growing concern about differential costs and benefits of a “one size fits all” reporting package, the FASB has considered providing alternative accounting treatments for private companies in areas that include (1) recognition and measurement, (2) presentation and disclosure, and (3) transition methods for financial accounting standards and effective dates. Since 2012, the FASB has worked with the Private Company Council (PCC) to improve the process of setting accounting standards for private companies.</p>
+</section>
+<br data-index="15"><hr data-index="16">
+<section id="a01-sec-0003" data-index="17">
+<h2 data-index="18"><span class="codeColorBlue2" data-index="19">The Private Company Council (PCC)</span></h2>
+<section id="a01-sec-0004" data-index="20">
+<h3 data-index="21"><span class="red" data-index="22">Background on the PCC</span></h3>
+<p data-index="23">The PCC is comprised of 9–12 members with balanced representation from private company auditing, preparer, and user communities. The PCC has two principal responsibilities:</p>
+<p id="a01-list-0005" class="latin1" data-index="24"><span class="label" data-index="25"><b data-index="26">1.</b>&nbsp;&nbsp;&nbsp;</span>The PCC determines, using the Private Company Decision‐Making Framework (PCC Framework), whether alternatives to existing GAAP are necessary to address the needs of users of private company financial statements.</p>
+<p class="latin1" data-index="27"><span class="label" data-index="28"><b data-index="29">2.</b>&nbsp;&nbsp;&nbsp;</span>The PCC serves as the primary advisory body to the FASB on the appropriate treatment for private companies for items under active consideration on the FASB's technical agenda.<sup data-index="30"><a id="a01-note-0006-1" href="#a01-note-0006" data-index="31" data-section-index="35" data-section-idref="a01-note-0006" data-target-data-index="257">1</a></sup></p>
+<p data-index="32">Following a FASB endorsement process, alternatives for private companies developed by the PCC are incorporated into GAAP.</p>
+</section>
+<section id="a01-sec-0007" data-index="33">
+<h3 data-index="34"><span class="red" data-index="35">Private Company Decision-Making Framework</span></h3>
+<p data-index="36">One of the PCC's first responsibilities was to work with the FASB to develop mutually agreed-on criteria for private company alternatives. The result of that joint effort was the <i data-index="37">Private Company Decision-Making Framework: A Guide for Evaluating Financial Accounting and Reporting for Private Companies</i> (the PCC Framework), issued in December 2013. This guide assists the Board and the PCC in determining whether and in what circumstances to provide alternative recognition, measurement, disclosure, display, effective date, and transition guidance for private companies reporting under GAAP.</p>
+
+<p data-index="38">In making these assessments, the Board and the PCC first should determine whether the alternative recognition or measurement guidance being evaluated provides <b data-index="39">relevant information</b> to users of private company financial statements at a <b data-index="40">reasonable cost</b>. That analysis <span epub:type="pagebreak" role="doc-pagebreak" title="A-2" id="Page_A-2" data-index="41"></span>should focus on (a) the relevance of the information in meeting the objective of financial reporting for typical users of private company financial statements, (b) the characteristics that differentiate users of private company financial statements from users of public company financial statements, and (c) the cost and complexity of applying the guidance.</p>
+
+<p data-index="42">The guide helps the Board and the PCC identify differential information needs of users of public company financial statements and users of private company financial statements, and to identify opportunities to reduce the complexity and costs of preparing financial statements in accordance with GAAP.</p>
+</section>
+<section id="a01-sec-0008" data-index="43">
+<h3 data-index="44"><span class="red" data-index="45">PCC Accomplishments</span></h3>
+<p data-index="46">Since its first meeting in December 2012, the PCC has addressed a number of financial accounting and reporting issues that are important to private company stakeholders as well as the wider financial reporting community. In addition to developing the PCC Framework, the FASB also issued an Accounting Standards Update on the definition of a public business entity. The FASB and the PCC use that definition to identify the types of companies that are excluded from the scope of the PCC Framework. In general, a company is considered a public business entity if is required to file or furnish financial statements to the SEC or to file or furnish financial statements with a regulatory agency (domestic or foreign) other than the SEC in preparation for the sale of or for purposes of issuing securities.</p>
+
+<p data-index="47">The PCC also has become a springboard for efforts to reduce complexity in GAAP for all types of organizations, not just private companies. The FASB has adopted a practice of considering whether any GAAP alternative proposed by the PCC may make sense for public as well as private companies—along with not-for-profit organizations. For example, the FASB issued an Accounting Standards Update to address financial reporting complexity for both public and private development-stage companies.</p>
+
+<p data-index="48">Two issues addressed by the PCC relate to the accounting for intangible assets and the amortization of goodwill.</p>
+</section></section>
+<br data-index="49"><hr data-index="50">
+<section id="a01-sec-0009" data-index="51">
+<h2 data-index="52"><span class="codeColorBlue2" data-index="53">Private Company Alternatives for Intangible Assets and Goodwill</span></h2>
+<section id="a01-sec-0010" data-index="54">
+<h3 data-index="55"><span class="red" data-index="56">Accounting for Identifiable Intangible Assets</span></h3>
+<p data-index="57">In December 2014, the FASB issued an Accounting Standards Update, developed with the PCC, that provides an alternative to exempt private companies from separately recognizing and measuring non-competition agreements and customer-related intangible assets (such as customer relationships) that are not capable of being sold or licensed independently in a business combination.<sup data-index="58"><a id="a01-note-0011-1" href="#a01-note-0011" data-index="59" data-section-index="35" data-section-idref="a01-note-0011" data-target-data-index="261">2</a></sup></p>
+
+<section id="a01-sec-0012" data-index="60">
+<h4 data-index="61"><span class="codeColorBlue2" data-index="62">Additional Background</span></h4>
+<p data-index="63">As discussed in <a href="c12.xhtml" data-index="64" data-section-index="22">Chapter 12</a>, in a business combination the acquirer separately recognizes all intangible assets that are <b data-index="65">identifiable</b>, at their acquisition-date fair values. An intangible asset is identifiable if it meets either of the following criteria:</p>
+
+<p id="a01-list-0013" class="latin1" data-index="66"><span class="label" data-index="67"><b data-index="68">1.</b>&nbsp;&nbsp;&nbsp;</span>It arises from contractual or other legal rights, regardless of whether those rights are transferable or separable from the entity or from other rights and obligations.</p>
+<p class="latin1" data-index="69"><span epub:type="pagebreak" role="doc-pagebreak" title="A-3" id="Page_A-3" data-index="70"></span><span class="label" data-index="71"><b data-index="72">2.</b>&nbsp;&nbsp;&nbsp;</span>It is separable, that is, capable of being separated from the company and sold, transferred, licensed, rented, or exchanged, either individually or together with a related contract, identifiable asset, or liability, regardless of whether the company intends to do so.</p>
+<p data-index="73">For example, in the Tractorling example presented in <a href="c12.xhtml" data-index="74" data-section-index="22">Chapter 12</a>, Multi-Diversified included patents (which meet the identifiable definition) in its calculation of the net identifiable assets.</p>
+
+<p data-index="75">In its reexamination of this accounting for private companies, the PCC found that separate information on certain customer-related intangible assets is not decision-useful because the assets may not be transferable and estimates of their fair values are highly subjective. As a result, the PCC recommended, and the FASB endorsed, an alternative that, if elected, indicates that private company acquirers shall not recognize separately from goodwill the following intangible assets:</p>
+<ul id="a01-list-0014" data-index="76">
+<li data-index="77">Customer-related intangible assets <i data-index="78">unless</i> they are capable of being sold or licensed independently from other assets of a business.</li>
+<li data-index="79">Non-competition agreements.</li>
+</ul>
+<p data-index="80">Examples of customer-related intangible assets include (1) mortgage servicing rights, (2) commodity supply contracts, (3) core deposits, and (4) customer information (for example, names and contact information).</p>
+</section>
+<section id="a01-sec-0015" data-index="81">
+<h4 data-index="82"><span class="codeColorBlue2" data-index="83">Alternative Accounting Example</span></h4>
+<p data-index="84">To illustrate in the context of the Tractorling example in <a href="c12.xhtml" data-index="85" data-section-index="22">Chapter 12</a>, recall that goodwill is recorded only when an entire business is purchased. To record goodwill, a company compares the fair value of the net tangible and <b data-index="86">identifiable intangible assets</b> with the purchase price of the acquired business. The difference is considered goodwill. Goodwill is the residual—the excess of cost over fair value of the identifiable net assets acquired.</p>
+
+<p data-index="87">In its acquisition of Tractorling, Multi-Diversified determined the fair value of net assets to be $350,000, but it was willing to pay $400,000 due to Tractorling's established reputation, good credit rating, top management team, well-trained employees, and so on. These factors make the value of the business greater than $350,000. Multi-Diversified places a premium on the future earning power of these attributes as well as on the basic asset structure of the company today.</p>
+
+<p data-index="88"><b data-index="89">Multi-Diversified labels the difference between the purchase price of $400,000 and the fair value of net assets of $350,000 as goodwill.</b> Goodwill is viewed as one or a group of unidentifiable values (intangible assets), the cost of which “is measured by the difference between the cost of the group of assets or enterprise acquired and the sum of the assigned costs of individual tangible and identifiable intangible assets acquired less liabilities assumed.” This procedure assumes goodwill covers all the values that cannot be specifically identified with any identifiable tangible or intangible asset. <a class="blue" id="a01-fig-0001-1" href="#a01-fig-0001" data-index="90" data-section-index="35" data-section-idref="a01-fig-0001" data-target-data-index="92"><b data-index="91">Illustration A.1</b></a> shows this approach.</p>
+<figure id="a01-fig-0001" data-index="92">
+<img class="center" src="https://ereader-books-prod.chegg.com/682/9781119503682/39c53495-be04-40a4-af01-80a39a7df223/OPS/images/BM/w1007.jpg" alt="An illustration of the Determination of Goodwill using the Master Valuation Approach is presented. On the left is text that reads, The value assigned to goodwill for a purchase price of $400,000, from which multiple arrows point from this amount to the accounts to which this will be assigned. These are Cash, $25,000; Accounts receivable, 35,000; Inventory, 122,000; Property, plant, and equipment, net, 205,000; Patents, 18,000; Liabilities, negative 55,000. These amounts are totaled and displayed as the fair value of net identifiable assets, $350,000. The next line shows: Purchase price, $400,000 which is subtracted from the fair value amount, resulting in the value assigned to goodwill of $50,000 (highlighted in red)." data-index="93" data-size="%7B%22width%22%3A775%2C%22height%22%3A247%7D">
+<figcaption data-index="94"><p data-index="95"><span class="figureLabel" data-index="96"><b data-index="97"><a role="doc-backlink" href="#a01-fig-0001-1" data-index="98" data-section-index="35" data-section-idref="a01-fig-0001-1" data-target-data-index="90"><span style=" background-color: #226C7B; color: #FFFFFF;" data-index="99">ILLUSTRATION A.1</span></a></b> <b data-index="100">Determination of Goodwill—Master Valuation Approach</b></span></p></figcaption>
+</figure>
+<p data-index="101"><span epub:type="pagebreak" role="doc-pagebreak" title="A-4" id="Page_A-4" data-index="102"></span>Multi-Diversified records this transaction as follows.</p>
+<div style=" background-color: #FFFDE5; padding: 0.3em; border: 1px solid #000;" data-index="103">
+<table style=" width: 70%;" data-index="104">
+<tbody data-index="105">
+<tr data-index="106">
+<td data-index="107">Cash</td>
+<td data-index="108"><div class="right" data-index="109">25,000</div></td>
+<td data-index="110"></td>
+</tr>
+<tr data-index="111">
+<td data-index="112">Accounts Receivable</td>
+<td data-index="113"><div class="right" data-index="114">35,000</div></td>
+<td data-index="115"></td>
+</tr>
+<tr data-index="116">
+<td data-index="117">Inventory</td>
+<td data-index="118"><div class="right" data-index="119">122,000</div></td>
+<td data-index="120"></td>
+</tr>
+<tr data-index="121">
+<td data-index="122">Property, Plant, and Equipment</td>
+<td data-index="123"><div class="right" data-index="124">205,000</div></td>
+<td data-index="125"></td>
+</tr>
+<tr data-index="126">
+<td data-index="127">Patents</td>
+<td data-index="128"><div class="right" data-index="129">18,000</div></td>
+<td data-index="130"></td>
+</tr>
+<tr data-index="131">
+<td data-index="132">Goodwill</td>
+<td data-index="133"><div class="right" data-index="134">50,000</div></td>
+<td data-index="135"></td>
+</tr>
+<tr data-index="136">
+<td data-index="137"><span class="hidden" data-index="138">00</span>Liabilities</td>
+<td data-index="139"></td>
+<td data-index="140"><div class="right" data-index="141">55,000</div></td>
+</tr>
+<tr data-index="142">
+<td data-index="143"><span class="hidden" data-index="144">00</span>Cash</td>
+<td data-index="145"></td>
+<td data-index="146"><div class="right" data-index="147">400,000</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p data-index="148">To illustrate the private company alternative, assume that <b data-index="149">instead of patents</b>, Tractorling employees had a non-compete agreement with Tractorling management that would preclude them from working for any competing companies for one year following the acquisition (with an estimated fair value of $18,000) should they leave the company. Such agreements are common in business combinations to ensure a smooth transition period.</p>
+
+<p data-index="150">If Multi-Diversified was a public company, as with the patents, it would recognize this non-compete agreement separately from goodwill on the post-acquisition balance sheet. However, a private company that chooses the alternative accounting would not recognize a separate intangible asset for the non-compete agreement but instead include the $18,000 in the Goodwill balance. That is, rather than the entry recorded above, a private company would make the following entry.</p>
+<div style=" background-color: #FFFDE5; padding: 0.3em; border: 1px solid #000;" data-index="151">
+<table style=" width: 70%;" data-index="152">
+<tbody data-index="153">
+<tr data-index="154">
+<td data-index="155">Cash</td>
+<td data-index="156"><div class="right" data-index="157">25,000</div></td>
+<td data-index="158"></td>
+</tr>
+<tr data-index="159">
+<td data-index="160">Accounts Receivable</td>
+<td data-index="161"><div class="right" data-index="162">35,000</div></td>
+<td data-index="163"></td>
+</tr>
+<tr data-index="164">
+<td data-index="165">Inventory</td>
+<td data-index="166"><div class="right" data-index="167">122,000</div></td>
+<td data-index="168"></td>
+</tr>
+<tr data-index="169">
+<td data-index="170">Property, Plant, and Equipment</td>
+<td data-index="171"><div class="right" data-index="172">205,000</div></td>
+<td data-index="173"></td>
+</tr>
+<tr data-index="174">
+<td data-index="175">Goodwill</td>
+<td data-index="176"><div class="right" data-index="177">68,000</div></td>
+<td data-index="178"></td>
+</tr>
+<tr data-index="179">
+<td data-index="180"><span class="hidden" data-index="181">00</span>Liabilities</td>
+<td data-index="182"></td>
+<td data-index="183"><div class="right" data-index="184">55,000</div></td>
+</tr>
+<tr data-index="185">
+<td data-index="186"><span class="hidden" data-index="187">00</span>Cash</td>
+<td data-index="188"></td>
+<td data-index="189"><div class="right" data-index="190">400,000</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p data-index="191">Note that the Goodwill balance (<span class="mathematics" data-index="192">$50,000 + $18,000</span>) includes the amount attributed to the non-compete agreement. <b data-index="193">Private companies that elect this accounting alternative must also elect the private company alternative to amortize goodwill (discussed in the next section).</b></p>
+</section></section>
+<section id="a01-sec-0016" data-index="194">
+<h3 data-index="195"><span class="red" data-index="196">Accounting for Goodwill</span></h3>
+<p data-index="197">The FASB also issued guidance developed with the PCC that provides an alternative for private companies in the accounting for goodwill.<sup data-index="198"><a id="a01-note-0017-1" href="#a01-note-0017" data-index="199" data-section-index="35" data-section-idref="a01-note-0017" data-target-data-index="266">3</a></sup> Under the alternative, rather than considering goodwill to have an indefinite life, private companies can elect to amortize goodwill on a straight-line basis over a period not to exceed 10 years. In addition, goodwill under this alternative will be tested for impairment when a triggering event occurs and based on a comparison of the carrying value of the goodwill to the fair value of the company or reporting unit.</p>
+
+<section id="a01-sec-0018" data-index="200">
+<h4 data-index="201"><span class="codeColorBlue2" data-index="202">Additional Background</span></h4>
+<p data-index="203">As discussed in <a href="c12.xhtml" data-index="204" data-section-index="22">Chapter 12</a>, companies consider goodwill to have an indefinite life and therefore should not amortize it. Although goodwill may decrease in value over time, predicting the actual life of goodwill and an appropriate pattern of amortization is extremely difficult. In <span epub:type="pagebreak" role="doc-pagebreak" title="A-5" id="Page_A-5" data-index="205"></span>addition, investors find the amortization charge of little use in evaluating financial performance. Furthermore, the investment community wants to know the amount invested in goodwill, which often is the largest intangible asset on a company's balance sheet. Therefore, companies adjust its carrying value only when goodwill is impaired.</p>
+
+<p data-index="206">As part of its research and outreach efforts on intangible assets and goodwill, the PCC obtained feedback from private company stakeholders that the benefits of the current accounting for goodwill after initial recognition do not justify the related costs. Feedback from users of private company financial statements indicated that the current goodwill impairment test provides limited decision-useful information because most users of private company financial statements generally disregard goodwill and goodwill impairment losses in their analysis of a private company's financial condition and operating performance. The PCC also received input from preparers and auditors of private company financial statements indicating concerns about the cost and complexity involved in performing the current goodwill impairment test. Even though the recent introduction of the optional qualitative assessment has provided some cost reduction in testing goodwill for impairment, many of those stakeholders stated that the level of cost reduction has not been significant.</p>
+</section>
+<section id="a01-sec-0019" data-index="207">
+<h4 data-index="208"><span class="codeColorBlue2" data-index="209">Private Company Alternative</span></h4>
+<p data-index="210">In response to this input, the PCC proposed (and the FASB endorsed) an alternative accounting for private companies. Under the alternative, private companies that elect the accounting alternative will:</p>
+<p class="latin1" data-index="211"><span class="label" data-index="212"><b data-index="213">1.</b>&nbsp;&nbsp;&nbsp;</span>Amortize goodwill on a straight-line basis over 10 years, or less than 10 years if a shorter useful life is more appropriate.</p>
+<p class="latin1" data-index="214"><span class="label" data-index="215"><b data-index="216">2.</b>&nbsp;&nbsp;&nbsp;</span>Test goodwill for impairment when a triggering event occurs that indicates that the fair value of a company (or a reporting unit) may be below its carrying amount.</p>
+<p data-index="217">When a triggering event occurs, a company has the option to first assess qualitative factors to determine whether the quantitative impairment test is necessary. If that qualitative assessment indicates that it is more likely than not that goodwill is impaired, the company must perform the quantitative test to compare the company's fair value with its carrying amount, including goodwill (or the fair value of the reporting unit with the carrying amount, including goodwill, of the reporting unit). If the qualitative assessment indicates that it is not more likely than not that goodwill is impaired, further testing is unnecessary. The goodwill impairment loss cannot exceed the company's (or the reporting unit's) carrying amount of goodwill.</p>
+</section>
+<section id="a01-sec-0021" data-index="218">
+<h4 data-index="219"><span class="codeColorBlue2" data-index="220">Alternative Accounting Example</span></h4>
+<p data-index="221">To illustrate the accounting under the private company alternative, refer to our Tractorling example in the prior section, in which Multi-Diversified recorded goodwill of $68,000 (including the value of the non-compete agreement for Tractorling management). Under the private company alternative, using the maximum life of 10 years, Multi-Diversified will amortize goodwill through the following entry each year following the acquisition.</p>
+<table style=" width: 70%;" data-index="222">
+<tbody data-index="223">
+<tr data-index="224">
+<td data-index="225">Amortization Expense (<span class="mathematics" data-index="226">$68,000 ÷ 10</span>)</td>
+<td data-index="227"><div class="right" data-index="228">6,800</div></td>
+<td data-index="229"></td>
+</tr>
+<tr data-index="230">
+<td data-index="231"><span class="hidden" data-index="232">00</span>Goodwill</td>
+<td data-index="233"></td>
+<td data-index="234"><div class="right" data-index="235">6,800</div></td>
+</tr>
+</tbody>
+</table>
+<p data-index="236">Going forward, the recorded goodwill is evaluated for impairment only if there is a triggering event that indicates that the goodwill's fair value may be less than the carrying value. Thus, the alternative accounting is similar to the accounting for limited-life intangible assets.<sup data-index="237"><a id="a01-note-0022-1" href="#a01-note-0022" data-index="238" data-section-index="35" data-section-idref="a01-note-0022" data-target-data-index="271">4</a></sup></p>
+</section></section></section>
+<br data-index="239"><hr data-index="240">
+<section id="a01-sec-0023" data-index="241">
+<h2 data-index="242"><span epub:type="pagebreak" role="doc-pagebreak" title="A-6" id="Page_A-6" data-index="243"></span><span class="blue" data-index="244">Summary</span></h2>
+<p data-index="245">As reflected in the feedback received in the three-year review, the PCC has generally been graded as a success in helping the FASB respond to private company concerns related to unique user needs and the cost and complexity of applying accounting guidance. In developing the private company alternatives for intangible assets and goodwill, the FASB and PCC was guided by the PCC Framework to assess whether the recognition or measurement guidance being evaluated provides relevant information to users of private company financial statements at a reasonable cost. While some users may not find the information resulting from applying these alternatives as relevant, the alternatives provide private companies relief from costs associated with estimating the fair value of some identifiable intangibles and annual goodwill impairment tests. That is, amortization will reduce the likelihood of impairments because private companies generally will test goodwill for impairment less frequently.<sup data-index="246"><a id="a01-note-0024-1" href="#a01-note-0024" data-index="247" data-section-index="35" data-section-idref="a01-note-0024" data-target-data-index="275">5</a></sup></p>
+
+<p data-index="248">While the work of the PCC is at an early stage, a recent survey indicates that 16 percent of approximately 2,900 surveyed private companies have adopted or intend to adopt the goodwill amortization alternatives. The jury is still out on other private company alternatives.<sup data-index="249"><a id="a01-note-0025-1" href="#a01-note-0025" data-index="250" data-section-index="35" data-section-idref="a01-note-0025" data-target-data-index="279">6</a></sup> Although the PCC has not addressed all of the topics it originally identified as priorities, the topics that remain are generally encompassed by the FASB's simplification initiatives, which are aimed at reducing complexity for both public <i data-index="251">and</i> private companies, or as part of its Disclosure Framework project.</p>
+<section class="notesList" data-index="252">
+<h4 data-index="253">Notes</h4>
+<aside class="noteEntry" data-index="254"><p data-index="255"><sup data-index="256"><a href="#a01-note-0006-1" id="a01-note-0006" data-index="257" data-section-index="35" data-section-idref="a01-note-0006-1" data-target-data-index="31">1</a></sup>The Financial Accounting Foundation (FAF) recently completed a three-year review of the PCC. In response to stakeholder input, the FAF trustees made targeted improvements to increase the PCC's effectiveness without significantly changing the PCC's roles and responsibilities. The changes to the PCC operating procedures will increase the PCC's focus on providing the FASB with private company perspectives on the FASB's active agenda projects. As a result, the PCC will operate in a fashion similar to FASB's other advisory groups [Investors Technical Advisory Committee (ITAC), the Not-for-Profit Advisor Committee (NAC), and the Valuation Resource Group (VRG)], which share their views and expertise with the Board on matters related to projects on the Board's agenda, from the perspectives of various constituencies.</p></aside>
+<aside class="noteEntry" data-index="258"><p data-index="259"><sup data-index="260"><a href="#a01-note-0011-1" id="a01-note-0011" data-index="261" data-section-index="35" data-section-idref="a01-note-0011-1" data-target-data-index="59">2</a></sup>Accounting Standards Update No. 2014-18, <i data-index="262">Business Combinations (Topic 805): Accounting for Identifiable Intangible Assets in a Business Combination</i> (a consensus of the Private Company Council).</p></aside>
+<aside class="noteEntry" data-index="263"><p data-index="264"><sup data-index="265"><a href="#a01-note-0017-1" id="a01-note-0017" data-index="266" data-section-index="35" data-section-idref="a01-note-0017-1" data-target-data-index="199">3</a></sup>Accounting Standards Update No. 2014-02, <i data-index="267">Intangibles—Goodwill and Other (Topic 350): Accounting for Goodwill</i> (a consensus of the Private Company Council).</p></aside>
+<aside class="noteEntry" data-index="268"><p data-index="269"><sup data-index="270"><a href="#a01-note-0022-1" id="a01-note-0022" data-index="271" data-section-index="35" data-section-idref="a01-note-0022-1" data-target-data-index="238">4</a></sup>As noted, if a private company makes the election to apply the identifiable intangible asset alternative discussed in the prior section, it must also elect the alternative for goodwill amortization and impairment.</p></aside>
+<aside class="noteEntry" data-index="272"><p data-index="273"><sup data-index="274"><a href="#a01-note-0024-1" id="a01-note-0024" data-index="275" data-section-index="35" data-section-idref="a01-note-0024-1" data-target-data-index="247">5</a></sup>Based in part on its deliberation of this private company issue, the FASB recently added a project to its agenda on the subsequent accounting for goodwill for public business entities and not-for-profit entities. That is, some of the same benefits and reduction in cost and complexity associated with goodwill alternatives for private companies may also be relevant to public companies.</p></aside>
+<aside class="noteEntry" data-index="276"><p data-index="277"><sup data-index="278"><a href="#a01-note-0025-1" id="a01-note-0025" data-index="279" data-section-index="35" data-section-idref="a01-note-0025-1" data-target-data-index="250">6</a></sup>PricewaterhouseCoopers, “Representing Private Companies at the FASB: The Next Phase for the PCC,” <i data-index="280">Point of View</i> (June 2015).</p></aside>
+</section>
+</section>
+</section>
+
+</converted-body>

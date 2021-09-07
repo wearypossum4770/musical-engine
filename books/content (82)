@@ -1,0 +1,2026 @@
+<converted-body epub:type="backmatter" id="a05-body-0001" data-index="1"><style data-index="2">
+/* Concat below: WileyTemplate_v5.5.css */
+html,
+.hw_page converted-body,
+.hw_page div,
+.hw_page span,
+.hw_page applet,
+.hw_page object,
+.hw_page iframe,
+.hw_page h1,
+.hw_page h2,
+.hw_page h3,
+.hw_page h4,
+.hw_page h5,
+.hw_page h6,
+.hw_page p,
+.hw_page blockquote,
+.hw_page pre,
+.hw_page a,
+.hw_page abbr,
+.hw_page acronym,
+.hw_page address,
+.hw_page big,
+.hw_page cite,
+.hw_page code,
+.hw_page del,
+.hw_page dfn,
+.hw_page em,
+.hw_page img,
+.hw_page ins,
+.hw_page kbd,
+.hw_page q,
+.hw_page s,
+.hw_page samp,
+.hw_page strike,
+.hw_page strong,
+.hw_page sub,
+.hw_page sup,
+.hw_page tt,
+.hw_page var,
+.hw_page small,
+.hw_page u,
+.hw_page i,
+.hw_page center,
+.hw_page dl,
+.hw_page dt,
+.hw_page dd,
+.hw_page ol,
+.hw_page ul,
+.hw_page li,
+.hw_page fieldset,
+.hw_page form,
+.hw_page label,
+.hw_page legend,
+.hw_page table,
+.hw_page caption,
+.hw_page tbody,
+.hw_page tfoot,
+.hw_page thead,
+.hw_page tr,
+.hw_page th,
+.hw_page td,
+.hw_page article,
+.hw_page aside,
+.hw_page canvas,
+.hw_page details,
+.hw_page embed,
+.hw_page figure,
+.hw_page figcaption,
+.hw_page footer,
+.hw_page header,
+.hw_page hgroup,
+.hw_page menu,
+.hw_page nav,
+.hw_page output,
+.hw_page ruby,
+.hw_page section,
+.hw_page summary,
+.hw_page time,
+.hw_page mark,
+.hw_page audio,
+.hw_page video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.hw_page article,
+.hw_page aside,
+.hw_page details,
+.hw_page figcaption,
+.hw_page figure,
+.hw_page footer,
+.hw_page header,
+.hw_page hgroup,
+.hw_page menu,
+.hw_page nav,
+.hw_page section {
+  display: block;
+}
+
+.hw_page converted-body {
+  font-family: Georgia, Baskerville, roman, 'times new roman', times, serif;
+  background-color: transparent;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+  text-indent: 0;
+}
+
+.hw_page converted-body.ls {
+  font-family: arial, helvetica, sans-serif;
+}
+
+.hw_page ol,
+.hw_page ul {
+  list-style-type: none;
+}
+
+.hw_page blockquote {
+  quotes: none;
+}
+
+.hw_page q {
+  quotes: "“" "”" "‘" "’";
+}
+
+.hw_page q:before {
+  content: open-quote;
+}
+
+.hw_page q:after {
+  content: close-quote;
+}
+
+.hw_page table {
+  display: table;
+  border-collapse: collapse;
+}
+
+.hw_page table.table {
+  display: table;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.hw_page p {
+  background-color: inherit;
+  margin: .5em 0;
+  line-height: inherit;
+  outline: 0;
+  padding: 0;
+  text-indent: 0;
+}
+
+.hw_page .feature1 p,
+.hw_page .feature2 p,
+.hw_page .feature3 p,
+.hw_page .feature4 p {
+  background-color: inherit;
+  text-align: left;
+}
+
+.hw_page blockquote {
+  margin: .5em 1em .125em 1em;
+  page-break-inside: avoid;
+  quotes: none;
+}
+
+.hw_page converted-body ol {
+  list-style-type: decimal;
+  margin-left: inherit;
+  padding-left: 2em;
+  text-align: left;
+}
+
+.hw_page converted-body blockquote ol,
+.hw_page converted-body blockquote ul,
+.hw_page converted-body .epigraph ol,
+.hw_page converted-body .epigraph ol,
+.hw_page converted-body .extract ol,
+.hw_page converted-body .extract ul {
+  margin-left: 0;
+}
+
+.hw_page ol ol {
+  list-style-type: lower-alpha;
+}
+
+.hw_page ol ol ol {
+  list-style-type: lower-roman;
+}
+
+.hw_page .biblioEntryList {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.hw_page .bibliographyEntry,
+.hw_page .noteEntry {
+  margin-top: .75em;
+  margin-left: 1.25em;
+  text-indent: -1.25em;
+}
+
+.hw_page converted-body ul {
+  list-style-type: disc;
+  margin-left: inherit;
+  padding-left: 2em;
+  text-align: left;
+}
+
+.hw_page li {
+  margin-top: .5em;
+}
+
+.hw_page .list {
+  padding-left: inherit;
+}
+
+.hw_page .sub {
+  padding-left: inherit;
+}
+
+.hw_page converted-body .item1,
+.hw_page converted-body .item2,
+.hw_page converted-body .item3,
+.hw_page converted-body .listPara1,
+.hw_page converted-body .listPara2,
+.hw_page converted-body .listPara3,
+.hw_page converted-body .item4,
+.hw_page converted-body .listPara4,
+.hw_page converted-body .itemN,
+.hw_page converted-body .listParaN {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: inherit;
+  padding: inherit;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .decimal {
+  list-style-type: decimal;
+  margin-left: inherit;
+}
+
+.hw_page .upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+.hw_page .lower-roman {
+  list-style-type: lower-roman;
+}
+
+.hw_page .lower-latin {
+  list-style-type: lower-latin;
+}
+
+.hw_page .upper-latin {
+  list-style-type: upper-latin;
+}
+
+.hw_page .none {
+  list-style-type: none;
+}
+
+.hw_page .decimal-leading-zero {
+  list-style-type: decimal-leading-zero;
+}
+
+.hw_page .lower-greek {
+  list-style-type: lower-greek;
+}
+
+.hw_page .armenian {
+  list-style-type: armenian;
+}
+
+.hw_page .georgian {
+  list-style-type: georgian;
+}
+
+.hw_page .disc {
+  list-style-type: disc;
+}
+
+.hw_page .circle {
+  list-style-type: circle;
+}
+
+.hw_page .square {
+  list-style-type: square;
+}
+
+.hw_page .optionList {
+  margin: 1em 0;
+}
+
+.hw_page .match1 {
+  list-style-type: decimal;
+}
+
+.hw_page .choices ol,
+.hw_page .match2 {
+  list-style-type: lower-alpha;
+}
+
+.hw_page .wol::after {
+  content: "__________";
+}
+
+.hw_page .feature1,
+.hw_page .feature2,
+.hw_page .feature3,
+.hw_page .feature4 {
+  border-radius: 0px;
+  margin: 0.125rem auto;
+  padding: 8px;
+  page-break-inside: avoid;
+  text-align: center;
+  width: 95%;
+}
+
+.hw_page .feature1 {
+  background-color: #E1F4FD;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.hw_page .feature2 {
+  background-color: #EEEEEE;
+  border: 2px solid #AAAAAA;
+}
+
+.hw_page .feature3 {
+  border: 1px solid #000;
+}
+
+.hw_page .feature4 {
+  border: 1px dashed;
+}
+
+.hw_page .feature1.ls,
+.hw_page .feature2.ls,
+.hw_page .feature3.ls,
+.hw_page .feature4.ls {
+  border-radius: 0px;
+  border: none;
+  background-color: #F0F0F0;
+  margin: .5em auto;
+  padding: .4em 1.4em .2em 1.4em;
+  page-break-inside: avoid;
+  text-align: center;
+  width: 95%;
+}
+
+.hw_page section[class="feature1"] h1,
+.hw_page section[class="feature2"] h2,
+.hw_page section[class="feature3"] h3,
+.hw_page section[class="feature4"] h4 {
+  margin: 0;
+  padding: .5em 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page section[class="feature1"] h1 {
+  font-size: 1.5em;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature1 ls"] h1 {
+  color: #226C7B;
+  font-size: 1.1em;
+  margin: 0;
+  text-transform: none;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature2"] h2 {
+  font-size: 1.3em;
+}
+
+.hw_page section[class="feature2 ls"] h2 {
+  color: #B22222;
+  font-size: 1.1em;
+  margin: 0;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature3"] h3 {
+  font-size: 1.1em;
+}
+
+.hw_page section[class="feature3 ls"] h3 {
+  color: #017252;
+  font-size: 1.1em;
+}
+
+.hw_page section[class="feature4"] h4 {
+  font-size: 1em;
+}
+
+.hw_page section[class="feature4 ls"] h4 {
+  color: #776D3D;
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+.hw_page .hr {
+  display: none;
+}
+
+.hw_page .top,
+.hw_page .bottom {
+  display: none;
+}
+
+.hw_page .dottedTop {
+  display: none;
+  font-size: .9em;
+  margin-top: 2.5em;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  page-break-after: avoid;
+  text-align: center;
+  text-decoration: overline;
+}
+
+.hw_page .dottedBottom {
+  font-size: .9em;
+  margin: 0 auto;
+  page-break-before: avoid;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.hw_page pre {
+  font-family: monospace;
+  font-size: inherit;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  margin: 1em 0;
+  padding: 0;
+  text-align: left;
+  text-indent: 0;
+  white-space: pre-wrap;
+}
+
+.hw_page .codeTitle {
+  margin-left: 0;
+}
+
+.hw_page .codeHead {
+  font-size: inherit;
+}
+
+.hw_page .codeNote {
+  border-bottom: thin solid #AAAAAA;
+  border-top: thin solid #AAAAAA;
+  font-size: .9em;
+  margin: .5em 0;
+  padding: .25em 0;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.hw_page a {
+  color: blue;
+  font: inherit;
+}
+
+.hw_page .indexTerm {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.hw_page .normal {
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-family: inherit;
+}
+
+.hw_page b,
+.hw_page strong {
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page cite,
+.hw_page em,
+.hw_page i {
+  font-size: inherit;
+  font-style: italic;
+  font-weight: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page .boldItalic {
+  font-size: inherit;
+  font-weight: bold;
+  font-style: italic;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page sup {
+  font: inherit;
+  font-size: .85em;
+  vertical-align: super;
+}
+
+.hw_page sub {
+  font: inherit;
+  font-size: .85em;
+  vertical-align: sub;
+}
+
+.hw_page s {
+  font: inherit;
+  text-decoration: line-through;
+}
+
+.hw_page u {
+  font: inherit;
+  text-decoration: underline;
+}
+
+.hw_page .copyrightBookTitle,
+.hw_page .runinHead {
+  display: inline;
+  font-weight: bold;
+}
+
+.hw_page code,
+.hw_page .codeHighlight,
+.hw_page .codeLabel,
+.hw_page .codeVariable,
+.hw_page .userinputVariable {
+  font-family: monospace;
+  font-size: inherit;
+}
+
+.hw_page .codeHighlight {
+  background-color: #EEEEEE;
+  text-decoration: underline;
+}
+
+.hw_page .email {
+  font-size: inherit;
+  margin: 0;
+}
+
+.hw_page .genusSpecies,
+.hw_page .glossTerm,
+.hw_page .keyTerm,
+.hw_page .userinput,
+.hw_page .keyTerm.ls2 {
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.hw_page .keyTerm.ls1 {
+  background-color: inherit;
+  color: #007099;
+}
+
+.hw_page var {
+  font-style: italic;
+}
+
+.hw_page .codeVariable,
+.hw_page .userinputVariable {
+  font-style: normal;
+}
+
+.hw_page .left {
+  text-align: left;
+  margin: 0;
+}
+
+.hw_page .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-indent: 0;
+  text-align: center;
+}
+
+.hw_page .right {
+  text-align: right;
+  display: block;
+  margin: 0;
+}
+
+.hw_page .textbreak {
+  margin: .625em auto;
+  text-align: center;
+}
+
+.hw_page .red {
+  background-color: inherit;
+  color: #B11116;
+  font-weight: bold;
+}
+
+.hw_page .blue {
+  background-color: inherit;
+  color: #007787;
+}
+
+.hw_page .green {
+  background-color: inherit;
+  color: #196719;
+}
+
+.hw_page .yellow {
+  background-color: inherit;
+  color: #FFF000;
+}
+
+.hw_page .codeColorBlue {
+  background-color: inherit;
+  color: #0000FF;
+}
+
+.hw_page .codeColorBlue2 {
+  background-color: inherit;
+  color: #005475;
+}
+
+.hw_page .codeColorBlue3 {
+  background-color: inherit;
+  color: #065390;
+}
+
+.hw_page .codeColorBlueGreen {
+  background-color: inherit;
+  color: #2B91AF;
+}
+
+.hw_page .codeColorBrown {
+  background-color: inherit;
+  color: #573733;
+}
+
+.hw_page .codeColorDkBlue {
+  background-color: inherit;
+  color: #000080;
+}
+
+.hw_page .codeColorGreen {
+  background-color: inherit;
+  color: #008A00;
+}
+
+.hw_page .codeColorGreen2 {
+  background-color: inherit;
+  color: #127987;
+}
+
+.hw_page .codeColorGrey30 {
+  background-color: inherit;
+  color: #575757;
+}
+
+.hw_page .codeColorGrey55 {
+  background-color: inherit;
+  color: #767676;
+}
+
+.hw_page .codeColorGrey80 {
+  background-color: inherit;
+  color: #3B3B3B;
+}
+
+.hw_page .codeColorHotPink {
+  background-color: inherit;
+  color: #CC00CC;
+}
+
+.hw_page .codeColorMagenta {
+  background-color: inherit;
+  color: #844646;
+}
+
+.hw_page .codeColorOrange {
+  background-color: inherit;
+  color: #DB3A00;
+}
+
+.hw_page .codeColorPeach {
+  background-color: inherit;
+  color: #C94E36;
+}
+
+.hw_page .codeColorPurple {
+  background-color: inherit;
+  color: #9900CC;
+}
+
+.hw_page .codeColorPurple2 {
+  background-color: inherit;
+  color: #800080;
+}
+
+.hw_page .codeColorRed {
+  background-color: inherit;
+  color: #EB0000;
+}
+
+.hw_page .codeColorRed2 {
+  background-color: inherit;
+  color: #800000;
+}
+
+.hw_page .codeColorRed3 {
+  background-color: inherit;
+  color: #A31515;
+}
+
+.hw_page .codeColorTealBlue {
+  background-color: inherit;
+  color: #008080;
+}
+
+.hw_page .codeColorWhite {
+  background-color: inherit;
+  color: #FFFFFF;
+}
+
+.hw_page .lsColorOrange {
+  background-color: inherit;
+  color: #E15631;
+}
+
+.hw_page .lsColorBlue {
+  background-color: inherit;
+  color: #1C98B0;
+}
+
+.hw_page .lsColorBeige {
+  background-color: inherit;
+  color: #FFF4DE;
+}
+
+.hw_page .lsColorLtGrey {
+  background-color: inherit;
+  color: #E5E5E5;
+}
+
+.hw_page .lsColorParrot {
+  background-color: inherit;
+  color: #80A53F;
+}
+
+.hw_page .lsColorGreen {
+  background-color: inherit;
+  color: #50B14A;
+}
+
+.hw_page .lsColorGrey {
+  background-color: inherit;
+  color: #535456;
+}
+
+.hw_page .lsColorMdGrey {
+  background-color: inherit;
+  color: #78797A;
+}
+
+.hw_page .lsColorBlack {
+  background-color: inherit;
+  color: #221E1F;
+}
+
+.hw_page .lsColor95Black {
+  background-color: inherit;
+  color: #323031;
+}
+
+.hw_page .lsColor100Black {
+  background-color: inherit;
+  color: #231F20;
+}
+
+.hw_page .lsColorRed {
+  background-color: inherit;
+  color: #BE3333;
+}
+
+.hw_page .lsColorPink {
+  background-color: inherit;
+  color: #B51F71;
+}
+
+.hw_page .lsColorPlBlue {
+  background-color: inherit;
+  color: #45739B;
+}
+
+.hw_page .lsColor15PlBlue {
+  background-color: inherit;
+  color: #DCE0E9;
+}
+
+.hw_page .lsColorCream {
+  background-color: inherit;
+  color: #E0DDA3;
+}
+
+.hw_page .lsColor15Parrot {
+  background-color: inherit;
+  color: #ECF2E2;
+}
+
+.hw_page .bookTitle {
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 2.25em 0 .3125em 0;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+.hw_page .bookSubTitle {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1.5em 0 .3125em 0;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+.hw_page .associateBookEditor,
+.hw_page .bookAuthor,
+.hw_page .bookEdition,
+.hw_page .bookEditor,
+.hw_page .bookVolumeNumber,
+.hw_page .colophon,
+.hw_page .forewordAuthor {
+  margin: 1.25em 0 0 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .affiliation,
+.hw_page .authorName,
+.hw_page .titlepage .editorName,
+.hw_page .forewordAuthorName {
+  margin: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .contributorName,
+.hw_page .editorName,
+.hw_page .organizationName {
+  display: inline;
+  font-weight: bold;
+}
+
+.hw_page .publisherImprint,
+.hw_page .publisherCities {
+  font-size: .75em;
+  margin: 1.25em auto;
+  text-align: center;
+  text-indent: 0;
+}
+
+.hw_page .copyright {
+  font-size: .9em;
+  margin: .5em 0 .375em 0;
+}
+
+.hw_page section[class="copyright"] p {
+  text-indent: 0;
+}
+
+.hw_page .credits {
+  text-align: left;
+}
+
+.hw_page .creditsTitle {
+  margin-top: 1.25em;
+  text-align: left;
+}
+
+.hw_page li.contentsAbstract {
+  font-size: .9em;
+  color: black;
+  list-style-type: none;
+  text-align: left;
+  text-decoration: none;
+}
+
+.hw_page .contentsH1 {
+  list-style-type: none;
+  margin-left: 0;
+  text-align: left;
+}
+
+.hw_page .contentsH2 {
+  list-style-type: none;
+  text-align: left;
+}
+
+.hw_page .contentsH3 {
+  list-style-type: none;
+  text-align: left;
+}
+
+.hw_page .tocList ol {
+  list-style: none;
+}
+
+.hw_page .tocList li {
+  list-style: none;
+  margin-top: .3125em;
+}
+
+.hw_page .signatureLine {
+  color: #343434;
+  margin-top: 1.5em;
+  margin-bottom: .75em;
+  margin-left: 1.5em;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .chapterAuthor,
+.hw_page .chapterAuthorAffiliation,
+.hw_page .chapterCredit {
+  color: #343434;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+.hw_page section {
+  margin: 1em auto;
+}
+
+.hw_page .keyConcepts.ls {
+  display: block;
+  background-color: #F0FFFF;
+  page-break-inside: avoid;
+  padding: .5em 1em;
+}
+
+.hw_page .objectives.ls {
+  display: block;
+  background-color: #F0F0F0;
+  page-break-inside: avoid;
+  padding: 0 0 .5em 0;
+}
+
+.hw_page header {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.hw_page h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 1.25em;
+}
+
+.hw_page h1 span {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.hw_page header h1 {
+  margin-top: 0;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.hw_page h1.partNumber,
+.hw_page .partTitle {
+  font-size: 2em;
+  font-weight: inherit;
+  margin-top: 1.25em;
+}
+
+.hw_page h1.ls {
+  background-color: inherit;
+}
+
+.hw_page .title {
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+
+.hw_page h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1em 0 .5em 0;
+}
+
+.hw_page h2.ls {
+  background-color: inherit;
+}
+
+.hw_page h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: .625em 0 .5em 0;
+}
+
+.hw_page h3.ls {
+  background-color: inherit;
+  color: #B22222;
+}
+
+.hw_page h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1.0em .0em 0;
+}
+
+.hw_page h4.ls {
+  background-color: inherit;
+  color: #003B59;
+}
+
+.hw_page section.keyConcepts.ls h4 {
+  background-color: inherit;
+  color: #226C7B;
+  font-weight: bold;
+}
+
+.hw_page section.objectives.ls h4 {
+  background-color: #FFFFFF;
+  color: #B22222;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin: 1em -.5em .5em 0em;
+}
+
+.hw_page h5,
+.hw_page h6 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.hw_page h5.ls {
+  display: inline-block;
+  background-color: inherit;
+  color: #776D3D;
+}
+
+.hw_page h6.ls {
+  display: inline-block;
+  background-color: inherit;
+  color: #547890;
+}
+
+.hw_page .listHead,
+.hw_page .navListHead {
+  font-size: 1.1em;
+  margin: .625em 0 .5em 0;
+}
+
+.hw_page h1,
+.hw_page h2,
+.hw_page h3,
+.hw_page h4,
+.hw_page h5,
+.hw_page h6,
+.hw_page .listHead,
+.hw_page .navListHead {
+  font-family: sans-serif;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: left;
+}
+
+.hw_page figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hw_page figure,
+.hw_page .informalFigure {
+  margin: .625em 0;
+  page-break-inside: avoid;
+  text-align: center;
+  text-indent: 0;
+}
+
+.hw_page img {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0;
+}
+
+.hw_page figure.ls img {
+  margin: .5em auto;
+  max-width: 95%;
+}
+
+.hw_page figcaption {
+  color: #343434;
+  margin: .6875em 0 .125em 0;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: justify;
+  text-indent: 0;
+}
+
+.hw_page figure.ls figcaption {
+  color: #231F20;
+  font-weight: bold;
+  margin: .6875em .5em .5em .5em;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: justify;
+  text-indent: 0;
+}
+
+.hw_page .source {
+  color: inherit;
+  font-size: .9em;
+  margin-top: .25em;
+  margin-left: 0.1em;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page figure.ls p.source {
+  color: inherit;
+  font-size: .9em;
+  margin-top: .25em;
+  margin-left: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page figure.tableLS,
+.hw_page figure.tableLS1 {
+  display: table;
+}
+
+.hw_page figcaption.tableLS {
+  display: table-caption;
+}
+
+.hw_page figure.tableLS1 p.source {
+  color: #FFFFFF;
+  font-size: .9em;
+  margin-top: 0;
+  margin-left: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .figureLabel {
+  color: inherit;
+  font-size: inherit;
+}
+
+.hw_page .ls span.figureLabel a:link {
+  color: #226C7B;
+}
+
+.hw_page .publisherWordMark {
+  display: inline-block;
+  top: 2em;
+  bottom: 1em;
+  clear: both;
+}
+
+.hw_page .marginIcon {
+  margin-bottom: .5em;
+}
+
+.hw_page .pagebreak {
+  page-break-after: always;
+}
+
+.hw_page .floatLeft {
+  float: left;
+  bottom: 1em;
+}
+
+.hw_page .floatRight {
+  float: right;
+  bottom: 1em;
+}
+
+.hw_page table {
+  border-collapse: collapse;
+  margin: 0 auto .5em auto;
+  text-align: center;
+}
+
+.hw_page thead {
+  font-weight: bold;
+  display: table-header-group;
+}
+
+.hw_page td,
+.hw_page th {
+  font-size: inherit;
+  font-weight: inherit;
+  background-color: inherit;
+  border: 0px solid #C0C0C0;
+  display: table-cell;
+  padding: 3px;
+  text-indent: 0;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.hw_page tr {
+  display: table-row;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.hw_page .footerCell {
+  font-size: .9em;
+}
+
+.hw_page .tableLS .footerCell,
+.hw_page .tableLS1 .footerCell {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.hw_page .tableFootnote {
+  font-size: .9em;
+  margin-bottom: .1875em;
+  text-align: left;
+}
+
+.hw_page figure.tableLS table,
+.hw_page figure.tableLS1 table {
+  padding: .5em;
+  margin: 0 0 .5em 0em;
+}
+
+.hw_page figure.tableLS span.figureLabel,
+.hw_page figure.tableLS1 span.figureLabel {
+  display: block;
+  background-color: #003B59;
+  color: #FFFFFF;
+  padding: .5em;
+  margin: -.5em -.5em .5em -.5em;
+  text-transform: uppercase;
+}
+
+.hw_page figure.tableLS span.figureLabel a:link,
+.hw_page figure.tableLS1 span.figureLabel a:link {
+  color: #FFFFFF;
+}
+
+.hw_page figure.tableLS figcaption p,
+.hw_page figure.tableLS1 figcaption p {
+  background-color: #007099;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: .5em .5em .25em .5em;
+  margin: 1em 0 -.25em 0;
+}
+
+.hw_page figure.tableLS figcaption p a {
+  color: #FFFFFF;
+}
+
+.hw_page figure.tableLS1 figcaption p a {
+  color: #FFFFFF;
+}
+
+.hw_page caption p {
+  background-color: #DCE0E9;
+  color: #000000;
+  font-weight: bold;
+  padding: .5em .5em .25em .5em;
+  margin: 1em 0 -.25em 0;
+}
+
+.hw_page .tableLS thead,
+.hw_page .tableLS1 thead {
+  background-color: #F0F0F0;
+  color: #003B59;
+}
+
+.hw_page .tableLS tbody tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+.hw_page .tableLS1 tbody td {
+  background-color: #F0F0F0;
+}
+
+.hw_page .feature1 .tableLS thead,
+.hw_page .feature1 .tableLS1 thead,
+.hw_page .feature2 .tableLS thead,
+.hw_page .feature2 .tableLS1 thead,
+.hw_page .feature3 .tableLS thead,
+.hw_page .feature3 .tableLS1 thead,
+.hw_page .feature4 .tableLS thead,
+.hw_page .feature4 .tableLS1 thead {
+  background-color: #FFFFFF;
+}
+
+.hw_page .tableLS tbody tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+.hw_page .feature1 .tableLS tbody td,
+.hw_page .feature1 .tableLS1 tbody td,
+.hw_page .feature2 .tableLS tbody td,
+.hw_page .feature2 .tableLS2 tbody td,
+.hw_page .feature3 .tableLS tbody td,
+.hw_page .feature3 .tableLS3 tbody td,
+.hw_page .feature4 .tableLS tbody td,
+.hw_page .feature4 .tableLS4 tbody td {
+  background-color: #FFFFFF;
+}
+
+.hw_page .lineGroup {
+  text-align: left;
+  margin: 1em 0;
+  page-break-inside: avoid;
+}
+
+.hw_page .poetryLineGroup p {
+  margin: 0;
+}
+
+.hw_page .equation,
+.hw_page .informalEquation,
+.hw_page .equationNumbered {
+  display: block;
+  margin: 1.25em 0 0 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  text-align: center;
+}
+
+.hw_page .equationBG {
+  display: block;
+  margin: 1.25em 0 0 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  text-align: center;
+  border-radius: 0px;
+  border: none;
+  background-color: #F1F2F2;
+  padding: 1.25em;
+  width: 95%;
+}
+
+.hw_page .listWhere::before {
+  content: "Where: ";
+  padding-left: 0;
+  margin-left: -1.5em;
+}
+
+.hw_page .equationNumber {
+  float: right;
+}
+
+.hw_page .epigraph,
+.hw_page .extract {
+  display: block;
+  page-break-inside: avoid;
+  margin: .625em 0 .625em 1.25em;
+}
+
+.hw_page .dialogue {
+  display: block;
+  margin-top: .25em;
+  margin-left: 1.25em;
+}
+
+.hw_page .glossaryLetter {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: .625em;
+  text-align: left;
+}
+
+.hw_page dd {
+  margin-bottom: .3125em;
+  margin-left: 1.5em;
+}
+
+.hw_page dfn,
+.hw_page dt {
+  font-weight: bold;
+  font-style: normal;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+}
+
+.hw_page span[epub\:type~="pagebreak"] {
+  color: #B4B4B4;
+  font-size: .7em;
+  text-align: center;
+}
+
+.hw_page nav[epub\:type~="landmarks"] {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page nav[epub\:type~="page-list"] {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page nav {
+  margin: 1em auto;
+}
+
+.hw_page .guideList {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page .index-term-categories {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page .pageList {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page span.hidden {
+  visibility: hidden;
+}
+
+.hw_page .hidden1 {
+  visibility: hidden;
+}
+
+.hw_page .white1 {
+  background-color: #ffffff;
+}
+
+.hw_page .bobBookCover {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  text-indent: 0;
+  margin: 1.25em 0 .3125em 0;
+}
+
+.hw_page h1.ad {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.83em;
+  text-decoration: none;
+  text-align: center;
+  color: #1152bf;
+  text-indent: 0;
+  margin: 0 0 .625em 0;
+}
+
+.hw_page .bobCopy,
+.hw_page .bobEntry {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  text-indent: 0;
+  margin: 0;
+  page-break-inside: avoid;
+}
+
+.hw_page .bobLink {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #0000ff;
+  text-indent: 0;
+  margin: 0;
+}
+
+.hw_page .bobAd {
+  padding: 1.25em;
+}
+
+@media amzn-kf8 {
+  .hw_page converted-body {
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
+  }
+
+  .hw_page converted-body ol {
+    list-style-type: decimal;
+    padding-left: 2em;
+  }
+
+  .hw_page ol ol {
+    list-style-type: lower-alpha;
+  }
+
+  .hw_page ol ol ol {
+    list-style-type: lower-roman;
+  }
+
+  .hw_page ul {
+    list-style-type: disc;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-left: 2em;
+  }
+
+  .hw_page ul ul {
+    list-style-type: none;
+    padding-left: 1.5em;
+  }
+
+  .hw_page ul ul ul {
+    list-style-type: square;
+    padding-left: 1.5em;
+  }
+
+  .hw_page .list {
+    padding: 0;
+  }
+
+  .hw_page converted-body .listPara1 {
+    margin-left: .375em;
+    padding: inherit;
+    text-align: left;
+  }
+
+  .hw_page converted-body .listPara2,
+  .hw_page converted-body .listPara3,
+  .hw_page converted-body .listPara4,
+  .hw_page converted-body .listParaN {
+    margin-left: .25em;
+    padding: inherit;
+    text-align: left;
+  }
+
+  .hw_page .sub {
+    padding: 0 0 0 1.5em;
+  }
+}
+
+@media amzn-mobi {
+  .hw_page converted-body {
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
+  }
+
+  .hw_page div.hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page div.dottedTop hr,
+  .hw_page div.top hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page div.dottedBottom hr,
+  .hw_page div.bottom hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page img {
+    text-indent: 0;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+
+  .hw_page ol {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .hw_page ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: inherit;
+    padding-left: inherit;
+  }
+}
+
+.hw_page .noteEntry {
+  margin-left: 1.25em;
+  text-indent: -1.05em;
+}
+
+.hw_page .noteEntry1 {
+  margin-left: 1.25em;
+  text-indent: -1.25em;
+}
+
+.hw_page .bordernone {
+  border: none;
+}
+
+.hw_page .bdr1 {
+  border-bottom: 1px solid #000;
+}
+
+.hw_page .bdr2 {
+  border-bottom: 3px double black;
+}
+
+.hw_page .grey {
+  color: #71603D;
+  font-weight: bold;
+}
+
+.hw_page .rline {
+  border-right: 1px solid black;
+  padding: 0px 1.5em 0px 1.5em;
+}
+
+.hw_page .latin1 {
+  margin-left: 0.4em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin1>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .latin2 {
+  margin-left: 1.7em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin2>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .latin3 {
+  margin-left: 3.7em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin3>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .italic {
+  font-style: italic;
+}
+
+.hw_page .italic_un {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.hw_page .bold_un {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.hw_page .italic_un_bold {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.hw_page .bold {
+  font-weight: bold;
+}
+
+.hw_page span.superscript {
+  vertical-align: super;
+}
+
+.hw_page span.subscript {
+  vertical-align: sub;
+}
+
+.hw_page span.label {
+  display: block;
+  margin: 0em;
+  padding: 0em;
+  text-indent: 0em;
+  width: 0em;
+  float: left;
+}
+
+.hw_page .paralist,
+.hw_page .paralistd,
+.hw_page .paralist4,
+.hw_page .paralist1,
+.hw_page .paralist1a,
+.hw_page .paralista1,
+.hw_page .paralist1b,
+.hw_page .paralist1c,
+.hw_page .paralist2,
+.hw_page .paralist2a,
+.hw_page .paralist3,
+.hw_page .paralist5,
+.hw_page .paralist5a,
+.hw_page toc,
+.hw_page toc1,
+.hw_page .paralist6,
+.hw_page .paralist7,
+.hw_page .paralist8 {
+  font-size: 1em;
+  text-indent: 0em;
+  text-align: justify;
+  clear: both;
+}
+
+.hw_page .bdrtable td,
+.hw_page th {
+  font-size: inherit;
+  font-weight: inherit;
+  background-color: inherit;
+  border: 1px solid #C0C0C0;
+  display: table-cell;
+  padding: 1em;
+  text-indent: 0;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.hw_page .pink {
+  background-color: inherit;
+  color: #5C4268;
+}
+
+.hw_page .hidden1 {
+  visibility: hidden;
+}
+
+.hw_page .un {
+  border-bottom: 1pt solid black;
+}
+
+.hw_page .un2 {
+  border-bottom: 3px double;
+}
+
+.hw_page span.small {
+  font-size: 75%;
+}
+
+.hw_page ul.none1 li {
+  margin-left: 0em;
+  text-indent: -1.1em;
+  list-style-type: none;
+}
+
+.hw_page .tbc {
+  background-color: #FFFDE9;
+}
+
+.hw_page table.table tbody tr:last-child td {
+  padding-bottom: 8px;
+}
+
+.hw_page .gray22 {
+  color: #547890;
+}
+
+.hw_page .hidden {
+  visibility: hidden;
+}
+
+.hw_page .bgskyblue {
+  background-color: #E2F4FD;
+}
+
+.hw_page .v_bottom {
+  vertical-align: bottom;
+}
+
+.hw_page table .red {
+  background-color: inherit;
+  color: #B11116;
+  font-weight: normal!important;
+}
+
+.hw_page .red1 {
+  background-color: inherit;
+  color: #B22222;
+  font-weight: normal!important;
+}
+
+.hw_page a:link {
+  text-decoration: none;
+}
+</style>
+<section epub:type="appendix" role="doc-appendix" data-index="3">
+<header data-index="4">
+<h1 data-index="5"><a id="start" data-index="6"></a><span epub:type="pagebreak" role="doc-pagebreak" title="E-1" id="Page_E-1" data-index="7"></span><span class="chapterNumber" data-index="8"><span class="codeColorGreen2" data-index="9">Appendix</span> E</span> <br data-index="10"><span class="chapterTitle" data-index="11"><span class="codeColorGreen2" data-index="12">Specimen Financial Statements: <span class="red" data-index="13">Marks and Spencer plc</span></span></span></h1>
+</header>
+<section id="a05-sec-0002" data-index="14">
+<p data-index="15"><span class="red" data-index="16">Marks and Spencer (M&amp;S) plc</span> is one of the United Kingdom's leading retailers, with over 1,330 stores worldwide. The company is committed to delivering sustainable, highquality food, clothing, and home products.</p>
+<figure data-index="17">
+<img class="center" src="https://ereader-books-prod.chegg.com/682/9781119503682/39c53495-be04-40a4-af01-80a39a7df223/OPS/images/BM/t0010.jpg" alt="A table titled 'Consolidated Income Statement' shows the data for two time periods: 53 weeks ended 1 April 2017 and 53 weeks ended 2 April 2016. The table has four main columns: the first column displays the particulars, the second column shows the reference to notes, the third and the fourth column show the data for the 2017 and 2016. The sub‐columns for the third and the fourth column are: underlying million pounds, non‐underlying million pounds, and total million pounds. The data in the table is given as follows.
+Revenue at the beginning with reference to notes 2 and 3 shows the amount for 2017 as: Underlying, 10,622, Total, 10,622; and the amount for 2016 as: Underlying, 10,555.4, Total, 10,555.4.
+Operating profit with reference to notes 2,3, and 5 shows the amount for 2017 as: Underlying, 690.6, Non‐underlying, negative 437.4, Total, 23.2; and the amount for 2016 as: Underlying, 784.9, Non‐underlying, negative 200.8, Total, 584.1.
+Items under operating profit are:
+Finance income: Note, 6; 2017: Underlying, 36.2, Total, 36.2; 2016: Underlying, 21.1, Total, 21.1.
+Finance cost: Note, 6; 2017: Underlying, negative 113.0, Total, negative 113.0; 2016: Underlying, 116.4, Total, 116.4.
+Adding the items results in the profit before tax: notes, 4 and 5; 2017: Underlying, 613.8, Non‐underlying, negative 437.4, Total, 176.4; 2016: Underlying, 689.6, Non‐underlying, negative 200.8, Total, 488.8.
+The income tax expense with reference to note 7, the values are given as: 2017: Underlying, negative 122.4, Non‐underlying, 61.7, Total, negative 60.7; 2016: Underlying, negative 118.8, Non‐underlying, 34.4, Total, negative 84.4.
+Therefore, the profit for the year, 2017 is shown as: Underlying, 491.4, Non‐underlying, negative 375.7, Total, 115.7; and for 2016 is shown as: Underlying, 570.8, Non‐underlying, negative 166.4, Total, 404.4.
+The next section titled 'Attributable to:' shows the following items with their amounts:
+Owners of the parent: 2017: Underlying, 492.8, Non‐underlying, negative 375.7, Total, 117.1; 2016: Underlying, 573.3, Non‐underlying, negative 166.4, Total, 409.6.
+Non‐controlling interests: 2017: Underlying, negative 1.4, Total, negative 1.4; 2016: Underlying, negative 2.5, Total, negative 2.5.
+Cumulative total is given as: 2017: Underlying, 491.4, Non‐underlying, negative 375.7, Total, 115.7; 2016: Underlying, 570.8, Non‐underlying, negative 166.4, Total, 404.4.
+The end of the table shows the basic earning per share, with reference to note 8: 2017: Underlying, 30.4 pence, Total, 7.2 pence; 2016: Underlying, 35.0 pence, Total, 24.9 pence. And the diluted earnings per share, with reference to note 8 are: 2017: Underlying, 30.2 pence, Total, 7.2 pence; 2016: Underlying, 34.9 pence, Total, 24.8 pence." data-index="18" data-size="%7B%22width%22%3A659%2C%22height%22%3A800%7D">
+</figure>
+<p data-index="19"><br data-index="20"></p>
+<figure data-index="21">
+<img class="center" src="https://ereader-books-prod.chegg.com/682/9781119503682/39c53495-be04-40a4-af01-80a39a7df223/OPS/images/BM/t0011.jpg" alt="A table titled Consolidated Statement Income Statement shows a table divided into four columns to present the data for the time periods, the statement covers, 53 weeks ended 1 April 2017 and 53 weeks ended 2 April 2016. The amounts are given in million pounds.
+The first section, Profit for the year shows amount 115.7 for 2017 and 404.4 for 2016. The next section, Other comprehensive income shows items that will not be reclassified to profit or loss having two entries as follows:
+Remeasurements of retirement benefit schemes, reference to note 11: negative 68.9; 346.2.
+Tax charge or (credit) on items that will not be reclassified: 25.3; negative 45.6.
+The total items that will not be reclassified to profit or loss is: negative 43.6; 300.6.
+The items that will be reclassified subsequently to profit or loss, with amounts for 1 April 2017 and 2 April 2016 are given as follows:
+Foreign currency translation differences: 31.0; 7.3.
+Cash flow hedges and net investment hedges shows the following items and their amounts:
+fair value movements recognized in other comprehensive income: 56.1, negative 30.1;
+reclassified and reported in profit or loss: negative 72.4, negative 22.1; amount recognized in inventories: negative 20.1, 5.9;
+The Tax credit on cash flow hedges and net investment hedges is 4.1 for 1 April 2017 and 6.5 for 2 April 2016.
+The total of the items that will be reclassified subsequently to profit or loss are: negative 1.3, negative 32.5.
+The next line shows the Other comprehensive (expense) or income for the year, net of tax as: negative 44.9, 268.1.
+Therefore, the total comprehensive income for the year is: 70.8 for 1 April 2017 and 672.5 for 2 April 2016.
+The last lines of the income statement displays that the income is attributable to:
+Owners of the parent: 72.2 for 1 April 2017 and 675.0 for 2 April 2016.
+Non‐controlling interests: negative 1.4 for 1 April 2017 and negative 2.5 for 2 April 2016.
+The total of attributable income is 70.8 for 1 April 2017 and negative 672.5 for 2 April 2016." data-index="22" data-size="%7B%22width%22%3A277%2C%22height%22%3A323%7D">
+</figure>
+<p data-index="23"><br data-index="24"><span epub:type="pagebreak" role="doc-pagebreak" title="E-2" id="Page_E-2" data-index="25"></span></p>
+<figure data-index="26">
+<img class="center" src="https://ereader-books-prod.chegg.com/682/9781119503682/39c53495-be04-40a4-af01-80a39a7df223/OPS/images/BM/t0012.jpg" alt="A table titled Consolidated Statement of Financial Position is divided into four columns, as at 1 April 2017 and 2 April 2016, the amount given in million pounds. There are three sections: Assets, Liabilities, and Equity. There are three columns; the first column shows the particulars and the last two columns show the respective amounts under column headers 1 April 2017 and 2 April 2016.
+The Asset section shows Non‐current Assets listed with entries as follows:
+Intangible assets, reference to note 14: 709.0, 802.8;
+Property, plant and equipment reference to note 15: 4,837.8, 5,027.1;
+Investment property: 15.5, 15.5;
+Investment in joint ventures: 7.0, 6.9;
+Other financial asset, reference to note 16: 3.0, 3.0;
+Retirement benefit asset, reference to note 11: 706.0, 851.0;
+Trade and other receivables, reference to note 17: 234.1, 234.7;
+Derivative financial instruments, reference to note 21: 56.8, 74.0;
+Deferred tax assets, reference to note 23 shows none.
+The total for non‐current assets is 6,569.2 for 1 April 2017 and 7,015.0 for 2 April 2016.
+Under the heading Current Assets, the following entries are listed:
+Inventories: 758.5, 799.9;
+Other financial assets, reference to note 16: 14.5, 19.1;
+Trade and other receivables, reference to note 17: 318.6, 321.1;
+Derivative financial instruments, reference to note 21: 163.1, 72.1;
+Current tax assets: 1.6 for 2 April 2016;
+Cash and cash equivalents, reference to note 18: 468.6, 247.6;
+The total for current assets is: 1,723.3, 1,461.4;
+The total assets are 8,292.5 for 1 April 2017 and 8,476.4 for 2 April 2016.
+The Liabilities section shows Current Liabilities listed as the following entries:
+Trade and other payables, reference to note 19: 1,553.8, 1,617.7;
+Partnership liability to the Marks and Spencer UK Pension Scheme, reference to note 12: 71.9, 71.9;
+Borrowings and other financial liabilities, reference to note 20: 518.0, 297.5;
+Derivative financial instruments, reference to note 21: 10.5, 28.5;
+Provisions, reference to note 22: 147.2, 14.0;
+Current tax liabilities: 66.6, 75.2;
+The total for current liabilities is 1,723.3 for 1 April 2017 and 1,461.4 for 2 April 2016.
+Under the heading Non‐current Liabilities, the following entries are listed:
+Retirement benefit deficit, reference to note 11: 13.2, 26.9;
+Trade and other payables, reference to note 19: 328.5, 353.0;
+Partnership liability to the Marks and Spencer UK Pension Scheme, reference to note 12: 324.6, 383.8;
+Borrowings and other financial liabilities, reference to note 20: 1,711.7, 1,774.7;
+Derivative financial instruments, reference to note 21: 0.8, 0.2;
+Provisions, reference to note 22: 113.5, 52.0;
+Deferred tax liabilities, reference to note 23: 281.8, 337.6;
+The total for non‐current liabilities is 2,774.1 and 2,928.2.
+The total liabilities are 5,142.1 for 1 April 2017 and 5,033.0 for 2 April 2016.
+The next section shows the label, Equity, with the items listed as follows:
+Issued share capital, reference to note 24: 406.2, 405.8;
+Share premium account: 416.4, 411.3;
+Capital redemption reserve: 2,210.5, 2,210.5;
+Hedging reserve: 17.3, 32.3;
+Other reserve: negative 6,542.2, negative 6,542.2;
+Retained earnings: 6,648.1, 6,927.5;
+The total shareholders' equity is: 3,156.3 for 1 April 2017 and 3,445.2 for 2 April 2016.
+And the non‐controlling interests in equity is negative 5.9 and negative 1.8.
+The total equity is 3,150.4 for 2017 and 3,443.4 for 2016. The amounts for 2017 are shaded." data-index="27" data-size="%7B%22width%22%3A294%2C%22height%22%3A325%7D">
+</figure>
+<p data-index="28"><br data-index="29"><span epub:type="pagebreak" role="doc-pagebreak" title="E-3" id="Page_E-3" data-index="30"></span></p>
+<figure data-index="31">
+<img class="center" src="https://ereader-books-prod.chegg.com/682/9781119503682/39c53495-be04-40a4-af01-80a39a7df223/OPS/images/BM/t0013.jpg" alt="A table title Consolidated Statement of Equity for the periods: 53 weeks ended 1 April, 2017 and 2 April, 2016, the units given in million pounds. There are eleven columns; the first column displays the particulars and the respective amounts are shown in the last ten columns under column headings: Ordinary share capital, Share premium account, Capital redemption reserve, Hedging reserve, Other reserve, which reads a note: The ‘Other reserve’ was originally created as part of the capital restructuring that took place in 2002. It represents the difference between the nominal value of the shares issued prior to the capital reduction by the Company (being the carrying value of the investment in Marks and Spencer p l c), Foreign exchange reserve, which reads the note: In the prior year financial statements, the foreign exchange reserve was presented within Retained earnings), Retained earnings, Total, Non‐controlling interest, and the Total.
+The statement begins with balances as at 29 March 2015 displayed as: ordinary share capital, 412.0; share premium account, 392.4; capital redemption reserve, 2,202.6; hedging reserve, 64.3; other reserve, negative 6,542.2; foreign exchange reserve, negative 12.6; retained earnings, 6,683.1; total, 3,199.6; non‐controlling assets, negative 0.8; total, 3,198.8. Profit or (loss) for the year is: retained earnings, 406.9; total, 406.9; non‐controlling assets, negative 2.5; total, 404.4. Other comprehensive (expense) or income shows the following:
+Foreign currency translation: hedging reserve, negative 0.5; foreign exchange reserve, 7.8; total, 7.3; total, 7.3
+Remeasurements of retirement benefit schemes: retained earnings, 346.2; total, 346.2; total, 346.2;
+Tax charge on items that will not be reclassified: retained earnings, negative 45.6; total, negative 45.6; total, negative 45.6;
+For Cash flow hedges and net investment hedges the items are:
+fair value movement recognized in other comprehensive income; hedging reserve, negative 21.8; retained earnings, negative 8.3; total, negative 30.1; total, negative 30.1;
+reclassified and reported in profit or loss, which reads a note: Amounts ‘reclassified and reported in profit or loss’ includes the revaluation of the cross currency swaps, offsetting the revaluation of the US dollar hedged bonds within finance costs: hedging reserve, 22.1; total, negative 22.1; total, 22.1;
+amount recognized in inventories: hedging reserve, 5.9; total, 5.9; total, 5.9;
+Therefore, tax on cash flow hedges and net investment hedges: hedging reserve, 6.5; total, 6.5; total, 6.5.
+The total of Other comprehensive income or (expense) is: hedging reserve, negative 32.0; foreign exchange reserve, 7.8; retained earnings, 292.3; total, 268.1; total, 268.1.
+The Total comprehensive income or (expense) is given as: hedging reserve, negative 32.0; foreign exchange reserve, 7.8; retained earnings, 699.2; total, 675.0; non‐controlling interest, negative 2.5; total, 672.5.
+Transactions with owners shows the following data:
+Dividends: retained earnings, negative 301.7; total, negative 301.7; total, negative 301.7; total, negative 301.7;
+Transactions with non‐controlling shareholders: non‐controlling interest, 1.5; total, 1.5;
+Shares issued on exercise of employee share options: ordinary share capital, 1.7; share premium amount, 18.9; total, 20.6; total, 20.6;
+Purchase of own shares held by employee trusts: retained earnings, negative 10.9; total, negative 10.9; total, negative 10.9;
+Shares purchased in buy back: ordinary share capital, negative 7.9; capital redemption reserve, 7.9; retained earnings, negative 150.7; total, negative 150.7; total, negative 150.7;
+Credit for share‐based payments: retained earnings, 17.2; total, 17.2; total, 17.2;
+Deferred tax on share schemes: retained earnings, negative 3.9; total, negative 3.9; total, negative 3.9;
+The statement as at 2 April 2016 stands at: ordinary share capital, 405.8; share premium account, 411.3; capital redemption reserve, 2,210.5; hedging reserve, 32.3; other reserve, negative 6,542.2; foreign exchange reserve, negative 4.8; retained earnings, 6,932.3; total, 3,445.2; non‐controlling interest negative 1.8; total, 3,443.4
+The balance as at 3 April 2016 is displayed as: ordinary share capital, 405.8; share premium account, 411.3; capital redemption reserve, 2,210.5; hedging reserve, 32.3; other reserve, negative 6,542.2; foreign exchange reserve, negative 4.8; retained earnings, 6,932.3; total, 3,445.2; non‐controlling assets, negative 1.8; total, 3,443.4. Profit or (loss) for the year is: retained earnings, 117.1; total, 117.1; non‐controlling assets, negative 1.4; total, 115.7. Other comprehensive (expense) or income shows the following:
+Foreign currency translation: hedging reserve, negative 4.3; foreign exchange reserve, 35.3; total, 31.0; total, 31.0;
+Remeasurements of retirement benefit schemes: retained earnings, negative 68.9; total, negative 68.9; total, negative 68.9;
+Tax credit on items that will not be reclassified: retained earnings, 25.3; total, 25.3; total, 25.3;
+For Cash flow hedges and net investment hedges the items are:
+Fair value movement recognized in other comprehensive income; hedging reserve, 77.7; retained earnings, negative 21.6; total, 56.1; total, 56.1;
+reclassified and reported in profit or loss (note: Amounts ‘reclassified and reported in profit or loss’ includes the revaluation of the cross currency swaps, offsetting the revaluation of the US dollar hedged bonds within finance costs): hedging reserve, negative 72.4; total, negative 72.4; total, negative 72.4;
+Amount recognized in inventories: hedging reserve, negative 20.1; total, negative 20.1; total, negative 20.1;
+Therefore, tax on cash flow hedges and net investment hedges: hedging reserve, 4.1; total, 4.1; total, 4.1.
+The total of Other comprehensive income or (expense) is: hedging reserve, negative 15.0; foreign exchange reserve, 35.3; retained earnings, negative 65.2; total, negative 44.9; total, negative 44.9.
+The Total comprehensive income or(expense) is given as: hedging reserve, negative 15.0; foreign exchange reserve, 35.3; retained earnings, 51.9; total, 72.2; non‐controlling interest, negative 1.4; total, 70.8.
+Transactions with owners shows the following data:
+Dividends: retained earnings, negative 377.5; total, negative 377.5; total, negative 377.5;
+Transactions with non‐controlling shareholders: non‐controlling interest, negative 2.7; total, negative 2.7;
+Shares issued on exercise of employee share options: ordinary share capital, 0.4; share premium amount, 5.1; total, 5.5; total, 5.5;
+Purchase of own shares held by employee trusts lacks entry of amounts;
+Credit for share‐based payments: retained earnings, 13.5; total, 13.5; total, 13.5;
+Deferred tax on share schemes: retained earnings, negative 2.6; total, negative 2.6; total, negative 2.6;
+The balance as at 1 April 2017 stands at: ordinary share capital, 406.2; share premium account, 416.4; capital redemption reserve, 2,210.5; hedging reserve, 17.3; other reserve, negative 6,542.2; foreign exchange reserve, 30.5; retained earnings, 6,617.6; total, 3,156.3; non‐controlling interest, negative 5.9; total, 3,150.4. The entries of 2016 and balance in 2017 are shaded." data-index="32" data-size="%7B%22width%22%3A294%2C%22height%22%3A323%7D">
+</figure>
+<p data-index="33"><br data-index="34"><span epub:type="pagebreak" role="doc-pagebreak" title="E-4" id="Page_E-4" data-index="35"></span></p>
+<figure data-index="36">
+<img class="center" src="https://ereader-books-prod.chegg.com/682/9781119503682/39c53495-be04-40a4-af01-80a39a7df223/OPS/images/BM/t0014.jpg" alt="An illustration shows a the heading Consolidated Statement of Cash Flows for two periods, 53 weeks ended 1 April 2017, 2 April 2016; and the units: In millions. There are five sections and three columns. The first column shows the particulars for operating, investing, and financial activities and the last two columns show amounts under the heading 2017 and 2016.
+The first section shows Cash flows from Operating Activities with the following entries:
+Cash generated from operations, reference to note 26: 1,165.7, 1,311.3;
+Income tax paid: negative 98.0, negative 99.3.
+Net cash inflow from operating activities is 1,067.7 for 1 April 2017 and 1,212.0 for 2 April 2016.
+The second section shows the cash flows from investing activities with the following entries:
+Proceeds on property disposals: 27.0, 30.6.
+Purchase of property, plant and equipment: negative 309.1, negative 363.3;
+Purchase of intangible assets: negative 101.1, negative 186.8;
+Reduction/(purchase) of current financial assets: 4.6, negative 7.2;
+Interest received: 6.6, 6.8;
+Acquisition of subsidiary: 56.2 for 2 April 2016;
+Net cash used in investing activities is 372.0 for 1 April 2017 and negative 576.1 for 2 April 2016.
+The third section shows the cash flows from financing activities with the following entries:
+Interest paid, includes interest on the partnership liability to the Marks and Spencer UK Pension Scheme: negative 111.2, negative 113.5;
+Cash (outflow) or inflow from borrowings: negative 32.7, 3.1;
+Repayment of syndicated loan notes: negative 215.3, negative 19.9;
+Issuance of medium‐term notes: 300.0 for 1 April 2017;
+Decrease in obligations under finance leases: negative 2.0, negative 2.4;
+Payment of liability to the Marks and Spencer UK Pension Scheme: negative 57.9, negative 56.0;
+Equity dividends paid: negative 377.5, negative 301.7;
+Shares issued on exercise of employee share options: 5.5, 20.6;
+Purchase of own shares by employee trust: negative 10.9 for 2 April 2016;
+Share buy back: negative 150.7;
+Net cash used in financing activities: negative 491.1 for 1 April 2017 and negative 631.4 for 2 April 2016.
+The fourth section shows the net cash inflow from activities:
+Effects of exchange rate changes: 5.6, 3.7;
+Opening net cash is 196.0 for 1 April 2017 and 187.8for 2 April 2016;
+Closing net cash is 27 406.2 for 1 April 2017 and 196.0 for 2 April 2016.
+The Reconciliation of net cash flow to movement in net debt shows the following:
+Opening net debt is negative 2,138.3 for 1 April 2017 and negative 2,223.2 for 2 April 2016;
+Net cash inflow from activities: 204.6, 4.5;
+(Decrease) or increase in current financial assets: negative 4.6, 7.2;
+Decrease in debt financing: 7.9, 75.2;
+Exchange and other non‐cash movements: negative 4.3, negative 2.0;
+Movement in net debt is 203.6 for 1 April 2017 and 84.9 for 2 April 2016.
+The Closing net debt, reference to note 27 is negative 1,934.7 for 1 April 2017 and negative 2,138.3 for 2 April 2016." data-index="37" data-size="%7B%22width%22%3A1031%2C%22height%22%3A1046%7D">
+</figure>
+</section>
+</section>
+
+</converted-body>

@@ -1,0 +1,3096 @@
+<converted-body epub:type="backmatter" id="a02-body-0001" data-index="1"><style data-index="2">
+/* Concat below: WileyTemplate_v5.5.css */
+html,
+.hw_page converted-body,
+.hw_page div,
+.hw_page span,
+.hw_page applet,
+.hw_page object,
+.hw_page iframe,
+.hw_page h1,
+.hw_page h2,
+.hw_page h3,
+.hw_page h4,
+.hw_page h5,
+.hw_page h6,
+.hw_page p,
+.hw_page blockquote,
+.hw_page pre,
+.hw_page a,
+.hw_page abbr,
+.hw_page acronym,
+.hw_page address,
+.hw_page big,
+.hw_page cite,
+.hw_page code,
+.hw_page del,
+.hw_page dfn,
+.hw_page em,
+.hw_page img,
+.hw_page ins,
+.hw_page kbd,
+.hw_page q,
+.hw_page s,
+.hw_page samp,
+.hw_page strike,
+.hw_page strong,
+.hw_page sub,
+.hw_page sup,
+.hw_page tt,
+.hw_page var,
+.hw_page small,
+.hw_page u,
+.hw_page i,
+.hw_page center,
+.hw_page dl,
+.hw_page dt,
+.hw_page dd,
+.hw_page ol,
+.hw_page ul,
+.hw_page li,
+.hw_page fieldset,
+.hw_page form,
+.hw_page label,
+.hw_page legend,
+.hw_page table,
+.hw_page caption,
+.hw_page tbody,
+.hw_page tfoot,
+.hw_page thead,
+.hw_page tr,
+.hw_page th,
+.hw_page td,
+.hw_page article,
+.hw_page aside,
+.hw_page canvas,
+.hw_page details,
+.hw_page embed,
+.hw_page figure,
+.hw_page figcaption,
+.hw_page footer,
+.hw_page header,
+.hw_page hgroup,
+.hw_page menu,
+.hw_page nav,
+.hw_page output,
+.hw_page ruby,
+.hw_page section,
+.hw_page summary,
+.hw_page time,
+.hw_page mark,
+.hw_page audio,
+.hw_page video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.hw_page article,
+.hw_page aside,
+.hw_page details,
+.hw_page figcaption,
+.hw_page figure,
+.hw_page footer,
+.hw_page header,
+.hw_page hgroup,
+.hw_page menu,
+.hw_page nav,
+.hw_page section {
+  display: block;
+}
+
+.hw_page converted-body {
+  font-family: Georgia, Baskerville, roman, 'times new roman', times, serif;
+  background-color: transparent;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+  text-indent: 0;
+}
+
+.hw_page converted-body.ls {
+  font-family: arial, helvetica, sans-serif;
+}
+
+.hw_page ol,
+.hw_page ul {
+  list-style-type: none;
+}
+
+.hw_page blockquote {
+  quotes: none;
+}
+
+.hw_page q {
+  quotes: "“" "”" "‘" "’";
+}
+
+.hw_page q:before {
+  content: open-quote;
+}
+
+.hw_page q:after {
+  content: close-quote;
+}
+
+.hw_page table {
+  display: table;
+  border-collapse: collapse;
+}
+
+.hw_page table.table {
+  display: table;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.hw_page p {
+  background-color: inherit;
+  margin: .5em 0;
+  line-height: inherit;
+  outline: 0;
+  padding: 0;
+  text-indent: 0;
+}
+
+.hw_page .feature1 p,
+.hw_page .feature2 p,
+.hw_page .feature3 p,
+.hw_page .feature4 p {
+  background-color: inherit;
+  text-align: left;
+}
+
+.hw_page blockquote {
+  margin: .5em 1em .125em 1em;
+  page-break-inside: avoid;
+  quotes: none;
+}
+
+.hw_page converted-body ol {
+  list-style-type: decimal;
+  margin-left: inherit;
+  padding-left: 2em;
+  text-align: left;
+}
+
+.hw_page converted-body blockquote ol,
+.hw_page converted-body blockquote ul,
+.hw_page converted-body .epigraph ol,
+.hw_page converted-body .epigraph ol,
+.hw_page converted-body .extract ol,
+.hw_page converted-body .extract ul {
+  margin-left: 0;
+}
+
+.hw_page ol ol {
+  list-style-type: lower-alpha;
+}
+
+.hw_page ol ol ol {
+  list-style-type: lower-roman;
+}
+
+.hw_page .biblioEntryList {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.hw_page .bibliographyEntry,
+.hw_page .noteEntry {
+  margin-top: .75em;
+  margin-left: 1.25em;
+  text-indent: -1.25em;
+}
+
+.hw_page converted-body ul {
+  list-style-type: disc;
+  margin-left: inherit;
+  padding-left: 2em;
+  text-align: left;
+}
+
+.hw_page li {
+  margin-top: .5em;
+}
+
+.hw_page .list {
+  padding-left: inherit;
+}
+
+.hw_page .sub {
+  padding-left: inherit;
+}
+
+.hw_page converted-body .item1,
+.hw_page converted-body .item2,
+.hw_page converted-body .item3,
+.hw_page converted-body .listPara1,
+.hw_page converted-body .listPara2,
+.hw_page converted-body .listPara3,
+.hw_page converted-body .item4,
+.hw_page converted-body .listPara4,
+.hw_page converted-body .itemN,
+.hw_page converted-body .listParaN {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: inherit;
+  padding: inherit;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .decimal {
+  list-style-type: decimal;
+  margin-left: inherit;
+}
+
+.hw_page .upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+.hw_page .lower-roman {
+  list-style-type: lower-roman;
+}
+
+.hw_page .lower-latin {
+  list-style-type: lower-latin;
+}
+
+.hw_page .upper-latin {
+  list-style-type: upper-latin;
+}
+
+.hw_page .none {
+  list-style-type: none;
+}
+
+.hw_page .decimal-leading-zero {
+  list-style-type: decimal-leading-zero;
+}
+
+.hw_page .lower-greek {
+  list-style-type: lower-greek;
+}
+
+.hw_page .armenian {
+  list-style-type: armenian;
+}
+
+.hw_page .georgian {
+  list-style-type: georgian;
+}
+
+.hw_page .disc {
+  list-style-type: disc;
+}
+
+.hw_page .circle {
+  list-style-type: circle;
+}
+
+.hw_page .square {
+  list-style-type: square;
+}
+
+.hw_page .optionList {
+  margin: 1em 0;
+}
+
+.hw_page .match1 {
+  list-style-type: decimal;
+}
+
+.hw_page .choices ol,
+.hw_page .match2 {
+  list-style-type: lower-alpha;
+}
+
+.hw_page .wol::after {
+  content: "__________";
+}
+
+.hw_page .feature1,
+.hw_page .feature2,
+.hw_page .feature3,
+.hw_page .feature4 {
+  border-radius: 0px;
+  margin: 0.125rem auto;
+  padding: 8px;
+  page-break-inside: avoid;
+  text-align: center;
+  width: 95%;
+}
+
+.hw_page .feature1 {
+  background-color: #E1F4FD;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.hw_page .feature2 {
+  background-color: #EEEEEE;
+  border: 2px solid #AAAAAA;
+}
+
+.hw_page .feature3 {
+  border: 1px solid #000;
+}
+
+.hw_page .feature4 {
+  border: 1px dashed;
+}
+
+.hw_page .feature1.ls,
+.hw_page .feature2.ls,
+.hw_page .feature3.ls,
+.hw_page .feature4.ls {
+  border-radius: 0px;
+  border: none;
+  background-color: #F0F0F0;
+  margin: .5em auto;
+  padding: .4em 1.4em .2em 1.4em;
+  page-break-inside: avoid;
+  text-align: center;
+  width: 95%;
+}
+
+.hw_page section[class="feature1"] h1,
+.hw_page section[class="feature2"] h2,
+.hw_page section[class="feature3"] h3,
+.hw_page section[class="feature4"] h4 {
+  margin: 0;
+  padding: .5em 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page section[class="feature1"] h1 {
+  font-size: 1.5em;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature1 ls"] h1 {
+  color: #226C7B;
+  font-size: 1.1em;
+  margin: 0;
+  text-transform: none;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature2"] h2 {
+  font-size: 1.3em;
+}
+
+.hw_page section[class="feature2 ls"] h2 {
+  color: #B22222;
+  font-size: 1.1em;
+  margin: 0;
+  padding: .5em 0 0 0;
+}
+
+.hw_page section[class="feature3"] h3 {
+  font-size: 1.1em;
+}
+
+.hw_page section[class="feature3 ls"] h3 {
+  color: #017252;
+  font-size: 1.1em;
+}
+
+.hw_page section[class="feature4"] h4 {
+  font-size: 1em;
+}
+
+.hw_page section[class="feature4 ls"] h4 {
+  color: #776D3D;
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+.hw_page .hr {
+  display: none;
+}
+
+.hw_page .top,
+.hw_page .bottom {
+  display: none;
+}
+
+.hw_page .dottedTop {
+  display: none;
+  font-size: .9em;
+  margin-top: 2.5em;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  page-break-after: avoid;
+  text-align: center;
+  text-decoration: overline;
+}
+
+.hw_page .dottedBottom {
+  font-size: .9em;
+  margin: 0 auto;
+  page-break-before: avoid;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.hw_page pre {
+  font-family: monospace;
+  font-size: inherit;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  margin: 1em 0;
+  padding: 0;
+  text-align: left;
+  text-indent: 0;
+  white-space: pre-wrap;
+}
+
+.hw_page .codeTitle {
+  margin-left: 0;
+}
+
+.hw_page .codeHead {
+  font-size: inherit;
+}
+
+.hw_page .codeNote {
+  border-bottom: thin solid #AAAAAA;
+  border-top: thin solid #AAAAAA;
+  font-size: .9em;
+  margin: .5em 0;
+  padding: .25em 0;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.hw_page a {
+  color: blue;
+  font: inherit;
+}
+
+.hw_page .indexTerm {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.hw_page .normal {
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-family: inherit;
+}
+
+.hw_page b,
+.hw_page strong {
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page cite,
+.hw_page em,
+.hw_page i {
+  font-size: inherit;
+  font-style: italic;
+  font-weight: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page .boldItalic {
+  font-size: inherit;
+  font-weight: bold;
+  font-style: italic;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.hw_page sup {
+  font: inherit;
+  font-size: .85em;
+  vertical-align: super;
+}
+
+.hw_page sub {
+  font: inherit;
+  font-size: .85em;
+  vertical-align: sub;
+}
+
+.hw_page s {
+  font: inherit;
+  text-decoration: line-through;
+}
+
+.hw_page u {
+  font: inherit;
+  text-decoration: underline;
+}
+
+.hw_page .copyrightBookTitle,
+.hw_page .runinHead {
+  display: inline;
+  font-weight: bold;
+}
+
+.hw_page code,
+.hw_page .codeHighlight,
+.hw_page .codeLabel,
+.hw_page .codeVariable,
+.hw_page .userinputVariable {
+  font-family: monospace;
+  font-size: inherit;
+}
+
+.hw_page .codeHighlight {
+  background-color: #EEEEEE;
+  text-decoration: underline;
+}
+
+.hw_page .email {
+  font-size: inherit;
+  margin: 0;
+}
+
+.hw_page .genusSpecies,
+.hw_page .glossTerm,
+.hw_page .keyTerm,
+.hw_page .userinput,
+.hw_page .keyTerm.ls2 {
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.hw_page .keyTerm.ls1 {
+  background-color: inherit;
+  color: #007099;
+}
+
+.hw_page var {
+  font-style: italic;
+}
+
+.hw_page .codeVariable,
+.hw_page .userinputVariable {
+  font-style: normal;
+}
+
+.hw_page .left {
+  text-align: left;
+  margin: 0;
+}
+
+.hw_page .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-indent: 0;
+  text-align: center;
+}
+
+.hw_page .right {
+  text-align: right;
+  display: block;
+  margin: 0;
+}
+
+.hw_page .textbreak {
+  margin: .625em auto;
+  text-align: center;
+}
+
+.hw_page .red {
+  background-color: inherit;
+  color: #B11116;
+  font-weight: bold;
+}
+
+.hw_page .blue {
+  background-color: inherit;
+  color: #007787;
+}
+
+.hw_page .green {
+  background-color: inherit;
+  color: #196719;
+}
+
+.hw_page .yellow {
+  background-color: inherit;
+  color: #FFF000;
+}
+
+.hw_page .codeColorBlue {
+  background-color: inherit;
+  color: #0000FF;
+}
+
+.hw_page .codeColorBlue2 {
+  background-color: inherit;
+  color: #005475;
+}
+
+.hw_page .codeColorBlue3 {
+  background-color: inherit;
+  color: #065390;
+}
+
+.hw_page .codeColorBlueGreen {
+  background-color: inherit;
+  color: #2B91AF;
+}
+
+.hw_page .codeColorBrown {
+  background-color: inherit;
+  color: #573733;
+}
+
+.hw_page .codeColorDkBlue {
+  background-color: inherit;
+  color: #000080;
+}
+
+.hw_page .codeColorGreen {
+  background-color: inherit;
+  color: #008A00;
+}
+
+.hw_page .codeColorGreen2 {
+  background-color: inherit;
+  color: #127987;
+}
+
+.hw_page .codeColorGrey30 {
+  background-color: inherit;
+  color: #575757;
+}
+
+.hw_page .codeColorGrey55 {
+  background-color: inherit;
+  color: #767676;
+}
+
+.hw_page .codeColorGrey80 {
+  background-color: inherit;
+  color: #3B3B3B;
+}
+
+.hw_page .codeColorHotPink {
+  background-color: inherit;
+  color: #CC00CC;
+}
+
+.hw_page .codeColorMagenta {
+  background-color: inherit;
+  color: #844646;
+}
+
+.hw_page .codeColorOrange {
+  background-color: inherit;
+  color: #DB3A00;
+}
+
+.hw_page .codeColorPeach {
+  background-color: inherit;
+  color: #C94E36;
+}
+
+.hw_page .codeColorPurple {
+  background-color: inherit;
+  color: #9900CC;
+}
+
+.hw_page .codeColorPurple2 {
+  background-color: inherit;
+  color: #800080;
+}
+
+.hw_page .codeColorRed {
+  background-color: inherit;
+  color: #EB0000;
+}
+
+.hw_page .codeColorRed2 {
+  background-color: inherit;
+  color: #800000;
+}
+
+.hw_page .codeColorRed3 {
+  background-color: inherit;
+  color: #A31515;
+}
+
+.hw_page .codeColorTealBlue {
+  background-color: inherit;
+  color: #008080;
+}
+
+.hw_page .codeColorWhite {
+  background-color: inherit;
+  color: #FFFFFF;
+}
+
+.hw_page .lsColorOrange {
+  background-color: inherit;
+  color: #E15631;
+}
+
+.hw_page .lsColorBlue {
+  background-color: inherit;
+  color: #1C98B0;
+}
+
+.hw_page .lsColorBeige {
+  background-color: inherit;
+  color: #FFF4DE;
+}
+
+.hw_page .lsColorLtGrey {
+  background-color: inherit;
+  color: #E5E5E5;
+}
+
+.hw_page .lsColorParrot {
+  background-color: inherit;
+  color: #80A53F;
+}
+
+.hw_page .lsColorGreen {
+  background-color: inherit;
+  color: #50B14A;
+}
+
+.hw_page .lsColorGrey {
+  background-color: inherit;
+  color: #535456;
+}
+
+.hw_page .lsColorMdGrey {
+  background-color: inherit;
+  color: #78797A;
+}
+
+.hw_page .lsColorBlack {
+  background-color: inherit;
+  color: #221E1F;
+}
+
+.hw_page .lsColor95Black {
+  background-color: inherit;
+  color: #323031;
+}
+
+.hw_page .lsColor100Black {
+  background-color: inherit;
+  color: #231F20;
+}
+
+.hw_page .lsColorRed {
+  background-color: inherit;
+  color: #BE3333;
+}
+
+.hw_page .lsColorPink {
+  background-color: inherit;
+  color: #B51F71;
+}
+
+.hw_page .lsColorPlBlue {
+  background-color: inherit;
+  color: #45739B;
+}
+
+.hw_page .lsColor15PlBlue {
+  background-color: inherit;
+  color: #DCE0E9;
+}
+
+.hw_page .lsColorCream {
+  background-color: inherit;
+  color: #E0DDA3;
+}
+
+.hw_page .lsColor15Parrot {
+  background-color: inherit;
+  color: #ECF2E2;
+}
+
+.hw_page .bookTitle {
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 2.25em 0 .3125em 0;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+.hw_page .bookSubTitle {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1.5em 0 .3125em 0;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+.hw_page .associateBookEditor,
+.hw_page .bookAuthor,
+.hw_page .bookEdition,
+.hw_page .bookEditor,
+.hw_page .bookVolumeNumber,
+.hw_page .colophon,
+.hw_page .forewordAuthor {
+  margin: 1.25em 0 0 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .affiliation,
+.hw_page .authorName,
+.hw_page .titlepage .editorName,
+.hw_page .forewordAuthorName {
+  margin: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .contributorName,
+.hw_page .editorName,
+.hw_page .organizationName {
+  display: inline;
+  font-weight: bold;
+}
+
+.hw_page .publisherImprint,
+.hw_page .publisherCities {
+  font-size: .75em;
+  margin: 1.25em auto;
+  text-align: center;
+  text-indent: 0;
+}
+
+.hw_page .copyright {
+  font-size: .9em;
+  margin: .5em 0 .375em 0;
+}
+
+.hw_page section[class="copyright"] p {
+  text-indent: 0;
+}
+
+.hw_page .credits {
+  text-align: left;
+}
+
+.hw_page .creditsTitle {
+  margin-top: 1.25em;
+  text-align: left;
+}
+
+.hw_page li.contentsAbstract {
+  font-size: .9em;
+  color: black;
+  list-style-type: none;
+  text-align: left;
+  text-decoration: none;
+}
+
+.hw_page .contentsH1 {
+  list-style-type: none;
+  margin-left: 0;
+  text-align: left;
+}
+
+.hw_page .contentsH2 {
+  list-style-type: none;
+  text-align: left;
+}
+
+.hw_page .contentsH3 {
+  list-style-type: none;
+  text-align: left;
+}
+
+.hw_page .tocList ol {
+  list-style: none;
+}
+
+.hw_page .tocList li {
+  list-style: none;
+  margin-top: .3125em;
+}
+
+.hw_page .signatureLine {
+  color: #343434;
+  margin-top: 1.5em;
+  margin-bottom: .75em;
+  margin-left: 1.5em;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .chapterAuthor,
+.hw_page .chapterAuthorAffiliation,
+.hw_page .chapterCredit {
+  color: #343434;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+.hw_page section {
+  margin: 1em auto;
+}
+
+.hw_page .keyConcepts.ls {
+  display: block;
+  background-color: #F0FFFF;
+  page-break-inside: avoid;
+  padding: .5em 1em;
+}
+
+.hw_page .objectives.ls {
+  display: block;
+  background-color: #F0F0F0;
+  page-break-inside: avoid;
+  padding: 0 0 .5em 0;
+}
+
+.hw_page header {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.hw_page h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 1.25em;
+}
+
+.hw_page h1 span {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.hw_page header h1 {
+  margin-top: 0;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.hw_page h1.partNumber,
+.hw_page .partTitle {
+  font-size: 2em;
+  font-weight: inherit;
+  margin-top: 1.25em;
+}
+
+.hw_page h1.ls {
+  background-color: inherit;
+}
+
+.hw_page .title {
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+
+.hw_page h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1em 0 .5em 0;
+}
+
+.hw_page h2.ls {
+  background-color: inherit;
+}
+
+.hw_page h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: .625em 0 .5em 0;
+}
+
+.hw_page h3.ls {
+  background-color: inherit;
+  color: #B22222;
+}
+
+.hw_page h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1.0em .0em 0;
+}
+
+.hw_page h4.ls {
+  background-color: inherit;
+  color: #003B59;
+}
+
+.hw_page section.keyConcepts.ls h4 {
+  background-color: inherit;
+  color: #226C7B;
+  font-weight: bold;
+}
+
+.hw_page section.objectives.ls h4 {
+  background-color: #FFFFFF;
+  color: #B22222;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin: 1em -.5em .5em 0em;
+}
+
+.hw_page h5,
+.hw_page h6 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.hw_page h5.ls {
+  display: inline-block;
+  background-color: inherit;
+  color: #776D3D;
+}
+
+.hw_page h6.ls {
+  display: inline-block;
+  background-color: inherit;
+  color: #547890;
+}
+
+.hw_page .listHead,
+.hw_page .navListHead {
+  font-size: 1.1em;
+  margin: .625em 0 .5em 0;
+}
+
+.hw_page h1,
+.hw_page h2,
+.hw_page h3,
+.hw_page h4,
+.hw_page h5,
+.hw_page h6,
+.hw_page .listHead,
+.hw_page .navListHead {
+  font-family: sans-serif;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: left;
+}
+
+.hw_page figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hw_page figure,
+.hw_page .informalFigure {
+  margin: .625em 0;
+  page-break-inside: avoid;
+  text-align: center;
+  text-indent: 0;
+}
+
+.hw_page img {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0;
+}
+
+.hw_page figure.ls img {
+  margin: .5em auto;
+  max-width: 95%;
+}
+
+.hw_page figcaption {
+  color: #343434;
+  margin: .6875em 0 .125em 0;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: justify;
+  text-indent: 0;
+}
+
+.hw_page figure.ls figcaption {
+  color: #231F20;
+  font-weight: bold;
+  margin: .6875em .5em .5em .5em;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: justify;
+  text-indent: 0;
+}
+
+.hw_page .source {
+  color: inherit;
+  font-size: .9em;
+  margin-top: .25em;
+  margin-left: 0.1em;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page figure.ls p.source {
+  color: inherit;
+  font-size: .9em;
+  margin-top: .25em;
+  margin-left: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page figure.tableLS,
+.hw_page figure.tableLS1 {
+  display: table;
+}
+
+.hw_page figcaption.tableLS {
+  display: table-caption;
+}
+
+.hw_page figure.tableLS1 p.source {
+  color: #FFFFFF;
+  font-size: .9em;
+  margin-top: 0;
+  margin-left: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.hw_page .figureLabel {
+  color: inherit;
+  font-size: inherit;
+}
+
+.hw_page .ls span.figureLabel a:link {
+  color: #226C7B;
+}
+
+.hw_page .publisherWordMark {
+  display: inline-block;
+  top: 2em;
+  bottom: 1em;
+  clear: both;
+}
+
+.hw_page .marginIcon {
+  margin-bottom: .5em;
+}
+
+.hw_page .pagebreak {
+  page-break-after: always;
+}
+
+.hw_page .floatLeft {
+  float: left;
+  bottom: 1em;
+}
+
+.hw_page .floatRight {
+  float: right;
+  bottom: 1em;
+}
+
+.hw_page table {
+  border-collapse: collapse;
+  margin: 0 auto .5em auto;
+  text-align: center;
+}
+
+.hw_page thead {
+  font-weight: bold;
+  display: table-header-group;
+}
+
+.hw_page td,
+.hw_page th {
+  font-size: inherit;
+  font-weight: inherit;
+  background-color: inherit;
+  border: 0px solid #C0C0C0;
+  display: table-cell;
+  padding: 3px;
+  text-indent: 0;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.hw_page tr {
+  display: table-row;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.hw_page .footerCell {
+  font-size: .9em;
+}
+
+.hw_page .tableLS .footerCell,
+.hw_page .tableLS1 .footerCell {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.hw_page .tableFootnote {
+  font-size: .9em;
+  margin-bottom: .1875em;
+  text-align: left;
+}
+
+.hw_page figure.tableLS table,
+.hw_page figure.tableLS1 table {
+  padding: .5em;
+  margin: 0 0 .5em 0em;
+}
+
+.hw_page figure.tableLS span.figureLabel,
+.hw_page figure.tableLS1 span.figureLabel {
+  display: block;
+  background-color: #003B59;
+  color: #FFFFFF;
+  padding: .5em;
+  margin: -.5em -.5em .5em -.5em;
+  text-transform: uppercase;
+}
+
+.hw_page figure.tableLS span.figureLabel a:link,
+.hw_page figure.tableLS1 span.figureLabel a:link {
+  color: #FFFFFF;
+}
+
+.hw_page figure.tableLS figcaption p,
+.hw_page figure.tableLS1 figcaption p {
+  background-color: #007099;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: .5em .5em .25em .5em;
+  margin: 1em 0 -.25em 0;
+}
+
+.hw_page figure.tableLS figcaption p a {
+  color: #FFFFFF;
+}
+
+.hw_page figure.tableLS1 figcaption p a {
+  color: #FFFFFF;
+}
+
+.hw_page caption p {
+  background-color: #DCE0E9;
+  color: #000000;
+  font-weight: bold;
+  padding: .5em .5em .25em .5em;
+  margin: 1em 0 -.25em 0;
+}
+
+.hw_page .tableLS thead,
+.hw_page .tableLS1 thead {
+  background-color: #F0F0F0;
+  color: #003B59;
+}
+
+.hw_page .tableLS tbody tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+.hw_page .tableLS1 tbody td {
+  background-color: #F0F0F0;
+}
+
+.hw_page .feature1 .tableLS thead,
+.hw_page .feature1 .tableLS1 thead,
+.hw_page .feature2 .tableLS thead,
+.hw_page .feature2 .tableLS1 thead,
+.hw_page .feature3 .tableLS thead,
+.hw_page .feature3 .tableLS1 thead,
+.hw_page .feature4 .tableLS thead,
+.hw_page .feature4 .tableLS1 thead {
+  background-color: #FFFFFF;
+}
+
+.hw_page .tableLS tbody tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+.hw_page .feature1 .tableLS tbody td,
+.hw_page .feature1 .tableLS1 tbody td,
+.hw_page .feature2 .tableLS tbody td,
+.hw_page .feature2 .tableLS2 tbody td,
+.hw_page .feature3 .tableLS tbody td,
+.hw_page .feature3 .tableLS3 tbody td,
+.hw_page .feature4 .tableLS tbody td,
+.hw_page .feature4 .tableLS4 tbody td {
+  background-color: #FFFFFF;
+}
+
+.hw_page .lineGroup {
+  text-align: left;
+  margin: 1em 0;
+  page-break-inside: avoid;
+}
+
+.hw_page .poetryLineGroup p {
+  margin: 0;
+}
+
+.hw_page .equation,
+.hw_page .informalEquation,
+.hw_page .equationNumbered {
+  display: block;
+  margin: 1.25em 0 0 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  text-align: center;
+}
+
+.hw_page .equationBG {
+  display: block;
+  margin: 1.25em 0 0 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  text-align: center;
+  border-radius: 0px;
+  border: none;
+  background-color: #F1F2F2;
+  padding: 1.25em;
+  width: 95%;
+}
+
+.hw_page .listWhere::before {
+  content: "Where: ";
+  padding-left: 0;
+  margin-left: -1.5em;
+}
+
+.hw_page .equationNumber {
+  float: right;
+}
+
+.hw_page .epigraph,
+.hw_page .extract {
+  display: block;
+  page-break-inside: avoid;
+  margin: .625em 0 .625em 1.25em;
+}
+
+.hw_page .dialogue {
+  display: block;
+  margin-top: .25em;
+  margin-left: 1.25em;
+}
+
+.hw_page .glossaryLetter {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: .625em;
+  text-align: left;
+}
+
+.hw_page dd {
+  margin-bottom: .3125em;
+  margin-left: 1.5em;
+}
+
+.hw_page dfn,
+.hw_page dt {
+  font-weight: bold;
+  font-style: normal;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  adobe-hyphenate: none;
+}
+
+.hw_page span[epub\:type~="pagebreak"] {
+  color: #B4B4B4;
+  font-size: .7em;
+  text-align: center;
+}
+
+.hw_page nav[epub\:type~="landmarks"] {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page nav[epub\:type~="page-list"] {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page nav {
+  margin: 1em auto;
+}
+
+.hw_page .guideList {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page .index-term-categories {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page .pageList {
+  display: none;
+  visibility: hidden;
+}
+
+.hw_page span.hidden {
+  visibility: hidden;
+}
+
+.hw_page .hidden1 {
+  visibility: hidden;
+}
+
+.hw_page .white1 {
+  background-color: #ffffff;
+}
+
+.hw_page .bobBookCover {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  text-indent: 0;
+  margin: 1.25em 0 .3125em 0;
+}
+
+.hw_page h1.ad {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.83em;
+  text-decoration: none;
+  text-align: center;
+  color: #1152bf;
+  text-indent: 0;
+  margin: 0 0 .625em 0;
+}
+
+.hw_page .bobCopy,
+.hw_page .bobEntry {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  text-indent: 0;
+  margin: 0;
+  page-break-inside: avoid;
+}
+
+.hw_page .bobLink {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #0000ff;
+  text-indent: 0;
+  margin: 0;
+}
+
+.hw_page .bobAd {
+  padding: 1.25em;
+}
+
+@media amzn-kf8 {
+  .hw_page converted-body {
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
+  }
+
+  .hw_page converted-body ol {
+    list-style-type: decimal;
+    padding-left: 2em;
+  }
+
+  .hw_page ol ol {
+    list-style-type: lower-alpha;
+  }
+
+  .hw_page ol ol ol {
+    list-style-type: lower-roman;
+  }
+
+  .hw_page ul {
+    list-style-type: disc;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-left: 2em;
+  }
+
+  .hw_page ul ul {
+    list-style-type: none;
+    padding-left: 1.5em;
+  }
+
+  .hw_page ul ul ul {
+    list-style-type: square;
+    padding-left: 1.5em;
+  }
+
+  .hw_page .list {
+    padding: 0;
+  }
+
+  .hw_page converted-body .listPara1 {
+    margin-left: .375em;
+    padding: inherit;
+    text-align: left;
+  }
+
+  .hw_page converted-body .listPara2,
+  .hw_page converted-body .listPara3,
+  .hw_page converted-body .listPara4,
+  .hw_page converted-body .listParaN {
+    margin-left: .25em;
+    padding: inherit;
+    text-align: left;
+  }
+
+  .hw_page .sub {
+    padding: 0 0 0 1.5em;
+  }
+}
+
+@media amzn-mobi {
+  .hw_page converted-body {
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
+  }
+
+  .hw_page div.hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page div.dottedTop hr,
+  .hw_page div.top hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page div.dottedBottom hr,
+  .hw_page div.bottom hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hw_page img {
+    text-indent: 0;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+
+  .hw_page ol {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .hw_page ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: inherit;
+    padding-left: inherit;
+  }
+}
+
+.hw_page .noteEntry {
+  margin-left: 1.25em;
+  text-indent: -1.05em;
+}
+
+.hw_page .noteEntry1 {
+  margin-left: 1.25em;
+  text-indent: -1.25em;
+}
+
+.hw_page .bordernone {
+  border: none;
+}
+
+.hw_page .bdr1 {
+  border-bottom: 1px solid #000;
+}
+
+.hw_page .bdr2 {
+  border-bottom: 3px double black;
+}
+
+.hw_page .grey {
+  color: #71603D;
+  font-weight: bold;
+}
+
+.hw_page .rline {
+  border-right: 1px solid black;
+  padding: 0px 1.5em 0px 1.5em;
+}
+
+.hw_page .latin1 {
+  margin-left: 0.4em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin1>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .latin2 {
+  margin-left: 1.7em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin2>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .latin3 {
+  margin-left: 3.7em;
+  padding-left: 2em;
+  text-align: justify;
+}
+
+.hw_page .latin3>span.label {
+  text-indent: -3.0em;
+  text-align: right;
+}
+
+.hw_page .italic {
+  font-style: italic;
+}
+
+.hw_page .italic_un {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.hw_page .bold_un {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.hw_page .italic_un_bold {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.hw_page .bold {
+  font-weight: bold;
+}
+
+.hw_page span.superscript {
+  vertical-align: super;
+}
+
+.hw_page span.subscript {
+  vertical-align: sub;
+}
+
+.hw_page span.label {
+  display: block;
+  margin: 0em;
+  padding: 0em;
+  text-indent: 0em;
+  width: 0em;
+  float: left;
+}
+
+.hw_page .paralist,
+.hw_page .paralistd,
+.hw_page .paralist4,
+.hw_page .paralist1,
+.hw_page .paralist1a,
+.hw_page .paralista1,
+.hw_page .paralist1b,
+.hw_page .paralist1c,
+.hw_page .paralist2,
+.hw_page .paralist2a,
+.hw_page .paralist3,
+.hw_page .paralist5,
+.hw_page .paralist5a,
+.hw_page toc,
+.hw_page toc1,
+.hw_page .paralist6,
+.hw_page .paralist7,
+.hw_page .paralist8 {
+  font-size: 1em;
+  text-indent: 0em;
+  text-align: justify;
+  clear: both;
+}
+
+.hw_page .bdrtable td,
+.hw_page th {
+  font-size: inherit;
+  font-weight: inherit;
+  background-color: inherit;
+  border: 1px solid #C0C0C0;
+  display: table-cell;
+  padding: 1em;
+  text-indent: 0;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.hw_page .pink {
+  background-color: inherit;
+  color: #5C4268;
+}
+
+.hw_page .hidden1 {
+  visibility: hidden;
+}
+
+.hw_page .un {
+  border-bottom: 1pt solid black;
+}
+
+.hw_page .un2 {
+  border-bottom: 3px double;
+}
+
+.hw_page span.small {
+  font-size: 75%;
+}
+
+.hw_page ul.none1 li {
+  margin-left: 0em;
+  text-indent: -1.1em;
+  list-style-type: none;
+}
+
+.hw_page .tbc {
+  background-color: #FFFDE9;
+}
+
+.hw_page table.table tbody tr:last-child td {
+  padding-bottom: 8px;
+}
+
+.hw_page .gray22 {
+  color: #547890;
+}
+
+.hw_page .hidden {
+  visibility: hidden;
+}
+
+.hw_page .bgskyblue {
+  background-color: #E2F4FD;
+}
+
+.hw_page .v_bottom {
+  vertical-align: bottom;
+}
+
+.hw_page table .red {
+  background-color: inherit;
+  color: #B11116;
+  font-weight: normal!important;
+}
+
+.hw_page .red1 {
+  background-color: inherit;
+  color: #B22222;
+  font-weight: normal!important;
+}
+
+.hw_page a:link {
+  text-decoration: none;
+}
+</style>
+<section epub:type="appendix" role="doc-appendix" data-index="3">
+<header data-index="4">
+<h1 data-index="5"><a id="start" data-index="6"></a><span epub:type="pagebreak" role="doc-pagebreak" title="B-1" id="Page_B-1" data-index="7"></span><span class="chapterNumber" data-index="8"><span class="codeColorGreen2" data-index="9">Appendix</span> B</span> <br data-index="10"><span class="chapterTitle" data-index="11"><span class="codeColorGreen2" data-index="12">Specimen Financial Statements: <span class="red" data-index="13">The Procter &amp; Gamble Company</span></span></span></h1>
+</header>
+<section id="a02-sec-0002" data-index="14">
+<p data-index="15">Once each year, a corporation communicates to its stockholders and other interested parties by issuing a complete set of audited financial statements. The <b data-index="16">annual report</b>, as this communication is called, summarizes the financial results of the company's operations for the year and its plans for the future. Many annual reports are attractive, multicolored, glossy public relations pieces, containing pictures of corporate officers and directors as well as photos and descriptions of new products and new buildings. Yet the basic function of every annual report is to report financial information, almost all of which is a product of the corporation's accounting system.</p>
+<p data-index="17">The content and organization of corporate annual reports have become fairly standardized. Excluding the public relations part of the report (pictures, products, etc.), the following are the traditional financial portions of the annual report:</p>
+<ul id="a02-list-0003" data-index="18">
+<li data-index="19">Financial Highlights</li>
+<li data-index="20">Letter to the Stockholders</li>
+<li data-index="21">Management's Discussion and Analysis</li>
+<li data-index="22">Financial Statements</li>
+<li data-index="23">Notes to the Financial Statements</li>
+<li data-index="24">Management's Responsibility for Financial Reporting</li>
+<li data-index="25">Management's Report on Internal Control over Financial Reporting</li>
+<li data-index="26">Report of Independent Registered Public Accounting Firm</li>
+<li data-index="27">Selected Financial Data</li>
+</ul>
+<p data-index="28">The official SEC filing of the annual report is called a <b data-index="29">Form 10-K</b>, which often omits the public relations pieces found in most standard annual reports. On the following pages, we present <span class="red" data-index="30">The Procter &amp; Gamble Company (P&amp;G)</span>’s financial statements taken from the company's 2017 Form 10-K.</p>
+
+<p data-index="31"><span epub:type="pagebreak" role="doc-pagebreak" title="B-2" id="Page_B-2" data-index="32"></span><b data-index="33">Consolidated Statements of Earnings</b></p>
+<table style=" width: 100%;" data-index="34">
+<thead data-index="35">
+<tr data-index="36">
+<td style=" vertical-align: bottom;" data-index="37"><span class="bdr1" data-index="38">Amounts in millions except per share amounts; Years ended June 30</span></td>
+<td style=" vertical-align: bottom;" data-index="39"><div class="right bdr1" data-index="40">2017<span class="hidden" data-index="41">000</span></div></td>
+<td style=" vertical-align: bottom;" data-index="42"><div class="right bdr1" data-index="43">2016<span class="hidden" data-index="44">000</span></div></td>
+<td style=" vertical-align: bottom;" data-index="45"><div class="right bdr1" data-index="46">2015<span class="hidden" data-index="47">000</span></div></td>
+</tr>
+</thead>
+<tbody data-index="48">
+<tr style=" background-color: #F0FFFF;" data-index="49">
+<td data-index="50"><b data-index="51">NET SALES</b></td>
+<td data-index="52"><div class="right" data-index="53"><b data-index="54">$<span class="hidden" data-index="55">0</span>65,058</b><span class="hidden" data-index="56">)</span></div></td>
+<td data-index="57"><div class="right" data-index="58">$<span class="hidden" data-index="59">0</span>65,299</div></td>
+<td data-index="60"><div class="right" data-index="61">$<span class="hidden" data-index="62">0</span>70,749<span class="hidden" data-index="63">)</span></div></td>
+</tr>
+<tr data-index="64">
+<td data-index="65"><span class="hidden" data-index="66">00</span>Cost of products sold</td>
+<td data-index="67"><div class="right" data-index="68"><b data-index="69">32,535</b><span class="hidden" data-index="70">)</span></div></td>
+<td data-index="71"><div class="right" data-index="72">32,909</div></td>
+<td data-index="73"><div class="right" data-index="74">37,056<span class="hidden" data-index="75">)</span></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="76">
+<td data-index="77"><span class="hidden" data-index="78">00</span>Selling, general and administrative expense</td>
+<td data-index="79"><div class="right" data-index="80"><b data-index="81">18,568</b><span class="hidden" data-index="82">)</span></div></td>
+<td data-index="83"><div class="right" data-index="84">18,949</div></td>
+<td data-index="85"><div class="right" data-index="86">20,616<span class="hidden" data-index="87">)</span></div></td>
+</tr>
+<tr data-index="88">
+<td data-index="89"><span class="hidden" data-index="90">00</span>Venezuela deconsolidation charge</td>
+<td data-index="91"><div class="right bdr1" data-index="92"><b data-index="93">—</b><span class="hidden" data-index="94">)</span></div></td>
+<td data-index="95"><div class="right bdr1" data-index="96">—</div></td>
+<td data-index="97"><div class="right bdr1" data-index="98">2,028<span class="hidden" data-index="99">)</span></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="100">
+<td data-index="101"><b data-index="102">OPERATING INCOME</b></td>
+<td data-index="103"><div class="right bdr1" data-index="104"><b data-index="105">13,955</b><span class="hidden" data-index="106">)</span></div></td>
+<td data-index="107"><div class="right bdr1" data-index="108">13,441</div></td>
+<td data-index="109"><div class="right bdr1" data-index="110">11,049<span class="hidden" data-index="111">)</span></div></td>
+</tr>
+<tr data-index="112">
+<td data-index="113"><span class="hidden" data-index="114">00</span>Interest expense</td>
+<td data-index="115"><div class="right" data-index="116"><div class="right" data-index="117"><b data-index="118">465</b><span class="hidden" data-index="119">0</span></div></div></td>
+<td data-index="120"><div class="right" data-index="121"><div class="right" data-index="122">579</div></div></td>
+<td data-index="123"><div class="right" data-index="124"><div class="right" data-index="125">626<span class="hidden" data-index="126">0</span></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="127">
+<td data-index="128"><span class="hidden" data-index="129">00</span>Interest income</td>
+<td data-index="130"><div class="right" data-index="131"><div class="right" data-index="132"><b data-index="133">171</b><span class="hidden" data-index="134">0</span></div></div></td>
+<td data-index="135"><div class="right" data-index="136"><div class="right" data-index="137">182</div></div></td>
+<td data-index="138"><div class="right" data-index="139"><div class="right" data-index="140">149<span class="hidden" data-index="141">0</span></div></div></td>
+</tr>
+<tr data-index="142">
+<td data-index="143"><span class="hidden" data-index="144">00</span>Other non-operating income/(expense), net</td>
+<td data-index="145"><div class="right bdr1" data-index="146"><b data-index="147">(404)</b></div></td>
+<td data-index="148"><div class="right bdr1" data-index="149">325</div></td>
+<td data-index="150"><div class="right bdr1" data-index="151">440<span class="hidden" data-index="152">)</span></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="153">
+<td data-index="154"><b data-index="155">EARNINGS FROM CONTINUING OPERATIONS BEFORE INCOME TAXES</b></td>
+<td data-index="156"><div class="right bdr1" data-index="157"><b data-index="158">13,257</b><span class="hidden" data-index="159">)</span></div></td>
+<td data-index="160"><div class="right bdr1" data-index="161">13,369</div></td>
+<td data-index="162"><div class="right bdr1" data-index="163">11,012<span class="hidden" data-index="164">)</span></div></td>
+</tr>
+<tr data-index="165">
+<td data-index="166"><span class="hidden" data-index="167">00</span>Income taxes on continuing operations</td>
+<td data-index="168"><div class="right bdr1" data-index="169"><b data-index="170">3,063</b><span class="hidden" data-index="171">)</span></div></td>
+<td data-index="172"><div class="right bdr1" data-index="173">3,342</div></td>
+<td data-index="174"><div class="right bdr1" data-index="175">2,725<span class="hidden" data-index="176">)</span></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="177">
+<td data-index="178"><b data-index="179">NET EARNINGS FROM CONTINUING OPERATIONS</b></td>
+<td data-index="180"><div class="right bdr1" data-index="181"><b data-index="182">10,194</b><span class="hidden" data-index="183">)</span></div></td>
+<td data-index="184"><div class="right bdr1" data-index="185">10,027</div></td>
+<td data-index="186"><div class="right bdr1" data-index="187">8,287<span class="hidden" data-index="188">)</span></div></td>
+</tr>
+<tr data-index="189">
+<td data-index="190"><b data-index="191">NET EARNINGS/(LOSS) FROM DISCONTINUED OPERATIONS</b></td>
+<td data-index="192"><div class="right bdr1" data-index="193"><b data-index="194">5,217</b><span class="hidden" data-index="195">)</span></div></td>
+<td data-index="196"><div class="right bdr1" data-index="197">577</div></td>
+<td data-index="198"><div class="right bdr1" data-index="199">(1,143)</div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="200">
+<td data-index="201"><b data-index="202">NET EARNINGS</b></td>
+<td data-index="203"><div class="right bdr1" data-index="204"><b data-index="205">15,411</b><span class="hidden" data-index="206">)</span></div></td>
+<td data-index="207"><div class="right bdr1" data-index="208">10,604</div></td>
+<td data-index="209"><div class="right bdr1" data-index="210">7,144<span class="hidden" data-index="211">)</span></div></td>
+</tr>
+<tr data-index="212">
+<td data-index="213"><span class="hidden" data-index="214">00</span>Less: Net earnings attributable to noncontrolling interests</td>
+<td data-index="215"><div class="right bdr1" data-index="216"><b data-index="217">85</b><span class="hidden" data-index="218">)</span></div></td>
+<td data-index="219"><div class="right bdr1" data-index="220">96</div></td>
+<td data-index="221"><div class="right bdr1" data-index="222">108<span class="hidden" data-index="223">)</span></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="224">
+<td data-index="225"><b data-index="226">NET EARNINGS ATTRIBUTABLE TO PROCTER &amp; GAMBLE</b></td>
+<td data-index="227"><div class="right bdr2" data-index="228"><b data-index="229">$<span class="hidden" data-index="230">0</span>15,326</b><span class="hidden" data-index="231">)</span></div></td>
+<td data-index="232"><div class="right bdr2" data-index="233">$<span class="hidden" data-index="234">0</span>10,508</div></td>
+<td data-index="235"><div class="right bdr2" data-index="236">$<span class="hidden" data-index="237">0</span><span class="hidden" data-index="238">0</span>7,036<span class="hidden" data-index="239">)</span></div></td>
+</tr>
+<tr data-index="240">
+<td data-index="241"><b data-index="242">BASIC NET EARNINGS PER COMMON SHARE:</b><a id="a02-note-0004-1" href="#a02-note-0004" data-index="243" data-section-index="36" data-section-idref="a02-note-0004" data-target-data-index="397"><sup data-index="244">(1)</sup></a></td>
+<td data-index="245"></td><td data-index="246"></td><td data-index="247"></td></tr>
+<tr style=" background-color: #F0FFFF;" data-index="248">
+<td data-index="249"><span class="hidden" data-index="250">00</span>Earnings from continuing operations</td>
+<td data-index="251"><div class="right" data-index="252"><div class="right" data-index="253"><b data-index="254">$<span class="hidden" data-index="255">0</span><span class="hidden" data-index="256">0</span><span class="hidden" data-index="257">0</span>3.79</b><span class="hidden" data-index="258">0</span></div></div></td>
+<td data-index="259"><div class="right" data-index="260"><div class="right" data-index="261">$<span class="hidden" data-index="262">0</span><span class="hidden" data-index="263">0</span><span class="hidden" data-index="264">0</span>3.59</div></div></td>
+<td data-index="265"><div class="right" data-index="266"><div class="right" data-index="267">$<span class="hidden" data-index="268">0</span><span class="hidden" data-index="269">0</span><span class="hidden" data-index="270">0</span>2.92<span class="hidden" data-index="271">0</span></div></div></td>
+</tr>
+<tr data-index="272">
+<td data-index="273"><span class="hidden" data-index="274">00</span>Earnings/(loss) from discontinued operations</td>
+<td data-index="275"><div class="right bdr1" data-index="276"><b data-index="277">2.01</b><span class="hidden" data-index="278">)</span></div></td>
+<td data-index="279"><div class="right bdr1" data-index="280">0.21</div></td>
+<td data-index="281"><div class="right bdr1" data-index="282">(0.42)</div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="283">
+<td data-index="284"><b data-index="285">BASIC NET EARNINGS PER COMMON SHARE</b></td>
+<td data-index="286"><div class="right bdr2" data-index="287"><b data-index="288">$<span class="hidden" data-index="289">0</span><span class="hidden" data-index="290">0</span><span class="hidden" data-index="291">0</span>5.80</b><span class="hidden" data-index="292">)</span></div></td>
+<td data-index="293"><div class="right bdr2" data-index="294">$<span class="hidden" data-index="295">0</span><span class="hidden" data-index="296">0</span><span class="hidden" data-index="297">0</span>3.80</div></td>
+<td data-index="298"><div class="right bdr2" data-index="299">$<span class="hidden" data-index="300">0</span><span class="hidden" data-index="301">0</span><span class="hidden" data-index="302">0</span>2.50<span class="hidden" data-index="303">)</span></div></td>
+</tr>
+<tr data-index="304">
+<td data-index="305"><b data-index="306">DILUTED NET EARNINGS PER COMMON SHARE:</b><sup data-index="307"><a href="#a02-note-0004-1" data-index="308" data-section-index="36" data-section-idref="a02-note-0004-1" data-target-data-index="243">(1)</a></sup></td>
+<td data-index="309"></td><td data-index="310"></td><td data-index="311"></td></tr>
+<tr style=" background-color: #F0FFFF;" data-index="312">
+<td data-index="313"><span class="hidden" data-index="314">00</span>Earnings from continuing operations</td>
+<td data-index="315"><div class="right" data-index="316"><div class="right" data-index="317"><div class="right" data-index="318"><b data-index="319">$<span class="hidden" data-index="320">0</span><span class="hidden" data-index="321">0</span><span class="hidden" data-index="322">0</span>3.69</b><span class="hidden" data-index="323">0</span></div></div></div></td>
+<td data-index="324"><div class="right" data-index="325"><div class="right" data-index="326"><div class="right" data-index="327">$<span class="hidden" data-index="328">0</span><span class="hidden" data-index="329">0</span><span class="hidden" data-index="330">0</span>3.49</div></div></div></td>
+<td data-index="331"><div class="right" data-index="332"><div class="right" data-index="333"><div class="right" data-index="334">$<span class="hidden" data-index="335">0</span><span class="hidden" data-index="336">0</span><span class="hidden" data-index="337">0</span>2.84<span class="hidden" data-index="338">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="339">
+<td data-index="340"><span class="hidden" data-index="341">00</span>Earnings/(loss) from discontinued operations</td>
+<td data-index="342"><div class="right" data-index="343"><div class="right bdr1" data-index="344"><b data-index="345">1.90</b><span class="hidden" data-index="346">)</span></div></div></td>
+<td data-index="347"><div class="right" data-index="348"><div class="right bdr1" data-index="349">0.20</div></div></td>
+<td data-index="350"><div class="right" data-index="351"><div class="right bdr1" data-index="352">(0.40)</div></div></td>
+</tr>
+<tr data-index="353">
+<td data-index="354"><b data-index="355">DILUTED NET EARNINGS PER COMMON SHARE</b></td>
+<td data-index="356"><div class="right bdr2" data-index="357"><b data-index="358">$<span class="hidden" data-index="359">0</span><span class="hidden" data-index="360">0</span><span class="hidden" data-index="361">0</span>5.59</b><span class="hidden" data-index="362">)</span></div></td>
+<td data-index="363"><div class="right bdr2" data-index="364">$<span class="hidden" data-index="365">0</span><span class="hidden" data-index="366">0</span><span class="hidden" data-index="367">0</span>3.69</div></td>
+<td data-index="368"><div class="right bdr2" data-index="369">$<span class="hidden" data-index="370">0</span><span class="hidden" data-index="371">0</span><span class="hidden" data-index="372">0</span>2.44<span class="hidden" data-index="373">)</span></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="374">
+<td data-index="375"><b data-index="376">DIVIDENDS PER COMMON SHARE</b></td>
+<td data-index="377"><div class="right bdr2" data-index="378"><b data-index="379">$<span class="hidden" data-index="380">0</span><span class="hidden" data-index="381">0</span><span class="hidden" data-index="382">0</span>2.70</b><span class="hidden" data-index="383">)</span></div></td>
+<td data-index="384"><div class="right bdr2" data-index="385">$<span class="hidden" data-index="386">0</span><span class="hidden" data-index="387">0</span><span class="hidden" data-index="388">0</span>2.66</div></td>
+<td data-index="389"><div class="right bdr2" data-index="390">$<span class="hidden" data-index="391">0</span><span class="hidden" data-index="392">0</span><span class="hidden" data-index="393">0</span>2.59<span class="hidden" data-index="394">)</span></div></td>
+</tr>
+</tbody>
+</table>
+<p class="tableFootnote" data-index="395"><sup data-index="396"><a id="a02-note-0004" href="#a02-note-0004-1" data-index="397" data-section-index="36" data-section-idref="a02-note-0004-1" data-target-data-index="243">(1)</a></sup> Basic net earnings per common share and Diluted net earnings per common share are calculated on Net earnings attributable to Procter &amp; Gamble.</p>
+<p data-index="398"><br data-index="399"></p>
+<p data-index="400"><b data-index="401">Consolidated Statements of Comprehensive Income</b></p>
+<table style=" width: 100%;" data-index="402">
+<thead data-index="403">
+<tr data-index="404">
+<td style=" vertical-align: bottom;" data-index="405"><span class="bdr1" data-index="406">Amounts in millions; Years ended June 30</span></td>
+<td style=" vertical-align: bottom;" data-index="407"><div class="right bdr1" data-index="408">2017<span class="hidden" data-index="409">000</span></div></td>
+<td style=" vertical-align: bottom;" data-index="410"><div class="right bdr1" data-index="411">2016<span class="hidden" data-index="412">000</span></div></td>
+<td style=" vertical-align: bottom;" data-index="413"><div class="right bdr1" data-index="414">2015<span class="hidden" data-index="415">000</span></div></td>
+</tr>
+</thead>
+<tbody data-index="416">
+<tr style=" background-color: #F0FFFF;" data-index="417">
+<td data-index="418"><b data-index="419">NET EARNINGS</b></td>
+<td data-index="420"><div class="right" data-index="421"><div class="right bdr1" data-index="422"><b data-index="423">$<span class="hidden" data-index="424">0</span>15,411</b><span class="hidden" data-index="425">)</span></div></div></td>
+<td data-index="426"><div class="right" data-index="427"><div class="right bdr1" data-index="428">$<span class="hidden" data-index="429">0</span>10,604<span class="hidden" data-index="430">)</span></div></div></td>
+<td data-index="431"><div class="right" data-index="432"><div class="right bdr1" data-index="433">$<span class="hidden" data-index="434">0</span>7,144<span class="hidden" data-index="435">)</span></div></div></td>
+</tr>
+<tr data-index="436">
+<td data-index="437"><b data-index="438">OTHER COMPREHENSIVE INCOME/(LOSS), NET OF TAX</b></td>
+<td data-index="439"></td><td data-index="440"></td><td data-index="441"></td></tr>
+<tr style=" background-color: #F0FFFF;" data-index="442">
+<td data-index="443"><span class="hidden" data-index="444">00</span>Financial statement translation</td>
+<td data-index="445"><div class="right" data-index="446"><div class="right" data-index="447"><div class="right" data-index="448"><b data-index="449">239</b><span class="hidden" data-index="450">0</span></div></div></div></td>
+<td data-index="451"><div class="right" data-index="452"><div class="right" data-index="453"><div class="right" data-index="454">(1,679)</div></div></div></td>
+<td data-index="455"><div class="right" data-index="456"><div class="right" data-index="457"><div class="right" data-index="458">(7,220)</div></div></div></td>
+</tr>
+<tr data-index="459">
+<td data-index="460"><span class="hidden" data-index="461">00</span>Unrealized gains/(losses) on hedges (net of $(186), $5 and $739 tax, respectively)</td>
+<td data-index="462"><div class="right" data-index="463"><div class="right" data-index="464"><div class="right" data-index="465"><b data-index="466">(306)</b></div></div></div></td>
+<td data-index="467"><div class="right" data-index="468"><div class="right" data-index="469"><div class="right" data-index="470">1<span class="hidden" data-index="471">0</span></div></div></div></td>
+<td data-index="472"><div class="right" data-index="473"><div class="right" data-index="474"><div class="right" data-index="475">1,234<span class="hidden" data-index="476">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="477">
+<td data-index="478"><span class="hidden" data-index="479">00</span>Unrealized gains/(losses) on investment securities (net of $(6), $7 and $0 tax, respectively)</td>
+<td data-index="480"><div class="right" data-index="481"><div class="right" data-index="482"><div class="right" data-index="483"><b data-index="484">(59)</b></div></div></div></td>
+<td data-index="485"><div class="right" data-index="486"><div class="right" data-index="487"><div class="right" data-index="488">28<span class="hidden" data-index="489">0</span></div></div></div></td>
+<td data-index="490"><div class="right" data-index="491"><div class="right" data-index="492"><div class="right" data-index="493">24<span class="hidden" data-index="494">0</span></div></div></div></td>
+</tr>
+<tr data-index="495">
+<td data-index="496"><span class="hidden" data-index="497">00</span>Unrealized gains/(losses) on defined benefit retirement plans (net of $551, $(621) and $328 tax, respectively)</td>
+<td data-index="498"><div class="right" data-index="499"><div class="right bdr1" data-index="500"><b data-index="501">1,401</b><span class="hidden" data-index="502">)</span></div></div></td>
+<td data-index="503"><div class="right" data-index="504"><div class="right bdr1" data-index="505">(1,477)</div></div></td>
+<td data-index="506"><div class="right" data-index="507"><div class="right bdr1" data-index="508">844<span class="hidden" data-index="509">)</span></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="510">
+<td data-index="511"><b data-index="512">TOTAL OTHER COMPREHENSIVE INCOME/(LOSS), NET OF TAX</b></td>
+<td data-index="513"><div class="right" data-index="514"><div class="right bdr1" data-index="515"><b data-index="516">1,275</b><span class="hidden" data-index="517">)</span></div></div></td>
+<td data-index="518"><div class="right" data-index="519"><div class="right bdr1" data-index="520">(3,127)</div></div></td>
+<td data-index="521"><div class="right" data-index="522"><div class="right bdr1" data-index="523">(5,118)</div></div></td>
+</tr>
+<tr data-index="524">
+<td data-index="525"><b data-index="526">TOTAL COMPREHENSIVE INCOME</b></td>
+<td data-index="527"><div class="right" data-index="528"><div class="right bdr1" data-index="529"><b data-index="530">16,686</b><span class="hidden" data-index="531">)</span></div></div></td>
+<td data-index="532"><div class="right" data-index="533"><div class="right bdr1" data-index="534">7,477<span class="hidden" data-index="535">)</span></div></div></td>
+<td data-index="536"><div class="right" data-index="537"><div class="right bdr1" data-index="538">2,026<span class="hidden" data-index="539">)</span></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="540">
+<td data-index="541"><span class="hidden" data-index="542">00</span>Less: Total comprehensive income attributable to noncontrolling interests</td>
+<td data-index="543"><div class="right" data-index="544"><div class="right bdr1" data-index="545"><b data-index="546">85</b><span class="hidden" data-index="547">)</span></div></div></td>
+<td data-index="548"><div class="right" data-index="549"><div class="right bdr1" data-index="550">96<span class="hidden" data-index="551">)</span></div></div></td>
+<td data-index="552"><div class="right" data-index="553"><div class="right bdr1" data-index="554">108<span class="hidden" data-index="555">)</span></div></div></td>
+</tr>
+<tr data-index="556">
+<td data-index="557"><b data-index="558">TOTAL COMPREHENSIVE INCOME ATTRIBUTABLE TO PROCTER &amp; GAMBLE</b></td>
+<td data-index="559"><div class="right bdr2" data-index="560"><b data-index="561">$<span class="hidden" data-index="562">0</span>16,601</b><span class="hidden" data-index="563">)</span></div></td>
+<td data-index="564"><div class="right bdr2" data-index="565">$<span class="hidden" data-index="566">0</span><span class="hidden" data-index="567">0</span>7,381<span class="hidden" data-index="568">)</span></div></td>
+<td data-index="569"><div class="right bdr2" data-index="570">$<span class="hidden" data-index="571">0</span>1,918<span class="hidden" data-index="572">)</span></div></td>
+</tr>
+</tbody>
+</table>
+<p data-index="573"><br data-index="574"></p>
+
+<p data-index="575"><span epub:type="pagebreak" role="doc-pagebreak" title="B-3" id="Page_B-3" data-index="576"></span><b data-index="577">Consolidated Balance Sheets</b></p>
+<table style=" width: 100%;" data-index="578">
+<thead data-index="579">
+<tr data-index="580">
+<td style=" vertical-align: bottom;" data-index="581"><span class="bdr1" data-index="582">Amounts in millions; As of June 30</span></td>
+<td style=" vertical-align: bottom;" data-index="583"><div class="right bdr1" data-index="584">2017<span class="hidden" data-index="585">000</span></div></td>
+<td style=" vertical-align: bottom;" data-index="586"><div class="right bdr1" data-index="587">2016<span class="hidden" data-index="588">000</span></div></td>
+</tr>
+</thead>
+<tbody data-index="589">
+<tr style=" background-color: #F0FFFF;" data-index="590">
+<td data-index="591"><b data-index="592"><span class="bdr1" data-index="593">Assets</span></b></td>
+<td data-index="594"></td><td data-index="595"></td></tr>
+<tr data-index="596">
+<td data-index="597"><b data-index="598">CURRENT ASSETS</b></td>
+<td data-index="599"></td><td data-index="600"></td></tr>
+<tr style=" background-color: #F0FFFF;" data-index="601">
+<td data-index="602"><span class="hidden" data-index="603">00</span>Cash and cash equivalents</td>
+<td data-index="604"><div class="right" data-index="605"><div class="right" data-index="606"><div class="right" data-index="607"><b data-index="608">$<span class="hidden" data-index="609">0</span><span class="hidden" data-index="610">0</span><span class="hidden" data-index="611">0</span>5,569</b><span class="hidden" data-index="612">0</span></div></div></div></td>
+<td data-index="613"><div class="right" data-index="614"><div class="right" data-index="615"><div class="right" data-index="616">$<span class="hidden" data-index="617">0</span><span class="hidden" data-index="618">0</span><span class="hidden" data-index="619">0</span>7,102<span class="hidden" data-index="620">0</span></div></div></div></td>
+</tr>
+<tr data-index="621">
+<td data-index="622"><span class="hidden" data-index="623">00</span>Available-for-sale investment securities</td>
+<td data-index="624"><div class="right" data-index="625"><div class="right" data-index="626"><div class="right" data-index="627"><b data-index="628">9,568</b><span class="hidden" data-index="629">0</span></div></div></div></td>
+<td data-index="630"><div class="right" data-index="631"><div class="right" data-index="632"><div class="right" data-index="633">6,246<span class="hidden" data-index="634">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="635">
+<td data-index="636"><span class="hidden" data-index="637">00</span>Accounts receivable</td>
+<td data-index="638"><div class="right" data-index="639"><div class="right" data-index="640"><div class="right" data-index="641"><b data-index="642">4,594</b><span class="hidden" data-index="643">0</span></div></div></div></td>
+<td data-index="644"><div class="right" data-index="645"><div class="right" data-index="646"><div class="right" data-index="647">4,373<span class="hidden" data-index="648">0</span></div></div></div></td>
+</tr>
+<tr data-index="649">
+<td data-index="650"> <b data-index="651">INVENTORIES</b></td>
+<td data-index="652"></td><td data-index="653"></td></tr>
+<tr style=" background-color: #F0FFFF;" data-index="654">
+<td data-index="655">  Materials and supplies</td>
+<td data-index="656"><div class="right" data-index="657"><div class="right" data-index="658"><div class="right" data-index="659"><b data-index="660">1,308</b><span class="hidden" data-index="661">0</span></div></div></div></td>
+<td data-index="662"><div class="right" data-index="663"><div class="right" data-index="664"><div class="right" data-index="665">1,188<span class="hidden" data-index="666">0</span></div></div></div></td>
+</tr>
+<tr data-index="667">
+<td data-index="668">  Work in process</td>
+<td data-index="669"><div class="right" data-index="670"><div class="right" data-index="671"><div class="right" data-index="672"><b data-index="673">529</b><span class="hidden" data-index="674">0</span></div></div></div></td>
+<td data-index="675"><div class="right" data-index="676"><div class="right" data-index="677"><div class="right" data-index="678">563<span class="hidden" data-index="679">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="680">
+<td data-index="681">  Finished goods</td>
+<td data-index="682"><div class="right" data-index="683"><div class="right bdr1" data-index="684"><b data-index="685">2,787</b><span class="hidden" data-index="686">)</span></div></div></td>
+<td data-index="687"><div class="right" data-index="688"><div class="right bdr1" data-index="689">2,965<span class="hidden" data-index="690">)</span></div></div></td>
+</tr>
+<tr data-index="691">
+<td data-index="692"><span class="hidden" data-index="693">00</span>Total inventoreis</td>
+<td data-index="694"><div class="right" data-index="695"><div class="right" data-index="696"><div class="right" data-index="697"><b data-index="698">4,624</b><span class="hidden" data-index="699">0</span></div></div></div></td>
+<td data-index="700"><div class="right" data-index="701"><div class="right" data-index="702"><div class="right" data-index="703">4,716<span class="hidden" data-index="704">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="705">
+<td data-index="706"><span class="hidden" data-index="707">00</span>Deferred income taxes</td>
+<td data-index="708"><div class="right" data-index="709"><div class="right" data-index="710"><div class="right" data-index="711"><b data-index="712">—</b><span class="hidden" data-index="713">0</span></div></div></div></td>
+<td data-index="714"><div class="right" data-index="715"><div class="right" data-index="716"><div class="right" data-index="717">1,507<span class="hidden" data-index="718">0</span></div></div></div></td>
+</tr>
+<tr data-index="719">
+<td data-index="720"><span class="hidden" data-index="721">00</span>Prepaid expenses and other current assets</td>
+<td data-index="722"><div class="right" data-index="723"><div class="right" data-index="724"><div class="right" data-index="725"><b data-index="726">2,139</b><span class="hidden" data-index="727">0</span></div></div></div></td>
+<td data-index="728"><div class="right" data-index="729"><div class="right" data-index="730"><div class="right" data-index="731">2,653<span class="hidden" data-index="732">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="733">
+<td data-index="734"><span class="hidden" data-index="735">00</span>Current assets held for sale</td>
+<td data-index="736"><div class="right" data-index="737"><div class="right bdr1" data-index="738"><b data-index="739">—</b><span class="hidden" data-index="740">)</span></div></div></td>
+<td data-index="741"><div class="right" data-index="742"><div class="right bdr1" data-index="743">7,185<span class="hidden" data-index="744">)</span></div></div></td>
+</tr>
+<tr data-index="745">
+<td data-index="746"><b data-index="747">TOTAL CURRENT ASSETS</b></td>
+<td data-index="748"><div class="right" data-index="749"><div class="right bdr1" data-index="750"><b data-index="751">26,494</b><span class="hidden" data-index="752">)</span></div></div></td>
+<td data-index="753"><div class="right" data-index="754"><div class="right bdr1" data-index="755">33,782<span class="hidden" data-index="756">)</span></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="757">
+<td data-index="758"><b data-index="759">PROPERTY, PLANT AND EQUIPMENT, NET</b></td>
+<td data-index="760"><div class="right" data-index="761"><div class="right" data-index="762"><div class="right" data-index="763"><b data-index="764">19,893</b><span class="hidden" data-index="765">0</span></div></div></div></td>
+<td data-index="766"><div class="right" data-index="767"><div class="right" data-index="768"><div class="right" data-index="769">19,385<span class="hidden" data-index="770">0</span></div></div></div></td>
+</tr>
+<tr data-index="771">
+<td data-index="772"><b data-index="773">GOODWILL</b></td>
+<td data-index="774"><div class="right" data-index="775"><div class="right" data-index="776"><div class="right" data-index="777"><b data-index="778">44,699</b><span class="hidden" data-index="779">0</span></div></div></div></td>
+<td data-index="780"><div class="right" data-index="781"><div class="right" data-index="782"><div class="right" data-index="783">44,350<span class="hidden" data-index="784">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="785">
+<td data-index="786"><b data-index="787">TRADEMARKS AND OTHER INTANGIBLE ASSETS, NET</b></td>
+<td data-index="788"><div class="right" data-index="789"><div class="right" data-index="790"><div class="right" data-index="791"><b data-index="792">24,187</b><span class="hidden" data-index="793">0</span></div></div></div></td>
+<td data-index="794"><div class="right" data-index="795"><div class="right" data-index="796"><div class="right" data-index="797">24,527<span class="hidden" data-index="798">0</span></div></div></div></td>
+</tr>
+<tr data-index="799">
+<td data-index="800"><b data-index="801">OTHER NONCURRENT ASSETS</b></td>
+<td data-index="802"><div class="right" data-index="803"><div class="right bdr1" data-index="804"><b data-index="805">5,133</b><span class="hidden" data-index="806">)</span></div></div></td>
+<td data-index="807"><div class="right" data-index="808"><div class="right bdr1" data-index="809">5,092<span class="hidden" data-index="810">)</span></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="811">
+<td data-index="812"><b data-index="813">TOTAL ASSETS</b></td>
+<td data-index="814"><div class="right bdr2" data-index="815"><b data-index="816">$<span class="hidden" data-index="817">0</span>120,406</b><span class="hidden" data-index="818">)</span></div></td>
+<td data-index="819"><div class="right bdr2" data-index="820">$<span class="hidden" data-index="821">0</span>127,136<span class="hidden" data-index="822">)</span></div></td>
+</tr>
+<tr data-index="823">
+<td data-index="824"><span class="hidden" data-index="825">0</span></td>
+<td data-index="826"></td>
+<td data-index="827"></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="828">
+<td data-index="829"><b data-index="830"><span class="bdr1" data-index="831">Liabilities and Shareholders' Equity</span></b></td>
+<td data-index="832"></td>
+<td data-index="833"></td>
+</tr>
+<tr data-index="834">
+<td data-index="835"><b data-index="836">CURRENT LIABILITIES</b></td>
+<td data-index="837"></td><td data-index="838"></td></tr>
+<tr style=" background-color: #F0FFFF;" data-index="839">
+<td data-index="840"><span class="hidden" data-index="841">00</span>Accounts payable</td>
+<td data-index="842"><div class="right" data-index="843"><div class="right" data-index="844"><div class="right" data-index="845"><b data-index="846">$<span class="hidden" data-index="847">0</span><span class="hidden" data-index="848">0</span><span class="hidden" data-index="849">0</span>9,632</b><span class="hidden" data-index="850">0</span></div></div></div></td>
+<td data-index="851"><div class="right" data-index="852"><div class="right" data-index="853"><div class="right" data-index="854">$<span class="hidden" data-index="855">0</span><span class="hidden" data-index="856">0</span><span class="hidden" data-index="857">0</span>9,325<span class="hidden" data-index="858">0</span></div></div></div></td>
+</tr>
+<tr data-index="859">
+<td data-index="860"><span class="hidden" data-index="861">00</span>Accrued and other liabilities</td>
+<td data-index="862"><div class="right" data-index="863"><div class="right" data-index="864"><div class="right" data-index="865"><b data-index="866">7,024</b><span class="hidden" data-index="867">0</span></div></div></div></td>
+<td data-index="868"><div class="right" data-index="869"><div class="right" data-index="870"><div class="right" data-index="871">7,449<span class="hidden" data-index="872">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="873">
+<td data-index="874"><span class="hidden" data-index="875">00</span>Current liabilities held for sale</td>
+<td data-index="876"><div class="right" data-index="877"><div class="right" data-index="878"><div class="right" data-index="879"><b data-index="880">—</b><span class="hidden" data-index="881">0</span></div></div></div></td>
+<td data-index="882"><div class="right" data-index="883"><div class="right" data-index="884"><div class="right" data-index="885">2,343<span class="hidden" data-index="886">0</span></div></div></div></td>
+</tr>
+<tr data-index="887">
+<td data-index="888"><span class="hidden" data-index="889">00</span>Debt due within one year</td>
+<td data-index="890"><div class="right" data-index="891"><div class="right bdr1" data-index="892"><b data-index="893">13,554</b><span class="hidden" data-index="894">)</span></div></div></td>
+<td data-index="895"><div class="right" data-index="896"><div class="right bdr1" data-index="897">11,653<span class="hidden" data-index="898">)</span></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="899">
+<td data-index="900"><b data-index="901">TOTAL CURRENT LIABILITIES</b></td>
+<td data-index="902"><div class="right" data-index="903"><div class="right bdr1" data-index="904"><b data-index="905">30,210</b><span class="hidden" data-index="906">)</span></div></div></td>
+<td data-index="907"><div class="right" data-index="908"><div class="right bdr1" data-index="909">30,770<span class="hidden" data-index="910">)</span></div></div></td>
+</tr>
+<tr data-index="911">
+<td data-index="912"><b data-index="913">LONG-TERM DEBT</b></td>
+<td data-index="914"><div class="right" data-index="915"><div class="right" data-index="916"><div class="right" data-index="917"><b data-index="918">18,038</b><span class="hidden" data-index="919">0</span></div></div></div></td>
+<td data-index="920"><div class="right" data-index="921"><div class="right" data-index="922"><div class="right" data-index="923">18,945<span class="hidden" data-index="924">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="925">
+<td data-index="926"><b data-index="927">DEFERRED INCOME TAXES</b></td>
+<td data-index="928"><div class="right" data-index="929"><div class="right" data-index="930"><div class="right" data-index="931"><b data-index="932">8,126</b><span class="hidden" data-index="933">0</span></div></div></div></td>
+<td data-index="934"><div class="right" data-index="935"><div class="right" data-index="936"><div class="right" data-index="937">9,113<span class="hidden" data-index="938">0</span></div></div></div></td>
+</tr>
+<tr data-index="939">
+<td data-index="940"><b data-index="941">OTHER NONCURRENT LIABILITIES</b></td>
+<td data-index="942"><div class="right" data-index="943"><div class="right bdr1" data-index="944"><b data-index="945">8,254</b><span class="hidden" data-index="946">)</span></div></div></td>
+<td data-index="947"><div class="right" data-index="948"><div class="right bdr1" data-index="949">10,325<span class="hidden" data-index="950">)</span></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="951">
+<td data-index="952"><b data-index="953">TOTAL LIABILITIES</b></td>
+<td data-index="954"><div class="right" data-index="955"><div class="right bdr1" data-index="956"><b data-index="957">64,628</b><span class="hidden" data-index="958">)</span></div></div></td>
+<td data-index="959"><div class="right" data-index="960"><div class="right bdr1" data-index="961">69,153<span class="hidden" data-index="962">)</span></div></div></td>
+</tr>
+<tr data-index="963">
+<td data-index="964"><b data-index="965">SHAREHOLDERS' EQUITY</b></td>
+<td data-index="966"></td><td data-index="967"></td></tr>
+<tr style=" background-color: #F0FFFF;" data-index="968">
+<td data-index="969"><span class="hidden" data-index="970">00</span>Convertible Class A preferred stock, stated value $1 per share (600 shares authorized)</td>
+<td data-index="971"><div class="right" data-index="972"><div class="right" data-index="973"><div class="right" data-index="974"><b data-index="975">1,006</b><span class="hidden" data-index="976">0</span></div></div></div></td>
+<td data-index="977"><div class="right" data-index="978"><div class="right" data-index="979"><div class="right" data-index="980">1,038<span class="hidden" data-index="981">0</span></div></div></div></td>
+</tr>
+<tr data-index="982">
+<td data-index="983"><span class="hidden" data-index="984">00</span>Non-Voting Class B preferred stock, stated value $1 per share (200 shares authorized)</td>
+<td data-index="985"><div class="right" data-index="986"><div class="right" data-index="987"><div class="right" data-index="988">—<span class="hidden" data-index="989">0</span></div></div></div></td>
+<td data-index="990"><div class="right" data-index="991"><div class="right" data-index="992"><div class="right" data-index="993">—<span class="hidden" data-index="994">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="995">
+<td data-index="996"><span class="hidden" data-index="997">00</span>Common stock, stated value $1 per share (10,000 shares authorized; shares issued: 2017 - 4,009.2, 2016 - 4,009.2)</td>
+<td data-index="998"><div class="right" data-index="999"><div class="right" data-index="1000"><div class="right" data-index="1001"><b data-index="1002">4,009</b><span class="hidden" data-index="1003">0</span></div></div></div></td>
+<td data-index="1004"><div class="right" data-index="1005"><div class="right" data-index="1006"><div class="right" data-index="1007">4,009<span class="hidden" data-index="1008">0</span></div></div></div></td>
+</tr>
+<tr data-index="1009">
+<td data-index="1010"><span class="hidden" data-index="1011">00</span>Additional paid-in capital</td>
+<td data-index="1012"><div class="right" data-index="1013"><div class="right" data-index="1014"><div class="right" data-index="1015"><b data-index="1016">63,641</b><span class="hidden" data-index="1017">0</span></div></div></div></td>
+<td data-index="1018"><div class="right" data-index="1019"><div class="right" data-index="1020"><div class="right" data-index="1021">63,714<span class="hidden" data-index="1022">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1023">
+<td data-index="1024"><span class="hidden" data-index="1025">00</span>Reserve for ESOP debt retirement</td>
+<td data-index="1026"><div class="right" data-index="1027"><div class="right" data-index="1028"><div class="right" data-index="1029"><b data-index="1030">(1,249)</b></div></div></div></td>
+<td data-index="1031"><div class="right" data-index="1032"><div class="right" data-index="1033"><div class="right" data-index="1034">(1,290)</div></div></div></td>
+</tr>
+<tr data-index="1035">
+<td data-index="1036"><span class="hidden" data-index="1037">00</span>Accumulated other comprehensive income/(loss)</td>
+<td data-index="1038"><div class="right" data-index="1039"><div class="right" data-index="1040"><div class="right" data-index="1041"><b data-index="1042">(14,632)</b></div></div></div></td>
+<td data-index="1043"><div class="right" data-index="1044"><div class="right" data-index="1045"><div class="right" data-index="1046">(15,907)</div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1047">
+<td data-index="1048"><span class="hidden" data-index="1049">00</span>Treasury stock, at cost (shares held: 2017 - 1,455.9, 2016 - 1,341.2)</td>
+<td data-index="1050"><div class="right" data-index="1051"><div class="right" data-index="1052"><div class="right" data-index="1053"><b data-index="1054">(93,715)</b></div></div></div></td>
+<td data-index="1055"><div class="right" data-index="1056"><div class="right" data-index="1057"><div class="right" data-index="1058">(82,176)</div></div></div></td>
+</tr>
+<tr data-index="1059">
+<td data-index="1060"><span class="hidden" data-index="1061">00</span>Retained earnings</td>
+<td data-index="1062"><div class="right" data-index="1063"><div class="right" data-index="1064"><div class="right" data-index="1065"><b data-index="1066">96,124</b><span class="hidden" data-index="1067">0</span></div></div></div></td>
+<td data-index="1068"><div class="right" data-index="1069"><div class="right" data-index="1070"><div class="right" data-index="1071">87,953<span class="hidden" data-index="1072">0</span></div></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1073">
+<td data-index="1074"><span class="hidden" data-index="1075">00</span>Noncontrolling interest</td>
+<td data-index="1076"><div class="right" data-index="1077"><div class="right bdr1" data-index="1078"><b data-index="1079">594</b><span class="hidden" data-index="1080">)</span></div></div></td>
+<td data-index="1081"><div class="right" data-index="1082"><div class="right bdr1" data-index="1083">642<span class="hidden" data-index="1084">)</span></div></div></td>
+</tr>
+<tr data-index="1085">
+<td data-index="1086"><b data-index="1087">TOTAL SHAREHOLDERS' EQUITY</b></td>
+<td data-index="1088"><div class="right" data-index="1089"><div class="right bdr1" data-index="1090"><b data-index="1091">55,778</b><span class="hidden" data-index="1092">)</span></div></div></td>
+<td data-index="1093"><div class="right" data-index="1094"><div class="right bdr1" data-index="1095">57,983<span class="hidden" data-index="1096">)</span></div></div></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1097">
+<td data-index="1098"><b data-index="1099">TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY</b></td>
+<td data-index="1100"><div class="right bdr2" data-index="1101"><b data-index="1102">$<span class="hidden" data-index="1103">0</span>120,406</b><span class="hidden" data-index="1104">)</span></div></td>
+<td data-index="1105"><div class="right bdr2" data-index="1106">$<span class="hidden" data-index="1107">0</span>127,136<span class="hidden" data-index="1108">)</span></div></td>
+</tr>
+</tbody>
+</table>
+<p class="tableFootnote" data-index="1109">See accompanying Notes to Consolidated Financial Statements.</p>
+<p data-index="1110"><br data-index="1111"><span epub:type="pagebreak" role="doc-pagebreak" title="B-4" id="Page_B-4" data-index="1112"></span></p>
+<p data-index="1113"><b data-index="1114">Consolidated Statements of Shareholders' Equity</b></p>
+<figure data-index="1115">
+<table data-index="1116">
+<thead data-index="1117">
+<tr data-index="1118">
+<td style=" vertical-align: bottom;" data-index="1119"><span class="col1" data-index="1120"><span style=" text-decoration: underline;" data-index="1121">Dollars in millions;</span><br data-index="1122"><span style=" text-decoration: underline;" data-index="1123">Shares in thousands</span></span></td>
+<td style=" vertical-align: bottom;" data-index="1124"><span class="center un" data-index="1125">Common<br data-index="1126">Shares<br data-index="1127">Outstanding</span></td>
+<td style=" vertical-align: bottom;" data-index="1128"><span class="center un" data-index="1129">Common<br data-index="1130">Stock</span></td>
+<td style=" vertical-align: bottom;" data-index="1131"><span class="center un" data-index="1132">Preferred<br data-index="1133">Stock</span></td>
+<td style=" vertical-align: bottom;" data-index="1134"><span class="center un" data-index="1135">Additional<br data-index="1136">Paid‐In<br data-index="1137">Capital</span></td>
+<td style=" vertical-align: bottom;" data-index="1138"><span class="center un" data-index="1139">Reserve for<br data-index="1140">ESOP Debt<br data-index="1141">Retirement</span></td>
+<td style=" vertical-align: bottom;" data-index="1142"><span class="center un" data-index="1143">Accumulated<br data-index="1144">Other<br data-index="1145">Comprehensive<br data-index="1146">Income/<br data-index="1147">(Loss)</span></td>
+<td style=" vertical-align: bottom;" data-index="1148"><span class="center un" data-index="1149">Treasury<br data-index="1150">Stock</span></td>
+<td style=" vertical-align: bottom;" data-index="1151"><span class="center un" data-index="1152">Retained<br data-index="1153">Earnings</span></td>
+<td style=" vertical-align: bottom;" data-index="1154"><span class="center un" data-index="1155">Non‐<br data-index="1156">controlling<br data-index="1157">Interest</span></td>
+<td style=" vertical-align: bottom;" data-index="1158"><span class="center un" data-index="1159">Total<br data-index="1160">Share‐<br data-index="1161">holders'<br data-index="1162">Equity</span></td>
+</tr>
+</thead>
+<tbody data-index="1163">
+<tr style=" background-color: #F0FFFF;" data-index="1164">
+<td data-index="1165"><span class="left" data-index="1166"><b data-index="1167">BALANCE JUNE 30, 2014</b></span></td>
+<td data-index="1168"><span class="right" data-index="1169">2,710,806 </span></td>
+<td data-index="1170"><span class="right" data-index="1171">$4,009</span></td>
+<td data-index="1172"><span class="right" data-index="1173">$1,111 </span></td>
+<td data-index="1174"><span class="right" data-index="1175">$63,911 </span></td>
+<td data-index="1176"><span class="right" data-index="1177">($1,340)</span></td>
+<td data-index="1178"><span class="right" data-index="1179">($7,662)</span></td>
+<td data-index="1180"><span class="right" data-index="1181">($75,805)</span></td>
+<td data-index="1182"><span class="right" data-index="1183">$84,990 </span></td>
+<td data-index="1184"><span class="right" data-index="1185">$762 </span></td>
+<td data-index="1186"><span class="right" data-index="1187">$69,976 </span></td>
+</tr>
+<tr data-index="1188">
+<td data-index="1189"><span class="left" data-index="1190">Net earnings</span></td>
+<td data-index="1191"></td>
+<td data-index="1192"></td>
+<td data-index="1193"></td>
+<td data-index="1194"></td>
+<td data-index="1195"></td>
+<td data-index="1196"></td>
+<td data-index="1197"></td>
+<td data-index="1198"><span class="right" data-index="1199">7,036 </span></td>
+<td data-index="1200"><span class="right" data-index="1201">108 </span></td>
+<td data-index="1202"><span class="right" data-index="1203">7,144 </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1204">
+<td data-index="1205"><span class="left" data-index="1206">Other comprehensive loss</span></td>
+<td data-index="1207"></td>
+<td data-index="1208"></td>
+<td data-index="1209"></td>
+<td data-index="1210"></td>
+<td data-index="1211"></td>
+<td data-index="1212"><span class="right" data-index="1213">(5,118)</span></td>
+<td data-index="1214"></td>
+<td data-index="1215"></td>
+<td data-index="1216"></td>
+<td data-index="1217"><span class="right" data-index="1218">(5,118)</span></td>
+</tr>
+<tr data-index="1219">
+<td data-index="1220"><span class="left" data-index="1221">Dividends to shareholders:</span></td>
+<td data-index="1222"></td>
+<td data-index="1223"></td>
+<td data-index="1224"></td>
+<td data-index="1225"></td>
+<td data-index="1226"></td>
+<td data-index="1227"></td>
+<td data-index="1228"></td>
+<td data-index="1229"></td>
+<td data-index="1230"></td>
+<td data-index="1231"></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1232">
+<td data-index="1233"><span class="left" data-index="1234"> Common</span></td>
+<td data-index="1235"></td>
+<td data-index="1236"></td>
+<td data-index="1237"></td>
+<td data-index="1238"></td>
+<td data-index="1239"></td>
+<td data-index="1240"></td>
+<td data-index="1241"></td>
+<td data-index="1242"><span class="right" data-index="1243">(7,028)</span></td>
+<td data-index="1244"></td>
+<td data-index="1245"><span class="right" data-index="1246">(7,028)</span></td>
+</tr>
+<tr data-index="1247">
+<td data-index="1248"><span class="left" data-index="1249"> Preferred, net of tax benefits</span></td>
+<td data-index="1250"></td>
+<td data-index="1251"></td>
+<td data-index="1252"></td>
+<td data-index="1253"></td>
+<td data-index="1254"></td>
+<td data-index="1255"></td>
+<td data-index="1256"></td>
+<td data-index="1257"><span class="right" data-index="1258">(259)</span></td>
+<td data-index="1259"></td>
+<td data-index="1260"><span class="right" data-index="1261">(259)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1262">
+<td data-index="1263"><span class="left" data-index="1264">Treasury purchases</span></td>
+<td data-index="1265"><span class="right" data-index="1266">(54,670)</span></td>
+<td data-index="1267"></td>
+<td data-index="1268"></td>
+<td data-index="1269"></td>
+<td data-index="1270"></td>
+<td data-index="1271"></td>
+<td data-index="1272"><span class="right" data-index="1273">(4,604)</span></td>
+<td data-index="1274"></td>
+<td data-index="1275"></td>
+<td data-index="1276"><span class="right" data-index="1277">(4,604)</span></td>
+</tr>
+<tr data-index="1278">
+<td data-index="1279"><span class="left" data-index="1280">Employee plan issuances</span></td>
+<td data-index="1281"><span class="right" data-index="1282">54,100 </span></td>
+<td data-index="1283"></td>
+<td data-index="1284"></td>
+<td data-index="1285"><span class="right" data-index="1286">156 </span></td>
+<td data-index="1287"></td>
+<td data-index="1288"></td>
+<td data-index="1289"><span class="right" data-index="1290">3,153 </span></td>
+<td data-index="1291"></td>
+<td data-index="1292"></td>
+<td data-index="1293"><span class="right" data-index="1294">3,309 </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1295">
+<td data-index="1296"><span class="left" data-index="1297">Preferred stock conversions</span></td>
+<td data-index="1298"><span class="right" data-index="1299">4,335 </span></td>
+<td data-index="1300"></td>
+<td data-index="1301"><span class="right" data-index="1302">(34)</span></td>
+<td data-index="1303"><span class="right" data-index="1304">4 </span></td>
+<td data-index="1305"></td>
+<td data-index="1306"></td>
+<td data-index="1307"><span class="right" data-index="1308">30 </span></td>
+<td data-index="1309"></td>
+<td data-index="1310"></td>
+<td data-index="1311"><span class="right" data-index="1312">— </span></td>
+</tr>
+<tr data-index="1313">
+<td data-index="1314"><span class="left" data-index="1315">ESOP debt impacts</span></td>
+<td data-index="1316"></td>
+<td data-index="1317"></td>
+<td data-index="1318"></td>
+<td data-index="1319"></td>
+<td data-index="1320"><span class="right" data-index="1321">20 </span></td>
+<td data-index="1322"></td>
+<td data-index="1323"></td>
+<td data-index="1324"><span class="right" data-index="1325">68 </span></td>
+<td data-index="1326"></td>
+<td data-index="1327"><span class="right" data-index="1328">88 </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1329">
+<td data-index="1330"><span class="left" data-index="1331">Noncontrolling interest, net</span></td>
+<td data-index="1332"><span class="right un" data-index="1333"> </span></td>
+<td data-index="1334"><span class="right un" data-index="1335"> </span></td>
+<td data-index="1336"><span class="right un" data-index="1337"> </span></td>
+<td data-index="1338"><span class="right un" data-index="1339">(219)</span></td>
+<td data-index="1340"><span class="right un" data-index="1341"> </span></td>
+<td data-index="1342"><span class="right un" data-index="1343"> </span></td>
+<td data-index="1344"><span class="right un" data-index="1345"> </span></td>
+<td data-index="1346"><span class="right un" data-index="1347"> </span></td>
+<td data-index="1348"><span class="right un" data-index="1349">(239)</span></td>
+<td data-index="1350"><span class="right un" data-index="1351">(458)</span></td>
+</tr>
+<tr data-index="1352">
+<td data-index="1353"><span class="left" data-index="1354"><b data-index="1355">BALANCE JUNE 30, 2015</b></span></td>
+<td data-index="1356"><span class="right un" data-index="1357">2,714,571 </span></td>
+<td data-index="1358"><span class="right un" data-index="1359">$4,009</span></td>
+<td data-index="1360"><span class="right un" data-index="1361">$1,077 </span></td>
+<td data-index="1362"><span class="right un" data-index="1363">$63,852 </span></td>
+<td data-index="1364"><span class="right un" data-index="1365">($1,320)</span></td>
+<td data-index="1366"><span class="right un" data-index="1367">($12,780)</span></td>
+<td data-index="1368"><span class="right un" data-index="1369">($77,226)</span></td>
+<td data-index="1370"><span class="right un" data-index="1371">$84,807 </span></td>
+<td data-index="1372"><span class="right un" data-index="1373">$631 </span></td>
+<td data-index="1374"><span class="right un" data-index="1375">$63,050 </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1376">
+<td data-index="1377"><span class="left" data-index="1378">Net earnings</span></td>
+<td data-index="1379"></td>
+<td data-index="1380"></td>
+<td data-index="1381"></td>
+<td data-index="1382"></td>
+<td data-index="1383"></td>
+<td data-index="1384"></td>
+<td data-index="1385"></td>
+<td data-index="1386"><span class="right" data-index="1387">10,508 </span></td>
+<td data-index="1388"><span class="right" data-index="1389">96 </span></td>
+<td data-index="1390"><span class="right" data-index="1391">10,604 </span></td>
+</tr>
+<tr data-index="1392">
+<td data-index="1393"><span class="left" data-index="1394">Other comprehensive loss</span></td>
+<td data-index="1395"></td>
+<td data-index="1396"></td>
+<td data-index="1397"></td>
+<td data-index="1398"></td>
+<td data-index="1399"></td>
+<td data-index="1400"><span class="right" data-index="1401">(3,127)</span></td>
+<td data-index="1402"></td>
+<td data-index="1403"></td>
+<td data-index="1404"></td>
+<td data-index="1405"><span class="right" data-index="1406">(3,127)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1407">
+<td data-index="1408"><span class="left" data-index="1409">Dividends to shareholders:</span></td>
+<td data-index="1410"></td>
+<td data-index="1411"></td>
+<td data-index="1412"></td>
+<td data-index="1413"></td>
+<td data-index="1414"></td>
+<td data-index="1415"></td>
+<td data-index="1416"></td>
+<td data-index="1417"></td>
+<td data-index="1418"></td>
+<td data-index="1419"></td>
+</tr>
+<tr data-index="1420">
+<td data-index="1421"><span class="left" data-index="1422"> Common</span></td>
+<td data-index="1423"></td>
+<td data-index="1424"></td>
+<td data-index="1425"></td>
+<td data-index="1426"></td>
+<td data-index="1427"></td>
+<td data-index="1428"></td>
+<td data-index="1429"></td>
+<td data-index="1430"><span class="right" data-index="1431">(7,181)</span></td>
+<td data-index="1432"></td>
+<td data-index="1433"><span class="right" data-index="1434">(7,181)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1435">
+<td data-index="1436"><span class="left" data-index="1437"> Preferred, net of tax benefits</span></td>
+<td data-index="1438"></td>
+<td data-index="1439"></td>
+<td data-index="1440"></td>
+<td data-index="1441"></td>
+<td data-index="1442"></td>
+<td data-index="1443"></td>
+<td data-index="1444"></td>
+<td data-index="1445"><span class="right" data-index="1446">(255)</span></td>
+<td data-index="1447"></td>
+<td data-index="1448"><span class="right" data-index="1449">(255)</span></td>
+</tr>
+<tr data-index="1450">
+<td data-index="1451"><span class="left" data-index="1452">Treasury purchases<a href="#a02-note-0005" data-index="1453" data-section-index="36" data-section-idref="a02-note-0005" data-target-data-index="1795"><sup data-index="1454">(1)</sup></a></span></td>
+<td data-index="1455"><span class="right" data-index="1456">(103,449)</span></td>
+<td data-index="1457"></td>
+<td data-index="1458"></td>
+<td data-index="1459"></td>
+<td data-index="1460"></td>
+<td data-index="1461"></td>
+<td data-index="1462"><span class="right" data-index="1463">(8,217)</span></td>
+<td data-index="1464"></td>
+<td data-index="1465"></td>
+<td data-index="1466"><span class="right" data-index="1467">(8,217)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1468">
+<td data-index="1469"><span class="left" data-index="1470">Employee plan issuances</span></td>
+<td data-index="1471"><span class="right" data-index="1472">52,089 </span></td>
+<td data-index="1473"></td>
+<td data-index="1474"></td>
+<td data-index="1475"><span class="right" data-index="1476">(144)</span></td>
+<td data-index="1477"></td>
+<td data-index="1478"></td>
+<td data-index="1479"><span class="right" data-index="1480">3,234 </span></td>
+<td data-index="1481"></td>
+<td data-index="1482"></td>
+<td data-index="1483"><span class="right" data-index="1484">3,090 </span></td>
+</tr>
+<tr data-index="1485">
+<td data-index="1486"><span class="left" data-index="1487">Preferred stock conversions</span></td>
+<td data-index="1488"><span class="right" data-index="1489">4,863 </span></td>
+<td data-index="1490"></td>
+<td data-index="1491"><span class="right" data-index="1492">(39)</span></td>
+<td data-index="1493"><span class="right" data-index="1494">6 </span></td>
+<td data-index="1495"></td>
+<td data-index="1496"></td>
+<td data-index="1497"><span class="right" data-index="1498">33 </span></td>
+<td data-index="1499"></td>
+<td data-index="1500"></td>
+<td data-index="1501"><span class="right" data-index="1502">— </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1503">
+<td data-index="1504"><span class="left" data-index="1505">ESOP debt impacts</span></td>
+<td data-index="1506"></td>
+<td data-index="1507"></td>
+<td data-index="1508"></td>
+<td data-index="1509"></td>
+<td data-index="1510"><span class="right" data-index="1511">30 </span></td>
+<td data-index="1512"></td>
+<td data-index="1513"></td>
+<td data-index="1514"><span class="right" data-index="1515">74 </span></td>
+<td data-index="1516"></td>
+<td data-index="1517"><span class="right" data-index="1518">104 </span></td>
+</tr>
+<tr data-index="1519">
+<td data-index="1520"><span class="left" data-index="1521">Noncontrolling interest, net</span></td>
+<td data-index="1522"><span class="right un" data-index="1523"> </span></td>
+<td data-index="1524"><span class="right un" data-index="1525"> </span></td>
+<td data-index="1526"><span class="right un" data-index="1527"> </span></td>
+<td data-index="1528"><span class="right un" data-index="1529"> </span></td>
+<td data-index="1530"><span class="right un" data-index="1531"> </span></td>
+<td data-index="1532"><span class="right un" data-index="1533"> </span></td>
+<td data-index="1534"><span class="right un" data-index="1535"> </span></td>
+<td data-index="1536"><span class="right un" data-index="1537"> </span></td>
+<td data-index="1538"><span class="right un" data-index="1539">(85)</span></td>
+<td data-index="1540"><span class="right un" data-index="1541">(85)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1542">
+<td data-index="1543"><span class="left" data-index="1544"><b data-index="1545">BALANCE JUNE 30, 2016</b></span></td>
+<td data-index="1546"><span class="right un" data-index="1547">2,668,074 </span></td>
+<td data-index="1548"><span class="right un" data-index="1549">$4,009</span></td>
+<td data-index="1550"><span class="right un" data-index="1551">$1,038 </span></td>
+<td data-index="1552"><span class="right un" data-index="1553">$63,714 </span></td>
+<td data-index="1554"><span class="right un" data-index="1555">($1,290)</span></td>
+<td data-index="1556"><span class="right un" data-index="1557">($15,907)</span></td>
+<td data-index="1558"><span class="right un" data-index="1559">($82,176)</span></td>
+<td data-index="1560"><span class="right un" data-index="1561">$87,953 </span></td>
+<td data-index="1562"><span class="right un" data-index="1563">$642 </span></td>
+<td data-index="1564"><span class="right un" data-index="1565">$57,983 </span></td>
+</tr>
+<tr data-index="1566">
+<td data-index="1567"><span class="left" data-index="1568">Net earnings</span></td>
+<td data-index="1569"></td>
+<td data-index="1570"></td>
+<td data-index="1571"></td>
+<td data-index="1572"></td>
+<td data-index="1573"></td>
+<td data-index="1574"></td>
+<td data-index="1575"></td>
+<td data-index="1576"><span class="right" data-index="1577"><b data-index="1578">15,326</b> </span></td>
+<td data-index="1579"><span class="right" data-index="1580"><b data-index="1581">85</b> </span></td>
+<td data-index="1582"><span class="right" data-index="1583"><b data-index="1584">15,411</b> </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1585">
+<td data-index="1586"><span class="left" data-index="1587">Other comprehensive loss</span></td>
+<td data-index="1588"></td>
+<td data-index="1589"></td>
+<td data-index="1590"></td>
+<td data-index="1591"></td>
+<td data-index="1592"></td>
+<td data-index="1593"><span class="right" data-index="1594"><b data-index="1595">1,275</b> </span></td>
+<td data-index="1596"></td>
+<td data-index="1597"></td>
+<td data-index="1598"></td>
+<td data-index="1599"><span class="right" data-index="1600"><b data-index="1601">1,275</b> </span></td>
+</tr>
+<tr data-index="1602">
+<td data-index="1603"><span class="left" data-index="1604">Dividends to shareholders:</span></td>
+<td data-index="1605"></td>
+<td data-index="1606"></td>
+<td data-index="1607"></td>
+<td data-index="1608"></td>
+<td data-index="1609"></td>
+<td data-index="1610"></td>
+<td data-index="1611"></td>
+<td data-index="1612"></td>
+<td data-index="1613"></td>
+<td data-index="1614"></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1615">
+<td data-index="1616"><span class="left" data-index="1617"> Common</span></td>
+<td data-index="1618"></td>
+<td data-index="1619"></td>
+<td data-index="1620"></td>
+<td data-index="1621"></td>
+<td data-index="1622"></td>
+<td data-index="1623"></td>
+<td data-index="1624"></td>
+<td data-index="1625"><span class="right" data-index="1626"><b data-index="1627">(6,989)</b></span></td>
+<td data-index="1628"></td>
+<td data-index="1629"><span class="right" data-index="1630"><b data-index="1631">(6,989)</b></span></td>
+</tr>
+<tr data-index="1632">
+<td data-index="1633"><span class="left" data-index="1634"> Preferred, net of tax benefits</span></td>
+<td data-index="1635"></td>
+<td data-index="1636"></td>
+<td data-index="1637"></td>
+<td data-index="1638"></td>
+<td data-index="1639"></td>
+<td data-index="1640"></td>
+<td data-index="1641"></td>
+<td data-index="1642"><span class="right" data-index="1643"><b data-index="1644">(247)</b></span></td>
+<td data-index="1645"></td>
+<td data-index="1646"><span class="right" data-index="1647"><b data-index="1648">(247)</b></span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1649">
+<td data-index="1650"><span class="left" data-index="1651">Treasury purchases<a href="#a02-note-0006" data-index="1652" data-section-index="36" data-section-idref="a02-note-0006" data-target-data-index="1798"><sup data-index="1653">(2)</sup></a></span></td>
+<td data-index="1654"><span class="right" data-index="1655"><b data-index="1656">(164,866)</b></span></td>
+<td data-index="1657"></td>
+<td data-index="1658"></td>
+<td data-index="1659"></td>
+<td data-index="1660"></td>
+<td data-index="1661"></td>
+<td data-index="1662"><span class="right" data-index="1663"><b data-index="1664">(14,625)</b></span></td>
+<td data-index="1665"></td>
+<td data-index="1666"></td>
+<td data-index="1667"><span class="right" data-index="1668"><b data-index="1669">(14,625)</b></span></td>
+</tr>
+<tr data-index="1670">
+<td data-index="1671"><span class="left" data-index="1672">Employee plan issuances</span></td>
+<td data-index="1673"><span class="right" data-index="1674"><b data-index="1675">45,848</b> </span></td>
+<td data-index="1676"></td>
+<td data-index="1677"></td>
+<td data-index="1678"><span class="right" data-index="1679"><b data-index="1680">(77)</b></span></td>
+<td data-index="1681"></td>
+<td data-index="1682"></td>
+<td data-index="1683"><span class="right" data-index="1684"><b data-index="1685">3,058</b> </span></td>
+<td data-index="1686"></td>
+<td data-index="1687"></td>
+<td data-index="1688"><span class="right" data-index="1689"><b data-index="1690">2,981</b> </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1691">
+<td data-index="1692"><span class="left" data-index="1693">Preferred stock conversions</span></td>
+<td data-index="1694"><span class="right" data-index="1695"><b data-index="1696">4,241</b> </span></td>
+<td data-index="1697"></td>
+<td data-index="1698"><span class="right" data-index="1699"><b data-index="1700">(32)</b></span></td>
+<td data-index="1701"><span class="right" data-index="1702"><b data-index="1703">4</b> </span></td>
+<td data-index="1704"></td>
+<td data-index="1705"></td>
+<td data-index="1706"><span class="right" data-index="1707"><b data-index="1708">28</b> </span></td>
+<td data-index="1709"></td>
+<td data-index="1710"></td>
+<td data-index="1711"><span class="right" data-index="1712"><b data-index="1713">—</b> </span></td>
+</tr>
+<tr data-index="1714">
+<td data-index="1715"><span class="left" data-index="1716">ESOP debt impacts</span></td>
+<td data-index="1717"></td>
+<td data-index="1718"></td>
+<td data-index="1719"></td>
+<td data-index="1720"></td>
+<td data-index="1721"><span class="right" data-index="1722"><b data-index="1723">41</b> </span></td>
+<td data-index="1724"></td>
+<td data-index="1725"></td>
+<td data-index="1726"><span class="right" data-index="1727"><b data-index="1728">81</b> </span></td>
+<td data-index="1729"></td>
+<td data-index="1730"><span class="right" data-index="1731"><b data-index="1732">122</b> </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1733">
+<td data-index="1734"><span class="left" data-index="1735">Noncontrolling interest, net</span></td>
+<td data-index="1736"><span class="right un" data-index="1737"> </span></td>
+<td data-index="1738"><span class="right un" data-index="1739"> </span></td>
+<td data-index="1740"><span class="right un" data-index="1741"> </span></td>
+<td data-index="1742"><span class="right un" data-index="1743"> </span></td>
+<td data-index="1744"><span class="right un" data-index="1745"> </span></td>
+<td data-index="1746"><span class="right un" data-index="1747"> </span></td>
+<td data-index="1748"><span class="right un" data-index="1749"> </span></td>
+<td data-index="1750"><span class="right un" data-index="1751"> </span></td>
+<td data-index="1752"><span class="right un" data-index="1753"><b data-index="1754">(133)</b></span></td>
+<td data-index="1755"><span class="right un" data-index="1756"><b data-index="1757">(133)</b></span></td>
+</tr>
+<tr data-index="1758">
+<td data-index="1759"><span class="left" data-index="1760"><b data-index="1761">BALANCE JUNE 30, 2017</b></span></td>
+<td data-index="1762"><span class="right un2" data-index="1763"><b data-index="1764">2,553,297</b> </span></td>
+<td data-index="1765"><span class="right un2" data-index="1766"><b data-index="1767">$4,009</b></span></td>
+<td data-index="1768"><span class="right un2" data-index="1769"><b data-index="1770">$1,006</b> </span></td>
+<td data-index="1771"><span class="right un2" data-index="1772"><b data-index="1773">$63,641</b> </span></td>
+<td data-index="1774"><span class="right un2" data-index="1775"><b data-index="1776">($1,249)</b></span></td>
+<td data-index="1777"><span class="right un2" data-index="1778"><b data-index="1779">($14,632)</b></span></td>
+<td data-index="1780"><span class="right un2" data-index="1781"><b data-index="1782">($93,715)</b></span></td>
+<td data-index="1783"><span class="right un2" data-index="1784"><b data-index="1785">$96,124</b> </span></td>
+<td data-index="1786"><span class="right un2" data-index="1787"><b data-index="1788">$594</b> </span></td>
+<td data-index="1789"><span class="right un2" data-index="1790"><b data-index="1791">$55,778</b> </span></td>
+</tr>
+<tr data-index="1792">
+<td colspan="11" style=" background-color: #FFFFFF;" data-index="1793">
+<p class="tableFootnote" data-index="1794"><a id="a02-note-0005" data-index="1795"><sup data-index="1796">(1)</sup></a> Includes $4,213 of treasury shares acquired in the divestiture of the Batteries business (see Note 13).</p>
+<p class="tableFootnote" data-index="1797"><a id="a02-note-0006" data-index="1798"><sup data-index="1799">(2)</sup></a> Includes $9,421 of treasury shares received as part of the share exchange in the Beauty Brands transaction (see Note 13).</p>
+<br data-index="1800">
+<p class="source" data-index="1801">See accompanying Notes to Consolidated Financial Statements.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p data-index="1802"><span epub:type="pagebreak" role="doc-pagebreak" title="B-5" id="Page_B-5" data-index="1803"></span></p>
+<p data-index="1804"><b data-index="1805">Consolidated Statements of Cash Flows</b></p>
+<figure data-index="1806">
+<table data-index="1807">
+<thead data-index="1808">
+<tr data-index="1809">
+<td style=" vertical-align: bottom;" data-index="1810"><span class="left" data-index="1811"><span style=" text-decoration: underline;" data-index="1812">Amounts in millions; Years ended June 30</span></span></td>
+<td style=" vertical-align: bottom;" data-index="1813"><span class="center un" data-index="1814">2017</span></td>
+<td style=" vertical-align: bottom;" data-index="1815"><span class="center un" data-index="1816">2016</span></td>
+<td style=" vertical-align: bottom;" data-index="1817"><span class="center un" data-index="1818">2015</span></td>
+</tr>
+</thead>
+<tbody data-index="1819">
+<tr style=" background-color: #F0FFFF;" data-index="1820">
+<td data-index="1821"><span class="left" data-index="1822"><b data-index="1823">CASH AND CASH EQUIVALENTS, BEGINNING OF YEAR</b></span></td>
+<td data-index="1824"><span class="right" data-index="1825"><b data-index="1826">$  7,102</b>   </span></td>
+<td data-index="1827"><span class="right" data-index="1828">$  6,836 </span></td>
+<td data-index="1829"><span class="right" data-index="1830">$  8,548 </span></td>
+</tr>
+<tr data-index="1831">
+<td data-index="1832"><span class="left" data-index="1833"><b data-index="1834">OPERATING ACTIVITIES</b></span></td>
+<td data-index="1835"></td>
+<td data-index="1836"></td>
+<td data-index="1837"></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1838">
+<td data-index="1839"><span class="left" data-index="1840"> Net earnings</span></td>
+<td data-index="1841"><span class="right" data-index="1842"><b data-index="1843">15,411</b>   </span></td>
+<td data-index="1844"><span class="right" data-index="1845">10,604 </span></td>
+<td data-index="1846"><span class="right" data-index="1847">7,144 </span></td>
+</tr>
+<tr data-index="1848">
+<td data-index="1849"><span class="left" data-index="1850"> Depreciation and amortization</span></td>
+<td data-index="1851"><span class="right" data-index="1852"><b data-index="1853">2,820</b>   </span></td>
+<td data-index="1854"><span class="right" data-index="1855">3,078 </span></td>
+<td data-index="1856"><span class="right" data-index="1857">3,134 </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1858">
+<td data-index="1859"><span class="left" data-index="1860"> Loss on early extinguishment of debt</span></td>
+<td data-index="1861"><span class="right" data-index="1862"><b data-index="1863">543</b>   </span></td>
+<td data-index="1864"><span class="right" data-index="1865">— </span></td>
+<td data-index="1866"><span class="right" data-index="1867">— </span></td>
+</tr>
+<tr data-index="1868">
+<td data-index="1869"><span class="left" data-index="1870"> Share‐based compensation expense</span></td>
+<td data-index="1871"><span class="right" data-index="1872"><b data-index="1873">351</b>   </span></td>
+<td data-index="1874"><span class="right" data-index="1875">335 </span></td>
+<td data-index="1876"><span class="right" data-index="1877">337 </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1878">
+<td data-index="1879"><span class="left" data-index="1880"> Deferred income taxes</span></td>
+<td data-index="1881"><span class="right" data-index="1882"><b data-index="1883">(601)</b>  </span></td>
+<td data-index="1884"><span class="right" data-index="1885">(815)</span></td>
+<td data-index="1886"><span class="right" data-index="1887">(803)</span></td>
+</tr>
+<tr data-index="1888">
+<td data-index="1889"><span class="left" data-index="1890"> Gain on sale of assets</span></td>
+<td data-index="1891"><span class="right" data-index="1892"><b data-index="1893">(5,490)</b>  </span></td>
+<td data-index="1894"><span class="right" data-index="1895">(41)</span></td>
+<td data-index="1896"><span class="right" data-index="1897">(766)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1898">
+<td data-index="1899"><span class="left" data-index="1900"> Venezuela deconsolidation charge</span></td>
+<td data-index="1901"><span class="right" data-index="1902"><b data-index="1903">—</b>   </span></td>
+<td data-index="1904"><span class="right" data-index="1905">— </span></td>
+<td data-index="1906"><span class="right" data-index="1907">2,028 </span></td>
+</tr>
+<tr data-index="1908">
+<td data-index="1909"><span class="left" data-index="1910"> Goodwill and intangible asset impairment charges</span></td>
+<td data-index="1911"><span class="right" data-index="1912"><b data-index="1913">—</b>   </span></td>
+<td data-index="1914"><span class="right" data-index="1915">450 </span></td>
+<td data-index="1916"><span class="right" data-index="1917">2,174 </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1918">
+<td data-index="1919"><span class="left" data-index="1920"> Change in accounts receivable</span></td>
+<td data-index="1921"><span class="right" data-index="1922"><b data-index="1923">(322)</b>  </span></td>
+<td data-index="1924"><span class="right" data-index="1925">35 </span></td>
+<td data-index="1926"><span class="right" data-index="1927">349 </span></td>
+</tr>
+<tr data-index="1928">
+<td data-index="1929"><span class="left" data-index="1930"> Change in inventories</span></td>
+<td data-index="1931"><span class="right" data-index="1932"><b data-index="1933">71</b>   </span></td>
+<td data-index="1934"><span class="right" data-index="1935">116 </span></td>
+<td data-index="1936"><span class="right" data-index="1937">313 </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1938">
+<td data-index="1939"><span class="left" data-index="1940"> Change in accounts payable, accrued and other liabilities</span></td>
+<td data-index="1941"><span class="right" data-index="1942"><b data-index="1943">(149)</b>  </span></td>
+<td data-index="1944"><span class="right" data-index="1945">1,285 </span></td>
+<td data-index="1946"><span class="right" data-index="1947">928 </span></td>
+</tr>
+<tr data-index="1948">
+<td data-index="1949"><span class="left" data-index="1950"> Change in other operating assets and liabilities</span></td>
+<td data-index="1951"><span class="right" data-index="1952"><b data-index="1953">(43)</b>  </span></td>
+<td data-index="1954"><span class="right" data-index="1955">204 </span></td>
+<td data-index="1956"><span class="right" data-index="1957">(976)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1958">
+<td data-index="1959"><span class="left" data-index="1960"> Other</span></td>
+<td data-index="1961"><span class="right un" data-index="1962"><b data-index="1963">162</b>   </span></td>
+<td data-index="1964"><span class="right un" data-index="1965">184 </span></td>
+<td data-index="1966"><span class="right un" data-index="1967">746 </span></td>
+</tr>
+<tr data-index="1968">
+<td data-index="1969"><span class="left" data-index="1970"><b data-index="1971">TOTAL OPERATING ACTIVITIES</b></span></td>
+<td data-index="1972"><span class="right un" data-index="1973"><b data-index="1974">12,753</b>   </span></td>
+<td data-index="1975"><span class="right un" data-index="1976">15,435 </span></td>
+<td data-index="1977"><span class="right un" data-index="1978">14,608 </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1979">
+<td data-index="1980"><span class="left" data-index="1981"><b data-index="1982">INVESTING ACTIVITIES</b></span></td>
+<td data-index="1983"></td>
+<td data-index="1984"></td>
+<td data-index="1985"></td>
+</tr>
+<tr data-index="1986">
+<td data-index="1987"><span class="left" data-index="1988"> Capital expenditures</span></td>
+<td data-index="1989"><span class="right" data-index="1990"><b data-index="1991">(3,384)</b>  </span></td>
+<td data-index="1992"><span class="right" data-index="1993">(3,314)</span></td>
+<td data-index="1994"><span class="right" data-index="1995">(3,736)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="1996">
+<td data-index="1997"><span class="left" data-index="1998"> Proceeds from asset sales</span></td>
+<td data-index="1999"><span class="right" data-index="2000"><b data-index="2001">571</b>   </span></td>
+<td data-index="2002"><span class="right" data-index="2003">432 </span></td>
+<td data-index="2004"><span class="right" data-index="2005">4,498 </span></td>
+</tr>
+<tr data-index="2006">
+<td data-index="2007"><span class="left" data-index="2008"> Cash related to deconsolidated Venezuela operations</span></td>
+<td data-index="2009"><span class="right" data-index="2010"><b data-index="2011">—</b>   </span></td>
+<td data-index="2012"><span class="right" data-index="2013">— </span></td>
+<td data-index="2014"><span class="right" data-index="2015">(908)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2016">
+<td data-index="2017"><span class="left" data-index="2018"> Acquisitions, net of cash acquired</span></td>
+<td data-index="2019"><span class="right" data-index="2020"><b data-index="2021">(16)</b>  </span></td>
+<td data-index="2022"><span class="right" data-index="2023">(186)</span></td>
+<td data-index="2024"><span class="right" data-index="2025">(137)</span></td>
+</tr>
+<tr data-index="2026">
+<td data-index="2027"><span class="left" data-index="2028"> Purchases of short‐term investments</span></td>
+<td data-index="2029"><span class="right" data-index="2030"><b data-index="2031">(4,843)</b>  </span></td>
+<td data-index="2032"><span class="right" data-index="2033">(2,815)</span></td>
+<td data-index="2034"><span class="right" data-index="2035">(3,647)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2036">
+<td data-index="2037"><span class="left" data-index="2038"> Proceeds from sales and maturities of short‐term investments</span></td>
+<td data-index="2039"><span class="right" data-index="2040"><b data-index="2041">1,488</b>   </span></td>
+<td data-index="2042"><span class="right" data-index="2043">1,354 </span></td>
+<td data-index="2044"><span class="right" data-index="2045">1,203 </span></td>
+</tr>
+<tr data-index="2046">
+<td data-index="2047"><span class="left" data-index="2048"> Pre‐divestiture addition of restricted cash related to the Beauty Brands divestiture</span></td>
+<td data-index="2049"><span class="right" data-index="2050"><b data-index="2051">(874)</b>  </span></td>
+<td data-index="2052"><span class="right" data-index="2053">(996)</span></td>
+<td data-index="2054"><span class="right" data-index="2055">— </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2056">
+<td data-index="2057"><span class="left" data-index="2058"> Cash transferred at closing related to the Beauty Brands divestiture</span></td>
+<td data-index="2059"><span class="right" data-index="2060"><b data-index="2061">(475)</b>  </span></td>
+<td data-index="2062"><span class="right" data-index="2063">— </span></td>
+<td data-index="2064"><span class="right" data-index="2065">— </span></td>
+</tr>
+<tr data-index="2066">
+<td data-index="2067"><span class="left" data-index="2068"> Release of restricted cash upon closing of the Beauty Brands divestiture</span></td>
+<td data-index="2069"><span class="right" data-index="2070"><b data-index="2071">1,870</b>   </span></td>
+<td data-index="2072"><span class="right" data-index="2073">— </span></td>
+<td data-index="2074"><span class="right" data-index="2075">— </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2076">
+<td data-index="2077"><span class="left" data-index="2078"> Cash transferred in Batteries divestiture</span></td>
+<td data-index="2079"><span class="right" data-index="2080"><b data-index="2081">—</b>   </span></td>
+<td data-index="2082"><span class="right" data-index="2083">(143)</span></td>
+<td data-index="2084"><span class="right" data-index="2085">— </span></td>
+</tr>
+<tr data-index="2086">
+<td data-index="2087"><span class="left" data-index="2088"> Change in other investments</span></td>
+<td data-index="2089"><span class="right un" data-index="2090"><b data-index="2091">(26)</b>  </span></td>
+<td data-index="2092"><span class="right un" data-index="2093">93 </span></td>
+<td data-index="2094"><span class="right un" data-index="2095">(163)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2096">
+<td data-index="2097"><span class="left" data-index="2098"><b data-index="2099">TOTAL INVESTING ACTIVITIES</b></span></td>
+<td data-index="2100"><span class="right un" data-index="2101"><b data-index="2102">(5,689)</b>  </span></td>
+<td data-index="2103"><span class="right un" data-index="2104">(5,575)</span></td>
+<td data-index="2105"><span class="right un" data-index="2106">(2,890)</span></td>
+</tr>
+<tr data-index="2107">
+<td data-index="2108"><span class="left" data-index="2109"><b data-index="2110">FINANCING ACTIVITIES</b></span></td>
+<td data-index="2111"></td>
+<td data-index="2112"></td>
+<td data-index="2113"></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2114">
+<td data-index="2115"><span class="left" data-index="2116"> Dividends to shareholders</span></td>
+<td data-index="2117"><span class="right" data-index="2118"><b data-index="2119">(7,236)</b>  </span></td>
+<td data-index="2120"><span class="right" data-index="2121">(7,436)</span></td>
+<td data-index="2122"><span class="right" data-index="2123">(7,287)</span></td>
+</tr>
+<tr data-index="2124">
+<td data-index="2125"><span class="left" data-index="2126"> Change in short‐term debt</span></td>
+<td data-index="2127"><span class="right" data-index="2128"><b data-index="2129">2,727</b>   </span></td>
+<td data-index="2130"><span class="right" data-index="2131">(418)</span></td>
+<td data-index="2132"><span class="right" data-index="2133">(2,580)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2134">
+<td data-index="2135"><span class="left" data-index="2136"> Additions to long‐term debt</span></td>
+<td data-index="2137"><span class="right" data-index="2138"><b data-index="2139">3,603</b>   </span></td>
+<td data-index="2140"><span class="right" data-index="2141">3,916 </span></td>
+<td data-index="2142"><span class="right" data-index="2143">2,138 </span></td>
+</tr>
+<tr data-index="2144">
+<td data-index="2145"><span class="left" data-index="2146"> Reductions of long‐term debt</span></td>
+<td data-index="2147"><span class="right" data-index="2148"><b data-index="2149">(4,931)</b><a href="#a02-note-0007" data-index="2150" data-section-index="36" data-section-idref="a02-note-0007" data-target-data-index="2295"><sup data-index="2151">(1)</sup></a></span></td>
+<td data-index="2152"><span class="right" data-index="2153">(2,213)</span></td>
+<td data-index="2154"><span class="right" data-index="2155">(3,512)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2156">
+<td data-index="2157"><span class="left" data-index="2158"> Treasury stock purchases</span></td>
+<td data-index="2159"><span class="right" data-index="2160"><b data-index="2161">(5,204)</b>  </span></td>
+<td data-index="2162"><span class="right" data-index="2163">(4,004)</span></td>
+<td data-index="2164"><span class="right" data-index="2165">(4,604)</span></td>
+</tr>
+<tr data-index="2166">
+<td data-index="2167"><span class="left" data-index="2168"> Treasury stock from cash infused in Batteries divestiture</span></td>
+<td data-index="2169"><span class="right" data-index="2170"><b data-index="2171">—</b>   </span></td>
+<td data-index="2172"><span class="right" data-index="2173">(1,730)</span></td>
+<td data-index="2174"><span class="right" data-index="2175">— </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2176">
+<td data-index="2177"><span class="left" data-index="2178"> Impact of stock options and other</span></td>
+<td data-index="2179"><span class="right un" data-index="2180"><b data-index="2181">2,473</b>   </span></td>
+<td data-index="2182"><span class="right un" data-index="2183">2,672 </span></td>
+<td data-index="2184"><span class="right un" data-index="2185">2,826 </span></td>
+</tr>
+<tr data-index="2186">
+<td data-index="2187"><span class="left" data-index="2188"><b data-index="2189">TOTAL FINANCING ACTIVITIES</b></span></td>
+<td data-index="2190"><span class="right un" data-index="2191"><b data-index="2192">(8,568)</b>  </span></td>
+<td data-index="2193"><span class="right un" data-index="2194">(9,213)</span></td>
+<td data-index="2195"><span class="right un" data-index="2196">(13,019)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2197">
+<td data-index="2198"><span class="left" data-index="2199"><b data-index="2200">EFFECT OF EXCHANGE RATE CHANGES ON CASH AND CASH</b></span></td>
+<td data-index="2201"></td>
+<td data-index="2202"></td>
+<td data-index="2203"></td>
+</tr>
+<tr data-index="2204">
+<td data-index="2205"><span class="left" data-index="2206"><b data-index="2207">EQUIVALENTS</b></span></td>
+<td data-index="2208"><span class="right un" data-index="2209"><b data-index="2210">(29)</b>  </span></td>
+<td data-index="2211"><span class="right un" data-index="2212">(381)</span></td>
+<td data-index="2213"><span class="right un" data-index="2214">(411)</span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2215">
+<td data-index="2216"><span class="left" data-index="2217"><b data-index="2218">CHANGE IN CASH AND CASH EQUIVALENTS</b></span></td>
+<td data-index="2219"><span class="right un" data-index="2220"><b data-index="2221">(1,533)</b>  </span></td>
+<td data-index="2222"><span class="right un" data-index="2223">266 </span></td>
+<td data-index="2224"><span class="right un" data-index="2225">(1,712)</span></td>
+</tr>
+<tr data-index="2226">
+<td data-index="2227"><span class="left" data-index="2228"><b data-index="2229">CASH AND CASH EQUIVALENTS, END OF YEAR</b></span></td>
+<td data-index="2230"><span class="right un2" data-index="2231"><b data-index="2232">$  5,569</b>   </span></td>
+<td data-index="2233"><span class="right un2" data-index="2234">$  7,102 </span></td>
+<td data-index="2235"><span class="right un2" data-index="2236">$  6,836 </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2237">
+<td data-index="2238"><span class="left" data-index="2239"><b data-index="2240">SUPPLEMENTAL DISCLOSURE</b></span></td>
+<td data-index="2241"></td>
+<td data-index="2242"></td>
+<td data-index="2243"></td>
+</tr>
+<tr data-index="2244">
+<td data-index="2245"><span class="left" data-index="2246">Cash payments for interest</span></td>
+<td data-index="2247"><span class="right" data-index="2248"><b data-index="2249">$    518</b>   </span></td>
+<td data-index="2250"><span class="right" data-index="2251">$    569 </span></td>
+<td data-index="2252"><span class="right" data-index="2253">$    678 </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2254">
+<td data-index="2255"><span class="left" data-index="2256">Cash payment for income taxes</span></td>
+<td data-index="2257"><span class="right" data-index="2258"><b data-index="2259">3,714</b>   </span></td>
+<td data-index="2260"><span class="right" data-index="2261">3,730 </span></td>
+<td data-index="2262"><span class="right" data-index="2263">4,558 </span></td>
+</tr>
+<tr data-index="2264">
+<td data-index="2265"><span class="left" data-index="2266">Divestiture of Batteries business in exchange for shares of P&amp;G stock<a href="#a02-note-0008" data-index="2267" data-section-index="36" data-section-idref="a02-note-0008" data-target-data-index="2298"><sup data-index="2268">(2)</sup></a></span></td>
+<td data-index="2269"><span class="right" data-index="2270"><b data-index="2271">—</b>   </span></td>
+<td data-index="2272"><span class="right" data-index="2273">4,213 </span></td>
+<td data-index="2274"><span class="right" data-index="2275">— </span></td>
+</tr>
+<tr style=" background-color: #F0FFFF;" data-index="2276">
+<td data-index="2277"><span class="left" data-index="2278">Divestiture of Beauty business in exchange for shares of P&amp;G stock and assumption of debt</span></td>
+<td data-index="2279"><span class="right" data-index="2280"><b data-index="2281">11,360</b>   </span></td>
+<td data-index="2282"><span class="right" data-index="2283">— </span></td>
+<td data-index="2284"><span class="right" data-index="2285">— </span></td>
+</tr>
+<tr data-index="2286">
+<td data-index="2287"><span class="left" data-index="2288">Assets acquired through non‐cash capital leases are immaterial for all periods.</span></td>
+<td data-index="2289"></td>
+<td data-index="2290"></td>
+<td data-index="2291"></td>
+</tr>
+<tr data-index="2292">
+<td colspan="4" data-index="2293">
+<p class="tableFootnote" data-index="2294"><a id="a02-note-0007" data-index="2295"><sup data-index="2296">(1)</sup></a> Includes $543 of costs related to early extinguishment of debt.</p>
+<p class="tableFootnote" data-index="2297"><a id="a02-note-0008" data-index="2298"><sup data-index="2299">(2)</sup></a> Includes $1,730 from cash infused into the Batteries business pursuant to the divestiture agreement (see Note 13).</p>
+<br data-index="2300">
+<p class="source" data-index="2301">See accompanying Notes to Consolidated Financial Statements.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</figure>
+</section>
+</section>
+
+</converted-body>
