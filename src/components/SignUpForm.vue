@@ -16,8 +16,8 @@
           placeholder="Genryūsai"
           v-model="firstName"
         />
-        <div v-if="error" class="error">
-          {{ error }}
+        <div v-if="error.firstName" class="error">
+          {{ error.firstName }}
         </div>
         <label for="middleName"><b>Middle Name</b></label>
         <input
@@ -26,8 +26,8 @@
           placeholder="Shigekuni"
           v-model="middleName"
         />
-        <div v-if="error" class="error">
-          {{ error }}
+        <div v-if="error.middleName" class="error">
+          {{ error.middleName }}
         </div>
         <label for="lastName"><b>Last Name</b></label>
         <input
@@ -36,8 +36,8 @@
           placeholder="Yamamoto"
           v-model="lastName"
         />
-        <div v-if="error" class="error">
-          {{ error }}
+        <div v-if="error.lastName" class="error">
+          {{ error.lastName }}
         </div>
         <label for="username"><b>Username</b></label>
         <input
@@ -46,8 +46,8 @@
           placeholder="genryusai.shigekuni.yamamoto"
           v-model="username"
         />
-        <div v-if="error" class="error">
-          {{ error }}
+        <div v-if="error.username" class="error">
+          {{ error.username }}
         </div>
         <label for="email"><b>Email</b></label>
         <input
@@ -57,8 +57,8 @@
           placeholder="genryusai.shigekuni.yamamoto@soul.society.com"
           name="email"
         />
-        <div v-if="error" class="error">
-          {{ error }}
+        <div v-if="error.email" class="error">
+          {{ error.email }}
         </div>
         <label for="psw"><b>Password</b></label>
         <input
@@ -68,8 +68,8 @@
           placeholder="RzMdsJLufx2FvVi"
           name="psw"
         />
-        <div v-if="error" class="error">
-          {{ error }}
+        <div v-if="error.password" class="error">
+          {{ error.password }}
         </div>
         <label for="psw-repeat"><b>Repeat Password</b></label>
         <input
@@ -79,8 +79,8 @@
           placeholder="RzMdsJLufx2FvVi"
           name="psw-repeat"
         />
-        <div v-if="error" class="error">
-          {{ error }}
+        <div v-if="error.passwordConfirm" class="error">
+          {{ error.passwordConfirm }}
         </div>
         <label>
           <input
@@ -90,8 +90,8 @@
             name="remember"
             style="margin-bottom: 15px"
           />
-          <div v-if="error" class="error">
-            {{ error }}
+          <div v-if="error.remeberMe" class="error">
+            {{ error.remeberMe }}
           </div>
           Remember me
         </label>
@@ -114,6 +114,7 @@ export default {
   name: "Registration",
   data() {
     return {
+      error: {},
       remeberMe: false,
       firstName: "Genryūsai",
       middleName: "Shigekuni",

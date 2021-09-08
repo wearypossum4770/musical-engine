@@ -15,7 +15,15 @@
       <router-link to="/weather">Weather</router-link> |
       <router-link to="/postal">Postal</router-link> |
       <router-link to="/cashier">Cashier</router-link> |
-      <router-link to="/postal_mobile">Postal Mobile</router-link>
+      <router-link to="/store">Shopping Store</router-link> |
+      <router-link to="/contact">Contact Us</router-link> |
+      <router-link to="/postal_mobile">Postal Mobile</router-link> |
+      <router-link to="/careers">We're hiring</router-link> |
+      <router-link to="/help-desk">Support</router-link> |
+      <router-link to="/shipment">Shipment</router-link> |
+      <router-link to="/payments">Payment</router-link> |
+      <router-link to="/gift-cards">Gift card</router-link> |
+      <router-link to="/product-returns">Return</router-link> |
     </div>
     <router-view />
   </div>

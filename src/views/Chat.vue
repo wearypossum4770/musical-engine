@@ -2,7 +2,7 @@
   <!-- https://bootsnipp.com/snippets/nNg98 -->
   <div>
     <div class="card-body contacts_body">
-      <ui class="contacts">
+      <ul class="contacts">
         <li v-for="user in users" :key="user.id" class="w3-bar">
           <span
             onclick="this.parentElement.style.display='none'"
@@ -20,7 +20,7 @@
             <span>{{ user.lastUpdated }}</span>
           </div>
         </li>
-      </ui>
+      </ul>
     </div>
 
     <div>
