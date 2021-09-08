@@ -19,8 +19,15 @@ import UserBoard from "../components/UserBoard.vue";
 import Checkout from "../components/Checkout.vue";
 import ContactForm from "../components/ContactForm.vue";
 Vue.use(VueRouter);
-
+// aa1v2k-8ab2c9597a4f6cc754e3dc5baaf3c77f 
 const routes = [
+{path:"/reset/done/"},
+{path:"/logout/"},
+{path:"/password_change/"},
+{path:"/password_change/done/"},
+{path:"/password_reset/"},
+{path:"/password_reset/done/"},
+{path:"/reset/<uidb64>/<token>/"},
   {
     path: "/contact",
     component: ContactForm,
