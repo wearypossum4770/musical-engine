@@ -1,10 +1,16 @@
 <template>
   <div>
+     <div class="container" style="padding: 40px">
+        <button id="Trigger2" @click="triggerFade">Trigger FadeIn/FadeOut</button>
+        <div id="Fader" :class="fadeTransition">
+           <p>Cum enim magna parturient ac elementum, tincidunt tempor ac lectus platea placerat. Eros dis lectus. Ut aliquam.</p>
+        </div>
+ </div>
     <!-- https://mlsdev.com/amp/blog/how-to-build-an-ecommerce-website-from-scratch -->
     <form @submit.prevent method="post">
       <div class="imgcontainer" @click="getFile">
         <img
-          src="@/assets/default.webp"
+          src="@/assets/profile_images/default.webp"
           alt="Avatar"
           class="avatar"
           autocomplete="photo"
@@ -44,7 +50,17 @@
 <script>
 export default {
   name: "LoginForm",
+  mounted() {
+  this.$nextTick(function () {
+    // Code that will run only after the
+    // entire view has been rendered
+    this.fadeTransition = 'slidedown'
+  })
+},
   methods: {
+    triggerFade () {
+      this.fadeTransition = (this.fadeTransition==='slideup')?'slidedown':'slideup'
+    },
     async getFile() {
       [this.fileHandle] = await window.showOpenFilePicker(this.pickerOpts);
       if (this.fileHandle.kind === "file") {
@@ -101,6 +117,7 @@ export default {
   },
   data() {
     return {
+      fadeTransition:"slideup",
       pickerOpts: {
         types: [
           {
@@ -126,6 +143,14 @@ export default {
 };
 </script>
 <style scoped>
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 .field-icon {
   float: right;
   margin-left: -25px;
@@ -186,4 +211,26 @@ span.psw {
     width: 100%;
   }
 }
+        .slideup, .slidedown {
+            max-height: 0;            
+            overflow-y: hidden;
+              background: #fff;
+  overflow: hidden;
+  	/* opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s; */
+              transition: all 1s ease-in-out;
+                line-height: 0;
+  padding: 0 1em;
+  color: transparent;
+        }
+        .slidedown {            
+            max-height: 5% ;  
+              line-height: 1.5;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: black;                  
+        }   
 </style>
