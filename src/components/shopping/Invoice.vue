@@ -28,10 +28,10 @@ export default {
       CustomerMemo: "Thank you for your business and have a great day!",
       DocNumber: "1037",
       PrintStatus: "NeedToPrint",
-      taxDetails:{
-          netAmountTaxable:200,
-          taxRate:10,
-      }
+      taxDetails: {
+        netAmountTaxable: 200,
+        taxRate: 10,
+      },
     };
   },
 };
