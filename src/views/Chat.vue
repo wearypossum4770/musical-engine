@@ -2,7 +2,7 @@
   <!-- https://bootsnipp.com/snippets/nNg98 -->
   <div>
     <div class="card-body contacts_body">
-      <ui class="contacts">
+      <ul class="contacts">
         <li v-for="user in users" :key="user.id" class="w3-bar">
           <span
             onclick="this.parentElement.style.display='none'"
@@ -10,7 +10,8 @@
             >&times;</span
           >
           <img
-            src="user.avatar"
+          @click="showAttr"
+          :src="user.avatar"
             class="w3-bar-item w3-circle"
             style="width: 85px"
           />
@@ -20,7 +21,7 @@
             <span>{{ user.lastUpdated }}</span>
           </div>
         </li>
-      </ui>
+      </ul>
     </div>
 
     <div>
@@ -112,9 +113,7 @@ export default {
           username: "",
           displayName: "Khalid",
           lastUpdated: "",
-          get avatar() {
-            return `@/assets/profile_images/.png`;
-          },
+          avatar: '@/assets/profile_images/default.webp',
         },
         {
           id: 2,
@@ -122,9 +121,7 @@ export default {
           username: "sui.feng",
           displayName: "Suì-Fēng",
           lastUpdated: "7 mins ago",
-          get avatar() {
-            return `@/assets/profile_images/sui.feng.png`;
-          },
+          avatar: '@/assets/profile_images/sui.feng.png',
         },
         {
           id: 3,
@@ -132,9 +129,7 @@ export default {
           username: "byakuya.kuchiki",
           displayName: "Byakuya Kuchiki",
           lastUpdated: "",
-          get avatar() {
-            return `@/assets/profile_images/byakuya.kuchiki.png`;
-          },
+          avatar: '@/assets/profile_images/byakuya.kuchiki.png',
         },
         {
           id: 4,
@@ -142,16 +137,12 @@ export default {
           username: "shunsui.kyoraku",
           displayName: "Shunsui Kyōraku",
           lastUpdated: "30 mins ago",
-          get avatar() {
-            return `@/assets/profile_images/shunsui.kyoraku.png`;
-          },
+          avatar: '@/assets/profile_images/shunsui.kyoraku.png',
         },
         {
           id: 5,
           isOnline: false,
-          get avatar() {
-            return `@/assets/profile_images/toshiro.hitsugaya.png`;
-          },
+          avatar: '@/assets/profile_images/toshiro.hitsugaya.png',
           username: "toshiro.hitsugaya",
           displayName: "Tōshirō Hitsugaya",
           lastUpdated: "left 50 mins ago",
@@ -159,9 +150,7 @@ export default {
         {
           id: 6,
           isOnline: true,
-          get avatar() {
-            return `@/assets/profile_images/.png`;
-          },
+          avatar: '@/assets/profile_images/genryusai.shigekuni.yamamoto.png',
           username: "genryusai.shigekuni.yamamoto",
           displayName: "Captain Yamamoto",
           lastUpdated: "",
@@ -186,6 +175,14 @@ export default {
     },
   },
   methods: {
+    showAttr(event){
+      console.log(event)
+      console.log(event.target.src)
+    },
+        getAvatar(user){
+          return require(user.avatar)
+        },
+
     sendMessage() {
       store.commit("sendMessage");
       this.message = "";

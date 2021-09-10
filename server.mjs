@@ -48,6 +48,11 @@ app.use((req, res, next) => {
   if (msg) res.locals.message = '<p class="msg success">' + msg + "</p>";
   next();
 });
+app.get("/api_images/:imageName", async (req, res)=> {
+let {imageName} = req.params
+res.sendFile(`/home/dragoomdoc/musical-engine/src/assets/profile_images/${imageName}`)
+
+})
 app.post("/uploads", async (req, res) => {
   // const readabale = createReadStream(fileName);
   // const writeable = createWriteStream(

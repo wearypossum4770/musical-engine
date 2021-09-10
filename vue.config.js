@@ -1,6 +1,12 @@
 module.exports = {
+
   lintOnSave: false,
   crossorigin: "anonymous",
+  devServer: {
+    host: '0.0.0.0',
+    hot: true,
+    disableHostCheck: true,
+  },
   pluginOptions: {
     apollo: { lintGQ: true },
     pwa: {

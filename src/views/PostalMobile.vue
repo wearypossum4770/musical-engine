@@ -444,12 +444,14 @@
                   >ZIP Code™</label
                 ><input
                   id="old-zip-code"
+                  v-model="oldZipCode"
                   name="8ca4a7d5-b574-4a08-adb6-6990742f8415"
                   placeholder="00000"
                   autocomplete="off"
-                  type="text"
+                  type="number"
                   class="c-input-text__field c-input-field"
                 />
+                <pre>{{oldZipCode}}</pre>
                 <p
                   id="old-zip-code-error"
                   class="c-input-text__helper c-input-helper"
@@ -1161,6 +1163,11 @@
 <script>
 export default {
   name: "PostalMobile",
+  data(){
+    return {
+      oldZipCode:""
+    }
+  }
 };
 </script>
 

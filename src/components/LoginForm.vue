@@ -4,7 +4,7 @@
     <form @submit.prevent method="post">
       <div class="imgcontainer" @click="getFile">
         <img
-          src="@/assets/default.webp"
+          src="@/assets/profile_images/default.webp"
           alt="Avatar"
           class="avatar"
           autocomplete="photo"
