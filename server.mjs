@@ -1,5 +1,6 @@
 import { dirname } from "path";
 import { fileURLToPath } from "url";
+import {readFile} from 'fs'
 // import { createClient } from "redis";
 // import pkg from "connect-redis";
 // import cookieParser from "cookie-parser";
@@ -21,10 +22,7 @@ const json_url_config = { limit: "1mb", extended: true };
 // https://www.liquidweb.com/kb/using-ssh-keys/
 // subdomains mail , userpages, adminpages, portal
 var app = express();
-const getCookies = request =>
-  Object.keys(request.signedCookies).length > 1
-    ? request.signedCookies
-    : request.cookies;
+const getCookies = request =>request.signedCookies ??request.cookies;
 app.use(express.urlencoded(json_url_config));
 app.use(express.json(json_url_config));
 app.use(cors());
@@ -38,6 +36,19 @@ app.use(
   }),
 );
 // app.use('/vue_socket_test')
+app.get('/change_of_address/:field/:value', async (req, res)=>{
+  let {field, value} = req.params
+  console.log(req.params)
+  readFile('zipcode_database.json', (err, data) => {
+    if (err) throw err;
+    
+    let zipcode = JSON.parse(data)
+    let len=value.length
+    let target = zipcode.filter(zip=>zip[field].slice(0,len) === value)
+    res.json({target:target})
+
+  });
+})
 app.use((req, res, next) => {
   var err = req?.session?.error;
   var msg = req?.session?.success;

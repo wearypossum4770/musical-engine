@@ -151,6 +151,20 @@
                   class="c-input-text__helper c-input-helper"
                 ></p>
               </div>
+<div>
+<h1>Tester</h1>
+<span class="clearable">
+  <input type="text" name="" value="something" placeholder="">
+  <i @click="clearInput" classstyle="
+  position: absolute;
+  right:0; top:0;
+  padding: 0 8px;  font-style: normal;
+  font-size: 1.2em;
+  user-select: none;
+  cursor: pointer;">&times;</i>
+</span>
+
+</div>
               <div class="c-input-text mt-3">
                 <label
                   for="middle-initial"
@@ -243,7 +257,8 @@
                   placeholder="Email Address"
                   name="email"
                   autocomplete="on"
-                  type="email"
+                  type="text"
+                  inputmode="email"
                   class="c-input-text__field c-input-field"
                 />
                 <p
@@ -448,7 +463,9 @@
                   name="8ca4a7d5-b574-4a08-adb6-6990742f8415"
                   placeholder="00000"
                   autocomplete="off"
-                  type="number"
+                  type="search"
+                  pattern="[0-9]*"
+                  inputmode="numeric"
                   class="c-input-text__field c-input-field"
                 />
                 <pre>{{oldZipCode}}</pre>
@@ -1163,6 +1180,12 @@
 <script>
 export default {
   name: "PostalMobile",
+  methods:{
+    clearInput(e){
+let val = e.target.previousSibling.value=""
+console.log()
+    }
+  },
   data(){
     return {
       oldZipCode:""
@@ -1172,6 +1195,29 @@ export default {
 </script>
 
 <style scoped>
+/* Clearable text inputs */
+.clearable{
+  position: relative;
+  display: inline-block;
+}
+.clearable input[type=text]{
+  padding-right: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.clearable__clear{
+  display: none;
+  position: absolute;
+  right:0; top:0;
+  padding: 0 8px;
+  font-style: normal;
+  font-size: 1.2em;
+  user-select: none;
+  cursor: pointer;
+}
+.clearable input::-ms-clear {  /* Remove IE default X */
+  display: none;
+}
 .resize-observer[data-v-b329ee4c] {
   position: absolute;
   top: 0;
