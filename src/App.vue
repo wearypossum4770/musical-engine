@@ -18,7 +18,6 @@
       <router-link to="/quiz">Quiz</router-link> |
 
       <router-link to="/postal_mobile">Postal Mobile</router-link>
-
     </div>
     <router-view />
   </div>

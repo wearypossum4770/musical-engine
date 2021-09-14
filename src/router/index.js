@@ -10,7 +10,7 @@ import TodoList from "@/views/TodoList.vue";
 import Weather from "@/views/Weather.vue";
 import Postal from "@/views/Postal.vue";
 import PostalMobile from "@/views/PostalMobile.vue";
-import Quiz from '@/components/quiz/Quiz.vue';
+import Quiz from "@/components/quiz/Quiz.vue";
 
 /**Components */
 import PLUCodes from "@/components/cashier/PLUCodes.vue";
@@ -22,9 +22,9 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path:"/quiz",
-    component:Quiz,
-    name:"Quiz",
+    path: "/quiz",
+    component: Quiz,
+    name: "Quiz",
   },
   {
     path: "/cashier",

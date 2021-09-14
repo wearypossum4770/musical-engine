@@ -451,7 +451,7 @@
                   type="number"
                   class="c-input-text__field c-input-field"
                 />
-                <pre>{{oldZipCode}}</pre>
+                <pre>{{ oldZipCode }}</pre>
                 <p
                   id="old-zip-code-error"
                   class="c-input-text__helper c-input-helper"
@@ -1163,11 +1163,11 @@
 <script>
 export default {
   name: "PostalMobile",
-  data(){
+  data() {
     return {
-      oldZipCode:""
-    }
-  }
+      oldZipCode: "",
+    };
+  },
 };
 </script>
 

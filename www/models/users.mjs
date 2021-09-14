@@ -1,4 +1,4 @@
-import { genSaltSync, hashSync, compareSync } from "bcrypt";
+import { genSaltSync, genSalt, hashSync, hash, compareSync } from "bcrypt";
 import { Sequelize } from "sequelize";
 const { STRING, BOOLEAN, DATE } = Sequelize.DataTypes;
 const saltRounds = 10;
@@ -15,17 +15,12 @@ const userSchema = {
   isActive: { type: BOOLEAN, defaultValue: true },
   lastLogin: { type: DATE, defaultValue: DATE.NOW },
   owaspSafePassword: { type: BOOLEAN, defaultValue: false },
-  salt: {
-    type: STRING,
-    get() {
-      return genSaltSync(saltRounds);
-    },
-  },
+  salt: { type: STRING, defaultValue: genSaltSync(saltRounds) },
   password: {
-    admin: false,
     type: STRING,
     set(plainTextPassword) {
-      this.setDataValue("password", hashSync(plainTextPassword, this.salt));
+      let salt = this.getDataValue("salt");
+      this.setDataValue('password',hashSync(plainTextPassword, salt));
     },
   },
   promptPasswordChange: { type: BOOLEAN, defaultValue: false },

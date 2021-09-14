@@ -10,8 +10,8 @@
             >&times;</span
           >
           <img
-          @click="showAttr"
-          :src="user.avatar"
+            @click="showAttr"
+            :src="user.avatar"
             class="w3-bar-item w3-circle"
             style="width: 85px"
           />
@@ -113,7 +113,7 @@ export default {
           username: "",
           displayName: "Khalid",
           lastUpdated: "",
-          avatar: '@/assets/profile_images/default.webp',
+          avatar: "@/assets/profile_images/default.webp",
         },
         {
           id: 2,
@@ -121,7 +121,7 @@ export default {
           username: "sui.feng",
           displayName: "Suì-Fēng",
           lastUpdated: "7 mins ago",
-          avatar: '@/assets/profile_images/sui.feng.png',
+          avatar: "@/assets/profile_images/sui.feng.png",
         },
         {
           id: 3,
@@ -129,7 +129,7 @@ export default {
           username: "byakuya.kuchiki",
           displayName: "Byakuya Kuchiki",
           lastUpdated: "",
-          avatar: '@/assets/profile_images/byakuya.kuchiki.png',
+          avatar: "@/assets/profile_images/byakuya.kuchiki.png",
         },
         {
           id: 4,
@@ -137,12 +137,12 @@ export default {
           username: "shunsui.kyoraku",
           displayName: "Shunsui Kyōraku",
           lastUpdated: "30 mins ago",
-          avatar: '@/assets/profile_images/shunsui.kyoraku.png',
+          avatar: "@/assets/profile_images/shunsui.kyoraku.png",
         },
         {
           id: 5,
           isOnline: false,
-          avatar: '@/assets/profile_images/toshiro.hitsugaya.png',
+          avatar: "@/assets/profile_images/toshiro.hitsugaya.png",
           username: "toshiro.hitsugaya",
           displayName: "Tōshirō Hitsugaya",
           lastUpdated: "left 50 mins ago",
@@ -150,7 +150,7 @@ export default {
         {
           id: 6,
           isOnline: true,
-          avatar: '@/assets/profile_images/genryusai.shigekuni.yamamoto.png',
+          avatar: "@/assets/profile_images/genryusai.shigekuni.yamamoto.png",
           username: "genryusai.shigekuni.yamamoto",
           displayName: "Captain Yamamoto",
           lastUpdated: "",
@@ -175,13 +175,13 @@ export default {
     },
   },
   methods: {
-    showAttr(event){
-      console.log(event)
-      console.log(event.target.src)
+    showAttr(event) {
+      console.log(event);
+      console.log(event.target.src);
     },
-        getAvatar(user){
-          return require(user.avatar)
-        },
+    getAvatar(user) {
+      return require(user.avatar);
+    },
 
     sendMessage() {
       store.commit("sendMessage");
