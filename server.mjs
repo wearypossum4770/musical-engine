@@ -1,5 +1,6 @@
 import { dirname } from "path";
 import { fileURLToPath } from "url";
+import {readFile} from 'fs'
 // import { createClient } from "redis";
 // import pkg from "connect-redis";
 // import cookieParser from "cookie-parser";
@@ -21,7 +22,7 @@ const json_url_config = { limit: "1mb", extended: true };
 // https://www.liquidweb.com/kb/using-ssh-keys/
 // subdomains mail , userpages, adminpages, portal
 var app = express();
-const getCookies = request => request.signedCookies ?? request.cookies;
+const getCookies = request =>request.signedCookies ??request.cookies;
 app.use(express.urlencoded(json_url_config));
 app.use(express.json(json_url_config));
 app.use(cors());

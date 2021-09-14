@@ -16,6 +16,7 @@
       <router-link to="/postal">Postal</router-link> |
       <router-link to="/cashier">Cashier</router-link> |
       <router-link to="/quiz">Quiz</router-link> |
+      <router-link to="/address">Address</router-link> |
 
       <router-link to="/postal_mobile">Postal Mobile</router-link>
     </div>
